@@ -119,23 +119,8 @@ def hypothesis_get(file: str = Query(...)):
 
 @app.get("/api/archive/list")
 def archive_list():
-    items = []
-    if os.path.isdir(ARCHIVES):
-        for fn in sorted(os.listdir(ARCHIVES)):
-            if not fn.endswith(".md"):
-                continue
-            title = fn[:-3]
-            try:
-                with open(os.path.join(ARCHIVES, fn), encoding="utf-8") as f:
-                    for line in f:
-                        line = line.strip()
-                        if line.startswith("# "):
-                            title = line[2:].strip()
-                            break
-            except OSError:
-                pass
-            items.append({"file": fn, "title": title})
-    return JSONResponse({"items": items})
+    from archive_index import build_archive_index
+    return JSONResponse(build_archive_index(ARCHIVES))
 
 
 @app.get("/api/archive/get")

@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.5 · 2026-10-05
+
+- **时间线精炼重构（master 反馈"精炼提取，原文作为 tab 下拉展示"）**：节点默认一行 = 首句精炼标题 + 叙述模式徽章；引文（金边引文块）/剩余全文/出处收进「▸ 原文与出处」下拉（161 节点中 124 个有折叠）。修掉旧版 title 本身是长段直接铺满的问题；detail 不再截断 500 字（折叠后不怕长）
+- **档案库归组排序（master 反馈"顺序和归类有问题"）**：新共享模块 `archive_index.py`（server.py 动态版与 build_static.py 静态版共用）——881 份按 front-matter 类型分 12 组（任务章 68 / 传说章 67 / 书籍 190 / 碎片 193 / 角色 124 / 武器 103 / 圣遗物 73 / 实体 27 / 衣装 16 / 风之翼 11 / 世界任务 6 / 主题 3）；任务类按**章号数字**排序（修掉"10006 排在 1001 前"的字典序错乱）；任务章按篇章 15 个子分组（蒙德篇/璃月 1.1/稻妻 2.x…）、碎片按地域 81 子分组；左栏可折叠组树，任务章/角色默认展开
+- build_static.py 重建保护：site/.git 先移后归位（Windows 只读 git 对象导致 rmtree 失败）
+- 动态版（server.py:9020）与静态版（Pages）同步生效
+
 ## 3.0.4 · 2026-10-05
 
 - **GitHub 开源**：公开仓库 [genshin-archive/genshin-text](https://github.com/genshin-archive/genshin-text)（master 定位"仓库只是用来做 web 展示"）；.gitignore 排除 AnimeGameData2 3.3G / DB 998M / _batches 312M / talk_map.json 26M → 入库 2,223 文件 41MB；README 重写为三层门户；推送前敏感信息全扫（零凭据）

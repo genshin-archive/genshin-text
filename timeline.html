@@ -33,6 +33,22 @@
   .pos { font-size:12px; color:var(--gold-deep); background:rgba(200,164,92,.12);
          padding:1px 8px; border-radius:8px; }
   .ev-detail { font-size:13px; color:var(--ink); margin-top:6px; line-height:1.7; }
+  .ev-sum { font-size:13px; color:var(--ink); margin-top:5px; line-height:1.7; opacity:.92; }
+  .ev-more { margin-top:7px; }
+  .ev-more > summary {
+    list-style:none; cursor:pointer; display:inline-flex; align-items:center;
+    font-family:var(--sans); font-size:12px; color:var(--ink-light);
+    padding:2px 10px; border:1px solid var(--line); border-radius:14px;
+  }
+  .ev-more > summary:hover { border-color:var(--gold); color:var(--gold-deep); }
+  .ev-more > summary::before { content:"▸"; margin-right:5px; transition:transform .15s; }
+  .ev-more[open] > summary::before { transform:rotate(90deg); }
+  .ev-more[open] > summary { margin-bottom:6px; }
+  .ev-quote {
+    font-size:13px; color:var(--gold-deep); font-style:italic; line-height:1.8;
+    border-left:3px solid var(--gold); background:rgba(200,164,92,.06);
+    padding:6px 12px; margin:6px 0; border-radius:0 8px 8px 0;
+  }
   .ev-src { font-size:12px; color:var(--ink-light); margin-top:5px; }
   .ev-src::before { content:"出处："; }
   .ev-evidence { font-size:12px; color:var(--ink-light); margin-right:10px; }
@@ -96,20 +112,34 @@ function badge(mode){
 }
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 function md(s){ return esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\*([^*]+)\*/g,"<i>$1</i>"); }
+// 精炼提取：首句做节点标题，其余文字收进「原文与出处」下拉
+function splitHead(s){
+  if (!s) return {head: "", rest: ""};
+  const m = s.match(/^([\s\S]*?[。！？])([\s\S]*)$/);
+  if (m && m[1].length <= 64) return {head: m[1], rest: m[2].trim()};
+  return {head: s.length > 64 ? s.slice(0, 64) + "…" : s, rest: ""};
+}
 
 fetch("api/kg/timeline").then(r=>r.json()).then(eras=>{
   // v3 结构化时间线：8 纪元 / 161 节点（kg_eras + kg_timeline_nodes）
+  // 节点 = 一句精炼标题 + badge；引文/全文/出处收进「原文与出处」下拉
   let html = "";
   eras.forEach(e=>{
     html += `<div class="axis"><div class="axis-head"><h2>${esc(e.era.name)}</h2>
              <span class="desc">${e.nodes.length} 个节点 · 源自 ${esc(e.era.source||"timeline.md")}</span></div><div class="evs">`;
     if (!e.nodes.length) html += `<div class="ev-detail" style="color:var(--dim)">（此纪元暂无节点）</div>`;
     e.nodes.forEach(n=>{
+      const t = splitHead(n.title);
+      const d = (n.detail && n.detail !== n.title) ? n.detail : "";
+      const rest = [t.rest, d].filter(Boolean).join("\n");
+      const hasMore = rest || n.quote || n.source;
       html += `<div class="ev">
-        <div class="ev-title">${md(n.title)} ${badge(n.narrative_mode||"明文")}</div>
-        ${n.detail && n.detail !== n.title ? `<div class="ev-detail">${md(n.detail.slice(0,500))}</div>` : ""}
-        ${n.quote ? `<div class="ev-detail" style="color:var(--gold-deep);font-style:italic">「${md(n.quote)}」</div>` : ""}
-        <div class="ev-src"><span class="ev-evidence">${esc(n.source||"")}</span>${n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）"}</div>
+        <div class="ev-title">${md(t.head)} ${badge(n.narrative_mode||"明文")}</div>
+        ${hasMore ? `<details class="ev-more"><summary>原文与出处</summary>
+          ${n.quote ? `<div class="ev-quote">「${md(n.quote)}」</div>` : ""}
+          ${rest ? `<div class="ev-detail">${md(rest)}</div>` : ""}
+          ${n.source ? `<div class="ev-src"><span class="ev-evidence">${esc(n.source)}</span>${n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）"}</div>` : ""}
+        </details>` : ""}
       </div>`;
     });
     html += `</div></div>`;

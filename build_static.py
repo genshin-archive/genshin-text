@@ -37,10 +37,28 @@ def predicate_zh(con, pid):
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
 
-# ===== 1) 目录骨架 =====
+# ===== 1) 目录骨架（保留 site/.git —— gh-pages 分支仓库）=====
+import stat, shutil as _sh
+
+def _rm_ro(func, path, _exc):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
 if os.path.isdir(SITE):
-    shutil.rmtree(SITE)
-os.makedirs(os.path.join(SITE, "data"))
+    gitdir = os.path.join(SITE, ".git")
+    keep = SITE + "_git_keep"
+    if os.path.isdir(keep):
+        _sh.rmtree(keep, onerror=_rm_ro)
+    moved = False
+    if os.path.isdir(gitdir):
+        os.rename(gitdir, keep)
+        moved = True
+    _sh.rmtree(SITE, onerror=_rm_ro)
+    os.makedirs(os.path.join(SITE, "data"))
+    if moved:
+        os.rename(keep, gitdir)
+else:
+    os.makedirs(os.path.join(SITE, "data"))
 shutil.copytree(zh_path("archives"), os.path.join(SITE, "archives"))
 shutil.copy(zh_path("theme.css"), os.path.join(SITE, "theme.css"))
 shutil.copy(zh_path("hypothesis.md"), os.path.join(SITE, "hypothesis.md"))
@@ -127,22 +145,11 @@ for e in ents:
     n_ent += 1
 print(f"kg_entities: {len(ents)} 行列表 + {n_ent} 个详情文件")
 
-# ===== 6) 档案库 / 假说库 列表 =====
-def md_title(path):
-    with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line.startswith("# "):
-                return line[2:].strip()
-    return None
-
-items = []
-for fn in sorted(os.listdir(zh_path("archives"))):
-    if fn.endswith(".md"):
-        items.append({"file": fn, "title": md_title(zh_path("archives", fn)) or fn[:-3]})
-wjson("data/archive_list.json", {"items": items})
+# ===== 6) 档案库 / 假说库 列表（与 server.py 共用 archive_index 归组）=====
+from archive_index import build_archive_index
+wjson("data/archive_list.json", build_archive_index(zh_path("archives")))
 wjson("data/hypothesis_list.json", {"items": [{"file": "hypothesis.md", "title": "假说库（全部）"}]})
-print(f"archive_list: {len(items)} 份")
+print(f"archive_list: 分组结构（{len(build_archive_index(zh_path('archives'))['groups'])} 组）")
 con.close()
 
 # ===== 7) 页面变体（定向替换 fetch 路径）=====
