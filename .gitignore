@@ -30,3 +30,7 @@ archives_v1/
 *.tar.gz
 q71_dialogues.txt
 talk_map.json
+
+# Pages 静态站产物（独立推 gh-pages 分支）
+site/
+_pages_test/

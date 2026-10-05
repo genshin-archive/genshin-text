@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.0.4 · 2026-10-05
+
+- **GitHub 开源**：公开仓库 [genshin-archive/genshin-text](https://github.com/genshin-archive/genshin-text)（master 定位"仓库只是用来做 web 展示"）；.gitignore 排除 AnimeGameData2 3.3G / DB 998M / _batches 312M / talk_map.json 26M → 入库 2,223 文件 41MB；README 重写为三层门户；推送前敏感信息全扫（零凭据）
+- **GitHub Pages 静态展示站上线**：https://genshin-archive.github.io/genshin-text/ —— `build_static.py` 一键生成（site/ 8,512 文件 42.3MB，独立推 gh-pages 分支）：
+  - 门户首页（三层结构 + 统计卡）+ 档案库 881 份 + 章节浏览 141 章 619 分页 JSON + 时间线 8 纪元 + 知识层 6,716 实体（详情每实体一个 JSON）
+  - 页面 JS 逻辑零改动：仅把 fetch("api/…") 定向替换为 data/*.json（数据格式与 server.py API 逐字段一致）；archive/hypothesis 改 fetch md 原文 + r.text() 渲染；kg 实体列表改全量 JSON 前端过滤
+  - 坑：`git rm --cached` 后 .gitignore 才生效（talk_map.json）；CRLF 行尾使多行替换锚点不中（改单行片段）；IAB 验证受浏览器缓存干扰（加 ?v= 绕过）
+- **独立子域 <domain>（等 master 操作 CF）**：服务器侧 Host 重写中间件已上线（lab-upload app.py：genshin host 自动重写 /genshin/ 前缀走反代+登录保护），Host 伪造 8 项测试全过；CF Dashboard 加一条 Public Hostname 即生效
+
 ## 3.0.3 · 2026-10-05
 
 - **对话重复修复（master 报"为什么都会重复两遍"）**：根因=entries 表同一 hash 双行（Dialog 源 + TextMap 源各灌一次，全库 36.7 万 hash 双行），browse SQL 按 hash join 翻倍 → join 钉住每 hash MIN(id) 行；章 1001 实测 232 条零相邻重复
