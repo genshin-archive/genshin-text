@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  genshin-text:
+    build:
+      context: /opt/genshin-text/data
+      dockerfile: /opt/genshin-text/deploy/Dockerfile
+    container_name: genshin-text
+    restart: unless-stopped
+    ports:
+      - "9025:8000"
+    volumes:
+      - /opt/genshin-text/data:/data:ro
+    mem_limit: 700m
+    environment:
+      - GENSHIN_BASE=/data
+    networks:
+      - server_default
+
+networks:
+  server_default:
+    external: true

@@ -1,0 +1,66 @@
+INFO:     Started server process [27812]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9020 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56476 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56477 - "GET /index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56478 - "GET /browse.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56479 - "GET /timeline.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56480 - "GET /kg.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56481 - "GET /archive.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56482 - "GET /hypothesis.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56483 - "GET /arbitration.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53866 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51501 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53866 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61050 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56987 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56987 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59360 - "GET /browse.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59360 - "GET /api/browse/chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59360 - "GET /api/browse/dialogs?chapter_id=1001&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59360 - "GET /api/browse/dialogs?chapter_id=1002&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57445 - "GET /api/browse/dialogs?chapter_id=1001&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59360 - "GET /api/browse/dialogs?chapter_id=1001&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63852 - "GET /timeline.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63852 - "GET /api/kg/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /kg.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /api/kg/entity?eid=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /archive.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /api/archive/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /api/kg/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /api/archive/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /api/archive/get?file=narr_10007_%E8%94%93%E5%BB%B6%E7%9A%84%E5%8D%B1%E6%9C%BA.md HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /api/archive/get?file=narr_10008_%E5%A4%A9%E4%B9%8B%E8%B0%9C%EF%BC%8C%E6%B0%B4%E4%B9%8B%E8%A7%A3.md HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51231 - "GET /hypothesis.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51231 - "GET /api/hypothesis/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51231 - "GET /api/hypothesis/get?file=hypothesis.md HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /arbitration.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/arbitration/list?status=pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/arbitration/list?status=pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/kg/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/arbitration/list?status=pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/arbitration/list?status=pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/arbitration/list?status=pending HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/kg/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/kg/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/browse/chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/browse/chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/kg/timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/kg/entities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49891 - "GET /api/browse/chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62785 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56110 - "GET /api/categories HTTP/1.1" 200 OK

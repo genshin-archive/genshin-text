@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>仲裁队列 · 原神文本资料库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+main{max-width:900px;margin:0 auto;padding:18px;}
+h1{font-size:20px;letter-spacing:3px;color:#4a5168;font-weight:600;margin:6px 0 4px;}
+.item{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;margin:10px 0;}
+.item:hover{border-color:var(--gold);}
+.item .kind{color:var(--gold-deep);font-size:12px;}
+.item pre{background:var(--panel);padding:8px;border-radius:6px;font-size:12px;overflow-x:auto;white-space:pre-wrap;font-family:Consolas,monospace;}
+.btns button{margin-right:8px;padding:4px 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;font-family:var(--serif);}
+.btns button:hover{border-color:var(--gold);}
+.btns .ok{border-color:#c4dcc4;color:#3d7a44;}
+.btns .bad{border-color:#e2c0c0;color:#a04a4a;}
+.status{color:var(--ink-light);font-size:12px;}
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  <a href="arbitration.html" data-p="arb">仲裁</a>
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<div style="max-width:900px;margin:0 auto;padding:12px 18px 0"><h1>仲裁队列</h1>
+<div style="color:var(--ink-light);font-size:12.5px">master 三态裁决队列——合并/证实、拆分/证伪、存疑挂起、驳回</div></div>
+<main><div id="list"><p style="color:#5d6578">加载中…</p></div></main>
+<script>
+async function load(){
+  const r = await fetch("api/arbitration/list?status=pending");
+  const list = await r.json();
+  document.getElementById("list").innerHTML = list.length ? list.map(it=>
+    `<div class="item"><div class="kind">#${it.arid} · ${it.kind} · AI建议=${it.proposal||"—"}</div>
+     <pre>${it.payload}</pre>
+     <div class="btns">
+       <button class="ok" onclick="decide(${it.arid},'merged')">合并/证实</button>
+       <button class="bad" onclick="decide(${it.arid},'split')">拆分/证伪</button>
+       <button onclick="decide(${it.arid},'uncertain')">存疑挂起</button>
+       <button onclick="decide(${it.arid},'dismissed')">驳回</button>
+     </div></div>`).join("")
+    : "<p style='color:#5d6578'>队列空——没有待裁决事项。</p>";
+}
+async function decide(id, status){
+  await fetch(`api/arbitration/decide?arid=${id}&status=${status}`);
+  load();
+}
+load();
+</script>
+</body>
+</html>

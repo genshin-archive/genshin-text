@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>知识层 KG · 原神文本资料库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+main{max-width:1180px;margin:0 auto;padding:18px;}
+.grid{display:grid;grid-template-columns:320px 1fr;gap:14px;}
+.card{padding:12px;}
+input{background:var(--card);border:1px solid var(--line);color:var(--ink);padding:7px 12px;border-radius:8px;width:100%;font-family:var(--sans);outline:none;}
+input:focus{border-color:var(--gold);}
+.ent{padding:8px 10px;border-radius:6px;cursor:pointer;border:1px solid transparent;}
+.ent:hover{background:var(--panel);}
+.ent.sel{border-color:var(--gold);background:var(--panel);}
+.ent .cat{font-size:11px;color:var(--ink-light);margin-left:6px;}
+.tag{cursor:pointer;}
+#detail .tag, .claim .tag{cursor:default;}
+.alias{font-size:13px;margin:3px 0;color:var(--ink);}
+.alias .c{color:var(--ink-light);font-size:11px;}
+.claim{border-left:3px solid var(--line);padding:6px 10px;margin:8px 0;font-size:13px;}
+.claim:hover{border-left-color:var(--gold);}
+.clame{color:var(--ink);}
+.q{color:#7a8fb0;font-style:italic;margin:4px 0;font-size:12px;}
+.src{color:var(--ink-light);font-size:11px;}
+.warn{background:#f5ecd6;border:1px solid #e2d2a6;color:#92702a;padding:6px 10px;border-radius:6px;font-size:12px;margin:8px 0;}
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  <a href="arbitration.html" data-p="arb">仲裁</a>
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<main>
+  <div class="grid">
+    <div class="card">
+      <input id="q" placeholder="搜索实体/别名…" oninput="loadEnts()">
+      <div id="catbar" style="margin:8px 0;">
+        <span class="tag" style="cursor:pointer" onclick="setCat('')">全部</span>
+        <span class="tag" style="cursor:pointer" onclick="setCat('自机角色')">自机角色</span>
+        <span class="tag" style="cursor:pointer" onclick="setCat('无官方分类')">纯叙事</span>
+      </div>
+      <div id="ents"></div>
+    </div>
+    <div class="card" id="detail"><p style="color:#5d6578">← 选择实体查看别名与断言</p></div>
+  </div>
+</main>
+<script>
+let curCat = "";
+async function loadEnts(){
+  const r = await fetch(`api/kg/entities?${curCat?`cat=${curCat}&`:""}${document.getElementById("q").value?`q=${encodeURIComponent(document.getElementById("q").value)}`:""}`);
+  const list = await r.json();
+  document.getElementById("ents").innerHTML = list.map(e=>
+    `<div class="ent" onclick="show(${e.eid})"><b>${e.name}</b><span class="cat">${e.official_category||""}</span>
+     <div style="font-size:11px;color:#5d6578">${e.alias_n} 别名 · ${e.claim_n} 断言 · ${e.review_status}</div></div>`).join("")
+    || "<p style='color:#5d6578;font-size:13px'>无匹配</p>";
+}
+function setCat(c){ curCat = c; loadEnts(); }
+async function show(eid){
+  const r = await fetch(`api/kg/entity?eid=${eid}`);
+  const d = await r.json();
+  const e = d.entity;
+  let h = `<h3>${e.name} <small style="color:#5d6578">${e.ent_code||""} · ${e.official_category}${e.obc_entry_id?` · 观测枢#${e.obc_entry_id}`:""}</small></h3>`;
+  if(d.corpus_caveats.length) h += `<div class="warn">⚠ 语料缺陷警示：${d.corpus_caveats.map(c=>c.description).join("；")}</div>`;
+  h += "<h4>别名（P7 强制解析）</h4>" + d.aliases.map(a=>
+    `<div class="alias">「${a.alias}」<span class="c">[${a.confidence}] ${a.evidence||""}</span></div>`).join("") || "<p style='color:#5d6578;font-size:12px'>无</p>";
+  h += "<h4>断言</h4>" + d.claims.map(c=>
+    `<div class="claim"><span class="tag ${c.confidence}">${c.confidence}</span>
+     <span class="clame">${c.predicate_zh||c.predicate}</span> → ${c.object_text}
+     ${c.narrator?`<div style="color:#92702a;font-size:11px">叙述者=${c.narrator}</div>`:""}
+     ${c.quote?`<div class="q">「${c.quote}」</div>`:""}
+     <div class="src">${c.source} · ${c.review_status}</div></div>`).join("") || "<p style='color:#5d6578;font-size:12px'>无</p>";
+  document.getElementById("detail").innerHTML = h;
+}
+loadEnts();
+</script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>假说库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  header { padding:20px 28px 8px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--ink-light); font-size:13px; margin-bottom:14px; }
+  main { max-width:1180px; margin:0 auto; padding:0 28px 60px; display:flex; gap:20px; }
+  #list { width:320px; flex-shrink:0; }
+  #list .item { padding:10px 14px; border:1px solid var(--line); border-radius:8px;
+                background:var(--card); margin-bottom:8px; cursor:pointer; font-size:14px; }
+  #list .item:hover { border-color:var(--gold); }
+  #list .item.active { border-color:var(--gold); background:var(--panel); }
+  #content { flex:1; min-width:0; }
+  .md { background:var(--card); border:1px solid var(--line); border-radius:10px;
+        padding:24px 32px; line-height:1.85; font-size:14.5px; }
+  .md h1 { font-size:20px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+  .md h2 { font-size:16.5px; color:var(--gold-deep); margin:22px 0 8px; }
+  .md h3 { font-size:15px; margin:16px 0 6px; }
+  .md p, .md li { color:var(--ink); }
+  .md ul, .md ol { padding-left:24px; }
+  .md blockquote { border-left:3px solid var(--line); margin:10px 0; padding:4px 16px;
+                   color:var(--ink-light); background:var(--panel); border-radius:0 8px 8px 0; }
+  .md code { background:var(--panel); padding:1px 6px; border-radius:4px; font-size:13px; }
+  .md table { border-collapse:collapse; width:100%; margin:10px 0; font-size:13px; }
+  .md th, .md td { border:1px solid var(--line); padding:6px 10px; text-align:left; }
+  .md th { background:var(--panel2); }
+  .md hr { border:none; border-top:1px solid var(--line); margin:18px 0; }
+  .md mark { background:var(--mark-bg); padding:0 3px; border-radius:3px; }
+  .empty { color:var(--ink-light); }
+  @media (max-width: 800px) { main { flex-direction:column; } #list { width:100%; } }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  <a href="arbitration.html" data-p="arb">仲裁</a>
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<header>
+  <h1>假说库</h1>
+  <div class="sub">非定论推演与假说——与 timeline（明文+已核验事实）严格分离；被明文证实后迁入 timeline，被证伪则标注作废。</div>
+</header>
+<main>
+  <div id="list"></div>
+  <div id="content"><div class="md empty">← 从左侧选择一份档案</div></div>
+</main>
+<script>
+function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+// 轻量 markdown 渲染（标题/列表/引用/表格/粗体/斜体/代码/分隔线/行内标记）
+function renderMd(src){
+  const lines = src.replace(/\r\n/g,"\n").split("\n");
+  let html = "", inUl=false, inOl=false, inQuote=false, tableBuf=[];
+  const closeLists = ()=>{
+    if(inUl){html+="</ul>";inUl=false;}
+    if(inOl){html+="</ol>";inOl=false;}
+    if(inQuote){html+="</blockquote>";inQuote=false;}
+  };
+  const flushTable = ()=>{
+    if(tableBuf.length<2){tableBuf=[];return;}
+    let t = "<table>";
+    tableBuf.forEach((row,i)=>{
+      if(i===1 && /^[\s|:\-]+$/.test(row)) return;
+      const cells = row.split("|").slice(1,-1).map(c=>inline(c.trim()));
+      t += "<tr>"+(i===0?cells.map(c=>"<th>"+c+"</th>").join(""):cells.map(c=>"<td>"+c+"</td>").join(""))+"</tr>";
+    });
+    html += t+"</table>"; tableBuf=[];
+  };
+  const inline = s => esc(s)
+    .replace(/`([^`]+)`/g,"<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>")
+    .replace(/(^|[^*])\*([^*]+)\*/g,"$1<i>$2</i>")
+    .replace(/==([^=]+)==/g,"<mark>$1</mark>");
+  for (const raw of lines){
+    const line = raw;
+    if (/^\s*\|.*\|\s*$/.test(line)) { closeLists(); tableBuf.push(line); continue; }
+    flushTable();
+    if (/^###\s/.test(line)) { closeLists(); html+="<h3>"+inline(line.slice(4))+"</h3>"; }
+    else if (/^##\s/.test(line)) { closeLists(); html+="<h2>"+inline(line.slice(3))+"</h2>"; }
+    else if (/^#\s/.test(line)) { closeLists(); html+="<h1>"+inline(line.slice(2))+"</h1>"; }
+    else if (/^>\s?/.test(line)) {
+      if(inUl){html+="</ul>";inUl=false;} if(inOl){html+="</ol>";inOl=false;}
+      if(!inQuote){html+="<blockquote>";inQuote=true;}
+      html+="<p>"+inline(line.replace(/^>\s?/,""))+"</p>";
+    }
+    else if (/^[-*]\s/.test(line)) {
+      if(inQuote){html+="</blockquote>";inQuote=false;}
+      if(inOl){html+="</ol>";inOl=false;}
+      if(!inUl){html+="<ul>";inUl=true;}
+      html+="<li>"+inline(line.slice(2))+"</li>";
+    }
+    else if (/^\d+\.\s/.test(line)) {
+      if(inQuote){html+="</blockquote>";inQuote=false;}
+      if(inUl){html+="</ul>";inUl=false;}
+      if(!inOl){html+="<ol>";inOl=true;}
+      html+="<li>"+inline(line.replace(/^\d+\.\s/,""))+"</li>";
+    }
+    else if (/^---+$/.test(line.trim())) { closeLists(); html+="<hr>"; }
+    else if (line.trim()==="") { closeLists(); }
+    else { closeLists(); html+="<p>"+inline(line)+"</p>"; }
+  }
+  flushTable(); closeLists();
+  return html;
+}
+fetch("api/hypothesis/list").then(r=>r.json()).then(data=>{
+  const list = document.getElementById("list");
+  list.innerHTML = data.items.map(it=>
+    `<div class="item" data-f="${esc(it.file)}">${esc(it.title)}</div>`).join("")
+    || '<div class="empty">暂无档案</div>';
+  list.addEventListener("click", e=>{
+    const item = e.target.closest(".item"); if(!item) return;
+    document.querySelectorAll("#list .item").forEach(x=>x.classList.remove("active"));
+    item.classList.add("active");
+    fetch("api/hypothesis/get?file="+encodeURIComponent(item.dataset.f))
+      .then(r=>r.json()).then(d=>{
+        document.getElementById("content").innerHTML =
+          d.content ? '<div class="md">'+renderMd(d.content)+"</div>"
+                    : '<div class="md empty">'+esc(d.error||"读取失败")+"</div>";
+      });
+  });
+});
+</script>
+</body>
+</html>

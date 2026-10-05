@@ -1,0 +1,31 @@
+{
+ "generated_at": "2026-09-29T20:47:57",
+ "source_git": {
+  "head": "b061b403c8afc7bca633cf4f201edc4a3baa75fe",
+  "date": "2026-09-22 01:55:58 +0000",
+  "subject": "Edit README.md",
+  "dirty_files": 0
+ },
+ "source_counts": {
+  "ExcelBinOutput": 2234,
+  "BinOutput/Talk": 59853
+ },
+ "db_sha256": "ab178d41885e7487d2dd3052636c0e7cff925387c7e6b7d502515e75b4583bb3",
+ "table_counts": {
+  "entries": 1231365,
+  "dialogue_seq": 489524,
+  "dialogue_chapter": 352184,
+  "dialogue_speaker": 323140,
+  "talk_map": 374378,
+  "kg_entities": 975,
+  "kg_aliases": 179,
+  "kg_claims": 3667,
+  "kg_predicates": 39,
+  "kg_eras": 8,
+  "kg_timeline_nodes": 161,
+  "kg_arbitration": 3785,
+  "kg_corpus_caveats": 0,
+  "kg_master_witness": 0
+ },
+ "builder": "build_db.py @ commit ?"
+}

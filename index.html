@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>原神文本资料库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  .wrap { max-width: 920px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { text-align: center; margin-bottom: 36px; }
+  h1 { font-size: 30px; letter-spacing: 8px; font-weight: 600; color: #4a5168; }
+  h1::before, h1::after { content: "✦"; color: var(--gold); font-size: 14px; vertical-align: middle; margin: 0 14px; }
+  .sub { margin-top: 10px; color: var(--ink-light); font-size: 13px; letter-spacing: 3px; }
+  .searchbar {
+    display: flex; gap: 10px; max-width: 640px; margin: 0 auto;
+  }
+  .searchbar input {
+    flex: 1; padding: 13px 20px; font-size: 16px; font-family: var(--serif);
+    border: 1.5px solid var(--line); border-radius: 10px; background: var(--card);
+    color: var(--ink); outline: none; transition: border-color .2s, box-shadow .2s;
+  }
+  .searchbar input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(200,164,92,.15); }
+  .searchbar button {
+    padding: 0 26px; font-size: 15px; letter-spacing: 4px; font-family: var(--serif);
+    border: none; border-radius: 10px; cursor: pointer; color: #fff;
+    background: linear-gradient(135deg, #b3924e, #a8873f); transition: filter .2s;
+  }
+  .searchbar button:hover { filter: brightness(1.08); }
+  .chips {
+    display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+    margin: 26px auto 0; max-width: 760px;
+  }
+  .chip {
+    padding: 5px 14px; font-size: 13px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--card); color: var(--ink-light);
+    transition: all .15s; font-family: var(--serif);
+  }
+  .chip:hover { border-color: var(--gold); color: var(--gold-deep); }
+  .chip.on { background: #4a5168; border-color: #4a5168; color: #f7f3ea; }
+  .chip b { font-weight: 400; opacity: .55; margin-left: 4px; font-size: 12px; }
+  .meta { text-align: center; color: var(--ink-light); font-size: 13px; margin: 26px 0 16px; min-height: 18px; }
+  .results { display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 20px; transition: box-shadow .2s;
+  }
+  .card:hover { box-shadow: 0 3px 14px rgba(120,100,60,.08); }
+  .card-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; font-size: 12px; }
+  .badge { padding: 2px 10px; border-radius: 999px; color: #fff; font-size: 12px; letter-spacing: 1px; }
+  .bktitle { color: var(--gold-deep); font-size: 14.5px; font-weight: 600; letter-spacing: 1px; }
+  .src { color: var(--ink-light); }
+  .src code { font-family: "Cascadia Code", Consolas, monospace; font-size: 11.5px; background: #f1ecdf; padding: 1px 6px; border-radius: 5px; }
+  .zh { font-size: 15.5px; line-height: 1.85; white-space: pre-wrap; word-break: break-word; }
+  .en { margin-top: 8px; font-size: 13px; color: var(--ink-light); line-height: 1.7; white-space: pre-wrap; word-break: break-word; border-left: 2px solid var(--line); padding-left: 10px; }
+  mark { background: var(--mark-bg); color: inherit; padding: 0 2px; border-radius: 3px; }
+  .pager { display: flex; justify-content: center; align-items: center; gap: 18px; margin-top: 32px; }
+  .pager button {
+    padding: 8px 22px; font-family: var(--serif); font-size: 14px; letter-spacing: 2px;
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    border-radius: 8px; cursor: pointer; transition: all .15s;
+  }
+  .pager button:hover:not(:disabled) { border-color: var(--gold); color: var(--gold-deep); }
+  .pager button:disabled { opacity: .35; cursor: default; }
+  .empty { text-align: center; color: var(--ink-light); padding: 60px 0; letter-spacing: 2px; }
+  .spin {
+    width: 28px; height: 28px; margin: 50px auto; border-radius: 50%;
+    border: 3px solid var(--line); border-top-color: var(--gold);
+    animation: r 0.8s linear infinite;
+  }
+  @keyframes r { to { transform: rotate(360deg); } }
+  footer { text-align: center; margin-top: 60px; color: var(--ink-light); font-size: 12px; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  <a href="arbitration.html" data-p="arb">仲裁</a>
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<div class="wrap">
+  <header>
+    <h1>原神文本资料库</h1>
+    <div class="sub" id="sub">Genshin Impact Text Archive · v7.1.0 · <a href="browse.html" style="color:var(--gold-deep);text-decoration:none">📖 按章节浏览</a></div>
+  </header>
+  <div class="searchbar">
+    <input id="q" type="text" placeholder="搜索任意文本…  按 / 聚焦" autofocus>
+    <button onclick="doSearch()">检索</button>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="meta" id="meta"></div>
+  <div class="results" id="results"></div>
+  <div class="pager" id="pager" style="display:none">
+    <button id="prev" onclick="page(-1)">‹ 上一页</button>
+    <span id="pinfo" style="font-size:13px;color:var(--ink-light)"></span>
+    <button id="next" onclick="page(1)">下一页 ›</button>
+  </div>
+  <footer>数据源 Dimbreath/AnimeGameData 7.1.0 · 本地检索 FastAPI + SQLite FTS</footer>
+</div>
+<script>
+const COLORS = {
+  "任务": ["#b3924e", "#a8873f"], "对话": ["#6a9fd4", "#5588bb"],
+  "物品": ["#9a7fc9", "#7f68ad"], "武器": ["#c07a5c", "#a8664a"],
+  "圣遗物": ["#c8a45c", "#a8873f"], "成就": ["#5f9ec6", "#4d87ad"],
+  "角色": ["#c98ba3", "#ad7189"], "怪物": ["#7f8ba3", "#6a7589"],
+  "书籍信件": ["#7aa087", "#64896f"], "过场字幕": ["#8086b8", "#6a70a0"],
+  "TextMap原文": ["#a0a4b0", "#8a8e9a"], "秘境": ["#6fb3c4", "#5a99aa"],
+  "图鉴说明": ["#b0a06f", "#98875c"],
+};
+const qs = new URLSearchParams(location.search);
+let curCat = qs.get("cat") || "", curQ = qs.get("q") || "", curPage = 1, lastTotal = 0;
+
+function badgeColor(cat) {
+  for (const k in COLORS) if (cat.startsWith(k.slice(0, 2))) return COLORS[k][0];
+  return "#8a8fa0";
+}
+async function loadCats() {
+  const cats = await (await fetch("api/categories")).json();
+  const el = document.getElementById("chips");
+  const all = [{name: "全部", count: cats.reduce((s, c) => s + c.count, 0)}, ...cats];
+  el.innerHTML = all.map(c =>
+    `<span class="chip ${c.name === curCat || (!curCat && c.name === "全部") ? "on" : ""}"
+      onclick="pickCat('${c.name}')">${c.name}<b>${c.count.toLocaleString()}</b></span>`).join("");
+}
+function pickCat(c) {
+  curCat = c === "全部" ? "" : c;
+  curPage = 1;
+  loadCats(); doSearch();
+}
+async function doSearch(p = 1) {
+  curPage = p;
+  const q = document.getElementById("q").value.trim();
+  curQ = q;
+  const box = document.getElementById("results");
+  const meta = document.getElementById("meta"), pager = document.getElementById("pager");
+  history.replaceState(null, "", q ? `?q=${encodeURIComponent(q)}${curCat ? "&cat=" + encodeURIComponent(curCat) : ""}` : location.pathname);
+  if (!q) { box.innerHTML = ""; meta.textContent = ""; pager.style.display = "none"; return; }
+  box.innerHTML = `<div class="spin"></div>`; meta.textContent = ""; pager.style.display = "none";
+  const r = await fetch(`api/search?q=${encodeURIComponent(q)}&cat=${encodeURIComponent(curCat)}&page=${p}`);
+  const d = await r.json();
+  lastTotal = d.total;
+  meta.innerHTML = d.total
+    ? `共 <b>${d.total.toLocaleString()}</b> 条结果 · ${d.took}s`
+    : `没有找到「${q}」相关文本`;
+  box.innerHTML = d.items.map(it => `
+    <div class="card">
+      <div class="card-head">
+        <span class="badge" style="background:${badgeColor(it.category)}">${it.category}</span>
+        ${it.title ? `<span class="bktitle">${it.title}</span>` : ""}
+        <span class="src">
+          ${it.source ? `来源 <code>${it.source}</code>` : ""}
+          ${it.entry_id ? `· ID <code>${it.entry_id}</code>` : ""}
+          ${it.field ? `· 字段 <code>${it.field}</code>` : ""}
+          ${it.hash ? `· hash <code>${it.hash}</code>` : ""}
+          ${it.talk ? `· 出自 <code>${it.talk}</code>` : ""}
+        </span>
+      </div>
+      <div class="zh">${it.text_zh.replace(/\n/g, "<br>")}</div>
+      ${it.text_en ? `<div class="en">${it.text_en.replace(/\n/g, "<br>")}</div>` : ""}
+    </div>`).join("");
+  pager.style.display = d.total > 20 ? "flex" : "none";
+  document.getElementById("prev").disabled = p <= 1;
+  document.getElementById("next").disabled = p >= d.pages;
+  document.getElementById("pinfo").textContent = `${p} / ${d.pages}`;
+}
+function page(delta) { doSearch(curPage + delta); window.scrollTo({top: 0, behavior: "smooth"}); }
+document.getElementById("q").addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== document.getElementById("q")) {
+    e.preventDefault(); document.getElementById("q").focus();
+  }
+});
+if (curQ) document.getElementById("q").value = curQ;
+loadCats();
+if (curQ) doSearch(parseInt(qs.get("page") || "1"));
+</script>
+</body>
+</html>

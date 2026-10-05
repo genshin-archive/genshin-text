@@ -1,0 +1,32 @@
+# ===== 大数据文件（不入库）=====
+genshin_text.db
+genshin_text.db-*
+*.db
+*.db-wal
+*.db-shm
+
+# 游戏解包数据（3.3G，来源 AnimeGameData，自行 clone 后按 README 建库）
+AnimeGameData2/
+
+# 工作目录与中间产物
+_batches/
+_tmp_rum.json/
+__pycache__/
+*.pyc
+
+# 临时诊断脚本（下划线前缀）
+_*.py
+_*.json
+
+# 一次性导出产物（relics/weapons 等 per-file txt，可由脚本再生）
+C__AI Programs_genshin-text_*.txt
+Programs_genshin-text_*.txt
+_tmp_*.txt
+
+# 归档与历史版本
+archives_v1/
+
+# 大文件杂项
+*.tar.gz
+q71_dialogues.txt
+talk_map.json
