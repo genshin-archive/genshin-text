@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>按章节浏览 · 原神文本资料库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:10px; }
+  .ch { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px; cursor:pointer; transition:all .15s; }
+  .ch:hover { border-color:var(--gold); }
+  .ch .t { font-size:14px; margin-bottom:4px; }
+  .ch .m { font-size:12px; color:var(--ink-light); }
+  .ch b { color:var(--gold-deep); font-weight:400; font-size:12px; margin-left:6px; }
+  h2 { font-size:17px; margin:22px 0 10px; letter-spacing:2px; }
+  .sticky-bar {
+    position:sticky; top:52px; z-index:50;
+    display:flex; gap:10px; align-items:center;
+    background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:9px 14px; margin:14px 0 0;
+    box-shadow:0 3px 12px rgba(120,100,50,.10);
+  }
+  .sticky-bar button { font-family:var(--serif); padding:5px 14px; border:1px solid var(--line);
+    background:var(--panel); border-radius:8px; cursor:pointer; color:var(--ink); font-size:13px; }
+  .sticky-bar button:hover { border-color:var(--gold); color:var(--gold-deep); }
+  .sticky-bar button:disabled { opacity:.35; cursor:default; }
+  .reader { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px 28px; margin-top:10px; }
+  .who { color:var(--gold-deep); font-weight:600; margin-right:6px; }
+  .line { font-size:15px; line-height:2; padding:3px 0; border-bottom:1px dashed #f0ead9; word-break:break-word; }
+  .line:last-child { border-bottom:none; }
+  .qsep {
+    margin:18px -8px 8px; padding:7px 12px;
+    background:var(--panel); border-left:3px solid var(--gold);
+    border-radius:0 8px 8px 0; font-size:13.5px; color:var(--gold-deep);
+    letter-spacing:1px;
+  }
+  .qsep::before { content:"◈ "; }
+  .pager { display:flex; justify-content:center; gap:14px; margin:22px 0; align-items:center; }
+  .meta { text-align:center; color:var(--ink-light); font-size:13px; margin:14px 0; }
+  .empty { text-align:center; color:var(--ink-light); padding:40px 0; }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<div class="wrap">
+  <h1>按章节浏览</h1>
+  <div class="sub">主线 · 传说 · 世界任务叙事流（官方演出顺序阅读，替代关键词检索）</div>
+  <div id="list" class="grid"></div>
+  <div id="reader" style="display:none">
+    <div class="sticky-bar">
+      <button onclick="back()">← 返回章节列表</button>
+      <strong id="chname" style="color:var(--ink)"></strong>
+      <span style="flex:1"></span>
+      <button id="prev" onclick="page(-1)">‹ 上一页</button>
+      <span id="pinfo" style="font-size:13px;color:var(--ink-light)"></span>
+      <button id="next" onclick="page(1)">下一页 ›</button>
+    </div>
+    <div class="meta" id="meta"></div>
+    <div class="reader" id="lines"></div>
+    <div class="pager" style="margin-bottom:60px">
+      <button class="btn" onclick="page(-1)">‹ 上一页</button>
+      <span id="pinfo2" style="font-size:13px;color:var(--ink-light)"></span>
+      <button class="btn" onclick="page(1)">下一页 ›</button>
+      <button class="btn" onclick="back()">← 返回章节列表</button>
+    </div>
+  </div>
+</div>
+<script>
+let curCh = null, curPage = 1, total = 0, questNames = {};
+async function loadList() {
+  const chaps = await (await fetch("data/browse_chapters.json")).json();
+  document.getElementById("list").innerHTML = chaps.map(c =>
+    `<div class="ch" onclick="openCh(${c.chapter_id}, '${c.name}', '${c.num}', ${c.count})">
+       <div class="t">${c.name}</div>
+       <div class="m">${c.num || ""} · ${c.type}<b>${c.count.toLocaleString()} 条</b></div>
+     </div>`).join("");
+}
+async function openCh(id, name, num, count) {
+  curCh = id; curPage = 1; total = count;
+  document.getElementById("list").style.display = "none";
+  document.getElementById("reader").style.display = "block";
+  document.getElementById("chname").textContent = (num ? num + " " : "") + name;
+  window.scrollTo(0, 0);
+  try { questNames = await (await fetch(`data/browse_quests/${id}.json`)).json(); }
+  catch(e) { questNames = {}; }
+  loadPage();
+}
+function clean(s) {
+  s = s.replace(/\{NICKNAME\}/g, "旅行者")
+       .replace(/\{M#([^}]+)\}\{F#([^}]+)\}/g, "$1")
+       .replace(/\{[^}]*\}/g, "")
+       .replace(/<color[^>]*>/g, "").replace(/<\/color>/g, "")
+       .replace(/<[^>]+>/g, "")
+       .replace(/^#/, "");
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+async function loadPage() {
+  try {
+    const r = await (await fetch(`data/browse_dialogs/${curCh}_p${curPage}.json`)).json();
+    let lastQ = null;
+    document.getElementById("lines").innerHTML = r.lines.map(l => {
+      const p = l.split("|");
+      const sp = p.length >= 3 ? p[0] : "";
+      const qid = p.length >= 3 ? p[p.length-1] : "";
+      const body = p.length >= 3 ? p.slice(1, -1).join("|") : l;
+      let html = "";
+      if (qid && qid !== lastQ) {
+        lastQ = qid;
+        const qn = questNames[qid];
+        if (qn) html += `<div class="qsep">${qn}</div>`;
+      }
+      return html + (sp ? `<div class="line"><span class="who">${sp}</span>${clean(body)}</div>`
+                        : `<div class="line">${clean(body)}</div>`);
+    }).join("");
+    const pages = Math.max(1, Math.ceil(r.total / 200));
+    document.getElementById("meta").textContent = `共 ${r.total.toLocaleString()} 条`;
+    document.getElementById("pinfo").textContent = `${curPage} / ${pages}`;
+    var p2 = document.getElementById("pinfo2");
+    if (p2) p2.textContent = `${curPage} / ${pages}`;
+    document.getElementById("prev").disabled = curPage <= 1;
+    document.getElementById("next").disabled = curPage >= pages;
+    window.scrollTo({top: 0});
+  } catch(e) { alert("加载失败: " + e.message); }
+}
+function page(d) { curPage += d; loadPage(); window.scrollTo({top:0,behavior:"smooth"}); }
+function back() {
+  document.getElementById("reader").style.display = "none";
+  document.getElementById("list").style.display = "grid";
+  window.scrollTo(0, 0);
+}
+loadList();
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>原神文本资料库 · 展示站</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  .hero { text-align:center; padding:34px 0 8px; }
+  h1 { font-size:28px; letter-spacing:8px; font-weight:600; color:#4a5168; }
+  h1::before, h1::after { content:"✦"; color:var(--gold); font-size:14px; vertical-align:middle; margin:0 14px; }
+  .lede { margin-top:12px; color:var(--ink-light); font-size:13px; letter-spacing:2px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; margin-top:34px; }
+  .nav-card { display:block; text-decoration:none; color:inherit; background:var(--card);
+    border:1px solid var(--line); border-radius:12px; padding:20px 22px; transition:all .15s; }
+  .nav-card:hover { border-color:var(--gold); box-shadow:0 3px 14px rgba(168,135,63,.10); transform:translateY(-2px); }
+  .nav-card .ic { font-size:24px; }
+  .nav-card .t { font-size:16px; margin:8px 0 6px; color:#4a5168; letter-spacing:1px; }
+  .nav-card .d { font-size:12.5px; color:var(--ink-light); line-height:1.8; }
+  .stats { display:flex; justify-content:center; gap:34px; margin-top:26px; flex-wrap:wrap; }
+  .stat { text-align:center; }
+  .stat b { display:block; font-size:22px; color:var(--gold-deep); font-weight:600; }
+  .stat span { font-size:12px; color:var(--ink-light); letter-spacing:1px; }
+  .note { margin-top:34px; text-align:center; font-size:12px; color:var(--ink-light); line-height:2; }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" class="cur">展示站</a>
+  <a href="browse.html">章节浏览</a>
+  <a href="timeline.html">时间线</a>
+  <a href="kg.html">知识层</a>
+  <a href="archive.html">档案库</a>
+  <a href="hypothesis.html">假说库</a>
+</nav>
+<div class="wrap">
+  <div class="hero">
+    <h1>原神文本资料库</h1>
+    <div class="lede">全量游戏文本 · 精读档案 · 知识图谱 · 多轴时间线</div>
+    <div class="stats">
+      <div class="stat"><b>1,231,365</b><span>语料条目</span></div>
+      <div class="stat"><b>881</b><span>精读档案</span></div>
+      <div class="stat"><b>6,716</b><span>知识实体</span></div>
+      <div class="stat"><b>19,591</b><span>断言（带引文）</span></div>
+      <div class="stat"><b>161</b><span>时间线节点</span></div>
+    </div>
+  </div>
+  <div class="grid">
+    <a class="nav-card" href="archive.html">
+      <div class="ic">📜</div><div class="t">精读档案库</div>
+      <div class="d">881 份按 STANDARD v1.0 重建的章节/角色/书籍/武器档案——叙事流、关键断言表（逐字引文）、时间锚、隐喻代指、悬案。</div>
+    </a>
+    <a class="nav-card" href="browse.html">
+      <div class="ic">💬</div><div class="t">章节浏览</div>
+      <div class="d">142 章主线/传说/世界任务对话，官方演出顺序（Talk beginCond 触发序），按任务分组显示。</div>
+    </a>
+    <a class="nav-card" href="timeline.html">
+      <div class="ic">⏳</div><div class="t">多轴时间线</div>
+      <div class="d">8 纪元 161 节点，非线性时间结构化：叙述模式逐条标注（明文/回忆/预言/改写/倒流/矛盾对/应验）。</div>
+    </a>
+    <a class="nav-card" href="kg.html">
+      <div class="ic">🕸️</div><div class="t">知识层</div>
+      <div class="d">6,716 实体 / 19,591 断言，置信四级（明文·转述必带叙述者），别名强制解析，每条断言可回查引文。</div>
+    </a>
+    <a class="nav-card" href="hypothesis.html">
+      <div class="ic">💡</div><div class="t">假说库</div>
+      <div class="d">推演与悬案的集中收纳——推论只进假说，不入正文。</div>
+    </a>
+  </div>
+  <div class="note">
+    本站为静态展示版（GitHub Pages）。123 万条全文毫秒检索、仲裁工作流等动态功能见本地版 / 服务器版。<br>
+    游戏文本版权归米哈游所有 · 数据源 Dimbreath/AnimeGameData2 · 重建与审计记录见仓库 CHANGELOG
+  </div>
+</div>
+</body>
+</html>

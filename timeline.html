@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>提瓦特多轴时间线</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  header { padding:20px 28px 8px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--ink-light); font-size:13px; margin-bottom:14px; }
+  main { padding:0 28px 60px; max-width:1280px; margin:0 auto; }
+  .axis { background:var(--card); border:1px solid var(--line); border-radius:10px;
+          margin-bottom:18px; overflow:hidden; }
+  .axis-head { padding:12px 18px; background:var(--panel); border-bottom:1px solid var(--line);
+               display:flex; align-items:baseline; gap:10px; }
+  .axis-head h2 { font-size:16px; margin:0; color:var(--gold-deep); }
+  .axis-head .desc { color:var(--ink-light); font-size:12.5px; }
+  .evs { padding:8px 14px 14px; }
+  .ev { border:1px solid var(--line); border-radius:8px; background:var(--card);
+        margin:10px 0; padding:10px 14px; }
+  .ev:hover { border-color:var(--gold); }
+  .ev-title { font-weight:600; font-size:14.5px; display:flex; align-items:center;
+              flex-wrap:wrap; gap:8px; }
+  .badge { font-size:11px; padding:1px 8px; border-radius:10px; border:1px solid; white-space:nowrap; font-family:var(--sans); }
+  .b-mingwen { color:#4a6a9a; border-color:#c0d2e6; background:#dde8f5; }
+  .b-huiyi { color:#6a4a9a; border-color:#d4c4e6; background:#ece4f5; }
+  .b-yuyan { color:#92702a; border-color:#e2d2a6; background:#f5ecd6; }
+  .b-gaixie, .b-daoliu { color:#a04a72; border-color:#e2c0d2; background:#f6e0ea; }
+  .b-tuiyan { color:#6a7186; border-color:#d5d0c2; background:#e8e4d8; }
+  .b-yingyan { color:#3a8a5a; border-color:#c0dccd; background:#e0f0e8; }
+  .b-maodun { color:#a03030; border-color:#e2bcbc; background:#f6dcdc; }
+  .pos { font-size:12px; color:var(--gold-deep); background:rgba(200,164,92,.12);
+         padding:1px 8px; border-radius:8px; }
+  .ev-detail { font-size:13px; color:var(--ink); margin-top:6px; line-height:1.7; }
+  .ev-src { font-size:12px; color:var(--ink-light); margin-top:5px; }
+  .ev-src::before { content:"出处："; }
+  .ev-evidence { font-size:12px; color:var(--ink-light); margin-right:10px; }
+  section h2 { font-size:17px; margin:28px 0 10px; }
+  table { width:100%; border-collapse:collapse; background:var(--card);
+          border:1px solid var(--line); border-radius:8px; overflow:hidden; font-size:13px; }
+  th, td { padding:8px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+  tr:last-child td { border-bottom:none; }
+  .rel { display:inline-block; margin:3px 6px 3px 0; padding:2px 10px; border-radius:6px;
+         font-size:12.5px; background:var(--panel); border:1px solid var(--line); }
+  .rel.maodun { border-color:#e2bcbc; color:#a03030; }
+  .rel.yingyan { border-color:#c0dccd; color:#3a8a5a; }
+  .rel b { font-weight:600; }
+  .links-box { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; }
+  .loading { color:var(--ink-light); padding:40px; text-align:center; }
+  :root { --dim: var(--ink-light); --border: var(--line); --panel: var(--card); --text: var(--ink); }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<header>
+  <h1>提瓦特多轴时间线</h1>
+  <div class="sub">多轴结构：非线性时间以「轴」表达——每条事件可挂多轴；叙事模式逐条标注；矛盾对显式列出。</div>
+</header>
+<main id="app"><div class="loading">加载中…</div></main>
+
+<script>
+const MODE_BADGE = {
+  "明文":"b-mingwen","明文·双记载":"b-maodun","明文·时点未明":"b-mingwen",
+  "明文·悬案":"b-maodun","回忆":"b-huiyi","预言·应验":"b-yingyan",
+  "明文+推演":"b-tuiyan","推演":"b-tuiyan","改写":"b-gaixie","倒流":"b-gaixie",
+  "叠加":"b-gaixie","存疑":"b-tuiyan","状态标注":"b-tuiyan"
+};
+function badge(mode){
+  const cls = MODE_BADGE[mode] || "b-tuiyan";
+  return `<span class="badge ${cls}">${mode}</span>`;
+}
+function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function md(s){ return esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\*([^*]+)\*/g,"<i>$1</i>"); }
+
+fetch("data/kg_timeline.json").then(r=>r.json()).then(eras=>{
+  // v3 结构化时间线：8 纪元 / 161 节点（kg_eras + kg_timeline_nodes）
+  let html = "";
+  eras.forEach(e=>{
+    html += `<div class="axis"><div class="axis-head"><h2>${esc(e.era.name)}</h2>
+             <span class="desc">${e.nodes.length} 个节点 · 源自 ${esc(e.era.source||"timeline.md")}</span></div><div class="evs">`;
+    if (!e.nodes.length) html += `<div class="ev-detail" style="color:var(--dim)">（此纪元暂无节点）</div>`;
+    e.nodes.forEach(n=>{
+      html += `<div class="ev">
+        <div class="ev-title">${md(n.title)} ${badge(n.narrative_mode||"明文")}</div>
+        ${n.detail && n.detail !== n.title ? `<div class="ev-detail">${md(n.detail.slice(0,500))}</div>` : ""}
+        ${n.quote ? `<div class="ev-detail" style="color:var(--gold-deep);font-style:italic">「${md(n.quote)}」</div>` : ""}
+        <div class="ev-src"><span class="ev-evidence">${esc(n.source||"")}</span>${n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）"}</div>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+  document.getElementById("app").innerHTML = html || "<p style='color:var(--dim)'>时间线数据为空</p>";
+}).catch(err=>{
+  document.getElementById("app").innerHTML = "<p style='color:#ef7c8c'>加载失败: "+err+"</p>";
+});
+</script>
+</body>
+</html>
