@@ -16,12 +16,18 @@
                display:flex; align-items:baseline; gap:10px; }
   .axis-head h2 { font-size:16px; margin:0; color:var(--gold-deep); }
   .axis-head .desc { color:var(--ink-light); font-size:12.5px; }
-  .evs { padding:8px 14px 14px; }
-  .ev { border:1px solid var(--line); border-radius:8px; background:var(--card);
-        margin:10px 0; padding:10px 14px; }
+  .evs { padding:8px 14px 14px 34px; position:relative; }
+  .evs::before { content:""; position:absolute; left:14px; top:20px; bottom:20px;
+                 width:2px; background:var(--line-strong); border-radius:2px; }
+  .ev { position:relative; border:1px solid var(--line); border-radius:8px; background:var(--card);
+        margin:12px 0; padding:10px 14px; }
+  .ev::before { content:""; position:absolute; left:-25px; top:17px; width:9px; height:9px;
+                border-radius:50%; background:var(--gold);
+                box-shadow:0 0 0 3px var(--bg), 0 0 0 4px var(--line-strong); }
   .ev:hover { border-color:var(--gold); }
   .ev-title { font-weight:600; font-size:14.5px; display:flex; align-items:center;
               flex-wrap:wrap; gap:8px; }
+  .ev-book { font-size:12px; color:var(--ink-light); font-weight:400; font-family:var(--sans); }
   .badge { font-size:11px; padding:1px 8px; border-radius:10px; border:1px solid; white-space:nowrap; font-family:var(--sans); }
   .b-mingwen { color:#4a6a9a; border-color:#c0d2e6; background:#dde8f5; }
   .b-huiyi { color:#6a4a9a; border-color:#d4c4e6; background:#ece4f5; }
@@ -107,22 +113,46 @@ const MODE_BADGE = {
   "叠加":"b-gaixie","存疑":"b-tuiyan","状态标注":"b-tuiyan"
 };
 function badge(mode){
-  const cls = MODE_BADGE[mode] || "b-tuiyan";
-  return `<span class="badge ${cls}">${mode}</span>`;
+  let cls = MODE_BADGE[mode];
+  if (!cls) {  // 复合模式（如"明文·回忆"）按关键词回退
+    for (const k in MODE_BADGE) {
+      if (mode.split("·").some(p => k === p)) { cls = MODE_BADGE[k]; break; }
+    }
+  }
+  return `<span class="badge ${cls || "b-tuiyan"}">${mode}</span>`;
 }
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-function md(s){ return esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\*([^*]+)\*/g,"<i>$1</i>"); }
-// 精炼提取：首句做节点标题，其余文字收进「原文与出处」下拉
+function md(s){ return esc((s||"").replace(/\*{3,}/g, "**")).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\*([^*]+)\*/g,"<i>$1</i>"); }
+// 叙述模式与出处拆分：「明文·《日月前事》」→ 模式=明文，出处=《日月前事》
+function splitMode(mode){
+  const parts = (mode || "明文").split("·");
+  const mParts = [], srcs = [];
+  parts.forEach(p => {
+    const t = p.trim();
+    (/^《.*》$/.test(t) ? srcs : mParts).push(t);
+  });
+  return {m: mParts.join("·") || "明文", src: srcs.join("、")};
+}
+// 精炼提取：优先「短前缀：正文」结构，其次首句；其余收进「原文与出处」下拉
 function splitHead(s){
   if (!s) return {head: "", rest: ""};
+  const ci = s.indexOf("：");
+  if (ci > 0 && ci <= 24 && !/[。！？]/.test(s.slice(0, ci))) {
+    return {head: s.slice(0, ci), rest: s.slice(ci + 1).trim()};
+  }
   const m = s.match(/^([\s\S]*?[。！？])([\s\S]*)$/);
   if (m && m[1].length <= 64) return {head: m[1], rest: m[2].trim()};
   return {head: s.length > 64 ? s.slice(0, 64) + "…" : s, rest: ""};
 }
+function firstSentence(s){
+  if (!s) return "";
+  const f = s.replace(/\s+/g, "").split(/[。！？]/)[0];
+  return f.length > 72 ? f.slice(0, 72) + "…" : f;
+}
 
 fetch("api/kg/timeline").then(r=>r.json()).then(eras=>{
   // v3 结构化时间线：8 纪元 / 161 节点（kg_eras + kg_timeline_nodes）
-  // 节点 = 一句精炼标题 + badge；引文/全文/出处收进「原文与出处」下拉
+  // 节点 = 竖轴圆点 + 短标题 + 模式徽章（出处独立小字）+ 一句摘要；全文/引文收进下拉
   let html = "";
   eras.forEach(e=>{
     html += `<div class="axis"><div class="axis-head"><h2>${esc(e.era.name)}</h2>
@@ -132,13 +162,17 @@ fetch("api/kg/timeline").then(r=>r.json()).then(eras=>{
       const t = splitHead(n.title);
       const d = (n.detail && n.detail !== n.title) ? n.detail : "";
       const rest = [t.rest, d].filter(Boolean).join("\n");
-      const hasMore = rest || n.quote || n.source;
+      const restShort = rest && rest.length <= 90;
+      const sum = rest ? (restShort ? rest : firstSentence(rest)) : "";
+      const mode = splitMode(n.narrative_mode);
+      const needFold = (!restShort && rest) || n.quote || n.source;
       html += `<div class="ev">
-        <div class="ev-title">${md(t.head)} ${badge(n.narrative_mode||"明文")}</div>
-        ${hasMore ? `<details class="ev-more"><summary>原文与出处</summary>
+        <div class="ev-title">${md(t.head)} ${badge(mode.m)}${mode.src ? ` <span class="ev-book">${esc(mode.src)}</span>` : ""}</div>
+        ${sum ? `<div class="ev-sum">${md(sum)}</div>` : ""}
+        ${needFold ? `<details class="ev-more"><summary>原文与出处</summary>
           ${n.quote ? `<div class="ev-quote">「${md(n.quote)}」</div>` : ""}
-          ${rest ? `<div class="ev-detail">${md(rest)}</div>` : ""}
-          ${n.source ? `<div class="ev-src"><span class="ev-evidence">${esc(n.source)}</span>${n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）"}</div>` : ""}
+          ${rest && !restShort ? `<div class="ev-detail">${md(rest)}</div>` : ""}
+          ${n.source ? `<div class="ev-src"><span class="ev-evidence">${esc(n.source)}</span>${mode.src ? "" : (n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）")}</div>` : ""}
         </details>` : ""}
       </div>`;
     });
