@@ -294,6 +294,7 @@ INDEX = """<!DOCTYPE html>
   </div>
   <div class="note">
     本站为静态展示版（GitHub Pages）。123 万条全文毫秒检索、仲裁工作流等动态功能见本地版 / 服务器版。<br>
+    发现错误或遗漏？欢迎 <a href="https://github.com/genshin-archive/genshin-text/issues/new?template=errata.md" style="color:var(--gold-deep)">提交勘误</a>——一切以游戏内文本为准，有原文出处的反馈会被优先核实。<br>
     游戏文本版权归米哈游所有 · 数据源 Dimbreath/AnimeGameData2 · 重建与审计记录见仓库 CHANGELOG
   </div>
 </div>
