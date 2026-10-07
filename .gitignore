@@ -34,3 +34,7 @@ talk_map.json
 # Pages 静态站产物（独立推 gh-pages 分支）
 site/
 _pages_test/
+_cert_proxy.pem
+
+# 工作遗留证书（不入库）
+_cert_proxy.pem
