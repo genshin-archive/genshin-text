@@ -91,13 +91,13 @@ deploy/                # Docker 部署（Dockerfile + docker-compose）
 
 ## 数据来源
 
-- 游戏文本：[Dimbreath/AnimeGameData2](https://gitlab.com/Dimbreath/AnimeGameData2)（GameData 镜像）
-- 书名/角色外部验证：B 站 wiki + 米游社观测枢（双源交叉）
+- **游戏文本（唯一事实源）**：[Dimbreath/AnimeGameData2](https://gitlab.com/Dimbreath/AnimeGameData2) v7.1.0（2026-09-21）——TextMap 双池 + Excel 配置表 + 对话流 + 书籍 + 字幕，入库 123 万行
+- **外部交叉验证（仅辅助，不作断言依据）**：B 站 wiki + 米游社观测枢——书名映射双源校验（299 个文件）、实体官方分类校正层
+- 完整的来源清单、四层验证机制、已知数据缺口与复现步骤：见 **[SOURCES.md](SOURCES.md)**
 
 ## 版权
 
-游戏文本版权归米哈游所有；本仓库为文本整理与研究工具，存档的均为游戏内文本及基于其的
-整理产物，不作商业用途。
+游戏文本版权归米哈游所有；本项目为个人非商业性文本整理与研究工具，含游戏全量剧透。
 
 ---
 
