@@ -3,3 +3,9 @@ contact_links:
   - name: 📖 先逛逛展示站
     url: https://genshin-archive.github.io/genshin-text/
     about: 档案库 / 多轴时间线 / 知识层 / 章节浏览（只读展示版）
+  - name: 💬 考据讨论（Discussions）
+    url: https://github.com/genshin-archive/genshin-text/discussions
+    about: 文本解读、隐喻考证、设定讨论——解读分歧在此并列陈列
+  - name: ❓ 使用问答（Q&A）
+    url: https://github.com/genshin-archive/genshin-text/discussions/categories/q-a
+    about: 展示站 / 本地版使用问题

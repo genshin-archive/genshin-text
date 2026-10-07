@@ -81,6 +81,14 @@ deploy/                # Docker 部署（Dockerfile + docker-compose）
 `deploy/` 内含 Dockerfile 与 compose（python:3.12-slim + uvicorn，DB 以卷挂载）。
 前端资源全部相对路径，根路径部署与子路径反代（如 `/genshin/`）双兼容。
 
+## 反馈与贡献
+
+一切以**游戏内文本为唯一事实源**（解读分歧不算错误，会进假说库并列陈列）：
+
+- 📝 **勘误** → [Issue 模板](https://github.com/genshin-archive/genshin-text/issues/new?template=errata.md)：请附任务名/书名 + 原文片段，有出处的反馈优先核实
+- 💬 **考据讨论** → [Discussions](https://github.com/genshin-archive/genshin-text/discussions)
+- 📖 反馈规矩与处理流程详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## 数据来源
 
 - 游戏文本：[Dimbreath/AnimeGameData2](https://gitlab.com/Dimbreath/AnimeGameData2)（GameData 镜像）

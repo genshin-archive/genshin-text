@@ -1,0 +1,35 @@
+name: Issue 自动回执
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 自动回执
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              "感谢反馈！已收到你的 Issue，处理流程如下：",
+              "",
+              "1. **定位** → 找到对应档案 / 时间线节点 / 断言",
+              "2. **回查** → 在 123 万条全文语料中逐字核对原文",
+              "3. **判定** → 确认错误即修正并回复；不成立会附反证原文说明；解读分歧转入 Discussions",
+              "",
+              "⚠️ 若你还没提供【游戏内原文出处】，请尽快补充（任务名/书名 + 原文片段）——",
+              "**有原文依据的反馈会被优先核实**；没有出处的只作为线索参考。",
+              "",
+              "📖 反馈规矩详见 [CONTRIBUTING.md](../blob/master/CONTRIBUTING.md)。感谢你对文本准确性的较真！"
+            ].join("\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
