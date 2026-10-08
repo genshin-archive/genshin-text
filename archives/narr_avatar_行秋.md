@@ -6,7 +6,7 @@
 篇章: 角色档案·璃月
 版本锚: 各版本
 生成批次: rebuild-v3
-复查状态: 待master校验
+复查状态: 待作者校验
 ---
 
 # 角色精读：行秋（narr_avatar_行秋）
@@ -139,4 +139,4 @@
 - 互证档案：narr_avatar_重云、narr_avatar_云堇、narr_avatar_北斗、narr_avatar_凝光、narr_avatar_胡桃、narr_avatar_钟离、narr_avatar_阿贝多、narr_avatar_七七、narr_avatar_嘉明、narr_avatar_茜特菈莉。
 
 ---
-校验状态：待 master 校验（rebuild-v3 生成于 2026-09-30）
+校验状态：待 作者校验（rebuild-v3 生成于 2026-09-30）

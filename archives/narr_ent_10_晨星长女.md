@@ -5,7 +5,7 @@
 篇章: 亥珀波瑞亚·天使纪元与反叛
 版本锚: Relic15045 / Relic15040 / Relic15042 叙事群 ＋ 7.x（MainQuest 7016、FetterStory #961）
 生成批次: rebuild-dsh
-复查状态: 待master校验
+复查状态: 待作者校验
 ---
 
 # 实体档案：晨星长女
@@ -107,4 +107,4 @@
 - 与无名少年（narr_ent_15）、拂晓天使（narr_ent_11）为同一叙事圈内的相邻实体，其同一性均属推演层。
 
 ---
-校验状态：待 master 校验（rebuild-dsh 生成）
+校验状态：待 作者校验（rebuild-dsh 生成）
