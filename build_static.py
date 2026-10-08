@@ -61,8 +61,9 @@ else:
     os.makedirs(os.path.join(SITE, "data"))
 shutil.copytree(zh_path("archives"), os.path.join(SITE, "archives"))
 shutil.copy(zh_path("theme.css"), os.path.join(SITE, "theme.css"))
-shutil.copy(zh_path("hypothesis.md"), os.path.join(SITE, "hypothesis.md"))
 shutil.copy(zh_path("LICENSE"), os.path.join(SITE, "LICENSE"))
+if os.path.isfile(zh_path("hypotheses.json")):
+    shutil.copy(zh_path("hypotheses.json"), os.path.join(SITE, "hypotheses.json"))
 
 # ===== 2) 章节列表 =====
 chapters = con.execute("""
@@ -149,7 +150,6 @@ print(f"kg_entities: {len(ents)} 行列表 + {n_ent} 个详情文件")
 # ===== 6) 档案库 / 假说库 列表（与 server.py 共用 archive_index 归组）=====
 from archive_index import build_archive_index
 wjson("data/archive_list.json", build_archive_index(zh_path("archives")))
-wjson("data/hypothesis_list.json", {"items": [{"file": "hypothesis.md", "title": "假说库（全部）"}]})
 print(f"archive_list: 分组结构（{len(build_archive_index(zh_path('archives'))['groups'])} 组）")
 con.close()
 
@@ -183,31 +183,22 @@ make_page("archive.html", "archive.html", [
     ('fetch("api/archive/get?file="+encodeURIComponent(item.dataset.f))',
      'fetch("archives/"+encodeURIComponent(item.dataset.f))'),
     (""".then(r=>r.json()).then(d=>{
-        document.getElementById("content").innerHTML =
+        document.getElementById("mdbox").innerHTML =
           d.content ? '<div class="md">'+renderMd(d.content)+"</div>"
                     : '<div class="md empty">'+esc(d.error||"读取失败")+"</div>";
+        document.body.classList.add("reading");
+        window.scrollTo({top: 0, behavior: "smooth"});
       });""",
      """.then(r=>r.text()).then(t=>{
-        document.getElementById("content").innerHTML =
+        document.getElementById("mdbox").innerHTML =
           t ? '<div class="md">'+renderMd(t)+"</div>"
             : '<div class="md empty">读取失败</div>';
+        document.body.classList.add("reading");
+        window.scrollTo({top: 0, behavior: "smooth"});
       });"""),
     (NAV_ARB, ""),
 ])
 make_page("hypothesis.html", "hypothesis.html", [
-    ('fetch("api/hypothesis/list")', 'fetch("data/hypothesis_list.json")'),
-    ('fetch("api/hypothesis/get?file="+encodeURIComponent(item.dataset.f))',
-     'fetch(encodeURIComponent(item.dataset.f))'),
-    (""".then(r=>r.json()).then(d=>{
-        document.getElementById("content").innerHTML =
-          d.content ? '<div class="md">'+renderMd(d.content)+"</div>"
-                    : '<div class="md empty">'+esc(d.error||"读取失败")+"</div>";
-      });""",
-     """.then(r=>r.text()).then(t=>{
-        document.getElementById("content").innerHTML =
-          t ? '<div class="md">'+renderMd(t)+"</div>"
-            : '<div class="md empty">读取失败</div>';
-      });"""),
     (NAV_ARB, ""),
 ])
 make_page("kg.html", "kg.html", [
