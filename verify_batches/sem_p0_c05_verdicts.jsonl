@@ -1,0 +1,100 @@
+{"cid": 5192, "verdict": "pass", "reason": "同段原文：献舞幕落后结晶成形即其「星之楔」（以愚人众身份知晓来历），possesses 成立", "fix": ""}
+{"cid": 5201, "verdict": "pass", "reason": "本人语音自述，主语=说话人，宾语忠实", "fix": ""}
+{"cid": 5279, "verdict": "pass", "reason": "FetterInfo 明载所属「魔女会」与称号「无言的魔女/弃声的天使」，无引文但出处明确", "fix": ""}
+{"cid": 5280, "verdict": "pass", "reason": "引文逐字，is-a 成立", "fix": ""}
+{"cid": 5299, "verdict": "pass", "reason": "说话人为尼可家人，宾语忠于原话", "fix": ""}
+{"cid": 5303, "verdict": "pass", "reason": "尼可自述天使旧事，转写无误", "fix": ""}
+{"cid": 5304, "verdict": "pass", "reason": "尼可自述，宾语逐字对应（弃智取力→无元素特征魔龙）", "fix": ""}
+{"cid": 5306, "verdict": "pass", "reason": "尼可转述艾莉丝带信、坎瑞亚人不便外出，忠实", "fix": ""}
+{"cid": 5401, "verdict": "pass", "reason": "引文为萨满所言（摇头叹息），主语正确，宾语忠实", "fix": ""}
+{"cid": 5408, "verdict": "pass", "reason": "恰斯卡内心回击「它」，宾语（内心之声）与同段语境合", "fix": ""}
+{"cid": 5413, "verdict": "pass", "reason": "神之眼篇：打空子弹击碎深渊幻象，「调停」为同段收束语", "fix": ""}
+{"cid": 5415, "verdict": "pass", "reason": "本人语音，逐字对应（深渊之声/克服本能）", "fix": ""}
+{"cid": 5419, "verdict": "pass", "reason": "本人语音，「超越深渊与苦难」忠实", "fix": ""}
+{"cid": 5523, "verdict": "pass", "reason": "引文逐字（借对抗深渊施压蒙德）", "fix": ""}
+{"cid": 5528, "verdict": "pass", "reason": "「你的血亲所统领的组织」直接支持 leader-of", "fix": ""}
+{"cid": 5533, "verdict": "pass", "reason": "引文逐字（收集神之心计划正有序推进）", "fix": ""}
+{"cid": 5555, "verdict": "pass", "reason": "「关于」语音：信息主体作主语，大妖精+派蒙「前代冰神」均见同一语音", "fix": ""}
+{"cid": 5560, "verdict": "pass", "reason": "雪精女性=雪孃、最像人形，均见同段问答", "fix": ""}
+{"cid": 5668, "verdict": "pass", "reason": "引文逐字（邪龙杜林随深渊魔物袭蒙德）", "fix": ""}
+{"cid": 5686, "verdict": "pass", "reason": "塔利雅与凯亚一拍即合带杜林前往，主语与宾语均忠实", "fix": ""}
+{"cid": 5731, "verdict": "pass", "reason": "引文直接；后文「炼金术非常完美」证其实施", "fix": ""}
+{"cid": 5741, "verdict": "pass", "reason": "杜林自述，宾语忠实（平衡/隔绝外溢侵蚀）", "fix": ""}
+{"cid": 5748, "verdict": "pass", "reason": "自述+「必须保持高度专注」同段支持", "fix": ""}
+{"cid": 6007, "verdict": "pass", "reason": "无引文；角色故事5与语音「星之楔激活阿兰的遗产将我重启/第二次人生」支持（引文可回填）", "fix": ""}
+{"cid": 6122, "verdict": "pass", "reason": "法尔伽识别「天柱骑士」瑟雷恩（narrator 已归法尔伽），aka 成立", "fix": ""}
+{"cid": 6172, "verdict": "pass", "reason": "流浪者语：坎瑞亚遗民+说服其赴至冬（narrator 已归流浪者）", "fix": ""}
+{"cid": 6175, "verdict": "pass", "reason": "逐字+邻句（负伤/被博士修复/变强）支持", "fix": ""}
+{"cid": 6176, "verdict": "pass", "reason": "逐字（携深渊探索成果重返至冬获封第六席）", "fix": ""}
+{"cid": 6180, "verdict": "pass", "reason": "本人语音自述，逐字", "fix": ""}
+{"cid": 6204, "verdict": "pass", "reason": "温迪自述天空岛见闻，宾语忠实", "fix": ""}
+{"cid": 6303, "verdict": "pass", "reason": "引文逐字（夜袭中见守卫奋战而醒悟）", "fix": ""}
+{"cid": 6304, "verdict": "pass", "reason": "阿伽娅喊话，主语=说话人", "fix": ""}
+{"cid": 6306, "verdict": "pass", "reason": "侦察界门并同步情报，逐字对应", "fix": ""}
+{"cid": 6309, "verdict": "pass", "reason": "守卫长辈之语，主语正确", "fix": ""}
+{"cid": 6310, "verdict": "pass", "reason": "夜袭战后梦醒得神之眼、自认战利品，均见同段", "fix": ""}
+{"cid": 6342, "verdict": "pass", "reason": "引文+「表现出与她相似的气质」同段支持", "fix": ""}
+{"cid": 6346, "verdict": "pass", "reason": "逐字（龙族尝试对抗深渊、方法粗暴）", "fix": ""}
+{"cid": 6364, "verdict": "pass", "reason": "玛薇卡语，宾语忠实（奇迹存活/人与龙给理由）", "fix": ""}
+{"cid": 6611, "verdict": "pass", "reason": "逐字（扛住压力、粉碎深渊教团阴谋、重树威望）", "fix": ""}
+{"cid": 6633, "verdict": "pass", "reason": "自述爱好与提问，逐字", "fix": ""}
+{"cid": 6634, "verdict": "pass", "reason": "自述见闻，逐字", "fix": ""}
+{"cid": 6728, "verdict": "pass", "reason": "「出生前后未喷发」与「深渊咬准活跃期三面袭击」均有引文，概述成立", "fix": ""}
+{"cid": 6776, "verdict": "pass", "reason": "逐字（中坚力量/未尝败绩/守住关键区），时点「从入役到今天」保留", "fix": ""}
+{"cid": 6784, "verdict": "pass", "reason": "自述，宾语忠实（好人多于坏人/只对魔物深渊动气）", "fix": ""}
+{"cid": 6804, "verdict": "pass", "reason": "「常说噩梦」+战士知情两引文齐备", "fix": ""}
+{"cid": 6807, "verdict": "pass", "reason": "要员部署防线与反攻应对深渊波状攻势，宾语与语境一致", "fix": ""}
+{"cid": 6899, "verdict": "pass", "reason": "两引文齐备（持匕迎敌/奄奄一息）；「数天数夜」见同章神之眼", "fix": ""}
+{"cid": 7058, "verdict": "pass", "reason": "神之眼爆发反击致护罩残破不堪；「重创」为从宽概述", "fix": ""}
+{"cid": 7093, "verdict": "pass", "reason": "引文逐字（觊觎神之心力量者谋划闹剧）", "fix": ""}
+{"cid": 7094, "verdict": "pass", "reason": "引文逐字（以异国神之心要挟、令敌失「切片」）", "fix": ""}
+{"cid": 7102, "verdict": "pass", "reason": "批次为修复前快照；库内已修正为纳西妲（narrator=纳西妲、宾语加（关于芙宁娜）），现行状态正确", "fix": ""}
+{"cid": 7417, "verdict": "pass", "reason": "芭芭拉自述对迪卢克反应的疑虑，主语=说话人", "fix": ""}
+{"cid": 7460, "verdict": "pass", "reason": "逐字（选取旅者「金色」、终结大战句点）", "fix": ""}
+{"cid": 7562, "verdict": "uncertain", "reason": "「换生灵」系其自疑（原句为疑问），且与故事5真身「谶鸟一族」相抵，is-a 过强", "fix": "谓词降为「自疑为」或宾语注（真相见故事5：谶鸟一族）"}
+{"cid": 7563, "verdict": "pass", "reason": "逐字（她来自谶鸟一族）", "fix": ""}
+{"cid": 7613, "verdict": "pass", "reason": "「关于」语音：莉奈娅评已标注，宾语忠实", "fix": ""}
+{"cid": 7832, "verdict": "pass", "reason": "逐字（受命于尼伯龙根、葬火前与天空岛和谐共处）", "fix": ""}
+{"cid": 7833, "verdict": "pass", "reason": "逐字（三月=守护卫星；三月女神=星球意志代行）", "fix": ""}
+{"cid": 7860, "verdict": "pass", "reason": "故事3+5：白沙皇时代贵族、全名一致，「苍焰克里洛为蓝火」直接对应", "fix": ""}
+{"cid": 7861, "verdict": "pass", "reason": "「赶上白沙皇传位冰之女皇」+「自我流放」见故事3/5", "fix": ""}
+{"cid": 7869, "verdict": "pass", "reason": "逐字（分队七到八人、只剩他；表彰击退深渊魔物）", "fix": ""}
+{"cid": 7877, "verdict": "pass", "reason": "自述，逐字（妖精不需要月之轮、作掩护幌子）", "fix": ""}
+{"cid": 7878, "verdict": "pass", "reason": "自述，逐字（身份论）", "fix": ""}
+{"cid": 8014, "verdict": "pass", "reason": "星之楔篇：生之力量灌注后蓓蕾破裂、凝出碧绿宝珠，creates 成立", "fix": ""}
+{"cid": 8016, "verdict": "pass", "reason": "批次为修复前快照；库内已修正为薇斯纳（narrator=薇斯纳、宾语加（关于女皇）），现行状态正确", "fix": ""}
+{"cid": 8018, "verdict": "uncertain", "reason": "时点括注「对抗死之执政后」与原文「对抗死之执政的前夕…从那一刻起」不符", "fix": "时点改为「对抗死之执政前夕」或删去括注"}
+{"cid": 8238, "verdict": "pass", "reason": "自述三种变强之途；神之眼·水与档案一致", "fix": ""}
+{"cid": 8255, "verdict": "pass", "reason": "逐字（三月间剑客授畅行深渊之术）", "fix": ""}
+{"cid": 8257, "verdict": "pass", "reason": "两引文齐备（裂隙中三月/世间仅三天）", "fix": ""}
+{"cid": 8259, "verdict": "pass", "reason": "逐字（阿贾克斯后来对这段经历闭口不提）", "fix": ""}
+{"cid": 8271, "verdict": "pass", "reason": "自述，逐字（与无名魔兽对视、誓堂堂正正斩杀）", "fix": ""}
+{"cid": 8276, "verdict": "pass", "reason": "引文直接（携「神之心」失联、后有追回行动），steals 为愚人众视角", "fix": ""}
+{"cid": 8277, "verdict": "pass", "reason": "同上，「追回神之心的行动」成立", "fix": ""}
+{"cid": 8300, "verdict": "pass", "reason": "自述，逐字", "fix": ""}
+{"cid": 8301, "verdict": "pass", "reason": "自述预告+「不许先倒下」，宾语忠实", "fix": ""}
+{"cid": 8337, "verdict": "pass", "reason": "角色故事5：骑士整队前往时敌人已败亡，事迹归于守护者", "fix": ""}
+{"cid": 8349, "verdict": "pass", "reason": "自述，逐字（酒馆是情报集中流通处）", "fix": ""}
+{"cid": 8567, "verdict": "pass", "reason": "两引文齐备（取回七分之一大权、重铸完全之龙王座与头衔）", "fix": ""}
+{"cid": 8571, "verdict": "pass", "reason": "逐字（受重创/机能损毁/与另一位后来者共造神之心）", "fix": ""}
+{"cid": 8572, "verdict": "pass", "reason": "上下文+引文（镇压不甘之造物；七类念想/原初碎片吞并）", "fix": ""}
+{"cid": 8624, "verdict": "pass", "reason": "两引文齐备（自导自演送仙典仪、女士按契约取心）", "fix": ""}
+{"cid": 8636, "verdict": "pass", "reason": "批次为修复前快照；库内已修正为钟离（narrator=钟离、宾语加（关于芙宁娜）），现行状态正确", "fix": ""}
+{"cid": 8638, "verdict": "pass", "reason": "批次为修复前快照；库内已修正为钟离（narrator=钟离、宾语加（关于布耶尔）），现行状态正确", "fix": ""}
+{"cid": 8725, "verdict": "pass", "reason": "逐字（师承来自七国之外的坎瑞亚）", "fix": ""}
+{"cid": 8726, "verdict": "pass", "reason": "逐字（侧重创造生命分支）", "fix": ""}
+{"cid": 8727, "verdict": "pass", "reason": "逐字（黑土之术=孕育生命之术）", "fix": ""}
+{"cid": 8728, "verdict": "pass", "reason": "两引文齐备（黑土进阶/白垩定义）", "fix": ""}
+{"cid": 8809, "verdict": "pass", "reason": "影自述 500 年前抵达坎瑞亚战场，宾语忠实", "fix": ""}
+{"cid": 8813, "verdict": "pass", "reason": "三引文齐备（技术失效/神子接过/不准反悔）", "fix": ""}
+{"cid": 8814, "verdict": "pass", "reason": "引文直接（影的技术无法对神之心生效）", "fix": ""}
+{"cid": 8867, "verdict": "pass", "reason": "神之眼篇：获眼与垂青是否同理之存疑，问句转写忠实", "fix": ""}
+{"cid": 8980, "verdict": "pass", "reason": "逐字（Unu=数字一/丘丘人的神明/神圣之词）", "fix": ""}
+{"cid": 9074, "verdict": "pass", "reason": "无引文；书内「旧日的天使、诸神与恶龙…化作歌谣传遍国度」支持（引文可回填）", "fix": ""}
+{"cid": 9093, "verdict": "pass", "reason": "逐字（进化出其他元素、失去纯粹、不再诞生龙王）", "fix": ""}
+{"cid": 9099, "verdict": "pass", "reason": "逐字（常世大神=原初后代、一百四十亿「年」之母）", "fix": ""}
+{"cid": 9114, "verdict": "pass", "reason": "诗句「去提提鲁瓦，光彩烁目的深渊」，aka 成立", "fix": ""}
+{"cid": 9345, "verdict": "pass", "reason": "逐字+后句（方圆之地崩落入深渊）", "fix": ""}
+{"cid": 9570, "verdict": "pass", "reason": "逐字（信息来自世界树、信息化的「回忆」）", "fix": ""}
+{"cid": 9571, "verdict": "pass", "reason": "逐字（皮耶罗讲解「虚假之天」）", "fix": ""}
+{"cid": 9575, "verdict": "pass", "reason": "逐字（须弥行动失切片、带回两颗神之心呈女皇）", "fix": ""}

@@ -1,0 +1,49 @@
+=== kg_predicates ===
+{'pid': 'is-a', 'label_zh': '是（类属）', 'definition': 'X 属于类别 Y，如 兹白 是-a 仙人', 'direction': 'directed'}
+{'pid': 'part-of', 'label_zh': '从属（组织）', 'definition': 'X 是组织/群体 Y 的成员', 'direction': 'directed'}
+{'pid': 'aka', 'label_zh': '别称', 'definition': 'Y 是 X 的另一称呼（与 kg_aliases 冗余时以 aliases 为准）', 'direction': 'directed'}
+{'pid': 'leader-of', 'label_zh': '领袖', 'definition': 'X 是 Y 的领导者（明文级，转述须标 confidence）', 'direction': 'directed'}
+{'pid': 'member-of', 'label_zh': '成员', 'definition': 'X 为 Y 的普通成员', 'direction': 'directed'}
+{'pid': 'founds', 'label_zh': '创立', 'definition': 'X 创立了 Y', 'direction': 'directed'}
+{'pid': 'commands', 'label_zh': '统辖', 'definition': 'X 指挥 Y 的行动（军事/任务层面）', 'direction': 'directed'}
+{'pid': 'enemy-of', 'label_zh': '敌对', 'definition': 'X 与 Y 处于敌对关系', 'direction': 'symmetric'}
+{'pid': 'ally-of', 'label_zh': '同盟', 'definition': "X 与 Y 结盟（含'悖逆共谋'级同盟）", 'direction': 'symmetric'}
+{'pid': 'betrays', 'label_zh': '背叛', 'definition': 'X 背叛了 Y', 'direction': 'directed'}
+{'pid': 'opposes', 'label_zh': '对抗', 'definition': 'X 反对/抵抗 Y 的行动或意志（未至战争级）', 'direction': 'symmetric'}
+{'pid': 'ancestor-of', 'label_zh': '血亲先祖', 'definition': 'X 是 Y 的先祖/血缘来源', 'direction': 'directed'}
+{'pid': 'kin-of', 'label_zh': '血亲', 'definition': 'X 与 Y 有血缘关系（兄弟/双子等，细分写进 claim 引文）', 'direction': 'symmetric'}
+{'pid': 'creates', 'label_zh': '创造', 'definition': 'X 创造了 Y（造物/种族/器物）', 'direction': 'directed'}
+{'pid': 'descends-from', 'label_zh': '位格继承', 'definition': 'X 承继了 Y 的位格/权能/职责', 'direction': 'directed'}
+{'pid': 'succeeds', 'label_zh': '继位', 'definition': 'X 继承 Y 的王位/职位', 'direction': 'directed'}
+{'pid': 'possesses', 'label_zh': '持有权能', 'definition': 'X 持有权能/力量 Y', 'direction': 'directed'}
+{'pid': 'grants', 'label_zh': '授予', 'definition': 'X 将权能/器物 Y 授予 Z（object=Y，受者在 claim 文本注明）', 'direction': 'directed'}
+{'pid': 'steals', 'label_zh': '窃取', 'definition': 'X 窃取了 Y', 'direction': 'directed'}
+{'pid': 'seals', 'label_zh': '封印', 'definition': 'X 封印了 Y', 'direction': 'directed'}
+{'pid': 'imprisons', 'label_zh': '囚禁', 'definition': 'X 将 Y 囚禁于 Z（Z 写进引文）', 'direction': 'directed'}
+{'pid': 'wields', 'label_zh': '持用', 'definition': 'X 持用器物 Y', 'direction': 'directed'}
+{'pid': 'sealed-in', 'label_zh': '封存于', 'definition': '器物/权能 Y 封存于场所 X', 'direction': 'directed'}
+{'pid': 'causes', 'label_zh': '引发', 'definition': 'X 的行动引发了事件 Y', 'direction': 'directed'}
+{'pid': 'participates-in', 'label_zh': '参与', 'definition': 'X 参与了事件 Y', 'direction': 'directed'}
+{'pid': 'witnesses', 'label_zh': '见证', 'definition': 'X 见证了事件 Y', 'direction': 'directed'}
+{'pid': 'dies-in', 'label_zh': '死于', 'definition': 'X 死于事件 Y（复活类写 resurrects）', 'direction': 'directed'}
+{'pid': 'resurrects', 'label_zh': '复活', 'definition': 'X 复活（机制写进引文）', 'direction': 'directed'}
+{'pid': 'survives', 'label_zh': '幸存', 'definition': 'X 在事件 Y 中幸存', 'direction': 'directed'}
+{'pid': 'located-in', 'label_zh': '位于', 'definition': 'X 位于/栖居于场所 Y', 'direction': 'directed'}
+{'pid': 'active-during', 'label_zh': '活跃于', 'definition': 'X 活跃于时代/事件 Y', 'direction': 'directed'}
+{'pid': 'travels-to', 'label_zh': '抵达', 'definition': 'X 抵达/到访 Y', 'direction': 'directed'}
+{'pid': 'knows-of', 'label_zh': '知晓', 'definition': 'X 知晓信息 Y（转述链必标）', 'direction': 'directed'}
+{'pid': 'narrates', 'label_zh': '转述', 'definition': 'X 转述了信息 Y（叙述者立场写 narrator 字段）', 'direction': 'directed'}
+{'pid': 'prophesies', 'label_zh': '预言', 'definition': 'X 预言了 Y', 'direction': 'directed'}
+{'pid': 'trusts', 'label_zh': '信任', 'definition': 'X 信任 Y', 'direction': 'directed'}
+{'pid': 'distrusts', 'label_zh': '不信任', 'definition': 'X 不信任 Y', 'direction': 'directed'}
+{'pid': 'loves', 'label_zh': '爱', 'definition': 'X 爱 Y（天使诅咒语境的核心谓词）', 'direction': 'directed'}
+{'pid': 'worships', 'label_zh': '崇拜', 'definition': 'X 崇拜/侍奉 Y', 'direction': 'directed'}
+{'pid': 'absorbs', 'label_zh': '吸收', 'definition': 'X 吸收 Y（力量/死前遗念等）', 'direction': 'directed'}
+{'pid': '消散', 'label_zh': '消散', 'definition': None, 'direction': 'directed'}
+{'pid': '停摆', 'label_zh': '停摆', 'definition': None, 'direction': 'directed'}
+{'pid': '失踪', 'label_zh': '失踪', 'definition': None, 'direction': 'directed'}
+
+=== entities 壁炉之家/哥伦比娅/南娜/苏尔特洛奇 ===
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+sqlite3.OperationalError: no such column: code
