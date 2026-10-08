@@ -157,6 +157,18 @@ function splitHead(raw){
   }
   m = s.match(/^([^；;]{4,40})[；;]/);
   if (m && parenBalanced(m[1])) return {head: trimPunct(m[1]), rest: s.slice(m[0].length).trim()};
+  // 5) 括号前切分（补充说明移入折叠区）：切点在 （ 前、12-60 位、其前括号平衡
+  for (let i = 12; i <= Math.min(60, s.length - 13); i++) {
+    if (s[i] === "（" && parenBalanced(s.slice(0, i))) {
+      return {head: trimPunct(s.slice(0, i)), rest: s.slice(i).trim()};
+    }
+  }
+  // 6) 逗号软切分（位置 12-56、括号平衡）：最后的温和出口
+  for (let i = 12; i <= Math.min(56, s.length - 13); i++) {
+    if ((s[i] === "，" || s[i] === "、") && parenBalanced(s.slice(0, i))) {
+      return {head: trimPunct(s.slice(0, i)), rest: s.slice(i + 1).trim()};
+    }
+  }
   return {head: trimPunct(s), rest: ""};
 }
 
