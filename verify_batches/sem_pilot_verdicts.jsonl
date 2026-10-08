@@ -1,0 +1,30 @@
+{"cid": 11225, "verdict": "pass", "reason": "宾语为引文直接转写", "fix": ""}
+{"cid": 2407, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 16684, "verdict": "pass", "reason": "转述精准（含语境限定）", "fix": ""}
+{"cid": 9378, "verdict": "pass", "reason": "引文直接转述", "fix": ""}
+{"cid": 6334, "verdict": "pass", "reason": "「火神」为上下文补全（角色故事语境），语义一致", "fix": ""}
+{"cid": 10797, "verdict": "uncertain", "reason": "「复仇结清旧账者」为概括性描述，引文仅见「拿到石珀、结清全款」，转义成分需复核全文", "fix": "复核《碎梦奇珍·石心》全文后决定是否收窄宾语"}
+{"cid": 4045, "verdict": "pass", "reason": "观点转述精准", "fix": ""}
+{"cid": 8475, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 11966, "verdict": "pass", "reason": "内心独白，narrates 成立", "fix": ""}
+{"cid": 8606, "verdict": "fail", "reason": "主语错误（主客颠倒）：引文是重云的语音（「作为方士我能察觉到」），断言主语写成七七——七七是叙述对象而非叙述者", "fix": "改为 [重云] narrates [对七七的方士观察] 或 [七七] is-a [不一般的僵尸（重云观察）]"}
+{"cid": 15642, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 5271, "verdict": "pass", "reason": "引文直接（传统描述）", "fix": ""}
+{"cid": 17696, "verdict": "pass", "reason": "描述转写合理", "fix": ""}
+{"cid": 1776, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 15248, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 14028, "verdict": "pass", "reason": "檄文语境中 enemy-of 成立", "fix": ""}
+{"cid": 8821, "verdict": "pass", "reason": "角色故事原文叙述", "fix": ""}
+{"cid": 9283, "verdict": "pass", "reason": "直接引语", "fix": ""}
+{"cid": 11032, "verdict": "pass", "reason": "完整叙述转写", "fix": ""}
+{"cid": 17103, "verdict": "pass", "reason": "勇士=平雷的尊者（圣遗物故事主角），转写合规", "fix": ""}
+{"cid": 2970, "verdict": "pass", "reason": "已标「传闻」限定，措辞审慎", "fix": ""}
+{"cid": 7681, "verdict": "uncertain", "reason": "谓词争议：莫娜明言「无法准确预言」，断言用 prophesies；「路还远未到尽头」本质是占星判断", "fix": "谓词改 narrates 或注明「占星告知」"}
+{"cid": 4277, "verdict": "pass", "reason": "宾语含精确限定（互相挤兑的旧识），关系成立", "fix": ""}
+{"cid": 11153, "verdict": "uncertain", "reason": "宾语含引文外定性：「灾厄侧」「如影扭曲的魔物」非本条引文内容", "fix": "查找「如影扭曲」原文佐证，无则收窄宾语"}
+{"cid": 15505, "verdict": "pass", "reason": "人物小记转写", "fix": ""}
+{"cid": 18682, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 17577, "verdict": "pass", "reason": "引文直接", "fix": ""}
+{"cid": 17540, "verdict": "pass", "reason": "引文直接（两段拼接）", "fix": ""}
+{"cid": 2906, "verdict": "uncertain", "reason": "因果概括超出单条引文：引文只提「巨大的钉」，断言补了「禁忌知识→雨林沙漠化」因果链", "fix": "找禁忌知识直接引文，或宾语标因果链出处"}
+{"cid": 399, "verdict": "pass", "reason": "自况语境（「自称」得当）", "fix": ""}
