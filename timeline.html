@@ -133,26 +133,39 @@ function splitMode(mode){
   });
   return {m: mParts.join("·") || "明文", src: srcs.join("、")};
 }
-// 精炼提取：优先「短前缀：正文」结构，其次首句；其余收进「原文与出处」下拉
-function splitHead(s){
-  if (!s) return {head: "", rest: ""};
-  const ci = s.indexOf("：");
-  if (ci > 0 && ci <= 24 && !/[。！？]/.test(s.slice(0, ci))) {
-    return {head: s.slice(0, ci), rest: s.slice(ci + 1).trim()};
-  }
-  const m = s.match(/^([\s\S]*?[。！？])([\s\S]*)$/);
-  if (m && m[1].length <= 64) return {head: m[1], rest: m[2].trim()};
-  return {head: s.length > 64 ? s.slice(0, 64) + "…" : s, rest: ""};
+const PUNCT_TAIL = /[\s。；，、：:！？!?…—\-·]+$/;
+function trimPunct(s){ return (s||"").replace(PUNCT_TAIL, "").trim(); }
+function parenBalanced(s){
+  let d = 0;
+  for (const c of s) { if (c === "（" || c === "(") d++; if (c === "）" || c === ")") d--; }
+  return d === 0;
 }
-function firstSentence(s){
-  if (!s) return "";
-  const f = s.replace(/\s+/g, "").split(/[。！？]/)[0];
-  return f.length > 72 ? f.slice(0, 72) + "…" : f;
+
+// 精炼提取：自然切分（冒号前缀 > 首句 > 破折号 > 分号），**绝不硬截、不产生省略号**。
+// 切分点必须括号平衡；切不动的整段做标题，全文放折叠区——宁可标题长，不要烂截断。
+function splitHead(raw){
+  let s = (raw || "").replace(/\*{3,}/g, "").replace(/\*\*/g, "").trim();
+  if (!s) return {head: "", rest: ""};
+  s = s.replace(/^【v[^】]*】\s*/, "");        // 剥离内部版本标注前缀（【v1.7 明文】等）
+  s = s.replace(/【[^】]*】\s*$/, "").trim();  // 尾部引文标记（badge 已展示）
+  let m = s.match(/^([^：:]{2,26})[：:]/);
+  if (m && parenBalanced(m[1])) return {head: trimPunct(m[1]), rest: s.slice(m[0].length).trim()};
+  m = s.match(/^([\s\S]{2,}?)[。！？]([\s\S]*)$/);
+  if (m && m[1].length <= 56 && parenBalanced(m[1])) return {head: trimPunct(m[1]), rest: m[2].trim()};
+  const di = s.indexOf("——");
+  if (di >= 2 && di <= 40 && s.length - di - 2 >= 12 && parenBalanced(s.slice(0, di))) {
+    return {head: trimPunct(s.slice(0, di)), rest: s.slice(di + 2).trim()};
+  }
+  m = s.match(/^([^；;]{4,40})[；;]/);
+  if (m && parenBalanced(m[1])) return {head: trimPunct(m[1]), rest: s.slice(m[0].length).trim()};
+  return {head: trimPunct(s), rest: ""};
 }
 
 fetch("data/kg_timeline.json").then(r=>r.json()).then(eras=>{
   // v3 结构化时间线：8 纪元 / 161 节点（kg_eras + kg_timeline_nodes）
-  // 节点 = 竖轴圆点 + 短标题 + 模式徽章（出处独立小字）+ 一句摘要；全文/引文收进下拉
+  // 节点结构（三层冗余已消除）：
+  //   标题行 = 自然切出的纯文本标题（不截断、无省略号）+ 模式徽章 + 出处小字
+  //   折叠区 = 标题之外的正文 + 引文 + 出处（没有额外内容就不显示折叠入口）
   let html = "";
   eras.forEach(e=>{
     html += `<div class="axis"><div class="axis-head"><h2>${esc(e.era.name)}</h2>
@@ -160,18 +173,15 @@ fetch("data/kg_timeline.json").then(r=>r.json()).then(eras=>{
     if (!e.nodes.length) html += `<div class="ev-detail" style="color:var(--dim)">（此纪元暂无节点）</div>`;
     e.nodes.forEach(n=>{
       const t = splitHead(n.title);
-      const d = (n.detail && n.detail !== n.title) ? n.detail : "";
+      const d = (n.detail && n.detail !== n.title) ? (n.detail.replace(/\*{3,}/g,"").replace(/\*\*/g,"").replace(/【[^】]*】\s*$/,"").trim()) : "";
       const rest = [t.rest, d].filter(Boolean).join("\n");
-      const restShort = rest && rest.length <= 90;
-      const sum = rest ? (restShort ? rest : firstSentence(rest)) : "";
       const mode = splitMode(n.narrative_mode);
-      const needFold = (!restShort && rest) || n.quote || n.source;
+      const needFold = !!rest || !!n.quote || !!n.source;
       html += `<div class="ev">
         <div class="ev-title">${md(t.head)} ${badge(mode.m)}${mode.src ? ` <span class="ev-book">${esc(mode.src)}</span>` : ""}</div>
-        ${sum ? `<div class="ev-sum">${md(sum)}</div>` : ""}
         ${needFold ? `<details class="ev-more"><summary>原文与出处</summary>
           ${n.quote ? `<div class="ev-quote">「${md(n.quote)}」</div>` : ""}
-          ${rest && !restShort ? `<div class="ev-detail">${md(rest)}</div>` : ""}
+          ${rest ? `<div class="ev-detail">${md(rest)}</div>` : ""}
           ${n.source ? `<div class="ev-src"><span class="ev-evidence">${esc(n.source)}</span>${mode.src ? "" : (n.narrative_mode==="明文"?"":"（叙述模式：" + esc(n.narrative_mode) + "）")}</div>` : ""}
         </details>` : ""}
       </div>`;
