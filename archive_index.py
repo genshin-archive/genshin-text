@@ -29,6 +29,24 @@ def _sort_num(item):
     m = re.search(r"\d+", str(n))
     return int(m.group()) if m else 10**9
 
+def _display_name(d, fn):
+    """统一档案显示名：章名 > 实体 > 条目 > 角色 > 武器名 > 文件名清洗（去 narr_ 前缀与类型段）"""
+    for k in ("章名", "实体", "条目", "角色", "武器名"):
+        v = (d.get(k) or "").strip()
+        if v:
+            return v
+    base = fn[:-3] if fn.endswith(".md") else fn
+    base = re.sub(r"^narr_", "", base)
+    base = re.sub(r"^(avatar|ent|book|weapon|relic|frag\d?|frag|misc|arch|cloth|wings|theme|world)_", "", base)
+    return base.replace("_", "·")
+
+def split_name_title(name):
+    """角色名（称号）→ (名字, 称号)。仅当括号内容较短且不像说明句时拆分。"""
+    m = re.match(r"^([^（(]+?)[（(]([^）)]{2,20})[）)]\s*$", name or "")
+    if m and "。" not in m.group(2) and "，" not in m.group(2):
+        return m.group(1).strip(), m.group(2).strip()
+    return (name or "").strip(), ""
+
 def _frag_group(chapter):
     m = re.match(r"碎片·([^（(]+)", chapter or "")
     return m.group(1).strip() if m else "其他"
@@ -40,9 +58,13 @@ def build_archive_index(archives_dir):
             continue
         d = _front_matter(os.path.join(archives_dir, fn))
         t = d.get("类型") or "其他"
+        disp = _display_name(d, fn)
+        name, ttl = split_name_title(disp)
         buckets.setdefault(t, []).append({
             "file": fn,
-            "title": d.get("章名") or fn[:-3],
+            "title": disp,
+            "name": name,
+            "sub": ttl,
             "num": d.get("章号") or "",
             "chapter": d.get("篇章") or "",
         })
