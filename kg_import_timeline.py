@@ -57,7 +57,7 @@ def main():
                     break
         db.execute("""INSERT INTO kg_timeline_nodes(era_id, title, detail, text_hash, quote, source,
                       narrative_mode, ord) VALUES(?,?,?,?,?,?,?,?)""",
-                   (cur_era, title[:120], body, h, q, "timeline.md v2.3", mode, node_order))
+                   (cur_era, title, body, h, q, "timeline.md v2.3", mode, node_order))
         node_order += 1
         stats["nodes"] += 1
         buffer = None
@@ -77,7 +77,7 @@ def main():
             continue
         if re.match(r"- ", ln):
             flush_node()
-            buffer = [ln.lstrip("- ").strip()[:100], [ln.lstrip("- ").strip()]]
+            buffer = [ln.lstrip("- ").strip(), [ln.lstrip("- ").strip()]]
             flush_node()  # 单行 bullet 直接入库
         elif buffer is not None:
             if ln.startswith("  ") or (ln and not ln.startswith(("#", "##", "###"))):
