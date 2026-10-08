@@ -63,86 +63,81 @@
 
 <header>
   <h1>假说库</h1>
-  <div class="sub">非定论推演与假说——与 timeline（明文+已核验事实）严格分离；被明文证实后迁入 timeline，被证伪则标注作废。</div>
+  <div class="sub">社区考据假说的公开验证记录——每条假说附原文证据与核实结论；证实者迁入时间线，证伪者标注留档。<b>欢迎提交你的假说</b>（页面底部）</div>
 </header>
 <main>
-  <div id="list"></div>
-  <div id="content"><div class="md empty">← 从左侧选择一份档案</div></div>
+  <div id="hlist"></div>
+  <div id="submit-box" class="card" style="margin-top:22px; text-align:center; padding:18px;">
+    <div style="font-size:14px; margin-bottom:8px;">有新的考据假说？</div>
+    <a class="btn" style="display:inline-block; text-decoration:none; padding:8px 22px;"
+       href="https://github.com/genshin-archive/genshin-text/issues/new?template=hypothesis.md"
+       target="_blank" rel="noopener">提交假说（GitHub Issue）</a>
+    <div style="font-size:12px; color:var(--ink-light); margin-top:8px;">提交时会引导你附上：假说内容 / 游戏内原文出处 / 推理链</div>
+  </div>
 </main>
 <script>
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-// 轻量 markdown 渲染（标题/列表/引用/表格/粗体/斜体/代码/分隔线/行内标记）
-function renderMd(src){
-  const lines = src.replace(/\r\n/g,"\n").split("\n");
-  let html = "", inUl=false, inOl=false, inQuote=false, tableBuf=[];
-  const closeLists = ()=>{
-    if(inUl){html+="</ul>";inUl=false;}
-    if(inOl){html+="</ol>";inOl=false;}
-    if(inQuote){html+="</blockquote>";inQuote=false;}
-  };
-  const flushTable = ()=>{
-    if(tableBuf.length<2){tableBuf=[];return;}
-    let t = "<table>";
-    tableBuf.forEach((row,i)=>{
-      if(i===1 && /^[\s|:\-]+$/.test(row)) return;
-      const cells = row.split("|").slice(1,-1).map(c=>inline(c.trim()));
-      t += "<tr>"+(i===0?cells.map(c=>"<th>"+c+"</th>").join(""):cells.map(c=>"<td>"+c+"</td>").join(""))+"</tr>";
-    });
-    html += t+"</table>"; tableBuf=[];
-  };
-  const inline = s => esc(s)
-    .replace(/`([^`]+)`/g,"<code>$1</code>")
-    .replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>")
-    .replace(/(^|[^*])\*([^*]+)\*/g,"$1<i>$2</i>")
-    .replace(/==([^=]+)==/g,"<mark>$1</mark>");
-  for (const raw of lines){
-    const line = raw;
-    if (/^\s*\|.*\|\s*$/.test(line)) { closeLists(); tableBuf.push(line); continue; }
-    flushTable();
-    if (/^###\s/.test(line)) { closeLists(); html+="<h3>"+inline(line.slice(4))+"</h3>"; }
-    else if (/^##\s/.test(line)) { closeLists(); html+="<h2>"+inline(line.slice(3))+"</h2>"; }
-    else if (/^#\s/.test(line)) { closeLists(); html+="<h1>"+inline(line.slice(2))+"</h1>"; }
-    else if (/^>\s?/.test(line)) {
-      if(inUl){html+="</ul>";inUl=false;} if(inOl){html+="</ol>";inOl=false;}
-      if(!inQuote){html+="<blockquote>";inQuote=true;}
-      html+="<p>"+inline(line.replace(/^>\s?/,""))+"</p>";
-    }
-    else if (/^[-*]\s/.test(line)) {
-      if(inQuote){html+="</blockquote>";inQuote=false;}
-      if(inOl){html+="</ol>";inOl=false;}
-      if(!inUl){html+="<ul>";inUl=true;}
-      html+="<li>"+inline(line.slice(2))+"</li>";
-    }
-    else if (/^\d+\.\s/.test(line)) {
-      if(inQuote){html+="</blockquote>";inQuote=false;}
-      if(inUl){html+="</ul>";inUl=false;}
-      if(!inOl){html+="<ol>";inOl=true;}
-      html+="<li>"+inline(line.replace(/^\d+\.\s/,""))+"</li>";
-    }
-    else if (/^---+$/.test(line.trim())) { closeLists(); html+="<hr>"; }
-    else if (line.trim()==="") { closeLists(); }
-    else { closeLists(); html+="<p>"+inline(line)+"</p>"; }
+const HSTATUS = {
+  "pending":  { zh: "待验证", cls: "hs-pending" },
+  "verifying":{ zh: "验证中", cls: "hs-verifying" },
+  "confirmed":{ zh: "已证实", cls: "hs-confirmed" },
+  "refuted":  { zh: "已证伪", cls: "hs-refuted" },
+  "partial":  { zh: "部分证实", cls: "hs-partial" }
+};
+fetch("hypotheses.json").then(r=>r.json()).then(data=>{
+  const items = data.items || [];
+  const box = document.getElementById("hlist");
+  if (!items.length) {
+    box.innerHTML = '<div class="card" style="text-align:center; color:var(--ink-light); padding:40px;">' +
+      '假说库已开放——目前尚无收录的社区假说。<br>第一条可能就是你提交的。</div>';
+    return;
   }
-  flushTable(); closeLists();
-  return html;
-}
-fetch("data/hypothesis_list.json").then(r=>r.json()).then(data=>{
-  const list = document.getElementById("list");
-  list.innerHTML = data.items.map(it=>
-    `<div class="item" data-f="${esc(it.file)}">${esc(it.title)}</div>`).join("")
-    || '<div class="empty">暂无档案</div>';
-  list.addEventListener("click", e=>{
-    const item = e.target.closest(".item"); if(!item) return;
-    document.querySelectorAll("#list .item").forEach(x=>x.classList.remove("active"));
-    item.classList.add("active");
-    fetch(encodeURIComponent(item.dataset.f))
-      .then(r=>r.text()).then(t=>{
-        document.getElementById("content").innerHTML =
-          t ? '<div class="md">'+renderMd(t)+"</div>"
-            : '<div class="md empty">读取失败</div>';
-      });
-  });
+  box.innerHTML = items.map(it=>{
+    const st = HSTATUS[it.status] || HSTATUS.pending;
+    const ev = (it.evidence || []).map(e=>
+      `<div class="h-ev"><div class="h-src">${esc(e.source || "")}</div><blockquote>${esc(e.quote || "")}</blockquote></div>`).join("");
+    const log = (it.verify_log || []).map(l=>
+      `<div class="h-log"><span class="h-date">${esc(l.date || "")}</span>${esc(l.note || "")}</div>`).join("");
+    return `<div class="card h-item">
+      <div class="h-head">
+        <span class="h-title">${esc(it.title || "")}</span>
+        <span class="h-badge ${st.cls}">${st.zh}</span>
+      </div>
+      <div class="h-body">${esc(it.summary || "")}</div>
+      ${ev ? `<details class="h-fold"><summary>证据与验证记录</summary>${ev}${log ? `<div class="h-logs">${log}</div>` : ""}</details>` : ""}
+      <div class="h-meta">${it.author ? `提交者：${esc(it.author)} · ` : ""}${it.created ? `收录于 ${esc(it.created)}` : ""}${it.issue ? ` · <a href="${esc(it.issue)}" target="_blank" rel="noopener">原始 Issue</a>` : ""}</div>
+    </div>`;
+  }).join("");
+}).catch(()=>{
+  document.getElementById("hlist").innerHTML = '<div class="card" style="text-align:center; color:var(--ink-light); padding:40px;">假说数据加载失败</div>';
 });
 </script>
+<style>
+  .h-item { padding:16px 20px; margin-bottom:12px; }
+  .h-head { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .h-title { font-size:15.5px; font-weight:600; color:var(--ink); }
+  .h-badge { font-size:11.5px; padding:2px 10px; border-radius:12px; font-family:var(--sans); border:1px solid; }
+  .hs-pending { background:#e8e4d8; color:#6a7186; border-color:#d5d0c2; }
+  .hs-verifying { background:#f5ecd6; color:#92702a; border-color:#e2d2a6; }
+  .hs-confirmed { background:#e0f0e8; color:#3a8a5a; border-color:#c0dccd; }
+  .hs-refuted { background:#f6dcdc; color:#a03030; border-color:#e2bcbc; }
+  .hs-partial { background:#dde8f5; color:#4a6a9a; border-color:#c0d2e6; }
+  .h-body { font-size:13.5px; color:var(--ink); margin-top:8px; line-height:1.8; }
+  .h-fold { margin-top:10px; }
+  .h-fold > summary { list-style:none; cursor:pointer; display:inline-flex; align-items:center;
+    font-family:var(--sans); font-size:12px; color:var(--ink-light);
+    padding:2px 10px; border:1px solid var(--line); border-radius:14px; }
+  .h-fold > summary::before { content:"▸"; margin-right:5px; transition:transform .15s; }
+  .h-fold[open] > summary::before { transform:rotate(90deg); }
+  .h-fold[open] > summary { margin-bottom:8px; }
+  .h-ev { margin:10px 0; }
+  .h-src { font-size:12px; color:var(--ink-light); margin-bottom:3px; }
+  .h-ev blockquote { border-left:3px solid var(--gold); background:rgba(200,164,92,.06);
+    padding:6px 12px; margin:0; border-radius:0 8px 8px 0; font-size:13px; color:var(--gold-deep); }
+  .h-logs { margin-top:10px; border-top:1px dashed var(--line); padding-top:8px; }
+  .h-log { font-size:12.5px; color:var(--ink); margin:5px 0; }
+  .h-date { color:var(--ink-light); margin-right:8px; font-family:var(--sans); }
+  .h-meta { font-size:12px; color:var(--ink-light); margin-top:10px; }
+</style>
 </body>
 </html>
