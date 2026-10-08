@@ -73,7 +73,7 @@ python build_dialogue_seq.py && python build_dialogue_chapter.py && python build
 | 1·引文链 | 每条断言引文**逐字可查** | `check_claims.py` 出厂闸：FTS trigram 探针 + 四层命中（src 池 → 多长度探针 → LIKE 兜底），含占位符归一化（`{NICKNAME}` 等） |
 | 2·溯源链 | 每行文本可溯源到原始条目 | 文本 hash / entry_id 双锚定 → `entries` 表 → 来源表与字段（如 `talk 600914`） |
 | 3·审计链 | 全量交叉审计 | 881 份档案经三模型独立审计（GLM / Qwen3.8 / DeepSeek），抓错即修，审计结论记录于 [CHANGELOG.md](CHANGELOG.md) |
-| 4·终审 | master 逐份校验 | 每份档案 front-matter 标注校验状态；历史事故（如说话人误归）均记录并修正 |
+| 4·终审 | 作者逐份校验 | 每份档案 front-matter 标注校验状态；历史事故（如说话人误归）均记录并修正 |
 
 **置信四级**（写入档案与知识层）：
 

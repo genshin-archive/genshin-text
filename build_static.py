@@ -13,7 +13,7 @@ SITE = os.path.join(BASE, "site")
 DB = os.path.join(BASE, "genshin_text.db")
 
 PRED_ZH_EXTRA = {
-    "master-of": "师徒（师）", "student-of": "师徒（徒）", "has-student": "弟子",
+    "作者-of": "师徒（师）", "student-of": "师徒（徒）", "has-student": "弟子",
     "absorbs": "吸收", "parsed-relation": "档案关系", "free": "自定义关系",
 }
 

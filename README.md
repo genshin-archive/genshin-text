@@ -109,4 +109,4 @@ deploy/                # Docker 部署（Dockerfile + docker-compose）
 ---
 
 *精读档案生成与审计动用了多引擎管线（ZCode / WorkBuddy / qoder / dsh），并经过三模型交叉审计
-（GLM / Qwen3.8 / DeepSeek）+ master 人工校验；详情见 `CHANGELOG.md`。*
+（GLM / Qwen3.8 / DeepSeek）+ 作者人工校验；详情见 `CHANGELOG.md`。*

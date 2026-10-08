@@ -4,7 +4,7 @@ build_corpus_index.py — Phase 0.5 语料分类层
 对 genshin_text.db 的 entries（原始表，只读）建物化分类层 corpus_index。
 可重复执行：每次 DROP 重建。
 
-分类规则（master 2026-10-01 拍板 + 两处补充见注释）:
+分类规则（作者 2026-10-01 拍板 + 两处补充见注释）:
   1. category='TextMap原文' → is_mirror=1, semantic_type='镜像'
      （镜像行 entry_id 全为空，与下述前缀规则天然无冲突）
   2. entry_id 前缀（Readable 类）: Book%→书籍 Relic%→圣遗物故事
@@ -12,7 +12,7 @@ build_corpus_index.py — Phase 0.5 语料分类层
   3. category='角色' AND source IN (FetterStory,Fetters,FetterInfo) → 角色资料
   4. source='Dialog' → 对话
      【补充规则】semantic_type 枚举含"对话"，但 Dialog 源全部挂在
-     category='玩法配置' 下，若不单列则该枚举位永远为空。master 可否决。
+     category='玩法配置' 下，若不单列则该枚举位永远为空。作者可否决。
   5. 过场字幕→字幕; 任务/MainQuest→任务文本; NPC→NPC文本
   6. 其余 semantic_type = category 原值
   entity_hints 本轮留空（NULL），后续 KG 实体归属填充。

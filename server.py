@@ -392,10 +392,10 @@ def kg_timeline():
 
 @app.get("/api/arbitration/decide")
 def arbitration_decide(arid: int = Query(...), status: str = Query(...)):
-    """master 三态裁决（Q7 独裁权）。merged/split/uncertain/dismissed"""
+    """作者三态裁决（Q7 独裁权）。merged/split/uncertain/dismissed"""
     assert status in ("merged", "split", "uncertain", "dismissed")
     con = db()
-    con.execute("UPDATE kg_arbitration SET status=?, decided_by='master', decided_at=datetime('now') WHERE arid=?",
+    con.execute("UPDATE kg_arbitration SET status=?, decided_by='作者', decided_at=datetime('now') WHERE arid=?",
                 (status, arid))
     con.commit()
     con.close()
@@ -412,7 +412,7 @@ def arbitration_list(status: str = Query("pending")):
 
 # ============ 谓词中文显示（web 只出中文，英文谓词仅内部用） ============
 PRED_ZH_EXTRA = {
-    "master-of": "师徒（师）", "student-of": "师徒（徒）", "has-student": "弟子",
+    "作者-of": "师徒（师）", "student-of": "师徒（徒）", "has-student": "弟子",
     "absorbs": "吸收", "parsed-relation": "档案关系", "free": "自定义关系",
 }
 

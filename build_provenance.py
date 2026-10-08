@@ -46,7 +46,7 @@ def main():
     for t in ("entries", "dialogue_seq", "dialogue_chapter", "dialogue_speaker", "talk_map",
               "kg_entities", "kg_aliases", "kg_claims", "kg_predicates",
               "kg_eras", "kg_timeline_nodes", "kg_arbitration",
-              "kg_corpus_caveats", "kg_master_witness"):
+              "kg_corpus_caveats", "kg_author_witness"):
         try:
             tables[t] = db.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
         except Exception:

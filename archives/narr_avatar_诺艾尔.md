@@ -6,7 +6,7 @@
 篇章: 角色档案·蒙德
 版本锚: 各版本
 生成批次: rebuild-v3
-复查状态: 待master校验
+复查状态: 待作者校验
 ---
 
 # 角色精读：诺艾尔（narr_avatar_诺艾尔）
@@ -138,4 +138,4 @@
 - 互证档案：narr_avatar_琴、narr_avatar_凯亚、narr_avatar_法尔伽、narr_avatar_安柏、narr_avatar_可莉、narr_avatar_丽莎、narr_avatar_班尼特、narr_avatar_菲谢尔。
 
 ---
-校验状态：待 master 校验（rebuild-v3 生成于 2026-09-30）
+校验状态：待 作者校验（rebuild-v3 生成于 2026-09-30）

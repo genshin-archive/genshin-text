@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS kg_entities(
     type TEXT,                            -- 神/人/天使/龙/文明/种族群像/器灵/场所
     status TEXT DEFAULT 'active',         -- active/merged/hidden
     merged_into INTEGER,                  -- 被合并到的 eid（仲裁裁决后）
-    review_status TEXT DEFAULT '未复核',  -- master已校验/AI交叉复核/机验通过/未复核
+    review_status TEXT DEFAULT '未复核',  -- 作者已校验/AI交叉复核/机验通过/未复核
     created_at TEXT DEFAULT (datetime('now'))
 );
 
@@ -59,14 +59,14 @@ CREATE TABLE IF NOT EXISTS kg_predicates(
     direction TEXT DEFAULT 'directed'     -- directed/symmetric
 );
 
--- ============ 仲裁队列（Q7：AI 提案+master 独裁） ============
+-- ============ 仲裁队列（Q7：AI 提案+作者独裁） ============
 CREATE TABLE IF NOT EXISTS kg_arbitration(
     arid INTEGER PRIMARY KEY,
     kind TEXT NOT NULL,                   -- alias-merge/alias-split/new-entity/claim-check/conflict
     payload TEXT NOT NULL,                -- JSON：提案详情（双方证据并列）
     status TEXT DEFAULT 'pending',        -- pending/merged/split/uncertain/dismissed
     proposal TEXT,                        -- AI 推荐三态之一
-    decided_by TEXT,                      -- master/自动
+    decided_by TEXT,                      -- 作者/自动
     decided_at TEXT,
     created_at TEXT DEFAULT (datetime('now'))
 );
@@ -106,10 +106,10 @@ CREATE TABLE IF NOT EXISTS kg_corpus_caveats(
     reference TEXT                        -- CHANGELOG 版本或 issue 链接
 );
 
--- ============ master 口述旁证（Q19） ============
-CREATE TABLE IF NOT EXISTS kg_master_witness(
+-- ============ 作者口述旁证（Q19） ============
+CREATE TABLE IF NOT EXISTS kg_author_witness(
     wid INTEGER PRIMARY KEY,
-    content TEXT NOT NULL,                -- master 口述内容
+    content TEXT NOT NULL,                -- 作者口述内容
     related_entities TEXT,                -- JSON: [ent_code...]
     stated_at TEXT DEFAULT (datetime('now')),
     verify_status TEXT DEFAULT '待验证',  -- 待验证/已证实→迁timeline/已证伪/部分证实

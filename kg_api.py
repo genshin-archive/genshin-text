@@ -6,7 +6,7 @@ import sqlite3, re, os, json
 
 DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "genshin_text.db")
 
-# ---------------- D1-2 谓词受控词表（初版，待 master 审） ----------------
+# ---------------- D1-2 谓词受控词表（初版，待 作者审） ----------------
 PREDICATES = {
     # --- 身份/归类 ---
     "is-a":            ("是（类属）", "X 属于类别 Y，如 兹白 是-a 仙人", "directed"),
@@ -61,7 +61,7 @@ PREDICATES = {
 }
 
 CONFIDENCE_LEVELS = {"明文": 4, "明文·转述": 3, "推演": 2, "存疑": 1}
-REVIEW_LEVELS = ["master已校验", "AI交叉复核", "机验通过", "未复核"]
+REVIEW_LEVELS = ["作者已校验", "AI交叉复核", "机验通过", "未复核"]
 
 def get_db():
     db = sqlite3.connect(DB)
@@ -211,7 +211,7 @@ def add_claim(db, subject_id, predicate, object_text, source, confidence,
     return cur.lastrowid
 
 def propose_arbitration(db, kind, payload, proposal=None):
-    """仲裁提案（Q7）。只入队，不落任何结论——结论由 master 三态裁决。"""
+    """仲裁提案（Q7）。只入队，不落任何结论——结论由 作者三态裁决。"""
     assert kind in ("alias-merge", "alias-split", "new-entity", "claim-check", "conflict")
     cur = db.execute("INSERT INTO kg_arbitration(kind, payload, proposal) VALUES(?,?,?)",
                      (kind, json.dumps(payload, ensure_ascii=False), proposal))
@@ -223,7 +223,7 @@ def add_caveat(db, description, scope, severity="中", reference=None):
     return cur.lastrowid
 
 def add_witness(db, content, related_entities=None):
-    cur = db.execute("INSERT INTO kg_master_witness(content, related_entities) VALUES(?,?)",
+    cur = db.execute("INSERT INTO kg_author_witness(content, related_entities) VALUES(?,?)",
                      (content, json.dumps(related_entities or [], ensure_ascii=False)))
     return cur.lastrowid
 
