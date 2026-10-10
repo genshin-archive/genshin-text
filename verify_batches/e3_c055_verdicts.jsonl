@@ -1,0 +1,200 @@
+{"cid": 11499, "verdict": "pass", "reason": "宾语与引文一致（04_第四降临者·arch_1608）", "fix": ""}
+{"cid": 11500, "verdict": "pass", "reason": "引文逐字（Book1157 世界式记录）；括注「世界式的『变数』」与库内「世界的『变数』（即『降临者』）」措辞略异，义同", "fix": ""}
+{"cid": 11505, "verdict": "pass", "reason": "无引文；arch_1405 明文「旅行者以星海外来客的『见证者』身份进入芙宁娜内心，听到…」一致（「见证者」系身份名）", "fix": ""}
+{"cid": 11506, "verdict": "pass", "reason": "无引文；04_第四降临者·avatar_旅行者.md 库内明文与宾语一致", "fix": ""}
+{"cid": 11507, "verdict": "pass", "reason": "无引文；04_第四降临者·v1 底稿 库内明文与宾语一致", "fix": ""}
+{"cid": 11509, "verdict": "pass", "reason": "无引文；04_第四降临者·avatar_旅行者.md 库内明文与宾语一致", "fix": ""}
+{"cid": 11510, "verdict": "pass", "reason": "宾语与引文一致（05_女皇·arch_1703）", "fix": ""}
+{"cid": 11511, "verdict": "pass", "reason": "宾语与引文一致（05_女皇·NpcFirstMet1048）", "fix": ""}
+{"cid": 11514, "verdict": "uncertain", "reason": "aka 不当：「宫廷传令使」系前身职位，非别称（宾语括注已标「前身」）", "fix": "谓词改「曾是/free:自定义『前身』」：女皇（安娜丝塔夏）曾是宫廷传令使（白沙皇时期，与第三降临者一起打开深渊之门）"}
+{"cid": 11517, "verdict": "pass", "reason": "宾语与引文一致（05_女皇·book_苍星妖灵史略）", "fix": ""}
+{"cid": 11518, "verdict": "pass", "reason": "无引文；05_女皇·book_苍星妖灵史略 库内明文与宾语一致", "fix": ""}
+{"cid": 11519, "verdict": "pass", "reason": "引文见 601714「仆人」语「女皇撤销了对哥伦比娅下达的『苍星圣敕』」；revokes 未在 kg_predicates 注册（建议登记）", "fix": ""}
+{"cid": 11520, "verdict": "pass", "reason": "引文「我的确从不展现『慈爱』，因为我并不认可这份权能，也不打算使用它」（701511）；「自陈从不展现」括注保留完整", "fix": ""}
+{"cid": 11521, "verdict": "uncertain", "reason": "谓词-宾语类型错配：生之印系女皇自身之物（薇斯纳所见），非其「持用」之物", "fix": "谓词改 free:自定义『（其生之印）』：女皇｜（其生之印：白茫茫大雪，身后隐约可见光亮）"}
+{"cid": 11522, "verdict": "uncertain", "reason": "「擅闯至冬」无据：库内仅「唤起风雪的魔兽」「前往东方讨伐魔物」（魔兽在东方引发全境暴风雪），非闯入至冬", "fix": "删「擅闯至冬」，改「讨伐引发全境暴风雪的魔兽（发兵东征）并凯旋朝会」；出处宜标 1701/1702"}
+{"cid": 11524, "verdict": "pass", "reason": "无引文；05_女皇·arch_1703 库内明文与宾语一致", "fix": ""}
+{"cid": 11525, "verdict": "pass", "reason": "引文系旅行者内心判断（「如果真的如我所想，潘塔罗涅恐怕…」）；subject＝被谈论者、narrator＝旅行者，括注已标，属库内通行转述式（同 e3_c001/4618）", "fix": ""}
+{"cid": 11526, "verdict": "pass", "reason": "archive 摘要「统括官之首，向女皇效忠」；part-of 按 KG playbook（e3_c001/70「散兵 part-of 丑角」同类）", "fix": ""}
+{"cid": 11528, "verdict": "pass", "reason": "宾语与引文一致（06_白沙皇·book_苍星妖灵史略）", "fix": ""}
+{"cid": 11530, "verdict": "pass", "reason": "宾语与引文一致（06_白沙皇·arch_1702）", "fix": ""}
+{"cid": 11532, "verdict": "pass", "reason": "Book1197 脚注127「基捷——全至冬的第一座城市…统管冻土的权力中心」＋「在冻土上修筑起帝都基捷」", "fix": ""}
+{"cid": 11533, "verdict": "pass", "reason": "无引文；06_白沙皇·book_苍星妖灵史略 库内明文与宾语一致", "fix": ""}
+{"cid": 11534, "verdict": "uncertain", "reason": "aka 退化自指：主语＝宾语（「白沙皇 aka 白沙皇」），自指别称边无信息量；自称事实已由 c052/11018（莫诺马赫 aka 白沙皇）承载", "fix": "删行，或改述「白沙皇（名号来源：灭敌之后自称）」；别名边保留于 11018"}
+{"cid": 11535, "verdict": "pass", "reason": "AnimalCodex25133701「白沙皇作为苍星王廷的主人统一冻土全境」；统辖义", "fix": ""}
+{"cid": 11536, "verdict": "pass", "reason": "无引文；06_白沙皇·AdventureGlossary200026 库内明文与宾语一致", "fix": ""}
+{"cid": 11537, "verdict": "pass", "reason": "无引文；06_白沙皇·AdventureGlossary200021 库内明文与宾语一致", "fix": ""}
+{"cid": 11541, "verdict": "pass", "reason": "引文逐字（莱茵多特 702014）；「逃过一劫」直承宾语", "fix": ""}
+{"cid": 11543, "verdict": "pass", "reason": "无引文；06_白沙皇·ExpeditionData805 库内明文与宾语一致", "fix": ""}
+{"cid": 11544, "verdict": "pass", "reason": "无引文；06_白沙皇·ExpeditionData805 库内明文与宾语一致", "fix": ""}
+{"cid": 11547, "verdict": "pass", "reason": "无引文；07_尼伯龙根·arch_1608 库内明文与宾语一致", "fix": ""}
+{"cid": 11550, "verdict": "pass", "reason": "无引文；07_尼伯龙根·arch_1606 库内明文与宾语一致", "fix": ""}
+{"cid": 11554, "verdict": "pass", "reason": "宾语与引文一致（07_尼伯龙根·TextMapMedium）", "fix": ""}
+{"cid": 11555, "verdict": "pass", "reason": "Weapon13515「曾经执掌整个世界的主人则早已用指爪细捻白垠的游空之土——企图追寻世外的王者升起空月…」；主语归因依原文语境（原初之主/龙王），「追寻世外的王者」句压缩未改义", "fix": ""}
+{"cid": 11558, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15043_5）", "fix": ""}
+{"cid": 11559, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11560, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11561, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15043_5）", "fix": ""}
+{"cid": 11562, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15043_5）", "fix": ""}
+{"cid": 11563, "verdict": "pass", "reason": "引文逐字；另见 11547 arch_1608 尼伯龙根升月说（两述并存，同一性库内未明文点破）", "fix": ""}
+{"cid": 11564, "verdict": "pass", "reason": "引文逐字，系 Relic 旁白（「月的三姐妹始终没有等来她们的旧主」）；narrates 从宽，宜补 narrator＝Relic 叙述者", "fix": ""}
+{"cid": 11565, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11566, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11567, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11568, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11569, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11571, "verdict": "pass", "reason": "引文「地骨已被钉入四重枷锁…」逐字；「之下」系「钉入」之转写", "fix": ""}
+{"cid": 11572, "verdict": "pass", "reason": "宾语与引文一致（08_始源之龙·Relic15040_2）", "fix": ""}
+{"cid": 11573, "verdict": "pass", "reason": "引文「从雾之国归来」；前句「香水海孕育的始源之龙翱行深空，消失在星间迷雾中」同源首句，合于宾语", "fix": ""}
+{"cid": 11574, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·arch_1608）", "fix": ""}
+{"cid": 11575, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·arch_1608）", "fix": ""}
+{"cid": 11576, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·arch_1608）", "fix": ""}
+{"cid": 11577, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·Relic15043_3）", "fix": ""}
+{"cid": 11578, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·Relic15043_3）", "fix": ""}
+{"cid": 11579, "verdict": "pass", "reason": "引文「当『虹月』破碎，赤影隐入渊海」；宾语作「破碎（赤影隐入渊海）」，谓词「消散」系概称", "fix": ""}
+{"cid": 11580, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·Relic15043_3）", "fix": ""}
+{"cid": 11581, "verdict": "pass", "reason": "无引文；09_三月女神·FetterStory#824 库内明文与宾语一致", "fix": ""}
+{"cid": 11584, "verdict": "pass", "reason": "无引文；09_三月女神·Relic15043_4 库内明文与宾语一致", "fix": ""}
+{"cid": 11585, "verdict": "pass", "reason": "无引文；09_三月女神·Relic15043_1 库内明文与宾语一致", "fix": ""}
+{"cid": 11586, "verdict": "pass", "reason": "无引文；09_三月女神·arch_1606 库内明文与宾语一致", "fix": ""}
+{"cid": 11587, "verdict": "pass", "reason": "宾语与引文一致（09_三月女神·arch_1608）", "fix": ""}
+{"cid": 11589, "verdict": "pass", "reason": "无引文；09_三月女神·arch_1608 库内明文与宾语一致", "fix": ""}
+{"cid": 11590, "verdict": "pass", "reason": "引文逐字（FetterStory#824「只可惜作为他们遗民的霜月之子并不了解祖先的怨仇」）；菈乌玛系霜月之子一员，narrator 已标", "fix": ""}
+{"cid": 11591, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11592, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11593, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11594, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11595, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11596, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11597, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11598, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11599, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11600, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11601, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11602, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11603, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_3）", "fix": ""}
+{"cid": 11604, "verdict": "uncertain", "reason": "ally-of 过强：引文仅「大地最古老的主人也纷纷赶来赴会」，赴会≠与晨星长女结盟", "fix": "谓词改 free:自定义『赴会』：大地最古老的主人（巨兽）纷纷赶来参加反叛集会；与晨星长女的同盟关系未明文"}
+{"cid": 11605, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·FetterStory#961）", "fix": ""}
+{"cid": 11606, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·FetterStory#961）", "fix": ""}
+{"cid": 11607, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11608, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11609, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11610, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11611, "verdict": "pass", "reason": "引文逐字；系背叛使者的同族所受之诅（因果为背叛→天罚），宾语括注已保留「被剥去名讳与形骸」", "fix": ""}
+{"cid": 11613, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11615, "verdict": "pass", "reason": "宾语与引文一致（10_晨星长女·Relic15045_2）", "fix": ""}
+{"cid": 11617, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_4）", "fix": ""}
+{"cid": 11618, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11619, "verdict": "pass", "reason": "引文系高天对众天使之敕命（「你们要尽心、尽意、尽性，去爱这地上的众生」）；narrator＝高天受命之语已标，主语为受命者", "fix": ""}
+{"cid": 11620, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11621, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11622, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11623, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11624, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_3）", "fix": ""}
+{"cid": 11625, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_4）", "fix": ""}
+{"cid": 11627, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_4）", "fix": ""}
+{"cid": 11628, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_4）", "fix": ""}
+{"cid": 11629, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_4）", "fix": ""}
+{"cid": 11630, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_5）", "fix": ""}
+{"cid": 11632, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_5）", "fix": ""}
+{"cid": 11633, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_5）", "fix": ""}
+{"cid": 11634, "verdict": "uncertain", "reason": "travels-to 与宾语不合：宾语「天穹坠落」系来路事件，非目的地；原文为天钉「从天穹坠落」", "fix": "谓词改 free:自定义『自天穹坠落』：幽蓝的晶钉自天穹坠落（伴着狂妄的迷梦与野心而至）"}
+{"cid": 11636, "verdict": "pass", "reason": "宾语与引文一致（11_拂晓天使·Relic15040_5）", "fix": ""}
+{"cid": 11637, "verdict": "pass", "reason": "引文为诅咒条款前句，后果句「那得赐于高天的瑰美形体便要溃散成风，心智也要殒落于尘中」在同段（quote 截取不全但内容有据）", "fix": ""}
+{"cid": 11640, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_5）", "fix": ""}
+{"cid": 11641, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_4）", "fix": ""}
+{"cid": 11642, "verdict": "uncertain", "reason": "主客角色含混：施动者为「驾驭轻子的初民」，记述者族裔系被派出方；参与边易读成族裔派出记述者", "fix": "改述：驾驭轻子的初民｜派出｜记述者（往重子的限界，求在终末的质点寻得答案）"}
+{"cid": 11643, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_5）", "fix": ""}
+{"cid": 11644, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_5）", "fix": ""}
+{"cid": 11645, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_4）", "fix": ""}
+{"cid": 11646, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_4）", "fix": ""}
+{"cid": 11647, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_4）", "fix": ""}
+{"cid": 11648, "verdict": "pass", "reason": "首句「刚刚从孤旷的虚空中醒来的旅者」＋引文（比对星图）同源两处，quote 截取不全但内容有据", "fix": ""}
+{"cid": 11650, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_5）", "fix": ""}
+{"cid": 11651, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15045_5）", "fix": ""}
+{"cid": 11652, "verdict": "uncertain", "reason": "ally-of 过强：明文仅「与尚未堕入浊黑的龙主立下重逢的誓言」，未见结盟/共同行动；所引引文亦未含誓言句", "fix": "谓词改 free:自定义『立下重逢誓言』：旅者（记述者）与龙主立下重逢誓言（后旅者重归时龙主已不辞而别）"}
+{"cid": 11653, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15040_2）", "fix": ""}
+{"cid": 11654, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15040_2）", "fix": ""}
+{"cid": 11655, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15040_2）", "fix": ""}
+{"cid": 11656, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15040_2）", "fix": ""}
+{"cid": 11658, "verdict": "uncertain", "reason": "betrays 过强且对象不当：原文作「旅者违背了同族的律则」，系违则非背叛（律则为规则非缔约方）", "fix": "谓词改「违背」：旅者违背同族律则，悄然将心灵探入壳中世界"}
+{"cid": 11659, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Relic15040_2）", "fix": ""}
+{"cid": 11660, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Book1275）", "fix": ""}
+{"cid": 11661, "verdict": "pass", "reason": "Book1275「直到最后抵达了尚被爬虫和蜥蜴们所统治的提瓦特，他才知道自己来到了从未被史籍记载的太古时代」（其自述梦旅，石板笔记存世）", "fix": ""}
+{"cid": 11662, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·Weapon11521）", "fix": ""}
+{"cid": 11663, "verdict": "pass", "reason": "宾语与引文一致（12_旅者·TextMap（7.x 主线））", "fix": ""}
+{"cid": 11664, "verdict": "pass", "reason": "引文截断（全句「他留在记录里的真名似乎叫做『阿那卡尔西』」）；真名与 Book1217 一致", "fix": ""}
+{"cid": 11665, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·AnimalCodex 20081001）", "fix": ""}
+{"cid": 11666, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1217）", "fix": ""}
+{"cid": 11667, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1196）", "fix": ""}
+{"cid": 11668, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1219）", "fix": ""}
+{"cid": 11669, "verdict": "uncertain", "reason": "located-in 不当：宾语系时间性描述（创世之初遗留），非场所", "fix": "谓词改 is-a：原初之光（创世碎片）是创世之初遗留下来的碎片（蕴藏点亮星辰的潜力与尚未逸散的希望）"}
+{"cid": 11670, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1219）", "fix": ""}
+{"cid": 11671, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1219）", "fix": ""}
+{"cid": 11672, "verdict": "uncertain", "reason": "witnesses 与引文不符：原文系「毁灭的判决已经写下，天使的长女亦无从更改」，系无力更改，非目睹事件", "fix": "谓词改 free:自定义『无从更改』：天使的长女｜（毁灭的判决已经写下，亦无从更改）"}
+{"cid": 11673, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1217）", "fix": ""}
+{"cid": 11674, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Relic15042_4）", "fix": ""}
+{"cid": 11675, "verdict": "uncertain", "reason": "located-in 不当：宾语系失踪状态（不知所踪），宜用库内「失踪」谓词", "fix": "谓词改「失踪」：圣徒与最初的神使均于灾厄后不知所踪"}
+{"cid": 11676, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1131）", "fix": ""}
+{"cid": 11677, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1130）", "fix": ""}
+{"cid": 11678, "verdict": "pass", "reason": "「无人知晓如何再度锻造…圣徒向他们先祖示现的奇物」逐字；「亲自熔铸」（Book1131 三宝磨）佐证创造义", "fix": ""}
+{"cid": 11680, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·AvatarSkill 11192）", "fix": ""}
+{"cid": 11681, "verdict": "pass", "reason": "引文「因为这便是它们最初向黄金城的圣徒立定的誓言」；part-of 表从属（立誓巡护），同 KG playbook", "fix": ""}
+{"cid": 11682, "verdict": "pass", "reason": "引文逐字（TextMap 469928）；剑系「黄金城的圣徒以月光锻造的最后一柄剑」，宾语括注「留于白泉」来自引文下半", "fix": ""}
+{"cid": 11683, "verdict": "pass", "reason": "引文逐字（Relic15042_1 遗嗣劝酒之语）；subject＝被谈论者、narrator＝说话人，属库内通行转述式", "fix": ""}
+{"cid": 11684, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1220）", "fix": ""}
+{"cid": 11685, "verdict": "pass", "reason": "宾语与引文一致（13_圣徒阿那卡尔西·Book1217）", "fix": ""}
+{"cid": 11686, "verdict": "pass", "reason": "无引文；14_古老者族裔·Relic15045_4 库内明文与宾语一致", "fix": ""}
+{"cid": 11687, "verdict": "uncertain", "reason": "located-in 不当：黄金时代系时代非场所（库内有 active-during 活跃于）", "fix": "谓词改 active-during：古老者族裔活跃于黄金时代（选择皆被允可、文明火光点亮漫天星辰）；引文另有「只存在于旧世记忆体中」限定"}
+{"cid": 11688, "verdict": "fail", "reason": "因果颠倒：寰宇湮灭系降临宇宙的灾劫（群体性癔症起→文明被抹平→星系蒸发），古老者族裔系受灾者与反抗者（「奋起反抗」），非引发者", "fix": "谓词改「遭遇/历经」：古老者族裔遭遇寰宇湮灭（文明在无声的夜里被抹平…星系在虚无中蒸发），其后奋起反抗；引发关系另见 11647（寰宇湮灭引发文明被抹平）"}
+{"cid": 11689, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_4）", "fix": ""}
+{"cid": 11690, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_4）", "fix": ""}
+{"cid": 11691, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_4）", "fix": ""}
+{"cid": 11692, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_4）", "fix": ""}
+{"cid": 11693, "verdict": "uncertain", "reason": "travels-to 与宾语不合：原文为「将探针伸向时间的终点」，抵达者为探针非族裔本体", "fix": "谓词改 free:自定义『以探针伸向』：古老者族裔以探针伸向时间的终点"}
+{"cid": 11694, "verdict": "pass", "reason": "「他们长久以来发现的每一道公式、每一个常数都在默然地宣告他们最后的死期」＋「他们的历史就在这一刻终结了」；dies-in 作喻（终结于）", "fix": ""}
+{"cid": 11695, "verdict": "pass", "reason": "引文逐字（Relic15045_4 结句自问）；系叙述者对族裔的评断，narrator 已标「Relic15045_4 叙述者」", "fix": ""}
+{"cid": 11696, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_5）", "fix": ""}
+{"cid": 11697, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_5）", "fix": ""}
+{"cid": 11698, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15045_5）", "fix": ""}
+{"cid": 11699, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15040_2）", "fix": ""}
+{"cid": 11700, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Relic15040_2）", "fix": ""}
+{"cid": 11701, "verdict": "pass", "reason": "无引文；14_古老者族裔·Relic15045_4 库内明文与宾语一致", "fix": ""}
+{"cid": 11702, "verdict": "pass", "reason": "宾语与引文一致（14_古老者族裔·Book1275）", "fix": ""}
+{"cid": 11703, "verdict": "pass", "reason": "引文「这五年来他都被困在一个漫长的噩梦里」逐字", "fix": ""}
+{"cid": 11704, "verdict": "uncertain", "reason": "resurrects 过强：原文系「沉眠的旅者在终焉追上之前醒来了」，系自冥思中醒来，未涉复活", "fix": "谓词改「醒来」或 free:自定义：沉眠的旅者于终焉追上之前醒来（经不知多少个千年的冥思）"}
+{"cid": 11705, "verdict": "pass", "reason": "引文逐字；系叙述者之问（关于星间旅者之梦），narrator 已标「Relic15045_4 叙述者」", "fix": ""}
+{"cid": 11706, "verdict": "pass", "reason": "无引文；14_古老者族裔·Relic15038_2／15038_3 库内明文与宾语一致", "fix": ""}
+{"cid": 11707, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11708, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11709, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11710, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11711, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11712, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_1）", "fix": ""}
+{"cid": 11713, "verdict": "pass", "reason": "引文「那便由你饮下这烈怒的苦酒…向那谴罚于我等的御使申辩」；「渎神的辩士」见同段上文", "fix": ""}
+{"cid": 11715, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_4）", "fix": ""}
+{"cid": 11718, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_4）", "fix": ""}
+{"cid": 11719, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_2）", "fix": ""}
+{"cid": 11720, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15040_2）", "fix": ""}
+{"cid": 11721, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15045_2）", "fix": ""}
+{"cid": 11722, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15045_2）", "fix": ""}
+{"cid": 11723, "verdict": "pass", "reason": "引文「…最终回应她的却只有漫长的沉默」逐字；系旁白记述其以沉默回应，narrates 从宽", "fix": ""}
+{"cid": 11724, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15045_2）", "fix": ""}
+{"cid": 11725, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15045_2）", "fix": ""}
+{"cid": 11726, "verdict": "pass", "reason": "宾语与引文一致（15_无名少年·Relic15045_2）", "fix": ""}
+{"cid": 11727, "verdict": "uncertain", "reason": "witnesses 方向不符：系后世仅存其一瞥（后人视角），少年非「见证」者", "fix": "谓词改 free:自定义『（后世仅存）』：无名少年｜后世仅留其星光般眼瞳无可言喻的一瞥"}
+{"cid": 11730, "verdict": "pass", "reason": "无引文；16_莱茵多特·NpcFirstMet 1051 库内明文与宾语一致", "fix": ""}
+{"cid": 11731, "verdict": "pass", "reason": "无引文；16_莱茵多特·TextMap 400062 库内明文与宾语一致", "fix": ""}
+{"cid": 11732, "verdict": "pass", "reason": "引文「同为莱茵多特之子…」；part-of 依 KG playbook（本行即 e3_c001 判例引用之范例）", "fix": ""}
+{"cid": 11733, "verdict": "pass", "reason": "无引文；16_莱茵多特·FetterStory#228 库内明文与宾语一致", "fix": ""}
+{"cid": 11734, "verdict": "pass", "reason": "无引文；16_莱茵多特·NpcFirstMet 1052 库内明文与宾语一致", "fix": ""}
+{"cid": 11735, "verdict": "pass", "reason": "宾语与引文一致（16_莱茵多特·NpcFirstMet 1052）", "fix": ""}
+{"cid": 11736, "verdict": "pass", "reason": "无引文；16_莱茵多特·arch_1703 库内明文与宾语一致", "fix": ""}
+{"cid": 11739, "verdict": "pass", "reason": "宾语与引文一致（16_莱茵多特·TextMap 567287）", "fix": ""}
+{"cid": 11740, "verdict": "uncertain", "reason": "说话人归属存疑：701514 说话人标签疑整体错位（「亲爱的莱茵多特…」亦标为莱茵多特），该句恐系纳贝里士/若娜瓦语（同 e3_c008/1773 判例）", "fix": "核实该句真实说话人后再定归属：在既定规则下排除风险，本就是「四影」应当承担的职责"}
+{"cid": 11741, "verdict": "pass", "reason": "引文「无论你们开出多高的筹码，我都不可能帮你对抗若娜瓦」；opposes 承载「拒绝招揽」，语势保留", "fix": ""}
+{"cid": 11742, "verdict": "fail", "reason": "主语与归还对象错误：引文系「富人」对薇斯纳所说（talk 701715），明灯归还薇斯纳（风仙）；莱茵多特系回收生之执政力量的一方，非归还/授予者（同 1797 判例）", "fix": "改述『富人（受女皇旨意）将明灯归还薇斯纳（风仙一族）；莱茵多特「似乎并不会细究力量是否完整回收」』；主语改「富人」或删条"}
+{"cid": 11743, "verdict": "pass", "reason": "宾语与引文一致（16_莱茵多特·src_1703:857）", "fix": ""}
+{"cid": 11745, "verdict": "pass", "reason": "宾语与引文一致（16_莱茵多特·TextMap 759694）", "fix": ""}
+{"cid": 11747, "verdict": "uncertain", "reason": "witnesses/引文均不合：引文「我并没有要动手的意思」至多证其在场；且该句说话人归属库内仍列悬案", "fix": "若保留「若娜瓦在场」义，宜换引文（如「死亡是不能被滥用的，若娜瓦女士」段并核准说话人）；否则删条或降 confidence 为存疑"}
+{"cid": 11748, "verdict": "pass", "reason": "NpcFirstMet1044「『丑角』」＋src_1703 说话人标签「艾弗提尔维特」（e3_c008/1816 同证）；本名仍列待核", "fix": ""}

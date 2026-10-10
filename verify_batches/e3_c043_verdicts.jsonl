@@ -1,0 +1,200 @@
+{"cid": 9017, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "引文逐字（Book295），「美奈姬这样说道」直证宣告者；宾语忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9018, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "该句系美奈姬语（下句武士驳「不知道你是从哪里听来的」），narrates 方向正确。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9019, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "该句系武士语（「说了无数次了…但说到底这个世界本来就是注定要毁灭的」），方向正确。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9020, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "主语选取微偏：系「空之塔的计划」完成、生命力被收集，claim 以地点「空之塔」作 participates-in 主语（塔不参与计划）。", "fix": "主语改「空之塔的计划」；或改述「（空之塔实施的）收集世界上残存生命力的计划得以完成」", "reviewer": "zcode-sub"}
+{"cid": 9021, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「空之塔的计划大概确实是完成了」＋「这个世界确实是毁灭了」＋「不愧是毁灭世界的公主」，destroys 概括合文意；时点括注正确。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9022, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我认为机会是创造出来的」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9023, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我起点不高，也没有本钱」＋行商语境，白手起家忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9024, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "宾语保留「排外只是表象、本质是…」的原文限定语。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9025, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「讲话的声音要响亮，给人一种底气十足的感觉」（先声夺人节）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9026, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「交涉最有力的武器是事实。而事实是可以人为操作的」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9027, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我曾想在璃月推销来自蒙德的商品」＋后文销售实况，行商身份忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9028, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我分析蒙德的标签是自由」——作者分析作「标签」标注，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9029, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「一般而言璃月人的需求则是安逸快乐的生活」直视。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9030, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我贩卖的不是货物，而是一种生活方式」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9031, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「问卷中我宣传参与问卷的人将有机会获得摩拉」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9032, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我同意你的观点，但…」被称为万能公式，直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9033, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「深渊法师…愿意重新思考并与我寻求认同」＋括注「据作者断言」保留转述性质。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9034, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「遭遇了形形色色的人，镀金旅团、盗宝团、甚至深渊教团」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9035, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「期望你们不要按照我的说法去做」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9036, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「仁慈的众水之主，为我们背负罪孽的女主人」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9037, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我们只会向一位屈膝」＋前文「湖光的伊黎耶骑士」，效忠关系忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9038, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「战胜了拜卢亚克、阿崔伯特和费若反德各郡的王子，接受了他们的归顺」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9039, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「卡卑秃城的利魔世皇帝」直证；「以颂福纳·卡卑秃令为号」可读作以其为号令/法统，合「皆已归附了尊贵谐荣的颂福纳」。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9040, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "使者传旨原话（「利魔世皇帝要您和您的臣民交出水和土」），narrates 转述成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9041, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「勃然大怒，拔出…圣剑」＋「只消一击便可在此将您枭首」，敌对行为直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9042, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「利奥奈的王子，善挽弓弦的戴思骑士」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9043, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「苍帆的贵妇人…名字叫做爱绮妲的，意思是冰的女儿」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9044, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「请您早日下定决心，同卡卑秃人的朝廷争战」直证（宾语已注明力主开战）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9045, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「对这世上的任何君王，我们都不负有臣服的义务」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9046, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我还要率领受她祝福的大军，使那白龙与大城一同倾陨」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9047, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "回目「三次将她的剑丢在湖里」＋正文三掷（均飘回），忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9048, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「黄金的剑柄上镶嵌着苍水晶」「纯水的贵妇人曾将你赐予骑士的首领」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9049, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「想那湖畔的少女黛怡莱，纯水的贵妇人曾将你赐予骑士的首领」系同位语，传剑经其手成立（另有「黛怡莱仙子」条目旁证）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9050, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「唯有罪能够裁定罪，唯有人能够审判人」直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9051, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我的罪太重，不容宽赦」＋「唯有离逐能免除我的忧虑」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9052, "round": "E3-c043", "method": "subagent", "verdict": "fail", "reason": "主客颠倒：引文系伊黎耶向耀光剑的致辞（「海色明眸的骑士言罢…『高贵的欧蒂克莱尔啊…终有一日会有高贵之人…重新拾起你』」），预言发出者为伊黎耶，剑系被预言「将被重新拾起」的对象，却写成 prophesies 主语。", "fix": "改「伊黎耶｜prophesies｜（对耀光剑）终将有一位胜过她七倍高贵之人重新拾起欧蒂克莱尔，成就下七倍功行」；或谓词改「被预言将…」", "reviewer": "zcode-sub"}
+{"cid": 9053, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「向我展现我急切渴慕的纯水之杯，准许我完成这旅途」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9054, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「『尊金冒险家』哈萨德」引号称号直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9055, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「只有无名的沙漠神祇才知道我遭遇了何等可怖的噩运」直证（宾语括注「受诅者的」正确）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9056, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「那些任何人都不曾窥见的古老秘密，使我身负…咒缚」——受诅者系秘密的作用人与知情人，宾语保留原文措辞。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9057, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「使我身负三重又三重的咒缚，成为无形活物的传谕使」直证（quote 断行符归一化后命中）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9058, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在阴影中注视着我的邪灵命我设下了三重挑战」——narrates 承载其言（命令），方向正确（同库内 4443/5098 口径）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9059, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「将那些从被诅咒的黄铜之城带出的宝藏隐藏其中」直证（隐藏于三重挑战中）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9060, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「迪弗曾寄居的深坑道」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9061, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，source 粗查 Book454/455：「当火焰按照正确的顺序点燃…我便将从这无尽的咒缚中解脱」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9062, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「但那些永恒的存在不会死去」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9063, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在永久荒芜的沙漠深处，有比最古老的金字塔更古老的存在」＋「阿吉夫的邪灵」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9064, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「邪灵低语…念叨着那个被诅咒的名字，希鲁伊」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9065, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我看到最高傲的权贵…最悲惨的贫民」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9066, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「最高傲的权贵」＋「蛛网般的黑暗街巷把他们分隔两半」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9067, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "呼喝原话（同僚与上司），narrates 承载其言成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9068, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「被贵族抛弃的少女祈求巴巴托斯的善意」直证；祈求神明承载崇拜/信仰行为。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9069, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「少女祈求巴巴托斯」＋「蝼蚁的呻吟无人听到」综合，宾语括注忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9070, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「她是流浪乐团的晨光，也是弑杀贵族的凶手」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9071, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「尽管全身被枷锁与镣铐束缚，但在她的沉默中有歌声环绕」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9072, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「为何他们命你们筑起高墙？」系舞者问话，直引。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9073, "round": "E3-c043", "method": "subagent", "verdict": "fail", "reason": "主客颠倒：引文「讲述着贵族们拥有神力的先祖」意为贵族之先祖拥有神力；ancestor-of 定义「X 是 Y 的先祖」，现「贵族 ancestor-of 拥有神力的先祖」把方向写反（贵族成了先祖的先祖）。", "fix": "改「拥有神力的先祖（舞者歌谣所述）｜ancestor-of｜（旧蒙德的）贵族们」；或改述「贵族｜（歌谣讲述其先祖拥有神力）」", "reviewer": "zcode-sub"}
+{"cid": 9075, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "谓语与死亡均欠明文：原诗仅「最后一首歌谣」「溅血的大竞技场」间接暗示其死，未着死字；dies-in 定义宾语应为事件（现为场所）。", "fix": "改述「（诗中间接暗示）殒命于贵族竞技场（最后一曲；无名骑士将其剑带离）」；或谓词改「献上最后一曲」", "reviewer": "zcode-sub"}
+{"cid": 9076, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「无名的骑士将她的剑带离溅血的大竞技场，埋葬在和风集聚的地方」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9077, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「药商名为钱谷」＋「成了璃月港远近闻名的富商」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9078, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「山贼…将之击晕掠走钱财」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9079, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「端坐着一位须发皆白的老叟」（怪石上）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9080, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「老叟自称山中人氏，随处而居，席地而眠」直证（「自称」语气轻微简化，不影响）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9081, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "possesses（持有权能/力量）与「收下一枚摩拉」不符，属谓词失配；事实无误。", "fix": "谓词改「收下/受赠」：山叟仅收一枚摩拉（权作爱女大婚喜宴份子钱）", "reviewer": "zcode-sub"}
+{"cid": 9082, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「有人说钱谷发迹之后，曾专程去绝云间寻人…一无所获」宾语与引文高度重合，忠实（传闻口吻系书籍体裁）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9083, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「并非从一开始便由岩王帝君统治」＋「众多魔神漫步大地」，宾语括注「非自始」时点处理正确。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9084, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「归离原…曾开遍琉璃百合」＋「女子…沿碧水河的浅滩而行」＋「那处河岸，如今正盛开着琉璃百合」，located-in 碧水河畔合文意。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9085, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「身穿靛蓝长衣的女子，沿碧水河的浅滩而行」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9086, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "叙述者缺位：「有人猜测她…」猜测主体为宾客/流言，claim 以女子为 narrates 主语，转述链方向欠明（同库 14738 口径）。", "fix": "改述「（望舒客栈宾客等）猜测归离原女子是迷失过去的仙兽、已死魔神的孤独孑遗」；或 narrator 补注", "reviewer": "zcode-sub"}
+{"cid": 9087, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「目睹她持剑同另外几个凶险的黑影起舞…留下一团血尘」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9088, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "dies-in 定义宾语应为事件；此处宾语为地点、死因未明（仅「横尸河边」，与河畔女子之谜的关联系叙述悬疑）。", "fix": "谓词改「殒命于」；或改述「次日横尸归离原河畔（死因未明）」", "reviewer": "zcode-sub"}
+{"cid": 9089, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「总务司发起了多次搜索」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9090, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「传说女子曾经徘徊的那处河岸，如今正盛开着琉璃百合」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9091, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「侠客之所以为侠客，乃因为他们是超脱俗世规则的仗剑之人」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9092, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "谓词方向存疑：「根据古代预言」表明龙王系被预言对象（发预言者为古代预言一方），prophesies 主语宜为发预言者或改被动（同库 16463 口径）。", "fix": "改「（古代预言）水之元素龙王将以人形重生（被预言将…）」", "reviewer": "zcode-sub"}
+{"cid": 9094, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，source 粗查 Book336：「『尼乌』为牛，『宇麻』为马，『林彘』为林猪」＋「两代内灭绝」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9095, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「根据御使与大御神的预言…迟早有一天会全部去往海面上」直证（省略「御使」可）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9096, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「大日御舆的白夜与常夜轮转」「建设完成之前，一直都是常夜」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9097, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「蜃楼现象与罪影的名字最早都叫『爱多隆』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9098, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「白夜里…叫『阳炎幻』，常夜中的…『不知火幻』…因原理一致被统一叫做『阳炎幻』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9100, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "seals（封印）与「海祇大御神禁止了这个谜题的流传」不符，属谓词失配；事实无误。", "fix": "谓词改「禁止其流传」：海祇大御神禁止谜 6 后续版本流传", "reviewer": "zcode-sub"}
+{"cid": 9101, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，source 粗查 Book336 附录「鸣神式改称法」：卡伊洛斯-常世大神，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9102, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，附录对照：阿布拉克-阿倍良久，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9103, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，附录对照：厄尔玻斯、厄伯斯-艾波西、乌帽子，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9104, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「阿斯克勒庇俄斯-栖令比御」附录逐字。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9105, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "谜面「我是光明之父的晦暗子嗣」＋谜底「答案是烟」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9106, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「兰吉努伊之底是我家乡」＋「祖父祖母的故乡」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9107, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「流歌之泉瓦亚塔…风须之谷特帕豪…丰饶之地波伊卡…皆是祖父祖母的故乡」，诗中以兰吉努伊（之底）统摄，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9108, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「他曾是同高天言说的贤者，是大地的勇士，灵魂归于高天朝阳上，天便成了兰吉努伊」直证（断行归一化命中）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9109, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「失落的天之使者部族修建的金石之城，却毁于高天降下的烈火与上古君王的狂怒」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9110, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「尽皆被山崩般的灾难、野火般的暴行摧毁…我的祖先一度富裕无忧，却陷入饥馑流浪」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9111, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在第二十五夜的鳗鱼起舞之时」启程直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9112, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「撑着独木舟戴羽冠的摆渡人」直证（「亡者渡口」为文化注解）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9113, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我将再度同族人相聚在海里尼的花园，那是被遗忘的人之君王出生的地方」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9115, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「降至玛伊尼尼，那里的暗流柔顺却又锋利」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9116, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「来到斑驳的绿原——先祖称之为卡霍提阿」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9117, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我曾攀登荒芜孤独的火山，我的双眼见证了无数温泉」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9118, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「魔神战争期间由盐之魔神初建」＋「过于柔弱的魔神…收拢了那些战火中无助流亡的人们」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9119, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「并非死于与神的对决，而是死于她所深爱的凡人的背叛」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9120, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「他以手中的长剑弑杀了孤独的魔神」＋「第一位凡人之王」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9121, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「遗体依旧留在这片遗迹深处…保持着被长剑刺穿那一瞬间的姿态」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9122, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "谓词过强：引文止于「削岩塑枪…刺穿了」，未言毁灭；且库内明载该魔神被「镇回孤云阁之下」（未被消灭）。", "fix": "谓词改「镇压/刺穿」：岩之神削岩塑枪刺穿并镇压深海作乱的魔神", "reviewer": "zcode-sub"}
+{"cid": 9123, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「摩拉克斯镇服为害璃月的螭兽，螭死后…」——螭已死，destroys 成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9124, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "part-of（组织/群体成员）失配：引文明言废墟系魔神与其部众「所留下」，非成员关系（同库 E3-c039 口径）。", "fix": "谓词改「系…所遗留」：青墟浦遗迹系（岩之神执掌璃月之前）名讳已不可考的魔神与其部众所遗留", "reviewer": "zcode-sub"}
+{"cid": 9125, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「柊家的弘嗣公曾在荒岛上奇迹般建起商港」直证（宾语已注「柊家先祖」义）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9126, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「许多外国人在岛上滞留」＋「锁国令」语境，located-in 稻妻成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9127, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「久利须先生是当地的商会会长。他来自枫丹」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9128, "round": "E3-c043", "method": "subagent", "verdict": "fail", "reason": "事实错误：原文「一个叫阿釜的当地青年帮了我许多忙，我才能成功从离岛脱身」——「当地」即离岛；库内佐证阿釜居离岛、系「鹤观人的后代」（任务文本「把信交给离岛的阿釜」「阿釜竟然是鹤观人的后代…？」）。宾语「鹤观当地青年」把居地写错。", "fix": "改「离岛青年（鹤观人的后代；助罗尔德从离岛脱身、引领其深入鹤观迷雾）」", "reviewer": "zcode-sub"}
+{"cid": 9129, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「就像这片雾气在没来由地拒绝我一样」＋「死气沉沉的荒岛」忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9130, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「稻妻人传说这种菌类乃是由鹤观亡者们古老浓稠的记忆凝结而成的活物」直证（已标转述）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9131, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在蒙德的古旧童话中，这座雪山是被时间之风遗弃的惩戒之地」直证（已标转述）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9132, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「建筑风格与图案细节与其他地区的无名古建筑有着惊人的一致性。从这一点看来，传说中那个古老的雪山国度很可能正在我的脚下」，遗迹属古国（地理从属）成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9133, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "part-of 失配：遗物系「年代较近…似乎能追溯至蒙德的贵族时代」，时代非组织/群体。", "fix": "谓词改「（可追溯至）」：雪山山径遗物可追溯至蒙德的贵族时代（衣物碎片与武器，似有追逐或谋杀）", "reviewer": "zcode-sub"}
+{"cid": 9134, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，source 粗查 Book57：爱德华多「我可是冒险家协会的正式成员，和盗宝团绝对没有关系」；宾语含「自称」标记，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9135, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我可背不起『冒险家』这个大名了，『冒失家』还差不多」＋屡次丢失日志语境，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9136, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「璃月港让轻策山富庶安适，却也令轻策山不可逆转地渐渐老去」＋「年轻人大多去璃月港务工了」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9137, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「金发的旅行者和…『派蒙』…为我采摘了当地的『幽灯蕈』」「帮忙带来的古代壁画相片」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9138, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "「绘本第一人称叙述者」无据：全书通篇以「嘟嘟可」第三人称指称（仅「我们的嘟嘟可」与可莉台词含「我」），无第一人称叙述。", "fix": "宾语删「第一人称叙述者」，或改「（绘本主角，通篇以嘟嘟可视角展开）」", "reviewer": "zcode-sub"}
+{"cid": 9139, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "母亲身份归属未明：原文仅「一位温柔又美丽的母亲曾经这样说过」；库内旁证（可莉语「这是妈妈告诉我的」）指向可莉之母，非「嘟嘟可的母亲」。", "fix": "主语改「一位温柔又美丽的母亲（绘本；可莉语音『这是妈妈告诉我的』指向可莉之母）」", "reviewer": "zcode-sub"}
+{"cid": 9140, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「可莉决定去雷电的国度冒险」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9141, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "「未能同行」系引申：原文仅「阿贝多哥哥没有时间和可莉、嘟嘟可一起画画了」「大人有『大人』的事情要忙」，未明言行止（同库 8225 口径）。", "fix": "宾语改「因『大人』的事情忙碌、无暇同可莉与嘟嘟可一道的兄长（绘本）」", "reviewer": "zcode-sub"}
+{"cid": 9142, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在雷电的国度稻妻…一切都是紫色的」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9143, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「荣誉骑士大哥哥带着嘟嘟可爬上了高高的影向山」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9144, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「躺在神樱树下呼呼睡起了大觉」＋影向山语境，神樱位于影向山成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9145, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「所有人都长出了天狗一样的翅膀。可莉…红色，宵宫…金色，荣誉骑士…青色」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9146, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「派蒙…没有翅膀就能飞」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9147, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「宵宫大姐姐说：『只要想象力没有干涸，心就比什么都自由。』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9148, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「可莉也忍不住说：『我们是永远都不会分开的好朋友。』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9149, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "叙述者为嘟嘟可内心独白（自由间接引语），narrates 成立（同库 11966 口径）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9150, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在贵族时代，蒙德的僭主们从不修史，也禁止民间历史讽喻诗流传」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9151, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，「传说这是因为他们对自身的堕落深有所知…避免将自己与先祖同载史册」；宾语含「（传说）」限定，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9152, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「本书整理…旨在重新发掘自列王时代到旧贵族灭亡的漫长历史」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9153, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「旧蒙德冰霜列王相争」直证（相争＝互为对抗）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9154, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「巴巴托斯为蒙德唤得新生」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9155, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「巴巴托斯赐予的『自由』也是解脱过去枷锁、追寻真相的自由」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9156, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「烈风高塔之王与北风的狼王」标题＋「巴巴托斯降临之前，旧蒙德冰霜列王相争」综合，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9157, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「主要讲述旧贵族在蒙德的漫长统治」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9158, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「真名无足轻重，仅以鲁热之名…流浪」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9159, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「他们自愿奉献己身，以向陷于困顿与潦倒的人们伸出援手」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9160, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「因她们的据理力争，弗里曼得免流放」直证（survives 承载「得免」）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9161, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「正如他的恩人欧芙女士所言：『真理永远在前进，没有任何东西能阻挡它。』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9162, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「利亚姆曾经写歌…嘲笑伪君子们」「利亚姆会带着他的琴远走高飞」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9163, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「仅将生命虚掷于决斗场中」「一切竟已被管家布拉德特腐蚀一空」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9164, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「一切竟已被管家布拉德特腐蚀一空」＋「财产与荣誉尽数归于他人」，steals 承载侵吞义。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9165, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「阿托斯手刃仇人布拉德特，将他尸身沉入塞洛海原」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9166, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「曾经在甜蜜的谎言中，作为傀儡起舞」「女儿已经被夺走」「秋愿自己的女儿生活在完美的世界中」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9167, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "part-of 失配：佩妮系「被托付给鲁热」的孩子（免于颠簸漂泊），非「鲁热」的成员。", "fix": "谓词改「被托付于」：佩妮（受帕克与巴罗托付给鲁热，免于颠簸漂泊）", "reviewer": "zcode-sub"}
+{"cid": 9168, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「帕克与丈夫立下环游枫丹的誓言，他们的一生都在路上」（巴罗同文互证）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9169, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「克桑图斯就写过他在北方那些蛮族部落的见闻，说他们…」直证（已标转述）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9170, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我就老老实实承认，我写的就是彻头彻尾的假话」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9171, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我们是来自雷穆利亚的航海家，打算看看大洋尽头」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9172, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「骑在巨鸟背上的匪人把我们当头拦住，向我们索要土豆」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9173, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「更像直立行走的龙蜥」「骑在膨膨兽背上的战士」＋索拉里斯帝国军人语境，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9174, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「这世上哪有什么『雷穆利亚』，不过是那些南方蛮族杜撰出的伪史罢了」（骑士语）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9175, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「卢基里乌斯…发明了一种方法，能让一部分人获得…奇特能力」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9176, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「帝国目前正处于内战」＋两派之争叙述综合，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9177, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「看我们的打扮…来自亥珀波瑞亚的行商」＋前文「塞伦努姆」猜测，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9178, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「真实程度不比什么『纯水骑士』更高」——纯水骑士系当世流传之传说，括注保留推断关系。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9179, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「一面高高的墙，那面墙伫立在大海正中央」「说假话…死后都会被挂到这面墙上受审罚」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9180, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「岛屿名叫阿摩里亚，据说是爱的意思」「居民似乎全都是女人」「一切都是用黄金制成的」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9181, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「那女人大笑了几声，转眼化作一滩水」＋「说要送给我们无数财宝」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9182, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「索拉里斯人送给我的战利品：一枚泡泡桔」＋以之威慑妖异（化水而遁），忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9183, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「一连行驶了七十九天…第八十天…遭到了袭击」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9184, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我们又航行了三百天…遇到了一面高高的墙」＋黄金城邦岛屿直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9185, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「曾经在大陆上生活着一群没有影子的人」「已经很久不会做梦」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9186, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「冒险家说：『影子里藏着灵魂的秘密…』」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9187, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「她就是冒险家所说的捕梦者…影子像缀满宝石的帷幔」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9188, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「那只是一个关于死者的故事…」（捕梦者语）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9189, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「有位来自伐护末那学院的陀裟多」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9190, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「她那双琥珀色的眼瞳能够洞悉死者见过和生者见到的一切」直证（已标转述）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9191, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「见利忘义，不认自己」之悬念成真：三度受恩（引路/授业/助其升迁）而拒其请（旁听生、族人避雨林），betrays 成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9192, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "「以幻境」系解读：本条引文仅及结尾一瞬（喀万驿前），「幻境赠荣升又尽数收回」的全情节概括无逐字明文（原文以梦境/时间手法暗示）。", "fix": "改述「（疑似幻境或逆转）陀裟多历尽荣升又被尽数收回，回到喀万驿再遇年轻魔法师」", "reviewer": "zcode-sub"}
+{"cid": 9193, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，「在奥摩斯港还由远航诸海的代伊们统治的年代」；commands（统辖）成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9194, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我本是侍奉高天的神明，统御沙海中诸多藩国的王…变成了现在这副模样」（驮兽自述，已标转述）直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9195, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「不过是一只谦卑的圣金虫罢了」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9196, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我要公平的时间」「已经支付了其中的一部分（青春）」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9197, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「镇灵…依言为学者实现了愿望」「凡事都有代价」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9198, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "founds（创立）与「设计了这座宫殿」不符（仅言设计，未言兴建），谓词失配。", "fix": "谓词改「设计」：国王设计镜子宫殿（两百年又六年）", "reviewer": "zcode-sub"}
+{"cid": 9199, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「她寻得了那个遥远国度的线索…最终找到了那个梦中的国度。只是城市早在几百年前的一场大火中焚毁」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9200, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「女人便将一把匕首刺入了她的心脏」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9201, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「少年成为中年，中年成为老者」＋「追逐那些散入林间的学舌之鸟」（少女＝亡者），忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9202, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，「少女因罹患暴疾，在少年离开后很短的时间就归于冰冷夜晚」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9203, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "wields（持用器物）与宾语「话语」失配：引文系「学舌之鸟…是少女…筹备的话语」（承载/复述关系）。", "fix": "谓词改「承载/复述」：学舌之鸟（承载）少女临终为少年余生筹备的话语", "reviewer": "zcode-sub"}
+{"cid": 9204, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "「管理人」「守宝箱」欠据：库内伊迪娅自称「大家的『吉祥物』」、为「修复老旧的设施」苦恼；宝箱系「千奇澴回」项目前人埋藏（她提供匣子/接待），无「守宝箱」明文。", "fix": "改述「蜃境（游园会）的接待者（自称『吉祥物』；热心招待访客、赠礼，发放『千奇澴回』特制匣子）」，删「守宝箱」", "reviewer": "zcode-sub"}
+{"cid": 9205, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，「说是要『修复老旧的设施』」（Book589）＋「伊迪娅小姐已经在试图修复蜃境了」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9206, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我本是一名普通的佣兵，脱离了组织，习惯单打独斗」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9207, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我会从事这门刀尖舔血的职业…向贼匪们复仇」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9208, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「如果不是伊迪娅小姐搭救我…」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9209, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「趁我为此震惊之余，刺伤了我，并遁入了沉谧夜色之中」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9210, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「在这次的贼匪之中，居然有一名…少年」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9211, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我是一位梨多梵谛学院的学生」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9212, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "located-in 失配：蜃境本身即空间（「在这片空间里观测星象」），非「位于」某空间。", "fix": "谓词改 is-a：蜃境｜是｜（星辰位置不变而观感更清晰、便于记录的）特殊空间（星空复刻/优化）", "reviewer": "zcode-sub"}
+{"cid": 9213, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "无引文，「视野比雨林区要开阔，空气又比沙漠中更湿润、通透」「很少有魔物…搅局」，忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9214, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「『盖子不行，不如试试看底吧…』伊迪娅小姐…说的话令我醒悟」——narrates 承载转述（已标转述）成立。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9215, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「为什么明明为贼匪所害的人，也会成为贼匪？」直证（宾语括注其循环之思）。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9216, "round": "E3-c043", "method": "subagent", "verdict": "uncertain", "reason": "founds（创立）与「决意从事…另一种战斗」不符（系志向非创立行为）。", "fix": "谓词改「决意/立志」：（留言者）决意从事与战斗有别的『另一种战斗』（从源头防人沦为贼匪）", "reviewer": "zcode-sub"}
+{"cid": 9217, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「我还要穿越沙漠返回教令院去」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9218, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「戈德森的一生无疑是不幸的」＋「他的童年在清泉镇度过…这里的猎人们」（父亲为猎人）忠实。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9219, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「戈德森七岁那年夏天，父亲带他进蒙德城看羽球节的马戏表演」直证。", "fix": "", "reviewer": "zcode-sub"}
+{"cid": 9220, "round": "E3-c043", "method": "subagent", "verdict": "pass", "reason": "「他的童年在清泉镇度过，泉水精灵的看护下…」直证。", "fix": "", "reviewer": "zcode-sub"}

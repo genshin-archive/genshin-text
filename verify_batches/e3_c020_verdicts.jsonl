@@ -1,0 +1,200 @@
+{"cid": 4195, "verdict": "pass", "reason": "优菈评米卡远征归来、实力增强；『大团长没有怠慢对大家的训练』原文，宾语概括基本忠实", "fix": ""}
+{"cid": 4196, "verdict": "fail", "reason": "认可者错误：『我看了调度，十分得当』系法尔伽语（Fetters #8450 属法尔伽页『关于优菈…』，同页 #8434/#8435『关于自己·北风骑士/远征』），非琴；出处说话人亦标错", "fix": "宾语改『获法尔伽认可』；出处改『法尔伽·语音·关于优菈（Fetters #8450）』"}
+{"cid": 4197, "verdict": "pass", "reason": "克洛琳德自述枫丹廷决斗代理人；part-of 方向正确", "fix": ""}
+{"cid": 4198, "verdict": "pass", "reason": "『神之眼』于富商决斗场景首现（『不知道何时出现在她胸前』）；雷元素为其属性", "fix": ""}
+{"cid": 4199, "verdict": "pass", "reason": "原话直录：代表枫丹律法与规则", "fix": ""}
+{"cid": 4200, "verdict": "pass", "reason": "引文『在代理决斗中，她从无败绩』", "fix": ""}
+{"cid": 4201, "verdict": "pass", "reason": "原话直录：对手落败或投降、从未输过", "fix": ""}
+{"cid": 4202, "verdict": "pass", "reason": "复律官释『审判结果下达后可提出代理决斗』", "fix": ""}
+{"cid": 4203, "verdict": "pass", "reason": "引文系复律官对年轻同事语，主语正确", "fix": ""}
+{"cid": 4204, "verdict": "pass", "reason": "角色故事旁白（谎言之鞘喻），宾语忠实", "fix": ""}
+{"cid": 4205, "verdict": "pass", "reason": "引文『布条被一一精确挑断』，上下文施动者为克洛琳德", "fix": ""}
+{"cid": 4206, "verdict": "pass", "reason": "藏械决斗者被放倒、因『蔑视审判庭』罪加一等，宾语有据", "fix": ""}
+{"cid": 4207, "verdict": "pass", "reason": "观看者观察语气（『有人说』）；宾语忠实于引文", "fix": ""}
+{"cid": 4208, "verdict": "pass", "reason": "旁白：公平决斗分出胜负即代理决斗唯一意义", "fix": ""}
+{"cid": 4209, "verdict": "pass", "reason": "原话直录：自缚眼/限步保证公平", "fix": ""}
+{"cid": 4210, "verdict": "pass", "reason": "主语为传言市民，忠实转述净剑仪式猜测", "fix": ""}
+{"cid": 4211, "verdict": "pass", "reason": "传言内容直录（市民传言者）", "fix": ""}
+{"cid": 4212, "verdict": "pass", "reason": "审判庭通告『对营造及传播流言者正式起诉』", "fix": ""}
+{"cid": 4213, "verdict": "pass", "reason": "『本场审判的决斗代理人，本庭定为克洛琳德小姐』", "fix": ""}
+{"cid": 4214, "verdict": "pass", "reason": "『分内事。』原话，括注场景成立", "fix": ""}
+{"cid": 4215, "verdict": "pass", "reason": "原话：净剑仪式=保养武器+凝神", "fix": ""}
+{"cid": 4216, "verdict": "pass", "reason": "引文：谣言痕迹只存留于剧本与小说", "fix": ""}
+{"cid": 4217, "verdict": "pass", "reason": "引文：黄金猎人创立逐影猎人（传说段）", "fix": ""}
+{"cid": 4218, "verdict": "fail", "reason": "主客颠倒：member-of 定义 X 为 Y 的普通成员，引文系黄金猎人召集『纯水骑士』后裔等英雄加入逐影猎人；应写纯水骑士后裔为逐影猎人成员，现方向倒置", "fix": "主客对调：『纯水骑士』后裔（被召集的一众英雄）｜member-of｜逐影猎人"}
+{"cid": 4219, "verdict": "pass", "reason": "引文：自枫丹建立之初至全境安宁后名号隐没", "fix": ""}
+{"cid": 4220, "verdict": "pass", "reason": "无引文；#657 原文含六句训誓并述『从戏剧或小说里听来』，宾语有据", "fix": ""}
+{"cid": 4221, "verdict": "pass", "reason": "引文：师从逐影猎人佩特洛妮拉", "fix": ""}
+{"cid": 4222, "verdict": "pass", "reason": "引文：剑技要求贴近猎物、最快速度刺要害", "fix": ""}
+{"cid": 4223, "verdict": "pass", "reason": "引文：佩特洛妮拉将其丢入旋转立柱机关房", "fix": ""}
+{"cid": 4224, "verdict": "pass", "reason": "原话直录（袋中之物三选）", "fix": ""}
+{"cid": 4225, "verdict": "pass", "reason": "引文：同时学习射击/追踪/隐匿术与步法", "fix": ""}
+{"cid": 4226, "verdict": "uncertain", "reason": "谓词不当：『不告而别』系离开/失踪，非 travels-to『抵达』；宾语亦无地点", "fix": "谓词改『离开/失踪』"}
+{"cid": 4227, "verdict": "uncertain", "reason": "『不知去向』主体为卡雷斯，非克洛琳德；克洛琳德 knows-of『卡雷斯亦不知』无明文", "fix": "主语改卡雷斯；或改述『佩特洛妮拉去向无人知（卡雷斯亦然）』"}
+{"cid": 4228, "verdict": "pass", "reason": "引文：披风内纹逐影猎人纹章；同一件为其标志装扮", "fix": ""}
+{"cid": 4229, "verdict": "pass", "reason": "引文：佩特洛妮拉总穿纯黑披风", "fix": ""}
+{"cid": 4230, "verdict": "pass", "reason": "引文：刻名短剑项链（迟来的生日礼物）", "fix": ""}
+{"cid": 4231, "verdict": "pass", "reason": "引文：考验穷尽其一生", "fix": ""}
+{"cid": 4232, "verdict": "pass", "reason": "引文：逐影猎人的剑今应斩败目无法纪恶徒", "fix": ""}
+{"cid": 4233, "verdict": "pass", "reason": "括注两项均有据（娜维娅带入『桌上剧团』；克洛琳德长期为其做剧本主持人），主语跳换建议拆分", "fix": ""}
+{"cid": 4234, "verdict": "pass", "reason": "引文：『桌上剧团』常客", "fix": ""}
+{"cid": 4235, "verdict": "uncertain", "reason": "三部剧目系老板搬出的剧本清单，未明言克洛琳德逐一游玩", "fix": "改『（老板搬来供玩的）剧本含…』或补游玩依据"}
+{"cid": 4236, "verdict": "pass", "reason": "引文：搭档玩家语『更像是剧本主持人』", "fix": ""}
+{"cid": 4237, "verdict": "pass", "reason": "引文+『零食攻势/倒扣规则书』语境", "fix": ""}
+{"cid": 4238, "verdict": "pass", "reason": "原话：一般不工作到晚上", "fix": ""}
+{"cid": 4239, "verdict": "uncertain", "reason": "谓词不当：相识非 travels-to『抵达』", "fix": "谓词改『结识』"}
+{"cid": 4240, "verdict": "pass", "reason": "原话：欣赏娜维娅乐观对待战场", "fix": ""}
+{"cid": 4241, "verdict": "pass", "reason": "引文：生日剧本局扮开枪百发百失的私人医生", "fix": ""}
+{"cid": 4242, "verdict": "pass", "reason": "旁白：克洛琳德认为逐影猎人与决斗代理人职责无差异", "fix": ""}
+{"cid": 4243, "verdict": "pass", "reason": "引文：佩特洛妮拉所述某猎人离队追猎", "fix": ""}
+{"cid": 4244, "verdict": "pass", "reason": "原话：抛弃剑鞘的剑终将锈蚀", "fix": ""}
+{"cid": 4245, "verdict": "pass", "reason": "原话：方糖与勺子之喻", "fix": ""}
+{"cid": 4246, "verdict": "pass", "reason": "原话：勿使战斗目的变成战斗本身", "fix": ""}
+{"cid": 4247, "verdict": "pass", "reason": "原话：遵循逐影猎人制式（铳枪驱赶、长剑致命）", "fix": ""}
+{"cid": 4248, "verdict": "pass", "reason": "原话：代理决斗一般只用长剑", "fix": ""}
+{"cid": 4249, "verdict": "pass", "reason": "引文：五分钟挑飞初试官；擂台挑战由决斗测验转变而来", "fix": ""}
+{"cid": 4250, "verdict": "pass", "reason": "引文：前辈代理人『不会是如此单纯的战斗』", "fix": ""}
+{"cid": 4251, "verdict": "pass", "reason": "富商提起代理决斗并雇人看台造势，宾语（舆论战）有全文支持", "fix": ""}
+{"cid": 4252, "verdict": "pass", "reason": "无引文；179426 富商台词『我有品德，够慷慨，心肠也不错』", "fix": ""}
+{"cid": 4253, "verdict": "pass", "reason": "引文：克洛琳德看见其眼中骄纵轻狂", "fix": ""}
+{"cid": 4254, "verdict": "pass", "reason": "引文：一剑削断珠宝之剑、斩断议论", "fix": ""}
+{"cid": 4255, "verdict": "pass", "reason": "原话：公理告知真相、眼睛看见事实", "fix": ""}
+{"cid": 4256, "verdict": "pass", "reason": "引文：只有剑能证明名誉", "fix": ""}
+{"cid": 4257, "verdict": "pass", "reason": "引文：被称为『刽子手』的原因", "fix": ""}
+{"cid": 4258, "verdict": "pass", "reason": "引文：临阵投降者冤屈系自私一家之言", "fix": ""}
+{"cid": 4259, "verdict": "pass", "reason": "引文：罪人以污染水源掩盖污秽", "fix": ""}
+{"cid": 4260, "verdict": "pass", "reason": "引文：正义掺杂人情成私刑", "fix": ""}
+{"cid": 4261, "verdict": "pass", "reason": "引文：报道被人情与摩拉带偏", "fix": ""}
+{"cid": 4262, "verdict": "pass", "reason": "引文：剑是决斗者心灵的延伸", "fix": ""}
+{"cid": 4263, "verdict": "pass", "reason": "引文：有代理人称神之眼为震慑手段", "fix": ""}
+{"cid": 4264, "verdict": "uncertain", "reason": "谓词错配：宾语为『魔物与凶徒的本质差异』（观点论述），enemy-of 要求敌对双方", "fix": "谓词改 narrates；宾语改『魔物生来邪毒 vs 恶人自寻恶孽之辨』"}
+{"cid": 4265, "verdict": "pass", "reason": "原话：亲手打造短剑项链作生日礼", "fix": ""}
+{"cid": 4266, "verdict": "pass", "reason": "引文：传统（首次生日由导师打造刻名短剑项链）", "fix": ""}
+{"cid": 4267, "verdict": "pass", "reason": "原话：铳枪走火故不作指问内心之形", "fix": ""}
+{"cid": 4268, "verdict": "pass", "reason": "原话：那维莱特判决最公正", "fix": ""}
+{"cid": 4269, "verdict": "pass", "reason": "原话：以剑强调判决公正性", "fix": ""}
+{"cid": 4270, "verdict": "pass", "reason": "原话：从前茶会扶剑立于芙宁娜背后", "fix": ""}
+{"cid": 4271, "verdict": "uncertain", "reason": "谓词不当：芙宁娜系迎来访客者，非『抵达』者", "fix": "谓词改 receives；或主语改克洛琳德（travels-to 芙宁娜新居）"}
+{"cid": 4272, "verdict": "uncertain", "reason": "谓词不当：克洛琳德邀请芙宁娜赴旧友聚会，非『委托』", "fix": "谓词改『邀请』"}
+{"cid": 4273, "verdict": "pass", "reason": "引文：拉住欲跳上桌的芙宁娜", "fix": ""}
+{"cid": 4274, "verdict": "pass", "reason": "原话：识趣的记者、没什么坏印象（谓词略宽）", "fix": ""}
+{"cid": 4275, "verdict": "pass", "reason": "引文：夏沃蕾应诉强硬、驳得对方哑口无言", "fix": ""}
+{"cid": 4276, "verdict": "pass", "reason": "引文：莱欧斯利手腕无可置疑", "fix": ""}
+{"cid": 4278, "verdict": "uncertain", "reason": "谓词不当：引文系克洛琳德到访时随口提问，非『见证』", "fix": "谓词改 narrates/asks"}
+{"cid": 4279, "verdict": "uncertain", "reason": "『疗愈凶徒内心』将推测（『想必也会被美德和善心感动』）当作能力结论，『凶徒』部分无直接原文", "fix": "删『凶徒』或注明系推测语气"}
+{"cid": 4280, "verdict": "pass", "reason": "原话：买过千织屋成衣、惯穿工作制服", "fix": ""}
+{"cid": 4281, "verdict": "pass", "reason": "引文：收到菲米尼包裹（迷你机械玩具与谢卡）", "fix": ""}
+{"cid": 4282, "verdict": "pass", "reason": "原话：对艾梅莉埃真正职业有所耳闻", "fix": ""}
+{"cid": 4283, "verdict": "pass", "reason": "原话：希望记者勿打扰，否则考虑起诉", "fix": ""}
+{"cid": 4284, "verdict": "pass", "reason": "引文头衔：掌管鸣神大社的大巫女", "fix": ""}
+{"cid": 4285, "verdict": "uncertain", "reason": "引文未提八重神子为『白辰血脉的继承者』（仅述白辰狐王一脉尊贵）；该说见于角色详细 #374", "fix": "引文/出处改用角色详细 #374"}
+{"cid": 4286, "verdict": "uncertain", "reason": "引文仅为『永恒』的定义，未涉『眷属与友人』称谓（该说在 #374）", "fix": "补出处 #374『「永恒」的眷属与友人』"}
+{"cid": 4287, "verdict": "pass", "reason": "引文：八重堂恐怖总编", "fix": ""}
+{"cid": 4288, "verdict": "pass", "reason": "引文：八重堂借镇火事会经费开张（其起意筹办）", "fix": ""}
+{"cid": 4289, "verdict": "pass", "reason": "引文：『真面目』成功者寥寥；括注为同段用语", "fix": ""}
+{"cid": 4290, "verdict": "pass", "reason": "原话：畅销题材是每十年轮换的潮流", "fix": ""}
+{"cid": 4291, "verdict": "pass", "reason": "引文：对原稿『不够自由』的评价", "fix": ""}
+{"cid": 4292, "verdict": "pass", "reason": "原话：命新人作者只管认真对待故事", "fix": ""}
+{"cid": 4293, "verdict": "pass", "reason": "引文：超长笔名系总编提议", "fix": ""}
+{"cid": 4294, "verdict": "pass", "reason": "引文：总编开展『转生成为八重宫司』征文", "fix": ""}
+{"cid": 4295, "verdict": "pass", "reason": "引文两句合（责编言『离谱』+总编言『题材没问题』）", "fix": ""}
+{"cid": 4296, "verdict": "pass", "reason": "原话：笔名太普通配不上该书", "fix": ""}
+{"cid": 4297, "verdict": "pass", "reason": "原话：祭典须盛装出席、坐守社殿", "fix": ""}
+{"cid": 4298, "verdict": "pass", "reason": "引文+『无聊才是最难抵御的敌人』", "fix": ""}
+{"cid": 4299, "verdict": "pass", "reason": "引文：雷神眷属寿命较长", "fix": ""}
+{"cid": 4300, "verdict": "pass", "reason": "引文：社奉行送来长野原特制烟花", "fix": ""}
+{"cid": 4301, "verdict": "pass", "reason": "引文：抱怨祭典只能溜出来看", "fix": ""}
+{"cid": 4302, "verdict": "pass", "reason": "引文：立场与德行排在有趣之后", "fix": ""}
+{"cid": 4303, "verdict": "pass", "reason": "引文：故意指错路延长热闹", "fix": ""}
+{"cid": 4304, "verdict": "pass", "reason": "引文：鹿野奈奈系神社巫女、神子的小说同好", "fix": ""}
+{"cid": 4305, "verdict": "pass", "reason": "引文：早柚告诉神子午后的阳光最惬意", "fix": ""}
+{"cid": 4306, "verdict": "pass", "reason": "引文：化形普通稻妻女子下山一日", "fix": ""}
+{"cid": 4307, "verdict": "pass", "reason": "引文：秋沙钱汤/木南料亭/小仓屋每一家都未错过", "fix": ""}
+{"cid": 4308, "verdict": "pass", "reason": "引文：向万端珊瑚侦探社委托小动物失踪案", "fix": ""}
+{"cid": 4309, "verdict": "pass", "reason": "引文：擦肩而过的九条裟罗", "fix": ""}
+{"cid": 4310, "verdict": "pass", "reason": "引文：泡汤后掉狐狸毛", "fix": ""}
+{"cid": 4311, "verdict": "pass", "reason": "引文：妖众助人类度过刀耕火种时期", "fix": ""}
+{"cid": 4312, "verdict": "pass", "reason": "引文：依山傍海筑城，稻妻始成（承接妖众之力）", "fix": ""}
+{"cid": 4313, "verdict": "pass", "reason": "引文：白辰狐王一脉最为尊贵", "fix": ""}
+{"cid": 4314, "verdict": "pass", "reason": "引文：久而久之即成百物语大会", "fix": ""}
+{"cid": 4315, "verdict": "pass", "reason": "引文：设宴的狐斋宫", "fix": ""}
+{"cid": 4316, "verdict": "pass", "reason": "引文：有乐斋举杯高谈、冰雪聪明的雅士", "fix": ""}
+{"cid": 4317, "verdict": "pass", "reason": "引文：幼狐神子挑有乐斋故事漏洞", "fix": ""}
+{"cid": 4318, "verdict": "pass", "reason": "引文：无月之夜百鬼夜行", "fix": ""}
+{"cid": 4319, "verdict": "pass", "reason": "引文：尔来五百岁", "fix": ""}
+{"cid": 4320, "verdict": "pass", "reason": "引文：昔年妖众匿迹于战争与历史之中", "fix": ""}
+{"cid": 4321, "verdict": "pass", "reason": "引文：雷电五传的杰作是国之重器（宾语省略『杰作』）", "fix": ""}
+{"cid": 4322, "verdict": "pass", "reason": "引文：五支传承数年折损大半", "fix": ""}
+{"cid": 4323, "verdict": "pass", "reason": "引文：涉事世家大族均遭问责贬谪", "fix": ""}
+{"cid": 4324, "verdict": "pass", "reason": "引文：神里家因督导下属不力受牵连", "fix": ""}
+{"cid": 4325, "verdict": "pass", "reason": "引文：向将军进言保下神里家", "fix": ""}
+{"cid": 4326, "verdict": "pass", "reason": "原话：神里家幸存乃将军宽容、勿忘恩典", "fix": ""}
+{"cid": 4327, "verdict": "pass", "reason": "引文：该嘱咐成为因缘之种", "fix": ""}
+{"cid": 4328, "verdict": "uncertain", "reason": "谓词不当：part-of 为组织成员；神里家系『恪守』将军的水恒之道（理念）", "fix": "谓词改『恪守/系于』"}
+{"cid": 4329, "verdict": "pass", "reason": "引文：『曾由』天领奉行牵头、鸣神大社操持（后改征文大赛，4332 另有记录）", "fix": ""}
+{"cid": 4330, "verdict": "pass", "reason": "引文：天领奉行奉将军之命成立火消队", "fix": ""}
+{"cid": 4331, "verdict": "uncertain", "reason": "谓词不当：located-in 用于『募款由天领奉行和神社四六分账』", "fix": "谓词改『分账于/由…分配』"}
+{"cid": 4332, "verdict": "pass", "reason": "引文：娱神祝祷不再是巫女献舞，改为征文大赛", "fix": ""}
+{"cid": 4333, "verdict": "pass", "reason": "原话：诗文书画本是娱神方式（对九条孝行）", "fix": ""}
+{"cid": 4334, "verdict": "pass", "reason": "引文：从奉纳箱下掏出批注中的原稿", "fix": ""}
+{"cid": 4335, "verdict": "pass", "reason": "引文系编造的斗法故事，语境为敷衍好奇的旅者", "fix": ""}
+{"cid": 4336, "verdict": "pass", "reason": "引文：拉面对决一说", "fix": ""}
+{"cid": 4337, "verdict": "pass", "reason": "原话：世人想听的只是『故事』", "fix": ""}
+{"cid": 4338, "verdict": "pass", "reason": "引文：油豆腐做法与最爱", "fix": ""}
+{"cid": 4339, "verdict": "pass", "reason": "原话：神樱为命运所系之物", "fix": ""}
+{"cid": 4340, "verdict": "uncertain", "reason": "引文系对影自困的吐槽评论，非『信任』的直接表述", "fix": "谓词改 narrates；或补信任依据"}
+{"cid": 4341, "verdict": "pass", "reason": "引文：提防绫人盘算（『令人讨厌』）", "fix": ""}
+{"cid": 4342, "verdict": "pass", "reason": "原话：喜欢绫华、欲挖至八重堂", "fix": ""}
+{"cid": 4343, "verdict": "pass", "reason": "引文：『天狗爹爹』（kin-of 父亲）", "fix": ""}
+{"cid": 4344, "verdict": "pass", "reason": "引文：在神社追问影的事", "fix": ""}
+{"cid": 4345, "verdict": "uncertain", "reason": "原文冠『据说』（八重神子转述传闻），宾语未保留传闻语气", "fix": "注明『据说』或 confidence 降级为转述"}
+{"cid": 4346, "verdict": "pass", "reason": "原话：锁国前与甘雨接洽璃月—稻妻事务", "fix": ""}
+{"cid": 4347, "verdict": "pass", "reason": "引文：国崩之麻烦与『她』不愿出手", "fix": ""}
+{"cid": 4348, "verdict": "pass", "reason": "原话：早知就该瞒着她处理掉", "fix": ""}
+{"cid": 4349, "verdict": "pass", "reason": "无引文；188076 『是我找人保留的』（一斗街上留言）", "fix": ""}
+{"cid": 4350, "verdict": "pass", "reason": "原话：或许有人在暗中帮助早柚", "fix": ""}
+{"cid": 4351, "verdict": "pass", "reason": "引文：阿幸的妹妹（久岐忍）出自巫女世家", "fix": ""}
+{"cid": 4352, "verdict": "pass", "reason": "原话：对人类社会感兴趣的妖怪渐多", "fix": ""}
+{"cid": 4353, "verdict": "pass", "reason": "原话：劝大家及时行乐", "fix": ""}
+{"cid": 4354, "verdict": "uncertain", "reason": "谓词过强：『竞逐认可』系书业竞合，非 enemy-of 敌对", "fix": "谓词改竞合/competing"}
+{"cid": 4355, "verdict": "pass", "reason": "原话：愿亲自写『梦貘记』", "fix": ""}
+{"cid": 4356, "verdict": "pass", "reason": "引文：在闲事月刊读者来信中挑刺", "fix": ""}
+{"cid": 4357, "verdict": "pass", "reason": "引文+语境（狐斋宫劝其接任宫司，前任宫司推断成立）", "fix": ""}
+{"cid": 4358, "verdict": "pass", "reason": "引文：接手鸣神大社（承狐斋宫之后）", "fix": ""}
+{"cid": 4359, "verdict": "pass", "reason": "引文：以随心所欲吃油豆腐为劝其接任的理由", "fix": ""}
+{"cid": 4360, "verdict": "pass", "reason": "原话：建八重堂动机是看有趣小说", "fix": ""}
+{"cid": 4361, "verdict": "pass", "reason": "原话：培养足以书写魔神故事的作家", "fix": ""}
+{"cid": 4362, "verdict": "pass", "reason": "引文：魔神故事散佚可惜", "fix": ""}
+{"cid": 4363, "verdict": "pass", "reason": "引文：愿为旅行者记录故事（若其有空）", "fix": ""}
+{"cid": 4364, "verdict": "pass", "reason": "原话：第一喜欢他人故事、第二喜欢看人烦恼", "fix": ""}
+{"cid": 4365, "verdict": "pass", "reason": "原话：过度安稳太无聊", "fix": ""}
+{"cid": 4366, "verdict": "pass", "reason": "引文：巫女修行阶位（直阶）+后续三条升阶语音", "fix": ""}
+{"cid": 4367, "verdict": "pass", "reason": "引文：直阶=能准确念诵祭言；对狐族最难", "fix": ""}
+{"cid": 4368, "verdict": "pass", "reason": "引文：正阶=宫司代理修行、受清修戒律", "fix": ""}
+{"cid": 4369, "verdict": "pass", "reason": "引文：入明阶者一般受获神之眼与悠长寿命", "fix": ""}
+{"cid": 4370, "verdict": "pass", "reason": "引文：净阶历来仅宫司一位", "fix": ""}
+{"cid": 4371, "verdict": "pass", "reason": "引文：生辰祝礼祭言", "fix": ""}
+{"cid": 4372, "verdict": "pass", "reason": "引文：封闭自我将更快遭受磨损", "fix": ""}
+{"cid": 4373, "verdict": "pass", "reason": "引文：喜欢人类（生命短暂却散发映昼光辉）", "fix": ""}
+{"cid": 4374, "verdict": "pass", "reason": "原话：不变亦美好、尘世非常变", "fix": ""}
+{"cid": 4375, "verdict": "pass", "reason": "原话：八重堂穿越异世小说过多", "fix": ""}
+{"cid": 4376, "verdict": "pass", "reason": "引文：高天的使者、数千年前为指引凡人降世", "fix": ""}
+{"cid": 4377, "verdict": "pass", "reason": "引文：被古国之人尊为社稷神", "fix": ""}
+{"cid": 4378, "verdict": "pass", "reason": "引文：身居天班、行使月使之职", "fix": ""}
+{"cid": 4379, "verdict": "pass", "reason": "引文：并非受赐于摩拉克斯", "fix": ""}
+{"cid": 4380, "verdict": "pass", "reason": "引文：庇护琅玕、授人稼穑织纴", "fix": ""}
+{"cid": 4381, "verdict": "pass", "reason": "引文：由她的指引，琅玕为统一文明璀璨明珠", "fix": ""}
+{"cid": 4382, "verdict": "uncertain", "reason": "『天空之上惨绝大战』系世界背景事件，无明文证兹白目睹（witnesses 主体资格未证）", "fix": "补目睹依据，或谓词改『历经』"}
+{"cid": 4383, "verdict": "pass", "reason": "引文：余波携漆黑恶意坠入琅玕", "fix": ""}
+{"cid": 4384, "verdict": "pass", "reason": "引文：神圣意志如天罚冲击古国、灭绝污染之地", "fix": ""}
+{"cid": 4385, "verdict": "pass", "reason": "引文：为庇护之人违逆高天意志", "fix": ""}
+{"cid": 4386, "verdict": "pass", "reason": "引文：遭神魂崩碎为三的重创", "fix": ""}
+{"cid": 4387, "verdict": "pass", "reason": "引文+叙述链（影子伸手→三魂被凝滞）", "fix": ""}
+{"cid": 4388, "verdict": "pass", "reason": "引文：本质永恒彷徨于死或生之梦", "fix": ""}
+{"cid": 4389, "verdict": "pass", "reason": "引文：神异之人慷慨相授『斩三尸』", "fix": ""}
+{"cid": 4391, "verdict": "pass", "reason": "引文：三道雷同身影、化三为一", "fix": ""}
+{"cid": 4392, "verdict": "pass", "reason": "引文：留下『天心无定，白云苍狗』后离去", "fix": ""}
+{"cid": 4393, "verdict": "pass", "reason": "引文：兹白心中从未有过妄念、不能斩出三尸神", "fix": ""}
+{"cid": 4394, "verdict": "uncertain", "reason": "旁白预叙『她一定会在那个时刻斩出三尸神』，非兹白本人『预言』", "fix": "谓词改『注定/预示（叙述者预叙）』"}
+{"cid": 4395, "verdict": "pass", "reason": "引文：留作向高天复仇的后手", "fix": ""}
+{"cid": 4396, "verdict": "pass", "reason": "引文：影子将降下同为怜惜与绝罚的囚笼", "fix": ""}

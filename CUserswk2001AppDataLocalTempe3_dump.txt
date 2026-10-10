@@ -1,0 +1,4 @@
+  File "<string>", line 14
+    fn = r'C:\Users\wk2001\AppData\Local\Temp\e3_src' + '\' + eid + '.txt'
+                                                                         ^
+SyntaxError: unterminated string literal (detected at line 14)

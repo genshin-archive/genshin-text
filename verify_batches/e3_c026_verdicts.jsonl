@@ -1,0 +1,200 @@
+{"cid": 5425, "verdict": "pass", "reason": "宾语（暗中处理特殊事宜及其举例）系原文，主语托马正确", "fix": ""}
+{"cid": 5426, "verdict": "pass", "reason": "宾语近逐字（延续社奉行影响力），主语正确", "fix": ""}
+{"cid": 5427, "verdict": "pass", "reason": "引文直证「神里家管家古田」，主客正确", "fix": ""}
+{"cid": 5428, "verdict": "pass", "reason": "人脉与一手情报均本段原文；part-of 略宽（居网络中心）但关系属实", "fix": ""}
+{"cid": 5429, "verdict": "uncertain", "reason": "谓词不当：引文为「从未以此谋取私利」，revokes（撤销）语义无着，宾语本身忠实", "fix": "谓词改 refrains-from/never-did（托马未以人脉谋私利、未强迫他人）"}
+{"cid": 5430, "verdict": "pass", "reason": "引文逐字（「托马一直都这样认为」），主语正确", "fix": ""}
+{"cid": 5431, "verdict": "fail", "reason": "宾语主客错：毛衣系托马亲手织给着凉护卫（「他意外收到了托马亲手织的毛衣」），现宾语「社奉行护卫亲手织的毛衣」把织者写成护卫；引文亦未及毛衣", "fix": "宾语改「托马亲手织给着凉护卫的毛衣（护卫由此请假回乡探亲）」"}
+{"cid": 5432, "verdict": "pass", "reason": "「老爹返稻妻」「没能找到本该在稻妻的父亲」均有据", "fix": ""}
+{"cid": 5433, "verdict": "pass", "reason": "「载蒲公英酒—翻船—昏迷漂流至海滩」全程与原文一致", "fix": ""}
+{"cid": 5434, "verdict": "pass", "reason": "宾语与引文同句（没能找到父亲）", "fix": ""}
+{"cid": 5435, "verdict": "pass", "reason": "「被视作外人」为引文核心，主语与叙述一致", "fix": ""}
+{"cid": 5436, "verdict": "pass", "reason": "引文逐字，市井传闻为叙述主语", "fix": ""}
+{"cid": 5437, "verdict": "uncertain", "reason": "谓词不当：引文为「让对方付出相应的代价」（惩处），intercepts（拦截）与语义不符", "fix": "谓词改 punishes/retaliates（对损害社奉行利益、不敬神里兄妹者）"}
+{"cid": 5438, "verdict": "pass", "reason": "引文逐字（只要该知道的人知道）", "fix": ""}
+{"cid": 5439, "verdict": "pass", "reason": "「第一次打扫时领到」「舍不得丢弃」均本页原文", "fix": ""}
+{"cid": 5440, "verdict": "pass", "reason": "宾语系引文改写（拂去脑中迷雾），忠实", "fix": ""}
+{"cid": 5441, "verdict": "pass", "reason": "引文系绫人对托马语，主语绫人正确", "fix": ""}
+{"cid": 5442, "verdict": "pass", "reason": "引文直证「因父母双双过世而被卷入…的神里绫人」", "fix": ""}
+{"cid": 5443, "verdict": "pass", "reason": "引文系托马答语，主语正确", "fix": ""}
+{"cid": 5444, "verdict": "pass", "reason": "「鲜红如烈焰的神之眼、命运分歧之夜」逐字；火为游戏设定", "fix": ""}
+{"cid": 5445, "verdict": "uncertain", "reason": "谓词不当：located-in（位于）用于时期「失势期」；「十年前失势」属实", "fix": "谓词改 experiences/处于失势期（十年前，稻妻局势不明）"}
+{"cid": 5446, "verdict": "pass", "reason": "引文系托马对旅行者所言（「要不是你…」），witnesses 正确", "fix": ""}
+{"cid": 5447, "verdict": "pass", "reason": "宾语近逐字（献上武艺与忠诚）", "fix": "谓词宜作 pledges/献予（「愿献上」）"}
+{"cid": 5448, "verdict": "pass", "reason": "「让所有生活在这里的人露出笑容」逐字", "fix": ""}
+{"cid": 5449, "verdict": "pass", "reason": "「最初没打算让我担任家政官…我自告奋勇」忠实", "fix": ""}
+{"cid": 5450, "verdict": "pass", "reason": "宾语逐字（稻妻人比蒙德人更在意礼节）", "fix": ""}
+{"cid": 5451, "verdict": "uncertain", "reason": "谓词与事件相抵：原文为「差点夺走」（未遂，实际未发生夺取）；主语方向正确但 steals 会生成未发生之边", "fix": "谓词改 attempts-to-take/试图夺取（狩眼仪式，未遂）"}
+{"cid": 5452, "verdict": "pass", "reason": "「无法理解，也无法认同」忠实；主语托马", "fix": "谓词 distrusts 宜作 opposes/不认同（原文系『无法理解/认同』，非不信任）"}
+{"cid": 5453, "verdict": "pass", "reason": "宾语括注（爱戴感激＋畏惧）系引文原意，主语正确", "fix": ""}
+{"cid": 5454, "verdict": "uncertain", "reason": "谓词不当：引文为「允诺」（承诺带他出海），entrusts（委托）不符（未成行）", "fix": "谓词改 promises；宾语（未成行）保留"}
+{"cid": 5455, "verdict": "uncertain", "reason": "enemy-of 过强：引文仅「敬畏」「最不想去」，非敌对；且宾语为描述语非共实体", "fix": "谓词改 is-awe-of/avoids（托马对八重神子的敬畏回避）"}
+{"cid": 5456, "verdict": "pass", "reason": "宾语近逐字（知书达理、温柔端庄、不够坦率）", "fix": ""}
+{"cid": 5457, "verdict": "pass", "reason": "「时局动荡…贪官败类…仅能照顾生活」均本段原文，主语绫人正确", "fix": "knows-of 略宽（引文系托马所述绫人处境）；宜注 narrator=托马"}
+{"cid": 5458, "verdict": "pass", "reason": "「天领奉行麾下的将领…手握实权」忠实", "fix": ""}
+{"cid": 5459, "verdict": "uncertain", "reason": "enemy-of 过强：引文仅「不肯传授忍术、刻意躲着」，非敌对", "fix": "谓词改 refuses/avoids（早柚对托马的求师）"}
+{"cid": 5460, "verdict": "pass", "reason": "「天领奉行那边的侦探」逐字；说明性括注可接受", "fix": ""}
+{"cid": 5461, "verdict": "pass", "reason": "「优秀正直出了名…目前还只是代理团长」忠实", "fix": ""}
+{"cid": 5462, "verdict": "pass", "reason": "「留在稻妻—想念时找你聊」系原文原意", "fix": ""}
+{"cid": 5463, "verdict": "pass", "reason": "宾语（道成林巡林官）与角色详细一致；化城郭为任职地", "fix": ""}
+{"cid": 5464, "verdict": "pass", "reason": "引文系提纳里（巡林官）原话，宾语忠实", "fix": ""}
+{"cid": 5465, "verdict": "pass", "reason": "宾语近逐字（知识应属所有生灵、非限制分配工具）", "fix": ""}
+{"cid": 5466, "verdict": "uncertain", "reason": "enemy-of 过强：引文仅「颇有微词」（异议），非敌对", "fix": "谓词改 disapproves-of（教令院推行的「虚空终端」）"}
+{"cid": 5467, "verdict": "pass", "reason": "宾语逐字（年轻学者无抗衡教令院能力）", "fix": ""}
+{"cid": 5468, "verdict": "pass", "reason": "「从阿弥利多学院毕业即离开教令院」逐字", "fix": ""}
+{"cid": 5469, "verdict": "pass", "reason": "「建立巡林日志／按长处分工／博物学培训」逐字（其着手推行）", "fix": ""}
+{"cid": 5470, "verdict": "uncertain", "reason": "引文系提纳里之言（「我们这有『大巡林官』这个职称吗？…」；上文「提纳里眉头紧皱」），非巡林队员；队员使用该称谓另见同页「大巡林官！今天的日志写好了」", "fix": "主语改提纳里，或引文改用队员原话「大巡林官！今天的日志写好了，请你核验。」"}
+{"cid": 5471, "verdict": "pass", "reason": "引文系提纳里未说出口的想法，主语正确", "fix": ""}
+{"cid": 5472, "verdict": "pass", "reason": "合作案各要素（免费采花／退残花换干花／义卖充经费）逐条见原文", "fix": ""}
+{"cid": 5473, "verdict": "pass", "reason": "「强制要求→逆反心理」引文逐字", "fix": ""}
+{"cid": 5474, "verdict": "pass", "reason": "引文系柯莱所言（「用师父教的办法做的…」），主语正确", "fix": ""}
+{"cid": 5475, "verdict": "pass", "reason": "「长期暗中跟踪与观察…学术腐败先兆」本段原文", "fix": ""}
+{"cid": 5476, "verdict": "pass", "reason": "「绝无可能沾染学术腐败。警报解除」逐字", "fix": ""}
+{"cid": 5477, "verdict": "pass", "reason": "「放下戒备…与提纳里成为了朋友」逐字，关系方向正确", "fix": ""}
+{"cid": 5478, "verdict": "pass", "reason": "「第一堂课就从拼写你的名字开始」逐字", "fix": ""}
+{"cid": 5479, "verdict": "pass", "reason": "「曾是赤王麾下的种族…」逐字", "fix": ""}
+{"cid": 5480, "verdict": "pass", "reason": "「受草神恩惠才得以存活，皮毛变绿」逐字", "fix": ""}
+{"cid": 5481, "verdict": "uncertain", "reason": "aka 误用：宾语系名字的含义（「名字的含义却是『沙漠的大狗』」），非别名，会生成错误别名边", "fix": "谓词改 means/义为「沙漠的大狗」，或删除该别名边"}
+{"cid": 5482, "verdict": "pass", "reason": "「声称为『巴螺迦修那』这一命名负责」忠实", "fix": ""}
+{"cid": 5483, "verdict": "uncertain", "reason": "血缘机制存疑：原文为祖先「因共生关系留下这样的血脉」，kin-of 断言『祖先与巴螺迦修那有血缘』于文无据", "fix": "谓词改 descends-from/共生得血脉（提纳里家族 ← 巴螺迦修那）"}
+{"cid": 5484, "verdict": "pass", "reason": "「没走进沙漠几米就晒晕…送回雨林」忠实", "fix": ""}
+{"cid": 5485, "verdict": "pass", "reason": "「研究昆虫（甲虫古今演化）」另见提纳里语音（hash 3238387903），「携子沙漠考察」见故事5，均属实", "fix": ""}
+{"cid": 5486, "verdict": "uncertain", "reason": "细节出入：化石画片系小提纳里「偷拿」，非母亲所赠（放大镜为母亲所送属实）", "fix": "括注改「母亲所赠放大镜；画片系提纳里自取」"}
+{"cid": 5487, "verdict": "pass", "reason": "「妈妈送给他的礼物…改造成衣饰」逐字", "fix": ""}
+{"cid": 5488, "verdict": "pass", "reason": "「被阿弥利多学院提前录取，跟随生论派贤者」逐字", "fix": ""}
+{"cid": 5489, "verdict": "pass", "reason": "「举起手来—打断—学者接受指正」忠实，反对对象成立", "fix": ""}
+{"cid": 5490, "verdict": "pass", "reason": "「知识就像夜空中闪耀的星辰…」逐字", "fix": ""}
+{"cid": 5491, "verdict": "pass", "reason": "「神之眼自衣间滑落」逐字；草为游戏设定", "fix": ""}
+{"cid": 5492, "verdict": "pass", "reason": "宾语逐字（知识的价值不能用金钱衡量）", "fix": ""}
+{"cid": 5493, "verdict": "pass", "reason": "「上学时从属生论派，主攻植物学」逐字", "fix": ""}
+{"cid": 5494, "verdict": "pass", "reason": "「打过招呼，说卡卡塔是研究助手，要动它先找我过问」忠实", "fix": ""}
+{"cid": 5495, "verdict": "pass", "reason": "引文系提纳里说赛诺（「他…偷偷看望柯莱」），主语赛诺正确", "fix": ""}
+{"cid": 5496, "verdict": "uncertain", "reason": "witnesses 与原文不符：系事后写信问候、导师回信转述（并未目睹获救）", "fix": "谓词改 hears-of/learns-of，或宾语改「导师获救（其后去信得知）之问」"}
+{"cid": 5497, "verdict": "pass", "reason": "「小心艾尔海森…做事被理性主导」忠实，主语正确", "fix": ""}
+{"cid": 5498, "verdict": "pass", "reason": "「著名建筑师、代表作卡萨扎莱宫；咨询观赏植物」逐字", "fix": ""}
+{"cid": 5499, "verdict": "pass", "reason": "「桑歌玛哈巴依老爷—就是多莉；进货渠道成谜」逐字", "fix": ""}
+{"cid": 5500, "verdict": "pass", "reason": "「赛诺的师姐…天才…早早回到了蒙德」逐字；「进修」在原文", "fix": "「须弥进修」系语境推断（赛诺师姐、于教令院进修），宜注"}
+{"cid": 5501, "verdict": "fail", "reason": "主语错误：听闻该说法的是提纳里（「我在上学的时候曾听过这样的说法」），且文中草神能否解答尚为疑问（「她会给我解释吗？」）；小吉祥草王知晓该说法无据", "fix": "主语改「提纳里」（宾语：『植物的历史，便是草之国的历史』之说）"}
+{"cid": 5502, "verdict": "pass", "reason": "「强大又可靠的同伴…没来得及道谢」忠实", "fix": ""}
+{"cid": 5503, "verdict": "pass", "reason": "「邀请她来检查雨林里的机关／给柯莱偷塞吃的」逐字", "fix": ""}
+{"cid": 5504, "verdict": "pass", "reason": "「缄默之殿…比起工作更像是义务」逐字", "fix": ""}
+{"cid": 5505, "verdict": "pass", "reason": "「维系者正在死去」逐字；题词括注可接受（角色详细引导语）", "fix": ""}
+{"cid": 5506, "verdict": "uncertain", "reason": "预言方向存疑：引文系对旅行者的预言（「你将登上『神』之座」），旅行者为被预言对象而非预言发出者", "fix": "谓词改 is-prophesied-to（预言：世界不会再度灼烧，将登上「神」之座）"}
+{"cid": 5507, "verdict": "pass", "reason": "角色信息逐字（从世界之外漂流而来的旅行者…）", "fix": ""}
+{"cid": 5508, "verdict": "uncertain", "reason": "aka 误用：旅人座系命之座名称，非旅行者别名，会生成错误别名边", "fix": "谓词改 has-constellation 旅人座，或删别名边"}
+{"cid": 5509, "verdict": "pass", "reason": "「旅行中的双子，远渡重天，跨越诸多世界」逐字", "fix": ""}
+{"cid": 5510, "verdict": "pass", "reason": "「在降临名为『提瓦特』的大陆之前」逐字", "fix": ""}
+{"cid": 5511, "verdict": "pass", "reason": "「陌生的神灵…拦在你们面前」忠实，方向正确", "fix": ""}
+{"cid": 5512, "verdict": "pass", "reason": "「一尘不染的神，漂浮在浊世的天空」逐字", "fix": ""}
+{"cid": 5513, "verdict": "pass", "reason": "「你也被神封印，陷入…沉眠」逐字", "fix": ""}
+{"cid": 5514, "verdict": "pass", "reason": "「神带走了你唯一的血亲」逐字，方向正确", "fix": ""}
+{"cid": 5515, "verdict": "uncertain", "reason": "谓词与内容相抵：引文明言「这也无从知晓」（沉睡年数未知），knows-of 会生成『知晓』失真边", "fix": "谓词改 unknown/不知（自身沉睡年数无从知晓）"}
+{"cid": 5516, "verdict": "uncertain", "reason": "谓词不当：引文为「去寻找曾经目睹的神灵」，opposes（对抗）无据", "fix": "谓词改 seeks/goal-is（孤身旅途去寻找目睹的神灵）"}
+{"cid": 5517, "verdict": "pass", "reason": "「旅伴派蒙，一起流浪了一段时间」逐字", "fix": ""}
+{"cid": 5518, "verdict": "pass", "reason": "「此世的神灵共有七位，以『尘世七执政』之名统治七国」逐字", "fix": ""}
+{"cid": 5519, "verdict": "uncertain", "reason": "located-in 误用：宾语系蒙德自身的定语（风神建立的国度／自由城邦），非所在地", "fix": "谓词改 is-a/founded-by-the-wind-god，或宾语改地点"}
+{"cid": 5520, "verdict": "pass", "reason": "「非人之物构成的『深渊教团』」逐字", "fix": ""}
+{"cid": 5521, "verdict": "pass", "reason": "「人类内部的威胁，则是…冰之女皇的野心」忠实", "fix": ""}
+{"cid": 5522, "verdict": "pass", "reason": "「腐化了风神的眷属…东风之龙」忠实", "fix": "谓词宜作 corrupts（腐化）"}
+{"cid": 5524, "verdict": "pass", "reason": "「风之神化身吟游诗人，与你一同行动，解救巨龙」逐字", "fix": ""}
+{"cid": 5525, "verdict": "uncertain", "reason": "引文作「你尚未见到」（当时并未看见，系叙述向读者揭示）；witnesses 与「尚未看清」括注均不符", "fix": "删断言或改 later-learns-of（巨龙瞳中倒映的人影）"}
+{"cid": 5526, "verdict": "pass", "reason": "男主线文本作「少女」，版本标注正确", "fix": ""}
+{"cid": 5527, "verdict": "pass", "reason": "女主线文本作「少年」，版本标注正确", "fix": ""}
+{"cid": 5529, "verdict": "pass", "reason": "「你并未作出允诺…对方单方面的『约定』」逐字；主语血亲与语境一致", "fix": ""}
+{"cid": 5530, "verdict": "pass", "reason": "「为了抵达『旅途的终点』…游历七国」逐字", "fix": ""}
+{"cid": 5531, "verdict": "pass", "reason": "「见证并卷入了各个国家的种种危机」逐字", "fix": ""}
+{"cid": 5532, "verdict": "pass", "reason": "「危机的浪潮可能源自世界更深层次的剧震」逐字", "fix": ""}
+{"cid": 5534, "verdict": "pass", "reason": "「深渊教团…命运的织机原动计划／新世界的经纬图」忠实", "fix": ""}
+{"cid": 5535, "verdict": "pass", "reason": "「他们也将左右世界的命运」逐字，版本括注与源文件（hash 9640）一致", "fix": ""}
+{"cid": 5536, "verdict": "pass", "reason": "「了解妹妹在这世间的种种」及版本标注正确", "fix": ""}
+{"cid": 5537, "verdict": "uncertain", "reason": "谓词与内容相抵：宾语明记『无』（「你是得不到神之眼的」），wields 会生成『持有』错误边", "fix": "谓词改 cannot-obtain/无法获得（外界生物不得）；或删该边"}
+{"cid": 5538, "verdict": "pass", "reason": "「凡人的渴望达到极致，神明的视线将投射而下」逐字", "fix": ""}
+{"cid": 5539, "verdict": "pass", "reason": "「受神认可者所获的外置魔力器官，用以引导元素之力」逐字", "fix": ""}
+{"cid": 5540, "verdict": "pass", "reason": "「持有者在地上行走…受选者将升入天空」忠实", "fix": ""}
+{"cid": 5541, "verdict": "pass", "reason": "「将某一瞬间的渴望贯彻一生…」逐字", "fix": ""}
+{"cid": 5542, "verdict": "pass", "reason": "「在吟游诗人的躯壳之下，藏着真实的神灵」逐字（旅行者亲述所见）", "fix": ""}
+{"cid": 5544, "verdict": "pass", "reason": "「他问特瓦林的这个问题，我也还在思考答案」逐字", "fix": ""}
+{"cid": 5545, "verdict": "uncertain", "reason": "ally-of 系对「签订契约」的过强断言：契约内容未知（派蒙且称与冰之女皇交易不安全），宾语忠实", "fix": "谓词改 signs-contract-with（摩拉克斯与冰神签订『契约』）"}
+{"cid": 5546, "verdict": "pass", "reason": "「最理解『契约』本质的那一位」逐字", "fix": ""}
+{"cid": 5547, "verdict": "pass", "reason": "「叫它『终结一切契约的契约』」系摩拉克斯对该契约的称呼，别名成立", "fix": ""}
+{"cid": 5548, "verdict": "uncertain", "reason": "时点问题：原文为「我们最终会见证…」（未来、尚未发生），witnesses 表已发生；仅括注不足以修正边", "fix": "谓词改 will-witness/期望见证（未来时，尚未发生）"}
+{"cid": 5549, "verdict": "pass", "reason": "「信任人类，才用黄金之体舍肉铸造」忠实；「他」即岩王帝君（摩拉克斯）", "fix": ""}
+{"cid": 5550, "verdict": "pass", "reason": "「流传着一条岩王帝君的训诫…不要玩钱」逐字", "fix": "谓词宜作 originates/源出（训诫为流传，非当场授予）"}
+{"cid": 5551, "verdict": "pass", "reason": "「地底最深处…古老巨大沉睡的火龙…最初的火」逐字（引文带「据说」，confidence 已标转述）", "fix": "宜注（出自织物传说，未验真伪）"}
+{"cid": 5552, "verdict": "pass", "reason": "「火神聚集各部族的力量，定期安抚火龙」逐字", "fix": "宜注（出自织物传说，未验真伪）"}
+{"cid": 5553, "verdict": "pass", "reason": "「地摊上买到的一卷织物里记录的故事」逐字", "fix": ""}
+{"cid": 5554, "verdict": "uncertain", "reason": "谓词搭配不当：引文为「火神居然是从『归火圣夜巡礼』中选出来的」，succeeds（继位）与宾语不符", "fix": "谓词改 is-selected-via（由「归火圣夜巡礼」选出）"}
+{"cid": 5556, "verdict": "uncertain", "reason": "谓词过强：原文为「击败」矮灵的王公，destroys 隐含消灭", "fix": "谓词改 defeats（战败矮灵的王公）"}
+{"cid": 5557, "verdict": "uncertain", "reason": "谓词过强：原文为「仅凭一己之力战胜」风仙的剑圣", "fix": "谓词改 defeats（战胜风仙的剑圣）"}
+{"cid": 5558, "verdict": "uncertain", "reason": "谓词过强：原文为「打倒」所有兽怪的联盟（击溃/瓦解），destroys 隐含消灭", "fix": "谓词改 defeats/topples（打倒所有兽怪的联盟）"}
+{"cid": 5559, "verdict": "pass", "reason": "「体型与普通人一般无二的美男子」逐字", "fix": ""}
+{"cid": 5561, "verdict": "pass", "reason": "「妖精跟人类关系密切，有些还身居要职」忠实", "fix": ""}
+{"cid": 5562, "verdict": "pass", "reason": "「现任市长…执行官『公鸡』普契涅拉…矮灵」逐字", "fix": ""}
+{"cid": 5563, "verdict": "pass", "reason": "「『冬契军』目前正由风仙薇斯纳统领」逐字", "fix": ""}
+{"cid": 5564, "verdict": "pass", "reason": "「首席女高音沃雅妮莎…所属水妖一族」逐字", "fix": ""}
+{"cid": 5565, "verdict": "pass", "reason": "「亥珀波瑞亚时期即有记载…早于『至冬国』」忠实", "fix": ""}
+{"cid": 5566, "verdict": "pass", "reason": "「一起节省能源，勒紧裤腰过日子」忠实", "fix": ""}
+{"cid": 5567, "verdict": "pass", "reason": "「得知『严冬计划』的真正目的后，感觉这也是没有办法的事」逐字", "fix": ""}
+{"cid": 5568, "verdict": "uncertain", "reason": "谓词不当：revokes（撤销）与「『严冬计划』的暂停」不符（无被撤销对象）", "fix": "谓词改 is-suspended（严冬计划已暂停）"}
+{"cid": 5569, "verdict": "uncertain", "reason": "aka 误用：宾语系词义演变叙述（投掷炸弹士兵→厉害头衔），非别名", "fix": "谓词改 evolves-into（演变为强力头衔）"}
+{"cid": 5570, "verdict": "fail", "reason": "主客颠倒：引文及典则均证「掷弹兵隶属特辖队」（AnimalCodex「隶属于愚人众特辖队的士兵…掷弹兵」），成员方向倒置", "fix": "断言改「掷弹兵 --part-of--> 特辖队（瓦列里为『掷弹兵』团少校）」"}
+{"cid": 5571, "verdict": "pass", "reason": "「不存在于任何记录中…无法分辨型号」逐字（报纸报道，括注如实）", "fix": ""}
+{"cid": 5572, "verdict": "uncertain", "reason": "wields 主客不合：列车（非施动者）不能『持用』车内的台子与白色物体；引文实为『车内摆放着…飘着…』", "fix": "谓词改 contains/车内摆放（绘有特殊图案的台子与钻出的白色物体）"}
+{"cid": 5573, "verdict": "pass", "reason": "「对于至冬人而言，确实是很可怕的事物」忠实", "fix": ""}
+{"cid": 5574, "verdict": "pass", "reason": "「不要一个人偷偷溜进驾驶室」＋驾驶室幽灵一节，所指为派蒙，忠实", "fix": ""}
+{"cid": 5575, "verdict": "uncertain", "reason": "aka 误用：宾语系组织描述而非别名；且命名由来系旅行者推测（「我也有一个猜测」，派蒙随即质疑）", "fix": "谓词改 describes/名源推测；删除别名边"}
+{"cid": 5576, "verdict": "pass", "reason": "「爱诺不愧是天才机械师」逐字", "fix": ""}
+{"cid": 5577, "verdict": "uncertain", "reason": "wields 主语不当：『他人眼中无用之物』系用料来源（材料），非爱诺持用之器物", "fix": "谓词改 uses-materials/用料为（别人眼里没用的东西）"}
+{"cid": 5578, "verdict": "pass", "reason": "「叫『伊涅芙』的全能型家用机器人」逐字；「远超家务」有「远远不止这些」为据", "fix": ""}
+{"cid": 5579, "verdict": "pass", "reason": "「连旅行向导也做得不错」「她还有爱诺要照顾」忠实", "fix": "括注「需照顾爱诺」系派蒙语气，宜注『派蒙语』"}
+{"cid": 5580, "verdict": "pass", "reason": "「挪德卡莱同时有爱诺和桑多涅两个技术人才」逐字", "fix": ""}
+{"cid": 5581, "verdict": "pass", "reason": "「真正的老板确实是奈芙尔」逐字（各方情报，派蒙亦惧其）", "fix": "『人类』未见于本条引文；另见角色故事（失乡的沙漠人），宜补出处"}
+{"cid": 5582, "verdict": "pass", "reason": "「她是挪德卡莱最不能得罪的人之一」逐字（派蒙语）", "fix": ""}
+{"cid": 5583, "verdict": "pass", "reason": "「蒙德图书馆…《关于法尔伽的一百个事实》」逐字", "fix": ""}
+{"cid": 5584, "verdict": "pass", "reason": "「伊涅芙的信、嘟嘟通讯仪、琴和米卡的信」逐字（「我们」含旅行者）", "fix": ""}
+{"cid": 5585, "verdict": "pass", "reason": "「这本书本来不存在，但书不敢告诉他」逐字；内容荒诞见前文", "fix": ""}
+{"cid": 5586, "verdict": "pass", "reason": "「西风骑士团…合作」「法尔伽的代号…『团长』」忠实，疑点已括注", "fix": ""}
+{"cid": 5587, "verdict": "pass", "reason": "「我怀疑…会让凯亚跟罗莎莉亚来代班」逐字，推断属性已括注", "fix": ""}
+{"cid": 5590, "verdict": "pass", "reason": "「梦见过哥哥头也不回地往前走…抓不住」逐字", "fix": ""}
+{"cid": 5591, "verdict": "pass", "reason": "「追逐着宝藏的『仙灵』…接触宝藏时有悲伤的气氛」忠实", "fix": "括注系旅行者主观观察（文中自疑『可能是我的错觉』），宜注"}
+{"cid": 5592, "verdict": "pass", "reason": "「『终末番』是『社奉行』麾下的一个秘密组织」逐字，方向正确", "fix": ""}
+{"cid": 5593, "verdict": "pass", "reason": "「大部分稻妻人并不知道『终末番』的存在」逐字", "fix": ""}
+{"cid": 5594, "verdict": "pass", "reason": "「『终末番』里还有一位名叫早柚的小小忍者」「自幼…长大」忠实", "fix": ""}
+{"cid": 5595, "verdict": "pass", "reason": "「最强的特质…是『偷懒』」及忠诚度均有原文", "fix": ""}
+{"cid": 5596, "verdict": "pass", "reason": "「熟练掌握逃跑、气息隐蔽…忍术」逐字", "fix": ""}
+{"cid": 5597, "verdict": "pass", "reason": "「绝不是懒，只是想把时间用在更有意义的事情上」逐字", "fix": ""}
+{"cid": 5598, "verdict": "pass", "reason": "「同龄人…长得很高，自己却还保持着儿童模样」逐字", "fix": ""}
+{"cid": 5599, "verdict": "pass", "reason": "「只要睡得够久，就一定能长高的！」逐字", "fix": ""}
+{"cid": 5600, "verdict": "pass", "reason": "「周围人…不忍心不去打扰」「连站着…都能睡着」均本段原文", "fix": ""}
+{"cid": 5601, "verdict": "pass", "reason": "「极擅长隐匿身形、消除痕迹，是这方面的专家」逐字", "fix": ""}
+{"cid": 5602, "verdict": "pass", "reason": "「清晨掀被子／神社树上／屋里守株待兔」三段均逐字", "fix": "谓词宜作 has-habit/躲藏规律（被寻获规律非『事件』）"}
+{"cid": 5603, "verdict": "uncertain", "reason": "imposes 主体不当：警告系旁白（「切记…请务必不要打扰」），早柚非发出者", "fix": "谓词改 warns-of/旁白忠告（勿扰，急了或咬人）"}
+{"cid": 5604, "verdict": "pass", "reason": "「并不是每日按部就班…而是随机的」忠实", "fix": "宾语由早柚工作实况推及组织，宜注（据早柚）"}
+{"cid": 5605, "verdict": "pass", "reason": "「新任务发布时，她必不在场」逐字", "fix": ""}
+{"cid": 5606, "verdict": "pass", "reason": "「除去早柚以外没有其他合适人选，她更要溜之大吉」逐字", "fix": ""}
+{"cid": 5607, "verdict": "pass", "reason": "「『呜呼流』最后一代传人」逐字", "fix": ""}
+{"cid": 5608, "verdict": "pass", "reason": "「以戏弄敌人见长的流派」逐字", "fix": ""}
+{"cid": 5609, "verdict": "pass", "reason": "「实战中用途不大…观赏性…堪称艺术表演」忠实", "fix": ""}
+{"cid": 5610, "verdict": "pass", "reason": "「有节日祭典…被各方邀请表演忍术」逐字", "fix": ""}
+{"cid": 5611, "verdict": "pass", "reason": "「躲不过…法眼／逃不出…掌心」忠实（「唯一天敌」略作概括）", "fix": ""}
+{"cid": 5612, "verdict": "pass", "reason": "「能让宫司大人亲自出马的情况非常少」逐字", "fix": ""}
+{"cid": 5613, "verdict": "uncertain", "reason": "part-of 用于人物（老师）不当：引文系师从关系（「跟着老师学习忍术」）", "fix": "谓词改 studies-under/师从老师（自记事起）"}
+{"cid": 5614, "verdict": "pass", "reason": "「过度依赖他人，对忍者来说可不是什么好事」逐字", "fix": ""}
+{"cid": 5615, "verdict": "pass", "reason": "「等到她的能力足够自保时，老师选择了悄然离开」逐字", "fix": ""}
+{"cid": 5616, "verdict": "pass", "reason": "「不久之后，早柚便拥有了『神之眼』」＋老师离去语境，忠实", "fix": ""}
+{"cid": 5617, "verdict": "pass", "reason": "「一直陪伴着自己的人，终有一日会离开…」逐字", "fix": ""}
+{"cid": 5618, "verdict": "pass", "reason": "衣服由来（老师所送）与形制（貉、喜欢的颜色）均本页原文", "fix": ""}
+{"cid": 5619, "verdict": "pass", "reason": "「巨大的帽子…安全感」「长长的尾巴…保持平衡」逐字", "fix": ""}
+{"cid": 5620, "verdict": "pass", "reason": "「我不是狸猫，是早柚」＋「最初…认真解释」均原文", "fix": ""}
+{"cid": 5621, "verdict": "pass", "reason": "「一直明白自己不适合战斗」逐字", "fix": ""}
+{"cid": 5622, "verdict": "uncertain", "reason": "witnesses 与格言式宾语不符（「任务不会等待忍者成长完全才降临」系通则）；早柚为亲历者", "fix": "谓词改 experiences/亲历（任务不等待忍者成长）"}
+{"cid": 5623, "verdict": "pass", "reason": "「为了安全带回情报，几乎付出一切」逐字", "fix": ""}
+{"cid": 5624, "verdict": "pass", "reason": "「弱者也有弱者的生存之道」逐字", "fix": ""}
+{"cid": 5625, "verdict": "pass", "reason": "「树叶落下的瞬间，她消失了…难以置信」逐字", "fix": ""}
+{"cid": 5626, "verdict": "pass", "reason": "「忍者包不翼而飞—神之眼取而代之」逐字；授予者按神之眼通说标注", "fix": ""}
+{"cid": 5627, "verdict": "pass", "reason": "「借助『神之眼』的力量…举起双手剑」逐字", "fix": ""}
+{"cid": 5628, "verdict": "pass", "reason": "「似乎连『神之眼』都无能为力」逐字", "fix": ""}
+{"cid": 5629, "verdict": "pass", "reason": "「『终末番』早柚，参上」与摸头禁令系同段原文", "fix": ""}
+{"cid": 5630, "verdict": "pass", "reason": "「不准趁我睡觉的时候偷偷摸我的头」逐字", "fix": ""}
+{"cid": 5631, "verdict": "pass", "reason": "「工作还不如睡觉」逐字", "fix": ""}
+{"cid": 5632, "verdict": "pass", "reason": "「被雨淋到就长不高了」逐字", "fix": ""}

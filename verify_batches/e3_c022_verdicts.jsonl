@@ -1,0 +1,200 @@
+{"cid": 4602, "verdict": "pass", "reason": "凯亚在场亲历（#29「凯亚和迪卢克都被眼前这一幕震惊」），宾语与引文一致", "fix": ""}
+{"cid": 4603, "verdict": "pass", "reason": "引文为凯亚心声原话（#29），宾语一致", "fix": ""}
+{"cid": 4604, "verdict": "pass", "reason": "名单夹于《安杰洛斯探案集》书页间（#30），宾语一致", "fix": ""}
+{"cid": 4605, "verdict": "pass", "reason": "引文逐字（#30），宾语概括忠实", "fix": ""}
+{"cid": 4606, "verdict": "pass", "reason": "引文逐字（#30「免得太无聊」圈注）", "fix": ""}
+{"cid": 4607, "verdict": "pass", "reason": "「喝醉了，写着玩的」系凯亚对名单的评论原文（#30）", "fix": ""}
+{"cid": 4609, "verdict": "pass", "reason": "引文逐字（#31），宾语概括忠实", "fix": ""}
+{"cid": 4610, "verdict": "pass", "reason": "引文逐字（#31：「解脱…又为这份自私感到羞愧」）", "fix": ""}
+{"cid": 4611, "verdict": "pass", "reason": "引文逐字（#31：敲门、秘密和盘托出）", "fix": ""}
+{"cid": 4612, "verdict": "uncertain", "reason": "enemy-of 过强：引文仅「决裂之夜兄弟拔剑相向」，后文仅「与义兄之间起了些变化」，未至敌对关系", "fix": "改述为「决裂之夜与迪卢克拔剑相向、义兄弟自此疏远」"}
+{"cid": 4613, "verdict": "pass", "reason": "引文逐字（#31：藏在光辉之下、首次以真实自己面对义兄）", "fix": ""}
+{"cid": 4614, "verdict": "pass", "reason": "引文逐字（#31：冰冷脆弱的元素力沿剑尖涌向迪卢克）", "fix": ""}
+{"cid": 4615, "verdict": "pass", "reason": "引文逐字（#31：缠斗飓风夜「神之眼」降临）", "fix": ""}
+{"cid": 4616, "verdict": "pass", "reason": "引文逐字（#31：视作警示、背负谎言重量）", "fix": ""}
+{"cid": 4617, "verdict": "pass", "reason": "引文逐字（#31：养子始终陪在一旁、无法融入父子惨剧）", "fix": ""}
+{"cid": 4618, "verdict": "pass", "reason": "凯亚原话（182086）；主语为被谈论者并标「凯亚评语」、narrator=凯亚，转述标注正确", "fix": ""}
+{"cid": 4619, "verdict": "pass", "reason": "182104 全句「我来告诉你过去发生的事情吧，干脆从头说起——保证原汁原味」", "fix": ""}
+{"cid": 4621, "verdict": "pass", "reason": "182116 原话（眼罩与「眼睛没事」）", "fix": ""}
+{"cid": 4622, "verdict": "pass", "reason": "182074 原话（视神之眼为引导元素力之比喻）", "fix": ""}
+{"cid": 4624, "verdict": "pass", "reason": "182112「蒙德城的骑兵都被大团长带走了」；大团长=法尔伽", "fix": ""}
+{"cid": 4625, "verdict": "pass", "reason": "182114 原话（十位队长、非人人队长级）", "fix": ""}
+{"cid": 4626, "verdict": "uncertain", "reason": "distrusts 与引文相抵：凯亚称「说来可惜」无人继承大团长作风、且「我个人倒还挺欣赏那种的」——系惋惜/欣赏，非不信任", "fix": "谓词改「惋惜/欣赏」，如「凯亚惋惜今时骑士团无人继承大团长作风（自称欣赏）」"}
+{"cid": 4627, "verdict": "pass", "reason": "182098「我受代理团长大人所托」；委托方向正确（委托人=琴，受托人=凯亚）", "fix": ""}
+{"cid": 4628, "verdict": "pass", "reason": "182098 原话（懂事、不需操心）；narrator=凯亚，转述标注正确", "fix": ""}
+{"cid": 4629, "verdict": "pass", "reason": "182100 原话＋「比某人好多了」，宾语与引文一致", "fix": ""}
+{"cid": 4630, "verdict": "pass", "reason": "182082「左手的尺骨还是麻麻的」；「电击」系据雷系责罚的推定", "fix": "宜注明电击系据「发麻」推定"}
+{"cid": 4631, "verdict": "pass", "reason": "182084 原话（机灵又正义的侦察骑士）", "fix": ""}
+{"cid": 4632, "verdict": "pass", "reason": "182088 原话（未掌握躲避检查技巧、凯亚点拨过）", "fix": ""}
+{"cid": 4633, "verdict": "pass", "reason": "182090 原话（沉稳优雅、才华横溢）", "fix": ""}
+{"cid": 4634, "verdict": "uncertain", "reason": "引文「你也尝过了迪奥娜调的酒」中「你」系对话者（旅行者），未证「其作品已被凯亚尝过」", "fix": "括注改「（对话者尝过其作品）」或删除"}
+{"cid": 4635, "verdict": "pass", "reason": "182108 原话（豪饮比赛落败、结识契机）", "fix": ""}
+{"cid": 4636, "verdict": "pass", "reason": "182110 原话；委托方向正确（洛恩求凯亚伪造签名）", "fix": ""}
+{"cid": 4637, "verdict": "pass", "reason": "182110 原话（拟以大团长笔迹写信试探）", "fix": ""}
+{"cid": 4638, "verdict": "pass", "reason": "182126 原话（「午后之死」配方）", "fix": ""}
+{"cid": 4639, "verdict": "pass", "reason": "182122 原话（品酒为艺术、风神恩赐）", "fix": ""}
+{"cid": 4640, "verdict": "pass", "reason": "182058 原话（「真是和平啊…」）", "fix": ""}
+{"cid": 4641, "verdict": "pass", "reason": "182078 原话（龙脊雪山猫头鹰）；narrator=凯亚", "fix": ""}
+{"cid": 4642, "verdict": "pass", "reason": "182144 原话＋「继续我们的旅程吧，挚友」，宾语一致", "fix": ""}
+{"cid": 4643, "verdict": "uncertain", "reason": "宾语头「投资者」与引文不符：原文为「跟你一起旅行…最有趣的事儿」，疑为「经历者」之误", "fix": "改「旅途中最有趣之事的经历者」；或径录「与旅行者同行乃此生之最」"}
+{"cid": 4644, "verdict": "pass", "reason": "185114 原话（璃月七星中的玉衡）", "fix": ""}
+{"cid": 4645, "verdict": "pass", "reason": "引文（#160「离神最近的人之一…最缺乏敬畏心」）", "fix": "宜保留「之一」：『离神最近者之一』"}
+{"cid": 4646, "verdict": "pass", "reason": "#160 原话（对帝君的直言质疑）", "fix": ""}
+{"cid": 4647, "verdict": "pass", "reason": "#161 原话（请仙典仪的著名发言）", "fix": ""}
+{"cid": 4648, "verdict": "pass", "reason": "#161「帝君留下了意味深长的笑声」，宾语一致", "fix": ""}
+{"cid": 4649, "verdict": "pass", "reason": "#161「商人们更热衷于信仰型投资」＋请仙典仪后动荡", "fix": ""}
+{"cid": 4650, "verdict": "pass", "reason": "#161 原话（沙堡之喻）", "fix": ""}
+{"cid": 4651, "verdict": "pass", "reason": "#162 无引文已核：「没有一个能坚持超过三个月」＋压缩周期/抠细节", "fix": ""}
+{"cid": 4652, "verdict": "pass", "reason": "#163 原话（层岩巨渊拉车、南码头夯土、餐馆跑堂）", "fix": ""}
+{"cid": 4653, "verdict": "pass", "reason": "#163 原话（举报黑心恶霸）", "fix": ""}
+{"cid": 4654, "verdict": "pass", "reason": "#164「原本由帝君全权监管的事务，尽数分配到七星八门手中」", "fix": ""}
+{"cid": 4655, "verdict": "pass", "reason": "#164 引文（尚无「取而代之」能力，遂闭门再学习）", "fix": ""}
+{"cid": 4656, "verdict": "pass", "reason": "#164 原话（「断然没有两立的道理」）", "fix": ""}
+{"cid": 4657, "verdict": "pass", "reason": "#164 原话（认可与期待的笑容）", "fix": ""}
+{"cid": 4658, "verdict": "pass", "reason": "#165 引文（帝君土偶已买一整柜）", "fix": ""}
+{"cid": 4659, "verdict": "pass", "reason": "#166 引文（发簪化小刀等多用途）", "fix": ""}
+{"cid": 4660, "verdict": "pass", "reason": "#167 引文（三度销毁尝试均失败）", "fix": ""}
+{"cid": 4661, "verdict": "pass", "reason": "#167 原话（力量的驱使者）", "fix": ""}
+{"cid": 4662, "verdict": "pass", "reason": "#164 引文（迷茫时的自问）", "fix": ""}
+{"cid": 4663, "verdict": "pass", "reason": "185202「理想中的那个人」＋185204 约定见证新璃月港（无引文已核）", "fix": ""}
+{"cid": 4664, "verdict": "pass", "reason": "185204 原话（引语＋约定）", "fix": "「新璃月总纲」库内无此名目，宜删或补来源"}
+{"cid": 4665, "verdict": "pass", "reason": "185162 原话（往生堂先生太像帝君那一套）；刻晴未识破其身份", "fix": ""}
+{"cid": 4666, "verdict": "pass", "reason": "185168 原话（帝君离去后达成共识、视为战友）", "fix": "「性子不合」宜作「观念不同」（原文「根本的观念不同」）"}
+{"cid": 4667, "verdict": "pass", "reason": "185170 原话（凝光两倍价买走琉璃新月）", "fix": ""}
+{"cid": 4668, "verdict": "pass", "reason": "185164 原话（漠视规则、船队不可或缺）", "fix": ""}
+{"cid": 4669, "verdict": "pass", "reason": "185164 引文（负责律法的天权席位）", "fix": ""}
+{"cid": 4670, "verdict": "pass", "reason": "185184 引文（璃月最熟悉帝君的人）", "fix": ""}
+{"cid": 4671, "verdict": "pass", "reason": "185192 原话（祖辈为七星效力、为总务司供情报）", "fix": ""}
+{"cid": 4672, "verdict": "pass", "reason": "185180 原话（少年仙人可卸重担）", "fix": ""}
+{"cid": 4673, "verdict": "pass", "reason": "185188 原话（对风之神治世的疑问）", "fix": ""}
+{"cid": 4674, "verdict": "pass", "reason": "185190 原话（招揽烟绯为助手）", "fix": ""}
+{"cid": 4675, "verdict": "pass", "reason": "185192 情报一致（夜兰为总务司供情报）", "fix": "「七星下辖」关系宜补佐证（178873「八门基层雇员」等）"}
+{"cid": 4676, "verdict": "pass", "reason": "#80 无引文已核：「北斗是「南十字」的首领」＋武装船队", "fix": ""}
+{"cid": 4677, "verdict": "pass", "reason": "#80 原话（已得七星许可…大致如此）", "fix": ""}
+{"cid": 4679, "verdict": "pass", "reason": "#81 引文（「也有一说」举剑引雷劈冥海巨兽）", "fix": ""}
+{"cid": 4680, "verdict": "pass", "reason": "#82 引文（飓风中救援平民船、共享粮水）", "fix": ""}
+{"cid": 4681, "verdict": "pass", "reason": "#82 璃月人原话（情义非筹码）", "fix": ""}
+{"cid": 4682, "verdict": "pass", "reason": "#83 引文（凝光挑中的是北斗这个人）", "fix": ""}
+{"cid": 4683, "verdict": "pass", "reason": "#83 凝光原话（璃月最好控制的人）", "fix": ""}
+{"cid": 4684, "verdict": "pass", "reason": "#84 无引文已核（五万摩拉佣金、全船尊称香菱阿姊）", "fix": ""}
+{"cid": 4685, "verdict": "pass", "reason": "#84 引文（断言香菱必会名震璃月港）", "fix": ""}
+{"cid": 4686, "verdict": "pass", "reason": "#85 引文（外海探索、操舵唱拉网号子）", "fix": ""}
+{"cid": 4687, "verdict": "pass", "reason": "#86 引文（最后唱渔歌于狩猎海山之时）", "fix": "谓词 wields 宜作「会唱/保有」（渔歌非器物）"}
+{"cid": 4688, "verdict": "pass", "reason": "#86 引文（投剑穿三脊椎）；系码头力工闲话", "fix": ""}
+{"cid": 4689, "verdict": "pass", "reason": "#86 引文（棋局两胜凝光）；系码头力工闲话", "fix": ""}
+{"cid": 4690, "verdict": "pass", "reason": "#87 无引文已核（渔歌＝北斗摇篮曲）", "fix": ""}
+{"cid": 4691, "verdict": "pass", "reason": "#87 无引文已核（九岁想斩、四日苦战、日出斩首）", "fix": ""}
+{"cid": 4692, "verdict": "pass", "reason": "#87 无引文已核（斩海山夜紫电凝成神之眼）", "fix": ""}
+{"cid": 4693, "verdict": "pass", "reason": "183150 原话（偷果子、被商人排挤）", "fix": ""}
+{"cid": 4694, "verdict": "pass", "reason": "183152 原话（死兆星号永远有其位置）", "fix": ""}
+{"cid": 4695, "verdict": "pass", "reason": "183124 原话（负责对象是船和兄弟们）", "fix": ""}
+{"cid": 4696, "verdict": "pass", "reason": "183134 原话（孤云阁方向少年仙人）", "fix": ""}
+{"cid": 4697, "verdict": "pass", "reason": "183136 原话（与甘雨私交不错、对外保密）", "fix": ""}
+{"cid": 4698, "verdict": "pass", "reason": "183142 引文（万叶回南十字船队同行）", "fix": ""}
+{"cid": 4699, "verdict": "pass", "reason": "183118 原话（旗帜当有旗帜的样子）", "fix": ""}
+{"cid": 4700, "verdict": "pass", "reason": "183140 引文（瑶瑶爱到船上玩、差点打乱出航计划）", "fix": ""}
+{"cid": 4701, "verdict": "pass", "reason": "FetterInfo#80 无引文已核（千织屋老板）＋#638 枫丹最繁华街道", "fix": ""}
+{"cid": 4702, "verdict": "pass", "reason": "192764 原话（枫丹人称鸣雷的裁锦师）", "fix": ""}
+{"cid": 4703, "verdict": "pass", "reason": "192764 原话＋#639（商人家庭出身）", "fix": ""}
+{"cid": 4704, "verdict": "pass", "reason": "#645 神之眼＋FetterInfo 岩（无引文已核）", "fix": ""}
+{"cid": 4705, "verdict": "pass", "reason": "#640 原话（锁国消息→枫丹舆论谈资）", "fix": ""}
+{"cid": 4706, "verdict": "pass", "reason": "#640 无引文已核（时装周一霆、报纸被占领）", "fix": ""}
+{"cid": 4707, "verdict": "pass", "reason": "#640 无引文已核（旧势力举旗而败北）", "fix": ""}
+{"cid": 4708, "verdict": "pass", "reason": "#641 无引文已核（「情报屋」称号）", "fix": "「情报屋」系千织屋的别称，主语宜作「千织屋」"}
+{"cid": 4709, "verdict": "pass", "reason": "#641 原话（如裁衣：缝到该出现的地方）", "fix": ""}
+{"cid": 4710, "verdict": "pass", "reason": "#642 原话（「想怎么做就怎么做」）", "fix": ""}
+{"cid": 4711, "verdict": "pass", "reason": "#642 原话（长刀裁布、争夺话语权）", "fix": ""}
+{"cid": 4712, "verdict": "pass", "reason": "#643 无引文已核（「她曾这么说」）", "fix": ""}
+{"cid": 4713, "verdict": "pass", "reason": "#643 无引文已核（讨厌被未来的梦催促、活在当下）", "fix": ""}
+{"cid": 4714, "verdict": "pass", "reason": "192768 原话（「袖」为第一件作品）", "fix": ""}
+{"cid": 4715, "verdict": "pass", "reason": "#645 无引文已核（小仓屋邀请、千织拒绝）", "fix": ""}
+{"cid": 4716, "verdict": "pass", "reason": "#645 原话（离乡起誓）", "fix": ""}
+{"cid": 4717, "verdict": "pass", "reason": "192732 原话（顾客即神明那套不管用）", "fix": ""}
+{"cid": 4718, "verdict": "pass", "reason": "192758 原话（永不认输＝品牌）", "fix": "谓词 wields 宜作 is-a/embraces（品牌理念非器物）"}
+{"cid": 4719, "verdict": "pass", "reason": "192784＋绮良良 191084「我身上这套衣服就是她帮我改良的」", "fix": ""}
+{"cid": 4720, "verdict": "pass", "reason": "192786 原话（翻进神里家院子、短暂友情告终）", "fix": ""}
+{"cid": 4721, "verdict": "uncertain", "reason": "「刺玫会常客」无明文：192770 仅证娜维娅拜托千织设计奇物、想法超前", "fix": "改「想法超前的委托人（曾拜托千织设计各种奇奇怪怪的东西）」"}
+{"cid": 4722, "verdict": "uncertain", "reason": "「醉汉被扔出窗」无本句明文：192776 仅「醉汉闹事、被她记录下了全程」", "fix": "改「醉汉闹事被记录全程」；「被扔出窗」宜删或补出处"}
+{"cid": 4723, "verdict": "pass", "reason": "192780 原话（香水小样试做合作、天才之作）", "fix": ""}
+{"cid": 4724, "verdict": "pass", "reason": "192792 原话（想穿祭典就想到千织屋）", "fix": ""}
+{"cid": 4725, "verdict": "pass", "reason": "192796 原话（未来由自己选择）", "fix": ""}
+{"cid": 4726, "verdict": "pass", "reason": "192792 无引文已核（童年最期待夏日祭典、不想只做观众）", "fix": ""}
+{"cid": 4727, "verdict": "pass", "reason": "#534 原话（妙论派之光）", "fix": ""}
+{"cid": 4728, "verdict": "pass", "reason": "#534「破产…碍于面子避而不谈」", "fix": ""}
+{"cid": 4729, "verdict": "pass", "reason": "#534 原话（过分坦诚招致信誉危机）", "fix": ""}
+{"cid": 4730, "verdict": "pass", "reason": "#535 原话（卡萨扎莱宫、古灯塔、升降机等）", "fix": ""}
+{"cid": 4731, "verdict": "pass", "reason": "#541 引文＋草元素（天赋链佐证）", "fix": ""}
+{"cid": 4732, "verdict": "pass", "reason": "#536 引文＋明论派出身", "fix": ""}
+{"cid": 4733, "verdict": "pass", "reason": "#536 无引文已核（母亲妙论派建筑设计师、赴枫丹）", "fix": ""}
+{"cid": 4734, "verdict": "pass", "reason": "#536 引文（在其鼓励和要求下报名）", "fix": ""}
+{"cid": 4735, "verdict": "pass", "reason": "#536 引文（负罪感缠住人生）", "fix": ""}
+{"cid": 4736, "verdict": "pass", "reason": "#536 引文（不会承认自己孤独）", "fix": ""}
+{"cid": 4737, "verdict": "pass", "reason": "#536 引文（教会关怀、夺走伤害他人的能力）", "fix": ""}
+{"cid": 4738, "verdict": "pass", "reason": "#537 引文＋去艺术化（教令院推崇纯学术）", "fix": ""}
+{"cid": 4739, "verdict": "pass", "reason": "#537 引文（母亲的笑容：先快乐、随即无所适从）", "fix": ""}
+{"cid": 4740, "verdict": "pass", "reason": "#538 引文（桑歌玛哈巴依＝多莉委托设计豪宅）", "fix": ""}
+{"cid": 4741, "verdict": "pass", "reason": "#538 引文（死域摧毁七成工程）", "fix": ""}
+{"cid": 4742, "verdict": "pass", "reason": "#538 引文（未获收益、倒欠甲方）", "fix": ""}
+{"cid": 4743, "verdict": "pass", "reason": "#538 引文（多莉看出其为理想买单）", "fix": ""}
+{"cid": 4744, "verdict": "pass", "reason": "#539 无引文已核（旧友、共同课题）；宜标时点", "fix": "宜加括注「学生时代」（后在刊物上针锋相对）"}
+{"cid": 4745, "verdict": "pass", "reason": "#539 引文（课题成果补全语法、优化承重）", "fix": ""}
+{"cid": 4746, "verdict": "pass", "reason": "#539 引文（理想主义是对现实的逃离）", "fix": ""}
+{"cid": 4747, "verdict": "pass", "reason": "#539 引文（划掉署名、撕稿又粘回）", "fix": ""}
+{"cid": 4748, "verdict": "pass", "reason": "#539 引文（理性和感性…镜子的两面）", "fix": ""}
+{"cid": 4749, "verdict": "pass", "reason": "#541 无引文已核（斗室塌方救出两名同学）", "fix": ""}
+{"cid": 4750, "verdict": "pass", "reason": "Fetters#5237（卡维·关于「神之眼」）原话", "fix": ""}
+{"cid": 4751, "verdict": "pass", "reason": "#5234（关于卡维自己·艺术）原话", "fix": ""}
+{"cid": 4752, "verdict": "pass", "reason": "#5265（突破的感受·合）原话", "fix": ""}
+{"cid": 4753, "verdict": "pass", "reason": "193586 无引文已核（「回声之子」的卡齐娜）", "fix": ""}
+{"cid": 4754, "verdict": "pass", "reason": "193642 原话（古名乌沙博蒂＝坚强）", "fix": ""}
+{"cid": 4755, "verdict": "pass", "reason": "#693 无引文已核（首次巡礼失败后挖掘所得）＋岩元素", "fix": ""}
+{"cid": 4756, "verdict": "pass", "reason": "#691 引文（多次失败后凯旋）", "fix": ""}
+{"cid": 4757, "verdict": "uncertain", "reason": "死亡判定两读并存：193614 自述「能在巡夜者战争死去…你们从夜神之国把我带回来」，5003 图尼娜称「她在交战中不幸牺牲了」，但玛薇卡 500305/500308 仅称「失踪／无法定位」、玛拉妮 500602「困在了这里」——阵亡-寻回与失踪被困两说未定（与 c007-1507 同事件先例一致）", "fix": "谓词宜作「失踪/被困于夜神之国（后获救归来）」；若采阵亡-寻回说须另注依据"}
+{"cid": 4758, "verdict": "uncertain", "reason": "resurrects 隐含死亡：真相系「困于夜神之国」后归来（500602「困在了这里」），灵魂之火未熄——复活语义与失踪说相抵（同 4757）", "fix": "谓词宜作「自夜神之国生还/归来」；若采阵亡-寻回说可保留 resurrects 并注轨迹"}
+{"cid": 4759, "verdict": "pass", "reason": "#688 引文（龙与人类平等地位）", "fix": ""}
+{"cid": 4760, "verdict": "pass", "reason": "#688 引文（阿尤自愿结缘、从不动摇）", "fix": ""}
+{"cid": 4761, "verdict": "pass", "reason": "#689 引文（帕加尔叔叔原话）", "fix": ""}
+{"cid": 4762, "verdict": "pass", "reason": "#690 引文（坚强之注解）", "fix": ""}
+{"cid": 4763, "verdict": "pass", "reason": "#691 引文＋193638「纳塔的英雄」", "fix": ""}
+{"cid": 4764, "verdict": "pass", "reason": "#692 无引文已核（四卷：持剑/持盾/佚名/持矛者）", "fix": ""}
+{"cid": 4765, "verdict": "pass", "reason": "#692 原话（旗语两则之一）", "fix": ""}
+{"cid": 4767, "verdict": "pass", "reason": "193672 引文（卡齐娜引陶奥鲁语，转述标注）", "fix": ""}
+{"cid": 4768, "verdict": "pass", "reason": "193650 引文（大灵之话使其转变）", "fix": ""}
+{"cid": 4769, "verdict": "pass", "reason": "193634 引文（灵觉髓石系其发明）", "fix": ""}
+{"cid": 4770, "verdict": "pass", "reason": "193628 引文（私下教训坏蛋、不收回礼）", "fix": ""}
+{"cid": 4771, "verdict": "pass", "reason": "193626 原话（第一个好朋友）", "fix": ""}
+{"cid": 4772, "verdict": "pass", "reason": "193636 引文（帕加尔引荐、打造冲天转转）", "fix": ""}
+{"cid": 4773, "verdict": "uncertain", "reason": "内容有据（193612）但谓词 aka 误用：宾语为角色「命名人之一」，非别名——会生成错误别名边", "fix": "谓词改 names/creates（冲天转转之名系其与阿尤共同所取）"}
+{"cid": 4774, "verdict": "pass", "reason": "193644 原话（排行第二、家人）", "fix": "谓词 member-of 宜作 is-a（家庭排行非团体成员）"}
+{"cid": 4775, "verdict": "pass", "reason": "183678 无引文已核（「火花骑士」可莉报到）", "fix": ""}
+{"cid": 4776, "verdict": "pass", "reason": "#111 引文（火焰般神之眼自灰烬浮出）", "fix": ""}
+{"cid": 4777, "verdict": "pass", "reason": "#108 无引文已核（一举消灭进犯丘丘人、永久改变地貌）", "fix": ""}
+{"cid": 4778, "verdict": "pass", "reason": "#108 原话（望风山地红衣骑士传说）", "fix": ""}
+{"cid": 4779, "verdict": "pass", "reason": "#109 引文（大冒险家、《提瓦特游览指南》作者）", "fix": ""}
+{"cid": 4780, "verdict": "pass", "reason": "#109 无引文已核（教调配火药、挑选引信、规划受力点）", "fix": ""}
+{"cid": 4781, "verdict": "pass", "reason": "#105/#109 无引文已核（三年前托付、父母去了遥远危险之地）", "fix": "「三年前」系叙事时点，宜加 as_of 标注"}
+{"cid": 4782, "verdict": "fail", "reason": "主客颠倒：托付者为可莉父母（#109「临行前，将可莉托付给阿贝多哥哥和骑士团」），阿贝多为受托方，非委托方", "fix": "主语改「可莉父母」｜entrusts｜可莉（托付给阿贝多与骑士团）；阿贝多宜述为受托监护"}
+{"cid": 4783, "verdict": "pass", "reason": "#110 无引文已核（艾莉丝手制、可莉最初的朋友）", "fix": ""}
+{"cid": 4784, "verdict": "pass", "reason": "183684 无引文已核（《骑士团生存守则》系凯亚代写）", "fix": ""}
+{"cid": 4785, "verdict": "pass", "reason": "183708 引文（巴巴托斯对可莉的肯定）", "fix": ""}
+{"cid": 4786, "verdict": "pass", "reason": "#106 无引文已核（每周重演一两次、被琴关禁闭）", "fix": ""}
+{"cid": 4787, "verdict": "pass", "reason": "#105 引文（帮助安柏改进兔兔伯爵）", "fix": ""}
+{"cid": 4788, "verdict": "pass", "reason": "#106 无引文已核（星落湖鱼类非正常伤亡案件、凶手可莉）", "fix": ""}
+{"cid": 4789, "verdict": "pass", "reason": "183748 原话（炸药配方多在禁闭中想出）", "fix": ""}
+{"cid": 4790, "verdict": "pass", "reason": "183708 引文（是自由吗？的自问）", "fix": ""}
+{"cid": 4791, "verdict": "pass", "reason": "183776 原话（交到很好的朋友）", "fix": ""}
+{"cid": 4792, "verdict": "pass", "reason": "183738 原话（小杜林哥哥现住蒙德）", "fix": ""}
+{"cid": 4793, "verdict": "pass", "reason": "183714 原话（与雷泽是朋友）", "fix": ""}
+{"cid": 4794, "verdict": "pass", "reason": "183712 原话（蜥蜴尾巴制炸药、阿贝多告知）", "fix": ""}
+{"cid": 4795, "verdict": "pass", "reason": "197154 原话（执灯人调查分队队长）", "fix": ""}
+{"cid": 4796, "verdict": "pass", "reason": "#893 无引文已核（委任书掉出宝石）＋岩元素（FetterInfo#113）", "fix": ""}
+{"cid": 4797, "verdict": "pass", "reason": "#887 引文＋#888（尼基塔自余烬救出）", "fix": ""}
+{"cid": 4798, "verdict": "pass", "reason": "#887 引文（抹去「家」与过去）", "fix": ""}
+{"cid": 4799, "verdict": "pass", "reason": "#887 引文＋#893 兽潮（再起）", "fix": ""}
+{"cid": 4800, "verdict": "pass", "reason": "#888 原话（接任执灯长、从头组建队伍）", "fix": ""}
+{"cid": 4801, "verdict": "pass", "reason": "#888 引文（尼基塔亲照看、学战斗技巧）", "fix": ""}
+{"cid": 4802, "verdict": "pass", "reason": "#888 引文＋执灯人守望长夜（Relic15039_2）", "fix": ""}
+{"cid": 4803, "verdict": "pass", "reason": "#887 原话（挪德卡莱＝流浪者的乐园）", "fix": ""}
+{"cid": 4804, "verdict": "pass", "reason": "#890/#893 无引文已核（资历与尼基塔一样老、幽焰人形）", "fix": ""}
+{"cid": 4805, "verdict": "pass", "reason": "#893 原话（加入执灯人便证明勇气）", "fix": ""}
+{"cid": 4806, "verdict": "pass", "reason": "#893 引文（队长奥尔松断后牺牲）", "fix": ""}

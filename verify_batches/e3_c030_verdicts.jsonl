@@ -1,0 +1,200 @@
+{"cid": 6248, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6249, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6250, "verdict": "uncertain", "reason": "宾语「大厨留给自己的蛋糕」中「自己」原指娜维娅（「娜维娅让出了大厨特意留给自己的蛋糕」），改写后先行词易误挂爱可菲", "fix": "宾语改「大厨特意留给娜维娅的蛋糕」"}
+{"cid": 6251, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6252, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6253, "verdict": "uncertain", "reason": "founds 对「食材风味频谱图」不当（原文系「绘制」）；「技术料理」系爱可菲为自创流派命名，非并立两个「创立」对象", "fix": "拆为「绘制『食材风味频谱图』」与「创立/命名『技术料理』流派」两条"}
+{"cid": 6254, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6255, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6256, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6257, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6258, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6259, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6260, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6261, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6262, "verdict": "fail", "reason": "主客颠倒：被囚者为爱可菲（「坠入梅洛彼得堡」「导致爱可菲入狱的幽光素一案」），梅洛彼得堡系囚禁地；imprisons 定义 X 将 Y 囚禁于 Z，现宾语位填地点，会生成『爱可菲囚禁梅洛彼得堡』错边", "fix": "改「（枫丹廷/审判机构）imprisons 爱可菲（囚于梅洛彼得堡，自称『上半场闭关』）」，或改述「爱可菲因幽光素案受审入狱（梅洛彼得堡），自称『上半场闭关』」"}
+{"cid": 6263, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6264, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6265, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6266, "verdict": "uncertain", "reason": "opposes（未至战争级）与「致命的围攻」（攻击行为）不符；敌对方向本身正确", "fix": "谓词改 attacks/围袭：熔岩游像（爱可菲误唤醒后）攻击爱可菲"}
+{"cid": 6267, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6268, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6269, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6270, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6271, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6272, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6273, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6274, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6275, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6276, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6277, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6278, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6279, "verdict": "uncertain", "reason": "wields 与引文不符：系承接订单创造之物（「她就能为你创造出超乎想象的杰作」），非爱诺持用", "fix": "谓词改 creates：爱诺（应订单）创造轰隆隆月矩力能量炮"}
+{"cid": 6280, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6281, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6282, "verdict": "uncertain", "reason": "part-of 用于人物不当（扳手老爹系其老师；「X 是组织/群体的成员」）", "fix": "谓词改 studies-under/师从：爱诺师从「扳手老爹」（至冬机械师）"}
+{"cid": 6283, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6284, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6285, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6286, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6287, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6288, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6289, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6290, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6291, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6292, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6293, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6294, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6295, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6296, "verdict": "uncertain", "reason": "part-of 用于人物不当（努乌先生系其师父）", "fix": "谓词改 studies-under/师从努乌先生（知名向导，付一大笔学费）"}
+{"cid": 6297, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6298, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6299, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6300, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6301, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6302, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6305, "verdict": "uncertain", "reason": "commands 过强：系玛拉妮提议分工、伙伴认可与阿伽娅（守卫指挥官）默许，非权威指挥", "fix": "谓词改 proposes/组织：玛拉妮组织夜袭当夜的非战斗支援分工"}
+{"cid": 6307, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6308, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6311, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6312, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6313, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6314, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6315, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6316, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6317, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6318, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6319, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6320, "verdict": "uncertain", "reason": "witnesses 与原文不符：系「得知她成为『调停人』」（非目睹）；括注「幼年打架」另属一段经历", "fix": "谓词改 hears-of/得知（恰斯卡成为「调停人」）；幼年争执另述或删"}
+{"cid": 6321, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6322, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6323, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6324, "verdict": "uncertain", "reason": "aka 亦混「古名基扬戈兹」与「称号焚夜以炎」（avatarTitle），且古名系继承之名号、非通行别称", "fix": "改述「（古名『基扬戈兹』；称号『焚夜以炎』）」；别名边宜删"}
+{"cid": 6325, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6326, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6327, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6328, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6329, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6330, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6331, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6332, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6333, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6335, "verdict": "uncertain", "reason": "survives 与「出征七人牺牲三位，父亲是其中之一、后经还魂诗重燃」相抵", "fix": "谓词改 dies-in/阵亡（经还魂诗重燃，因积累伤病被拖垮）；或将「阵亡—重燃」写入宾语"}
+{"cid": 6336, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6337, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6338, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6339, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6340, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6341, "verdict": "uncertain", "reason": "aka 系自认定位词（「比起『救世主』…更喜欢『代行者』这个词」），非通行别称，会生成失真别名边", "fix": "降为 self-styled/自认称谓（代行者），或并入性格叙述"}
+{"cid": 6343, "verdict": "uncertain", "reason": "ally-of 过强：引文仅表敬意（「我对像他这般的战士充满敬意」），无结盟明文", "fix": "谓词改 respects/敬意；如欲立同盟边需补结盟出处"}
+{"cid": 6344, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6345, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6347, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6348, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6349, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6350, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6351, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6352, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6353, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6354, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6355, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6356, "verdict": "uncertain", "reason": "part-of 用于古名不当（「沃摩延」系继承之名，非组织/群体）", "fix": "谓词改「继承古名沃摩延」（与图帕克同承此名）"}
+{"cid": 6357, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6358, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6359, "verdict": "uncertain", "reason": "ally-of 系或然推测（「或许是她很喜欢喝酒吧，也可能是她们很适合成为酒友」），语气未定", "fix": "改「或可为酒友（推测）」；勿作同盟边"}
+{"cid": 6360, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6361, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6362, "verdict": "uncertain", "reason": "entrusts 与引文不符：原文系评价与主张（「如此纯粹的目的，理应获得我们的敬重与帮助」），无委托关系", "fix": "谓词改「主张应敬重与帮助」或记述其钻研精神"}
+{"cid": 6363, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6365, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6366, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6367, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6368, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6369, "verdict": "uncertain", "reason": "imposes（强加）与「意志融入珊瑚宫家血脉、代代相传」不符（系存续/传承）", "fix": "谓词改「意志存续/融入（血脉代传）」"}
+{"cid": 6370, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6371, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6372, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6373, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6374, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6375, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6376, "verdict": "uncertain", "reason": "括注「制度代替亲历亲为」于文无据：原文仅「有才志士得到任用、锦囊逐日减少」", "fix": "括注改「海祇岛日渐繁荣、有才志士得到任用」"}
+{"cid": 6377, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6378, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6379, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6380, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6381, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6382, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6383, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6384, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6385, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6386, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6387, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6388, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6389, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6390, "verdict": "uncertain", "reason": "opposes 将心海的条件警告（「若是有一天，将军再次无视民众的愿望」）作实为将军—愿望对抗边；时点未定", "fix": "加条件保留「（心海警告：若将军再次无视民众愿望…）」；对抗边宜依眼狩令明文另立"}
+{"cid": 6391, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6392, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6393, "verdict": "uncertain", "reason": "active-during 宾语应为时代/事件，海祇岛系地点，类型错配", "fix": "谓词改旅居/逗留（海祇岛，自称『侦探』…）；或改 located-in"}
+{"cid": 6394, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6395, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6396, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6397, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6398, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6399, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6400, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6401, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6402, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6403, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6404, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6405, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6406, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6407, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6408, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6409, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6410, "verdict": "uncertain", "reason": "entrusts 无据且主语归属不当：游说者为「读着珐露珊手稿毕业的（妙论派）学者」，非刹诃伐罗学院委托", "fix": "主语改妙论派学者、谓词改游说/招揽（转去刹诃伐罗学院任教）"}
+{"cid": 6411, "verdict": "uncertain", "reason": "enemy-of 过强且宾语为「学派宣言」（非实体）；实际行为是批评教育该学者两堂课", "fix": "谓词改驳斥/批评教育（针对该学者及其言论）"}
+{"cid": 6412, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6413, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6414, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6415, "verdict": "uncertain", "reason": "intercepts（拦截）与「闯进工坊、上下测量、欲直接拆解」不符", "fix": "谓词改搜查/闯入检查（珐露珊工坊与新作）"}
+{"cid": 6416, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6417, "verdict": "uncertain", "reason": "narrates 主体不当：引文系旁白解释（风纪官反应过激的缘由），非风纪官转述；narrator「风纪官的判断逻辑」系自造", "fix": "改「（旁白说明）风纪官反应过激的缘由」，或删该转述边"}
+{"cid": 6418, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6419, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6420, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6421, "verdict": "uncertain", "reason": "revokes 无被撤销对象：『大风机关』仅为赛诺提议、未生效即被否决", "fix": "谓词改「否决命名提议」"}
+{"cid": 6422, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6423, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6424, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6425, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6426, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6427, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6428, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6429, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6430, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6431, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6432, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6433, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6434, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6435, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6436, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6437, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6438, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6439, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6440, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6441, "verdict": "uncertain", "reason": "worships 过强：引文为「所有学者都会感激小吉祥草王」，系感激/敬重而非崇拜侍奉", "fix": "谓词改感激/敬重"}
+{"cid": 6442, "verdict": "uncertain", "reason": "trusts 无直述：引文系推举其雨林学识（「最让我省心的项目」「把活的《雨林生存指南》带在身边」）", "fix": "谓词改认可/倚重（提纳里雨林学识），或补信任明文"}
+{"cid": 6443, "verdict": "uncertain", "reason": "distrusts 与「没法从文法和文义上推演出藏在话语中的意思」不符（系困惑不解）", "fix": "谓词改「不解/困惑（赛诺笑话的言外之意）」"}
+{"cid": 6444, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6445, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6446, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6447, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6448, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6449, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6450, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6451, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6452, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6453, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6454, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6455, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}
+{"cid": 6456, "verdict": "pass", "reason": "宾语忠实于引文，主语/叙述者对应正确，无过度归纳", "fix": ""}

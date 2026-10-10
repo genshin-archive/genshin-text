@@ -1,0 +1,200 @@
+{"cid": 9627, "verdict": "pass", "reason": "引文（Book88）逐字：五夜叉曰浮舍等；同段「世称『仙众夜叉』」，member-of 方向正确", "fix": ""}
+{"cid": 9628, "verdict": "pass", "reason": "无引文；Book88 原文「金鹏者，号『金翅鹏王』，又曰『降魔大圣』」逐字对应", "fix": ""}
+{"cid": 9629, "verdict": "pass", "reason": "引文「然诸夜叉虽有大威能，亦毋免为业障困，为遗恚染」；五夜叉属诸夜叉，概括无误", "fix": ""}
+{"cid": 9630, "verdict": "pass", "reason": "引文逐字；「非命者其三、不知所终者一、余者唯金鹏」转写与原文一致（略「不知名而亡者众」不影响）", "fix": ""}
+{"cid": 9631, "verdict": "pass", "reason": "引文「余者至今唯金鹏而已」；「独行于璃月」系由「余者唯一」及全篇璃月语境推得（另见 Fetters#5177 白术「他就独自离开了」旁证）", "fix": "宜注「独行」系推断，原文明文仅「余者唯金鹏」"}
+{"cid": 9632, "verdict": "pass", "reason": "引文逐字；「璃月民曰」叙述者正确", "fix": ""}
+{"cid": 9633, "verdict": "pass", "reason": "引文逐字（原文作「荻洲」，「荻花洲」为通称）", "fix": ""}
+{"cid": 9634, "verdict": "pass", "reason": "引文逐字；上文主语为大神通者（夜叉失亲友同袍），归属正确", "fix": ""}
+{"cid": 9635, "verdict": "pass", "reason": "引文逐字（「神鸣大社」系小说内虚构名，忠实原文）", "fix": ""}
+{"cid": 9636, "verdict": "pass", "reason": "引文「正在被宫司八重政子豢养着」；「废柴将军」同篇有据（「哪怕被人叫做废柴将军也无所谓」）", "fix": ""}
+{"cid": 9637, "verdict": "pass", "reason": "引文逐字；括注「敬畏」见同段「尊重，敬畏」", "fix": ""}
+{"cid": 9638, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9639, "verdict": "pass", "reason": "引文「只有两种人：路人…」；同段另有「我的世界里，只有政子，与其他人」", "fix": ""}
+{"cid": 9640, "verdict": "pass", "reason": "引文「她不仅是我的狐仙，也是神社的宫司」（「我」＝雷电将军）", "fix": ""}
+{"cid": 9641, "verdict": "pass", "reason": "无引文；原文「半个月前拜托你的巡视领土的工作」「只是走出了天守阁大门…直到傍晚才回来」支持", "fix": ""}
+{"cid": 9642, "verdict": "pass", "reason": "引文逐字；系梦中对话，紧扣「感冒好起来」，忠实", "fix": ""}
+{"cid": 9643, "verdict": "pass", "reason": "引文支持将军所读；同名书另有 Book372 实体，合「与现实（库内）同名」", "fix": ""}
+{"cid": 9644, "verdict": "pass", "reason": "引文逐字（「无敌于天下的将军大人，也会被感冒所击倒」）", "fix": ""}
+{"cid": 9645, "verdict": "pass", "reason": "引文「黄油蟹蟹」；同段另有奶茶与蛋糕，「等美食」成立", "fix": ""}
+{"cid": 9646, "verdict": "pass", "reason": "三篇行记（蒙德 Book37、璃月 Book58、稻妻 Book301）均题「艾莉丝的行记」", "fix": ""}
+{"cid": 9647, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9648, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9649, "verdict": "pass", "reason": "引文逐字（「古籍上曾说」已按转述口径标注）", "fix": ""}
+{"cid": 9650, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9651, "verdict": "pass", "reason": "引文「岩神曾经镇压海中魔神的地方」；谓词 seals 从宽成立", "fix": ""}
+{"cid": 9652, "verdict": "pass", "reason": "引文（巨岩长枪矗立海面）＋璃月篇「遥远海面上的孤云阁」语境", "fix": ""}
+{"cid": 9653, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9654, "verdict": "pass", "reason": "引文逐字；与库内别名（八重神子「八重小妹」）一致", "fix": ""}
+{"cid": 9655, "verdict": "pass", "reason": "引文「近些年经营神社的是那位八重小妹」；神社即鸣神大社（同段「稻妻最大的神社——鸣神大社」），commands 从宽", "fix": ""}
+{"cid": 9656, "verdict": "pass", "reason": "引文「他的女儿宵宫」（承上指长野原老弟）；「很有天赋」见同段", "fix": ""}
+{"cid": 9657, "verdict": "pass", "reason": "引文逐字（「我」＝艾莉丝，调配飞行药剂致天狗大将左翅受伤）", "fix": ""}
+{"cid": 9658, "verdict": "uncertain", "reason": "谓词 distrusts 不精确：引文系「第六次婉拒了加入偶像团的提议」——婉拒≠不信任；事实（六次婉拒）无误", "fix": "谓词改 declines/rejects（婉拒）；宾语「加入偶像团的提议（已六次婉拒）」"}
+{"cid": 9659, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9660, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9661, "verdict": "pass", "reason": "引文「似乎是本地工人的领袖，拥有幕府代官的职位」；「似乎」略去未伤核心", "fix": "宜注「似为」（原文「似乎是」）"}
+{"cid": 9662, "verdict": "pass", "reason": "引文逐字（「信赖和爱戴…乐意听从她的调遣甚至大于对将军的尊崇」）", "fix": ""}
+{"cid": 9663, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9664, "verdict": "pass", "reason": "引文逐字（「我擅自修改了『御影炉心』的参数」）", "fix": ""}
+{"cid": 9665, "verdict": "pass", "reason": "引文逐字（转述阴阳师之说，已属转述口径）", "fix": ""}
+{"cid": 9666, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9667, "verdict": "pass", "reason": "引文「矿工们大多患上了慢性疾病」；claim 略「大多」，量级可接受", "fix": "宜改「多患慢性疾病」（保留「大多」）"}
+{"cid": 9668, "verdict": "pass", "reason": "引文「图书馆的丽莎小姐」；「成员」系弱化表述", "fix": "宾语宜改「蒙德图书馆的图书管理员」"}
+{"cid": 9669, "verdict": "pass", "reason": "引文逐字；「炸毁摘星崖提议」见上文摘星崖炸弹一节", "fix": ""}
+{"cid": 9670, "verdict": "pass", "reason": "引文逐字（「据说」已标转述）", "fix": ""}
+{"cid": 9671, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9672, "verdict": "pass", "reason": "引文「似乎对这里非常熟悉」，略「似乎」，量级可接受", "fix": ""}
+{"cid": 9673, "verdict": "pass", "reason": "引文逐字（关隘与「为烈风之王镇守关隘的士兵」并及）", "fix": ""}
+{"cid": 9674, "verdict": "pass", "reason": "引文逐字（烈风之王迭卡拉庇安建造的都城、古城环形）", "fix": ""}
+{"cid": 9675, "verdict": "pass", "reason": "无引文；Book86 全书恰为四道（烤角蜥、达达肉排、冰火生拌、岩烧什锦锅）", "fix": ""}
+{"cid": 9676, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9677, "verdict": "pass", "reason": "引文逐字（「偏腥发苦…但放心无毒无害」）", "fix": ""}
+{"cid": 9678, "verdict": "pass", "reason": "引文＋前文（抹盐、薄布包裹、贴身绑背、体温与日晒加热）", "fix": ""}
+{"cid": 9679, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9680, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9681, "verdict": "pass", "reason": "引文（「中央放置火史莱姆，然后用石块搭起炉灶」＋「把火史莱姆切成稍大的块状拌在一起」）", "fix": ""}
+{"cid": 9682, "verdict": "pass", "reason": "引文＋前文（冰、火史莱姆切块拌入水果与野菜）", "fix": ""}
+{"cid": 9683, "verdict": "pass", "reason": "引文（温度异常须敲晕处理）；「可食元素生物」系全篇食谱语境概括", "fix": ""}
+{"cid": 9684, "verdict": "pass", "reason": "引文＋前文（石块围环、中央火史莱姆搭炉灶）", "fix": ""}
+{"cid": 9685, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9686, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9687, "verdict": "pass", "reason": "引文「第一等的风雅之士」；作者身份由书名《有乐斋六狐传》及「其文字…青睐有加」推得", "fix": "宜注「作者」系据书名与文名推定"}
+{"cid": 9688, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9689, "verdict": "pass", "reason": "引文逐字（「犯下大罪引咎离去，至今已有五百余年矣」）", "fix": ""}
+{"cid": 9690, "verdict": "pass", "reason": "引文「大狐白辰」「主母白辰」「其手下有六位弟子」", "fix": ""}
+{"cid": 9691, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9692, "verdict": "pass", "reason": "引文「六狐之首名曰黑狐阿达，虽是女儿身，却生得虎背熊腰」；member-of 宜作 leader-of", "fix": "谓词宜改 leader-of（黑狐阿达｜leader-of｜六狐）；或宾语改「六狐（居首）」"}
+{"cid": 9693, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9694, "verdict": "fail", "reason": "主客颠倒：member-of 定义 X 为 Y 的成员，而引文系黑狐阿达将「户隐的双鬼」二女收作同伴（「你二人陪我行侠仗义」）；「户隐的双鬼」专指二女强盗（Book240「去年便见你姐妹二人欺压村民」），黑狐非其成员", "fix": "改「『户隐的双鬼』（二女强盗）｜member-of｜黑狐阿达的同伴（被收服）」；或「黑狐阿达｜leader-of｜『户隐的双鬼』（收作同伴）」"}
+{"cid": 9695, "verdict": "pass", "reason": "引文逐字（「这母女二人乃是清籁岛远来的乐人」；「诈了」见下文）", "fix": ""}
+{"cid": 9696, "verdict": "pass", "reason": "引文「原本也是一位武士」＋下文狸猫现形", "fix": ""}
+{"cid": 9697, "verdict": "pass", "reason": "引文逐字（摩拉袋砸脸、拳打见前文）", "fix": ""}
+{"cid": 9698, "verdict": "pass", "reason": "引文＋次句（「又将剩余的钱财交予那对落难母女」）", "fix": ""}
+{"cid": 9700, "verdict": "pass", "reason": "引文逐字（有乐斋离去后移居城中天守）", "fix": ""}
+{"cid": 9701, "verdict": "pass", "reason": "引文逐字（斋宫自述之志）", "fix": ""}
+{"cid": 9702, "verdict": "pass", "reason": "引文「第三次离去，也是永远地离开了」；灾厄时点见同段", "fix": ""}
+{"cid": 9703, "verdict": "pass", "reason": "引文逐字（「因其血脉相亲，斋宫大人对年幼的八重大人照顾颇多」）", "fix": ""}
+{"cid": 9704, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9705, "verdict": "pass", "reason": "引文「贵为总编的她」；「她」＝八重神子（八重堂语境＋「她离开的时候，我还没有出生」互证）", "fix": "宜注「她」未具名，系按八重堂总编认定"}
+{"cid": 9706, "verdict": "pass", "reason": "引文（构想机器）＋Book662「我完成了这台机器的制造」", "fix": ""}
+{"cid": 9707, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9708, "verdict": "pass", "reason": "引文＋「她便接受了我来自未来的事实」", "fix": ""}
+{"cid": 9709, "verdict": "uncertain", "reason": "方向可读反：原文谓桌上鲸式飞艇模型「这不过是它（时间机器）在这一刻的投影」，即模型＝机器的投影；现以「时间机器」为主语、以鲸式模型为宾语，字面成「机器是投影」", "fix": "改「（桌上）鲸式飞艇模型｜is-a｜时间机器在这一刻的投影」；或改述「时间机器（此刻投影为鲸式飞艇模型）」"}
+{"cid": 9710, "verdict": "pass", "reason": "引文（神庙与竞技场）＋同篇魔像、军团士兵、营造官分项有据", "fix": ""}
+{"cid": 9711, "verdict": "pass", "reason": "引文＋「无论以何种方式、何种顺序阅读，文本的信息都完全一样」", "fix": ""}
+{"cid": 9712, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9713, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9714, "verdict": "pass", "reason": "引文「他们向我展示了另一块石板」", "fix": ""}
+{"cid": 9715, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9716, "verdict": "pass", "reason": "引文＋「站在时间零的位置上」", "fix": ""}
+{"cid": 9717, "verdict": "pass", "reason": "引文＋「平静的海面之下…藏着什么东西」", "fix": ""}
+{"cid": 9718, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9719, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9720, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9721, "verdict": "pass", "reason": "引文逐字（光路＝时间，无过去未来）", "fix": ""}
+{"cid": 9722, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9723, "verdict": "pass", "reason": "引文逐字（拔铳枪扣扳机）", "fix": ""}
+{"cid": 9724, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9725, "verdict": "pass", "reason": "引文逐字（「克里克·内文」原姓名倒序并存）", "fix": ""}
+{"cid": 9726, "verdict": "pass", "reason": "引文「这里已经看不到天气了…」；「与外界隔绝」系释义", "fix": "「与外界隔绝」宜注系释义"}
+{"cid": 9727, "verdict": "pass", "reason": "引文（蛇王最后时刻）＋天蛇船为蛇王奥奇坎所建造（库内 428281 等）", "fix": "宜注「主人」据「蛇王所建造的天船」"}
+{"cid": 9728, "verdict": "uncertain", "reason": "引文系疑问推测（「难道说…都是从这里来的吗？」「但又是谁从这里取走交给他们的呢…」），宾语断言「皆出自此处」，失却原疑问语气", "fix": "改「（笔记推测）天蛇船遍布火磷石，冒险家所持或皆出自此处（谁取走转交仍存疑）」"}
+{"cid": 9729, "verdict": "pass", "reason": "无引文；Book955「多亏了绿宝我才搞清楚了，那个『回还之玉』的真面目」支持", "fix": ""}
+{"cid": 9730, "verdict": "pass", "reason": "引文「多亏了绿宝我才搞清楚了」", "fix": ""}
+{"cid": 9731, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9732, "verdict": "pass", "reason": "引文逐字（「你一定无法触碰它吧…所以才需要藉我们，藉绿宝的手」）", "fix": ""}
+{"cid": 9733, "verdict": "pass", "reason": "引文「虚假的圣杯」；括注反抗语系针对幕后者之计划", "fix": "括注宜移至幕后者条目（9736）"}
+{"cid": 9734, "verdict": "uncertain", "reason": "「（亡者）」无引文/库内依据：原文仅将莉莉乌与██并列为「踏上旅途的真正英雄」；另篇载其脱险后再启程（Relic15037_5），Book953 亦以在世口吻提及", "fix": "删「（亡者）」，或补其殁之出处"}
+{"cid": 9735, "verdict": "pass", "reason": "引文逐字（「带到这里」＝天蛇船，同篇语境）", "fix": ""}
+{"cid": 9736, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9737, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9738, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9739, "verdict": "pass", "reason": "引文＋「月光…编织成彩色挂毯」", "fix": ""}
+{"cid": 9740, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9741, "verdict": "fail", "reason": "主语错误：引文「令他们（织工）…感受针芒般冰冷的月光，却无法用双眼见证三轮明月的死亡」——无法见证者为被夜之主刺盲的织工，非夜之主；且 dies-in 与「无人见证」之宾语组合失当", "fix": "改「三轮明月｜（死亡）｜夜之主刺盲织工，令其感受月光却无法亲眼见证其死（已死的明月）」"}
+{"cid": 9742, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9743, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9744, "verdict": "pass", "reason": "引文逐字（「据说」已属转述口径）", "fix": ""}
+{"cid": 9745, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9746, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9747, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9748, "verdict": "pass", "reason": "引文逐字；betrays 系叙事判定（其命运抵押对象反致其死），括注准确", "fix": "宜注「系受犬日神灵之命指使纳瓜尔」"}
+{"cid": 9749, "verdict": "uncertain", "reason": "「恶曜漫游者」失原文：原文为「只得盲目地追随恶曜漫游」（追随恶曜而漫游），宾语所添「者」改指人物", "fix": "宾语改「盲目追随恶曜漫游」"}
+{"cid": 9750, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9751, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9752, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9753, "verdict": "pass", "reason": "引文逐字（「奥奇坎便是其中之一」）", "fix": ""}
+{"cid": 9754, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9755, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9756, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9757, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9758, "verdict": "pass", "reason": "引文＋三问（知难而退/死亡/复仇之问）", "fix": ""}
+{"cid": 9759, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9760, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9761, "verdict": "pass", "reason": "引文逐字（以一缕金发为价习得法术）", "fix": ""}
+{"cid": 9762, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9763, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9764, "verdict": "pass", "reason": "引文（「我看不见你头发的颜色」）＋「黑发男子」登场", "fix": ""}
+{"cid": 9765, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9766, "verdict": "pass", "reason": "引文逐字（书后手迹）", "fix": ""}
+{"cid": 9767, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9768, "verdict": "pass", "reason": "引文＋「都塞在信封里了」", "fix": ""}
+{"cid": 9769, "verdict": "pass", "reason": "引文（枫丹人＋「一直不断地来游说我，试图让我帮他『打广告』」）", "fix": ""}
+{"cid": 9770, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9771, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9772, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9773, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9774, "verdict": "pass", "reason": "引文逐字（「本来是想先回璃月一趟，然后再顺道去蒙德看看」）", "fix": ""}
+{"cid": 9775, "verdict": "uncertain", "reason": "grants 与信末相抵：引文系尼特承诺（「他就会负责我们之后旅行的所有费用」），然末段旭东自述「这趟前往枫丹的旅行我可没让尼特付钱」「我是不会收他一摩拉的」；且「赴枫丹后」与原文「之后旅行＋在枫丹之后的任何行程」略有出入", "fix": "改述「尼特承诺负担一行人之后旅行的所有费用及在枫丹之后的任何行程（保证不干涉事务）；旭东当时未收其摩拉」"}
+{"cid": 9776, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9777, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9778, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9779, "verdict": "pass", "reason": "引文逐字（「回到天上」＋「他的母亲」）", "fix": ""}
+{"cid": 9780, "verdict": "pass", "reason": "引文＋「即使目盲，他依旧是个不错的猎手」", "fix": ""}
+{"cid": 9781, "verdict": "pass", "reason": "引文（「他们」含父子）＋「不受太阳喜爱的昆图尔」", "fix": ""}
+{"cid": 9782, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9783, "verdict": "pass", "reason": "引文＋全篇暝视龙作龙伙伴语境", "fix": ""}
+{"cid": 9784, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9785, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9786, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9787, "verdict": "pass", "reason": "引文＋「只有昆图尔一家没有招待这位老者」、众人中邪术而昆图尔免", "fix": "「唯一通过试探」宜注系概括"}
+{"cid": 9788, "verdict": "pass", "reason": "引文（识破谎话）＋下文「昆图尔只好用拳头请他们把路让开」", "fix": "引文宜换「昆图尔只好用拳头请他们把路让开」"}
+{"cid": 9789, "verdict": "pass", "reason": "引文＋「从小跟着目盲的父亲学习打猎和追踪的技巧」", "fix": ""}
+{"cid": 9790, "verdict": "pass", "reason": "引文＋「他和巫师茹米又有什么区别」", "fix": ""}
+{"cid": 9791, "verdict": "pass", "reason": "引文＋「想必昆图尔是受到它的认可了，所以它才去而复返，并心甘情愿地为昆图尔指引方向」", "fix": ""}
+{"cid": 9792, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9793, "verdict": "pass", "reason": "引文＋「为此甚至穿越了层云中的雷雨和风暴」", "fix": ""}
+{"cid": 9794, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9795, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9796, "verdict": "pass", "reason": "引文逐字（「准备吃掉所有人的梦想」）", "fix": ""}
+{"cid": 9797, "verdict": "pass", "reason": "「善龙（自称）」见「…当然应该被称为『善龙』！」；所给引文「比金子更宝贵」系另句", "fix": "引文宜改「像我这样有着远见卓识的龙当然应该被称为『善龙』！」"}
+{"cid": 9798, "verdict": "pass", "reason": "引文「王国不会让你一分一毫」＋恶龙索要牺牲", "fix": ""}
+{"cid": 9799, "verdict": "pass", "reason": "引文逐字（说话人忠诚的侍从＝莱昂）", "fix": ""}
+{"cid": 9800, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9801, "verdict": "pass", "reason": "引文＋「恶龙将勇士的梦想一口吞掉」", "fix": ""}
+{"cid": 9802, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9803, "verdict": "pass", "reason": "引文＋「吞噬了屠龙宗匠的梦想」", "fix": ""}
+{"cid": 9804, "verdict": "pass", "reason": "引文＋莱昂「让我听听它的独语」（窃听得知）", "fix": ""}
+{"cid": 9805, "verdict": "pass", "reason": "引文（莱昂指出「唯一没有被硬皮覆盖的弱点」）", "fix": ""}
+{"cid": 9806, "verdict": "pass", "reason": "引文＋「如她所愿将恶龙打败」", "fix": ""}
+{"cid": 9807, "verdict": "pass", "reason": "引文＋公主「这样的称号与你名实相符」", "fix": ""}
+{"cid": 9808, "verdict": "pass", "reason": "引文「只是恐惧被人看不起」，系自陈其弱点", "fix": "「败于」宜注系概括"}
+{"cid": 9809, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9810, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9811, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9812, "verdict": "pass", "reason": "引文（坟茔一节：挚友、故国、至亲「早已在无人凭吊的长夜中安眠」）", "fix": ""}
+{"cid": 9813, "verdict": "pass", "reason": "引文「我才要在心中立下这样的誓言…铸成短暂的灯火，照亮这乐园」；free:自定义 有先例", "fix": ""}
+{"cid": 9814, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9815, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9816, "verdict": "pass", "reason": "引文逐字（诗人亲历战乱之咏）", "fix": "宜注「系其诗中所咏」"}
+{"cid": 9817, "verdict": "pass", "reason": "引文逐字（夜莺铸出山巅第一束光）", "fix": ""}
+{"cid": 9818, "verdict": "pass", "reason": "引文＋「他瞥见」（诗中战士视角）", "fix": ""}
+{"cid": 9819, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9820, "verdict": "pass", "reason": "引文＋「一侧是…男人，与他手中紧紧握住的刀剑」对峙", "fix": ""}
+{"cid": 9821, "verdict": "uncertain", "reason": "谓词 distrusts 与「斥其盲目鲁莽恶毒、劝其屈服」不符——系斥责/劝降，非不信任", "fix": "谓词改 accuses/斥责（雾中之声斥责马雅可夫盲目鲁莽、罔顾战友信任并劝降）"}
+{"cid": 9822, "verdict": "pass", "reason": "无引文；原文「你就要让年轻的小伙子丧命，让他们的母亲再见不到儿子」支持", "fix": "宜补引文"}
+{"cid": 9823, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9824, "verdict": "pass", "reason": "引文（望向大海、擦亮斧头）系对劝降的拒答", "fix": "「拒绝屈服」宜注系由动作推得"}
+{"cid": 9825, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 9826, "verdict": "pass", "reason": "引文逐字（「应该」略去，量级可接受）", "fix": ""}
+{"cid": 9827, "verdict": "pass", "reason": "引文逐字", "fix": ""}

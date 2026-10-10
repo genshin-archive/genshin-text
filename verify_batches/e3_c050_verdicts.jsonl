@@ -1,0 +1,200 @@
+{"cid": 10436, "verdict": "pass", "reason": "引文（Book74）「明规善矩，岩王妙玄。平断善恶，净流清海」；宾语逐字，施动者正确", "fix": ""}
+{"cid": 10437, "verdict": "pass", "reason": "引文「离诸危厄，镇灭妖魔」；destroys 方向正确", "fix": ""}
+{"cid": 10438, "verdict": "pass", "reason": "引文「玑衡既立，洪流稍却」；causes 方向正确", "fix": ""}
+{"cid": 10439, "verdict": "pass", "reason": "引文「又率诸仙，夜叉登先」；「率」即统辖，方向正确", "fix": ""}
+{"cid": 10440, "verdict": "pass", "reason": "引文「夜叉登先」；「先驱（登先）」忠实", "fix": ""}
+{"cid": 10441, "verdict": "pass", "reason": "引文「民人勇健，鬼物悚然」；战事语境下敌对成立（悚然＝慑服）", "fix": ""}
+{"cid": 10442, "verdict": "pass", "reason": "引文「帝君塑岩，投之成山」；creates 方向正确", "fix": ""}
+{"cid": 10443, "verdict": "pass", "reason": "引文「海魔既伏，诸业善焉」；「伏」为降伏义，seals 从宽成立（claim 已自注经文原文）", "fix": ""}
+{"cid": 10444, "verdict": "pass", "reason": "引文「诸魔虽定，魂魄毋息」；逐字转写", "fix": ""}
+{"cid": 10445, "verdict": "pass", "reason": "引文「堕于海渊，蠢蠢虬挛」；located-in 方向正确", "fix": ""}
+{"cid": 10446, "verdict": "pass", "reason": "引文「忿怒愚痴，怨憎嗔恚」；逐字", "fix": ""}
+{"cid": 10447, "verdict": "pass", "reason": "引文「流毒江海，邪鬼孳生」；因果从宽成立", "fix": ""}
+{"cid": 10448, "verdict": "pass", "reason": "引文「邪鬼瘴疠，出于怨魔」；表语式转写忠实", "fix": ""}
+{"cid": 10449, "verdict": "pass", "reason": "引文「有五护法，岩王遣之」；「遣」即派遣委托，entrusts 从宽", "fix": ""}
+{"cid": 10450, "verdict": "pass", "reason": "引文「祓孽除恶，平怨止嗔」；逐字", "fix": ""}
+{"cid": 10451, "verdict": "pass", "reason": "引文「山崩岩动，金光如狂」；系述五护法战况之象", "fix": ""}
+{"cid": 10452, "verdict": "pass", "reason": "引文「凶蛮险恶，五者余一」；四死一生，dies-in 成立", "fix": ""}
+{"cid": 10453, "verdict": "pass", "reason": "引文「五者余一。金鹏夜叉，护坚壁安」；survives 方向正确", "fix": ""}
+{"cid": 10454, "verdict": "pass", "reason": "引文「金鹏夜叉，护坚壁安」；宾语忠实", "fix": ""}
+{"cid": 10455, "verdict": "pass", "reason": "引文「诸仙人者，超绝云间」；located-in 从宽", "fix": ""}
+{"cid": 10456, "verdict": "pass", "reason": "引文「诸夜叉者，不知终焉」；括注为轻度释义", "fix": ""}
+{"cid": 10457, "verdict": "pass", "reason": "引文「以此牺牲，慰诸亡魂」；逐字", "fix": ""}
+{"cid": 10458, "verdict": "pass", "reason": "引文「以此灯火，祭告帝君」；逐字", "fix": ""}
+{"cid": 10459, "verdict": "pass", "reason": "引文「以此牺牲，慰诸亡魂。以此灯火，祭告帝君」；祭祀者＝民人，worships 从宽成立", "fix": ""}
+{"cid": 10460, "verdict": "pass", "reason": "一经之内「岩王」「帝君」并用且同指平魔之主（「岩王妙玄」「帝君塑岩」）；aka 成立", "fix": ""}
+{"cid": 10461, "verdict": "uncertain", "reason": "「海魔既伏」明文仅「伏」；「与江海、海渊同一水系意象」系元层诠释，非经文断言", "fix": "宾语宜收敛为「既伏之海魔」，删去「同一水系意象」之归类"}
+{"cid": 10462, "verdict": "uncertain", "reason": "「自此为始」方为起点，「复年如故」系常态续写；宾语将「起点」系于「复年如故」，语义错位", "fix": "宾语宜改「（诗句「自此为始，复年如故」所称的）战后年复一年之常态」"}
+{"cid": 10463, "verdict": "pass", "reason": "引文「纳塔的大地曾是高傲的巨龙们自由驰骋的家园」；时空要素忠实", "fix": ""}
+{"cid": 10464, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10465, "verdict": "pass", "reason": "引文「就像是现在的人类那样，龙们自己也分成了不同的部族」；转写忠实", "fix": ""}
+{"cid": 10466, "verdict": "pass", "reason": "引文「各自由古老的族母统治」；leader-of 正确", "fix": ""}
+{"cid": 10467, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10468, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10469, "verdict": "uncertain", "reason": "原文「蔑视其余的生灵」系态度；opposes（对抗）非原文行为，角色升格", "fix": "谓词宜 free:自定义「蔑视／轻视」，或宾语改「所受之蔑视」"}
+{"cid": 10470, "verdict": "pass", "reason": "引文「古老的战争没能抹去它们的尊荣……苦难的火锻出了它们的坚忍与骄傲」；因果忠实", "fix": ""}
+{"cid": 10471, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10472, "verdict": "pass", "reason": "引文「意为纽带」；逐字", "fix": ""}
+{"cid": 10473, "verdict": "pass", "reason": "引文「沉醉于聆听幻写灵的歌声，悄悄观察人类的行径」；「观察」入 loves 从宽", "fix": ""}
+{"cid": 10474, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10475, "verdict": "pass", "reason": "引文「才是更值得享受的美景」；loves 从宽", "fix": ""}
+{"cid": 10476, "verdict": "uncertain", "reason": "原文「责令年幼的玛阿威离开部族」系命令；instigates（教唆）语义偏差", "fix": "谓词宜 commands 或 free:自定义「责令／驱逐」"}
+{"cid": 10477, "verdict": "pass", "reason": "引文「稚嫩的幼崽必须要寻回它高贵的野心与怒火……如此断言」；忠实", "fix": ""}
+{"cid": 10478, "verdict": "pass", "reason": "引文「幻写灵也追随其后，与……一同踏上了寻找怒火的道路」；逐字", "fix": ""}
+{"cid": 10479, "verdict": "pass", "reason": "引文「向东方跋涉，去往硫磺烟云笼罩下的高山」＋「来到那漆黑的矿洞前」；合并忠实", "fix": ""}
+{"cid": 10480, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10481, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10482, "verdict": "pass", "reason": "引文「像真正的巨龙般向它们致敬」；逐字", "fix": ""}
+{"cid": 10483, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10484, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10485, "verdict": "uncertain", "reason": "原文为「经过」（三处）之诗语；witnesses（见证）升格且宾语非事件性", "fix": "谓词宜 free:自定义「途经（旧梦、愿望与期盼）」"}
+{"cid": 10486, "verdict": "pass", "reason": "引文「热情地回应了它，邀请它一同沉入美妙的梦」；逐字", "fix": ""}
+{"cid": 10487, "verdict": "uncertain", "reason": "原文为「请留在这里吧……同我们一起创造……」之邀请；entrusts（委托）偏差", "fix": "谓词宜 free:自定义「邀请／挽留」"}
+{"cid": 10488, "verdict": "uncertain", "reason": "原文「几乎要为之着迷」系未遂之挽留；intercepts（拦截）过实", "fix": "宜改「幻梦几近留住玛阿威（未遂）」"}
+{"cid": 10489, "verdict": "pass", "reason": "引文「伙伴的歌声唤醒了它」；逐字", "fix": ""}
+{"cid": 10490, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10491, "verdict": "pass", "reason": "引文「燃烧的精灵们旋舞之地」；located-in 成立", "fix": ""}
+{"cid": 10493, "verdict": "pass", "reason": "引文「温和的贤龙这样询问玛阿威，它的心中无比惊奇」；knows-of 从宽", "fix": ""}
+{"cid": 10494, "verdict": "uncertain", "reason": "原文「同天空的争战」为战争级；opposes 词表定义限「未至战争级」", "fix": "谓词宜 enemy-of（或 free:自定义「争战」）"}
+{"cid": 10495, "verdict": "pass", "reason": "引文「争战已令我的同族心肠刚硬，为仇怨所充塞，令它们无法再接受建议」；因果忠实", "fix": ""}
+{"cid": 10496, "verdict": "uncertain", "reason": "narrates 词表要求 object＝所述信息；此处 object 填受述者「贤龙」，角色错位", "fix": "宾语宜改所述内容（经历、月夜、阴影、歌声、被逐之事），受者写入引文"}
+{"cid": 10497, "verdict": "pass", "reason": "引文「你试图寻找的怒火，我这里是没有的」；忠实", "fix": ""}
+{"cid": 10498, "verdict": "pass", "reason": "引文「我或许可以破例满足你」→「关上了它的黑曜石大门，不再回答」；revokes 从宽成立", "fix": ""}
+{"cid": 10499, "verdict": "pass", "reason": "引文「贤龙的黑曜石大门」；大门为其所有并关闭，wields 从宽", "fix": ""}
+{"cid": 10500, "verdict": "pass", "reason": "引文「远离燃素丰盈的土地而失去了光与温度」；influences 方向正确", "fix": ""}
+{"cid": 10501, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10502, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10503, "verdict": "uncertain", "reason": "原文系幻写灵（不会言语）的请求被玛阿威听到并遵行；「之约」措辞不确（非双方之约）", "fix": "宾语宜改「将伙伴散入硫磺池、葬于冰冷潭的遗愿（闻声遵行）」"}
+{"cid": 10504, "verdict": "pass", "reason": "引文「不知识破了多少蜃景的诱骗，不知经历了多少命悬一线的危途」；逐字", "fix": ""}
+{"cid": 10505, "verdict": "pass", "reason": "引文「尚且不适合生物栖息……被硫磺毒气灼伤，被滚烫的酸水吞噬」；逐字", "fix": ""}
+{"cid": 10506, "verdict": "pass", "reason": "引文「玛阿威将伙伴的身体撒入硫磺池中」；逐字", "fix": ""}
+{"cid": 10507, "verdict": "pass", "reason": "引文「滚烫的酸水便化作了清泉」；逐字", "fix": ""}
+{"cid": 10508, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10509, "verdict": "pass", "reason": "引文「我们部族最初的诗人，正是从清泉中诞生的」；逐字", "fix": ""}
+{"cid": 10510, "verdict": "pass", "reason": "引文「诗人与歌者生自硫磺」＋「语言确是灼热刺人的」；逐字", "fix": ""}
+{"cid": 10511, "verdict": "pass", "reason": "引文「成为了最初的鳍游龙」；free:自定义并附词表缺项说明，处置恰当", "fix": ""}
+{"cid": 10512, "verdict": "uncertain", "reason": "grants 词表要求 object＝所授之物；此处 object 填受者（人类），授物入括注，角色错位", "fix": "宾语宜改「所闻所学之歌（受者：清泉中新生的人类）」"}
+{"cid": 10513, "verdict": "fail", "reason": "主客颠倒：原文「这些人类正是我们的祖先」系人类为梅兹特利部族之先祖；claim 反作部族为人类之先祖", "fix": "宜改「清泉中新生的人类 ancestor-of 梅兹特利部族（人类是部族先祖）」"}
+{"cid": 10514, "verdict": "pass", "reason": "引文「我们梅兹特利部族所传承的歌，正是源自那个古老年代的遗响」；逐字", "fix": ""}
+{"cid": 10515, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10516, "verdict": "pass", "reason": "引文「两千余年前的稻妻，正值魔神战争的尾声」；时空定位，located-in 从宽", "fix": ""}
+{"cid": 10517, "verdict": "pass", "reason": "引文「大蛇远吕羽氏曾折下身上的珊瑚枝、指引海渊之民重见天光」；逐字", "fix": ""}
+{"cid": 10518, "verdict": "pass", "reason": "引文「以慈悲与怜悯聚集子民，为之在贫瘠的珊瑚岛上寻求生路」；creates 稍强于「寻求」，不误", "fix": ""}
+{"cid": 10519, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10520, "verdict": "pass", "reason": "引文「大蛇从未忘记自己身为败者的苦涩过去」；忠实", "fix": ""}
+{"cid": 10521, "verdict": "pass", "reason": "引文「我已为你们驱逐龙嗣」；enemy-of 从宽成立", "fix": ""}
+{"cid": 10522, "verdict": "uncertain", "reason": "引文系巫女答「饥馑」；宾语「以大蛇之问归因民哭者为」表述未完（未写归因内容）", "fix": "宾语宜补全「以「饥馑」归因海渊之民哭泣者」"}
+{"cid": 10523, "verdict": "fail", "reason": "主语错误：「饥馑」系智慧的巫女答大蛇之问（代陈民苦），原文无海渊之民自陈之事", "fix": "宜改「智慧的巫女 is-a 以「饥馑」答大蛇之问、代陈海渊之民所苦者」"}
+{"cid": 10524, "verdict": "uncertain", "reason": "原文「请您允许我们……让我争取自己的田垄」系请托／请求；entrusts（委托）偏差", "fix": "谓词宜 free:自定义「请托／请求」"}
+{"cid": 10525, "verdict": "pass", "reason": "引文「指导我们建立无劫夺、无欺凌，无人遭受压迫之苦的海中国度」；忠实", "fix": ""}
+{"cid": 10526, "verdict": "pass", "reason": "引文「大蛇却未置可否，只是沉默以对」；逐字", "fix": ""}
+{"cid": 10527, "verdict": "pass", "reason": "引文「鸣神统一东部祝岛诸部，一向依仗勇武」；统一＝统辖，commands 从宽", "fix": ""}
+{"cid": 10528, "verdict": "pass", "reason": "引文「败战神明，自然依天京律条，无一能幸免」；逐字", "fix": ""}
+{"cid": 10529, "verdict": "pass", "reason": "引文「子民们再三祈求，终于动摇了他们的魔神」；influences 方向正确", "fix": ""}
+{"cid": 10530, "verdict": "pass", "reason": "引文「大蛇将贫弱的海民训练成强悍的战士」；逐字", "fix": ""}
+{"cid": 10531, "verdict": "uncertain", "reason": "原文「向雷神之国发起侵攻」为战争级；opposes 词表定义限「未至战争级」", "fix": "谓词宜 enemy-of（侵攻为战争行为）"}
+{"cid": 10532, "verdict": "uncertain", "reason": "原文仅「在鲸歌的陪伴中」之氛围描写；witnesses（见证）升格为观察者角色", "fix": "谓词宜 free:自定义「伴随」"}
+{"cid": 10533, "verdict": "pass", "reason": "引文「其本意并非在于征服，而是在于牺牲」；逐字", "fix": ""}
+{"cid": 10534, "verdict": "uncertain", "reason": "原文「巫女刻意隐瞒的卜辞」系保密；seals（封印）实质不同", "fix": "谓词宜 free:自定义「隐瞒／秘藏」"}
+{"cid": 10535, "verdict": "pass", "reason": "引文「预言了珊瑚宫的东征……必败之战……屈辱窘迫的结局」；逐字", "fix": ""}
+{"cid": 10536, "verdict": "pass", "reason": "引文「远吕羽氏之动机并无确实可靠之史料记载」；逐字", "fix": ""}
+{"cid": 10537, "verdict": "pass", "reason": "引文「这件事是事后人们发现卜辞内容后，对于此做出的推测」；忠实", "fix": ""}
+{"cid": 10538, "verdict": "pass", "reason": "引文「海祇大御神亦早已料想到自己将不再有机会死里逃生，却坦然接受了预言的结局」；系书内推测之辞，宾语忠实", "fix": ""}
+{"cid": 10539, "verdict": "pass", "reason": "引文「若要实现「信仰」的永恒不灭，则唯有「牺牲」一途」；逐字", "fix": ""}
+{"cid": 10540, "verdict": "pass", "reason": "引文「子民们亦会将欢乐、丰足、苦难与失去的记忆纺织不停，成为凝聚一方的信仰」；转写忠实", "fix": ""}
+{"cid": 10541, "verdict": "pass", "reason": "引文「战败屈身臣属之辱及其促发的激情，亦成为了共同记忆的养料」；逐字", "fix": ""}
+{"cid": 10542, "verdict": "uncertain", "reason": "谓词 distrusts 不精确：原文「早已不再相信……大御神仍有复苏可能」系信念否定，宾语为命题而非人", "fix": "谓词宜 free:自定义「不再相信（认为无复苏可能）」"}
+{"cid": 10543, "verdict": "pass", "reason": "引文「曾尊奉的神体被宗主视作矿产任意削凿的痛苦」；persecutes 从宽（敌对侵害成立）", "fix": ""}
+{"cid": 10544, "verdict": "pass", "reason": "引文「诸多强烈深远的情绪代代相传，正如无字的史册」；系明喻转写，括注透明", "fix": ""}
+{"cid": 10545, "verdict": "pass", "reason": "引文「珊瑚宫之国极度缺乏成文史料」；逐字", "fix": ""}
+{"cid": 10546, "verdict": "pass", "reason": "引文「其叙事史成为了「蓄积意识之史」，而非「记录事实之史」」；逐字", "fix": ""}
+{"cid": 10547, "verdict": "pass", "reason": "引文「共同意识经过千百年强化凝聚的民众……竟能与信仰强大元素神灵的国度抗衡」；opposes 从宽", "fix": ""}
+{"cid": 10548, "verdict": "pass", "reason": "引文「轻视过去的「事实」，重视当下的「意识」，亦是海祇国度之一大缺点」；逐字", "fix": ""}
+{"cid": 10549, "verdict": "pass", "reason": "引文「一旦在穷匮的年景为别有用心者煽惑利用，则将可能为国家招致无妄之灾」；influences 方向正确", "fix": ""}
+{"cid": 10550, "verdict": "pass", "reason": "引文「尤其在近年勘定奉行的经济盘剥下」；imposes 从宽", "fix": ""}
+{"cid": 10551, "verdict": "pass", "reason": "引文「海祇岛上年轻人亦越来越多地谈论起有关抗争与报怨的话题」；逐字", "fix": ""}
+{"cid": 10552, "verdict": "pass", "reason": "引文「曾经的海渊之民在渊下之时，拥有极为可靠的编年史」；wields 从宽", "fix": ""}
+{"cid": 10553, "verdict": "pass", "reason": "引文「因为无日无夜，若不如此，就会忘记时间」；因果忠实", "fix": ""}
+{"cid": 10554, "verdict": "pass", "reason": "引文「被大蛇下令封存于渊下宫之中，不得带出」；「封存」与 seals 从宽", "fix": ""}
+{"cid": 10555, "verdict": "pass", "reason": "引文「曾经的海渊之民的名字甚至也不是如今的稻妻样式」；逐字", "fix": ""}
+{"cid": 10556, "verdict": "uncertain", "reason": "原文「大蛇下令学习鸣神传统」系命令；instigates（教唆）语义偏", "fix": "谓词宜 commands 或 free:自定义「下令」"}
+{"cid": 10557, "verdict": "uncertain", "reason": "原文「曾经也得到过天京传谕」；传谕≠推动，instigates 添因果", "fix": "谓词宜 free:自定义「传谕（告知／诏谕）」"}
+{"cid": 10558, "verdict": "pass", "reason": "引文「海祇大御神就是闯入暗海，妄图避开魔神战争的大罪之神」；逐字", "fix": ""}
+{"cid": 10559, "verdict": "pass", "reason": "引文「是天上的命令，要求远吕羽氏引颈就戮也未可知」；存疑语气已括注", "fix": ""}
+{"cid": 10560, "verdict": "pass", "reason": "引文「海渊之字世上少有人懂」；逐字", "fix": ""}
+{"cid": 10561, "verdict": "pass", "reason": "引文「正如笔者所说……」，自称笔者；身份括注适宜", "fix": ""}
+{"cid": 10562, "verdict": "pass", "reason": "引文「只是无关紧要的稗官野史罢了」；自评定性已括注", "fix": ""}
+{"cid": 10563, "verdict": "pass", "reason": "引文「真相恐怕也无法得见天日了」；逐字", "fix": ""}
+{"cid": 10564, "verdict": "pass", "reason": "引文「初为海渊，后有大蛇渡来……塑珊瑚而成岛」；逐字", "fix": ""}
+{"cid": 10565, "verdict": "pass", "reason": "引文「后有大蛇渡来，盘桓而升涡流，塑珊瑚而成岛」；逐字", "fix": ""}
+{"cid": 10566, "verdict": "pass", "reason": "引文「是故珊瑚宫人名之「海祇岛」，盖以大蛇为神也」；逐字", "fix": ""}
+{"cid": 10567, "verdict": "pass", "reason": "引文「盖以大蛇为神也」；成立", "fix": ""}
+{"cid": 10568, "verdict": "pass", "reason": "引文「海祇之人自称海民」；aka 转写忠实", "fix": ""}
+{"cid": 10569, "verdict": "pass", "reason": "引文「海祇之人自称海民，奉大蛇远吕羽氏尊」；逐字", "fix": ""}
+{"cid": 10570, "verdict": "pass", "reason": "引文「海祇岛以神宫为高府」；转写忠实", "fix": ""}
+{"cid": 10571, "verdict": "pass", "reason": "引文「无将军奉行之畴」；逐字", "fix": ""}
+{"cid": 10572, "verdict": "pass", "reason": "引文「大小事务仰赖诸巫女」；逐字", "fix": ""}
+{"cid": 10573, "verdict": "pass", "reason": "引文「巫女之首曰「现人神巫女」，统领政事、祭典」；leader-of 正确", "fix": ""}
+{"cid": 10574, "verdict": "pass", "reason": "引文「统领政事、祭典」；commands 从宽", "fix": ""}
+{"cid": 10575, "verdict": "pass", "reason": "引文「雷电大御所将军殿下定稻妻全土于一元」；统一＝统辖，commands 从宽", "fix": ""}
+{"cid": 10576, "verdict": "uncertain", "reason": "part-of 词表定义 Y 为组织／群体；此处 Y 为个人（将军殿下），宜反向表述", "fix": "谓词宜改「雷电大御所将军殿下 leader-of 稻妻众方」，或 free:自定义「臣服」"}
+{"cid": 10577, "verdict": "uncertain", "reason": "原文「或有直遭殄灭」为部分（「或」）；claim 以全体「稻妻众方」为主语，且宾语为「者」（人）而非事件", "fix": "宜改「稻妻众方中的不服者 dies-in 殄灭（原文「或有」表部分）」"}
+{"cid": 10578, "verdict": "pass", "reason": "引文「原素与鸣神以西界为分野，相安无碍」；free:自定义与词表缺项说明恰当", "fix": ""}
+{"cid": 10579, "verdict": "uncertain", "reason": "原文「举力东侵」为战争级；opposes 词表定义限「未至战争级」", "fix": "谓词宜 enemy-of（东侵为战争行为）"}
+{"cid": 10580, "verdict": "pass", "reason": "引文「战事酷烈，民生惨苦」；合并转写，宾语两要素均系原文", "fix": ""}
+{"cid": 10581, "verdict": "pass", "reason": "引文「两方鏖战今八酝岛」；括注解「今」恰当", "fix": ""}
+{"cid": 10582, "verdict": "pass", "reason": "引文「大御所殿下之爱将天狗笹百合」；member-of 从宽成立", "fix": ""}
+{"cid": 10583, "verdict": "pass", "reason": "引文「亦陨落其间」；逐字", "fix": ""}
+{"cid": 10584, "verdict": "pass", "reason": "「爱将」系官记明文，trusts 为其引申，括注如实", "fix": ""}
+{"cid": 10585, "verdict": "pass", "reason": "引文「大蛇终为大御所殿下斩杀，薨于八酝岛」；「死于……之手」惯用", "fix": ""}
+{"cid": 10586, "verdict": "uncertain", "reason": "原文「珊瑚宫遣使降服」系遣使归顺；entrusts（委托）语义偏", "fix": "谓词宜 free:自定义「遣使降服（归顺）」"}
+{"cid": 10587, "verdict": "pass", "reason": "引文「尊稻妻幕府为大宗主也」；part-of 表臣属从属，从宽成立", "fix": ""}
+{"cid": 10588, "verdict": "pass", "reason": "引文「尊稻妻幕府为大宗主也」；逐字", "fix": ""}
+{"cid": 10589, "verdict": "pass", "reason": "引文「鸣神于渡来之日，传下了造刀之法」；grants 方向正确", "fix": ""}
+{"cid": 10590, "verdict": "fail", "reason": "事实错误：原文「取……名物宝刀，奉于大社，名之「御神刀」」，御神刀系刀名（后文真打／影打皆刀之体系），祭典为「奉刀之祭」；claim 将刀误作祭典", "fix": "宜改「御神刀 is-a 大社与幕府所立祭典所奉之名物宝刀」"}
+{"cid": 10591, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10592, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10593, "verdict": "pass", "reason": "无引文；Book311 原文「其余之刀，则称「影打」，授予近臣，用做刀兵，常染血污」逐字对应", "fix": ""}
+{"cid": 10594, "verdict": "pass", "reason": "引文「「鸣神权现·初代将军」……便携其胞妹伴身」；逐字", "fix": ""}
+{"cid": 10595, "verdict": "pass", "reason": "引文「其人便是第二代幕府「影将军」」；括注「名讳写作影」系原文推测语气，宜注", "fix": "括注宜标原文语气（「恐怕应该也是……吧」）"}
+{"cid": 10596, "verdict": "pass", "reason": "引文「便选择身陨道消，助她的胞姐上洛「天上之京」」；逐字", "fix": ""}
+{"cid": 10597, "verdict": "uncertain", "reason": "succeeds 词表定义为继位，object 应为位／职；此处 object 为「设立幕府、施政稻妻」（行为），实取「随后」义", "fix": "宜改「「真」将军（随后）设立幕府、施政稻妻」，或 free:自定义「随后／继而」"}
+{"cid": 10598, "verdict": "pass", "reason": "引文「（鸣神权现）唤回「影」之神识，重塑其身形」；「真」将军与鸣神权现同指（初代将军），复活机制在宾语", "fix": ""}
+{"cid": 10599, "verdict": "pass", "reason": "引文「仅有七神可以得存」；survives 方向正确", "fix": ""}
+{"cid": 10600, "verdict": "pass", "reason": "全文系商政改革主张并致「帝君」（「帝君虽寿，余等亦当有备而无忧」）；类属归纳大体成立", "fix": "「呈帝君」系由「帝君虽寿」句推称，宜注"}
+{"cid": 10601, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10602, "verdict": "pass", "reason": "引文「权者，势也，其遏不公，系约契，而导万利」；逐字", "fix": ""}
+{"cid": 10603, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10604, "verdict": "pass", "reason": "引文「逐利之流如浪淘金沙，汰者甚众；又似谷间激流，生生不息」；合并双喻忠实", "fix": ""}
+{"cid": 10605, "verdict": "pass", "reason": "引文「贫者不长居其贫，富者亦不恒持其财」；「流动者」为轻度归纳，不误", "fix": ""}
+{"cid": 10606, "verdict": "uncertain", "reason": "founds（创立）用于「主张」不当；原文「故解私禁、扩公市、革府门，乃必然之业」系倡言", "fix": "谓词宜 free:自定义「主张／倡言」"}
+{"cid": 10607, "verdict": "pass", "reason": "引文「接济之事，易滋怠惰，不宜滥行，合应缩减」；逐字", "fix": ""}
+{"cid": 10608, "verdict": "pass", "reason": "无引文；Book171 原文「千岩之军，镇抚不平，外平盗贼，内安万民，宜当充扩」逐字对应；「璃月」系上下文", "fix": ""}
+{"cid": 10609, "verdict": "pass", "reason": "引文「革新之务，宜缓图之，不可失虑急求」；逐字", "fix": ""}
+{"cid": 10610, "verdict": "pass", "reason": "引文「恰如岩底秉烛削凿，久而珠玑宝玉竟出，璃月繁事亦当如是」；喻指解读合理", "fix": ""}
+{"cid": 10611, "verdict": "pass", "reason": "引文＋前文「婚礼仪式上……抛绣球」；逐字", "fix": ""}
+{"cid": 10612, "verdict": "pass", "reason": "引文「她本是并立于璃月的诸神之一」；逐字", "fix": ""}
+{"cid": 10613, "verdict": "pass", "reason": "引文「她被自己的追随者刺杀，在残酷的魔神战争中过早地退场了」；dies-in 方向正确", "fix": ""}
+{"cid": 10614, "verdict": "pass", "reason": "引文「她的葬身之地很可能位于……「地中之盐」的遗迹之内」；located-in 从宽（葬身地所在）", "fix": ""}
+{"cid": 10615, "verdict": "pass", "reason": "引文「她曾向自己的子民分发花球，以此降下祝福」；转述已标", "fix": ""}
+{"cid": 10616, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10617, "verdict": "pass", "reason": "引文「岩神每年会亲自降临，传下口谕」；逐字", "fix": ""}
+{"cid": 10618, "verdict": "pass", "reason": "引文「「七星」成为了璃月港凡民与岩神之间的媒介」；逐字", "fix": ""}
+{"cid": 10619, "verdict": "pass", "reason": "引文「只从「七星」内部产生」；part-of 成立", "fix": ""}
+{"cid": 10620, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10621, "verdict": "pass", "reason": "引文「似乎某些时刻……也会彼此背道而驰」；「可能」保留或然语气", "fix": ""}
+{"cid": 10622, "verdict": "pass", "reason": "引文「香膏之中最为奢华者一定要首先奉献给岩王帝君，得其首肯」；主语在霓裳花／香膏语境，忠实", "fix": ""}
+{"cid": 10623, "verdict": "pass", "reason": "引文「根据璃月村野流行的说法……由隐居奥藏山中的仙人传授与人类」；转述已标", "fix": ""}
+{"cid": 10624, "verdict": "pass", "reason": "引文「指导人类……学习求偶与相爱的技巧……将制作与涂抹香膏的曼妙手法教给……少女」；grants 从宽", "fix": ""}
+{"cid": 10625, "verdict": "pass", "reason": "引文逐字", "fix": ""}
+{"cid": 10626, "verdict": "pass", "reason": "无引文；Book172 原文「在璃月人看来，妖艳香雅的霓裳花同样是岩王帝君的象征之一」逐字对应", "fix": ""}
+{"cid": 10627, "verdict": "pass", "reason": "遗书署名「沃尔夫冈」＋「当冒险家」明文成立；身份归纳大体无误", "fix": "「蒙德」出身系推断（恋人、甜甜花酿鸡在蒙德），原文未明言，宜注"}
+{"cid": 10628, "verdict": "pass", "reason": "引文「被关在了这个房间里」；located-in 方向正确", "fix": ""}
+{"cid": 10629, "verdict": "pass", "reason": "引文「我但凡有一个恋人就不会来当冒险家了」；自嘲式明示无恋人", "fix": ""}
+{"cid": 10630, "verdict": "uncertain", "reason": "narrates（转述）定义 X 为转述者；此处姨妈系原言者（系沃尔夫冈引述其言）", "fix": "谓词宜 free:自定义「告诫／评价」；若用 narrates 须记叙述者为沃尔夫冈"}
+{"cid": 10631, "verdict": "uncertain", "reason": "「恐怕是强忍住眼泪……也可能是……感冒」系叙述者推测；knows-of 定成知晓，认知状态失实", "fix": "宾语宜作推定「姨妈鼻音很重（或为强忍眼泪，或为感冒；系叙述者推测）」"}
+{"cid": 10632, "verdict": "pass", "reason": "引文「真实的生活跟……想象的那种光鲜亮丽跌宕刺激的生活完全不一样」；逐字", "fix": ""}
+{"cid": 10633, "verdict": "pass", "reason": "引文系笔记本内独立引语；narrates 从宽（记述者＝沃尔夫冈）", "fix": ""}
+{"cid": 10634, "verdict": "pass", "reason": "「恭喜恭喜……一封遗书」＋「就当被恭喜的人是我吧」＋书名《生日快乐》；自嘲解读成立", "fix": ""}
+{"cid": 10635, "verdict": "pass", "reason": "无引文；原文「真想吃蒙德的甜甜花酿鸡啊……起码给我一份」；临终境地（「意识也开始不清楚了」）成立", "fix": ""}
+{"cid": 10636, "verdict": "pass", "reason": "原文「山峦……渴求……魂灵」「岩窟和山峦一样，都要向这些流落者收取庇护的报酬」；合并转写不误", "fix": "「索取魂灵为报酬」系由「渴求魂灵」与「收取报酬」归纳，宜注"}

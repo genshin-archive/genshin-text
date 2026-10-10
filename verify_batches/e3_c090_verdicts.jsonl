@@ -1,0 +1,200 @@
+{"cid": 18785, "verdict": "pass", "reason": "宾语与巫女自述一致，保留「或许/或者」模态，主语=内心独白主体，无过度。"}
+{"cid": 18786, "verdict": "pass", "reason": "「一如当年那人」保留比况语气，括注「巫女将其与旧人重叠」标明视角，无归纳升级。"}
+{"cid": 18787, "verdict": "pass", "reason": "原文「这个人」上下文即左卫门，决心内容照录，主语正确。"}
+{"cid": 18788, "verdict": "pass", "reason": "出航船歌词句照录，海贼们为歌中主体，宾语重合高。"}
+{"cid": 18789, "verdict": "pass", "reason": "「放下战弓」「过去在影向山偷学」照录，主语=巫女正确。"}
+{"cid": 18790, "verdict": "pass", "reason": "「影向山偷学」+「对不起天狗老师」两句合成师承关系，事实无误。"}
+{"cid": 18791, "verdict": "pass", "reason": "咒愿内容照录（宾语重合>70%），主语=巫女（发起者）。"}
+{"cid": 18792, "verdict": "pass", "reason": "「垂死之怨恨」照录；「被结界所镇」为解结界动机的合理反推。"}
+{"cid": 18793, "verdict": "uncertain", "reason": "宾语把「被肆虐对象」写成以雷神为主语的类别归属；原文被肆虐者是雷神旗号的舰船，非雷神本人。", "fix": "主语改为「雷神旗号的舰船」，或谓词改 attacks/opposes、宾语改「舰船」。"}
+{"cid": 18794, "verdict": "uncertain", "reason": "宾语是巫女的祈愿语（「只希望…」），非预言。", "fix": "谓词 prophesies 改为 narrates（内心愿望）。"}
+{"cid": 18795, "verdict": "pass", "reason": "无引文；源文「被遗弃的少女为龙的主母所收养」「尊荣的王女」明文，宾语忠实。"}
+{"cid": 18796, "verdict": "pass", "reason": "「从主母那里接过长弓」「孤身一人踏上寻访道途」照录，授予方向正确。"}
+{"cid": 18797, "verdict": "pass", "reason": "宾语重合>70%，系莉安歌的认知与决意，主语正确。"}
+{"cid": 18798, "verdict": "uncertain", "reason": "founds 的主语应为创立者（莉安歌），「花羽会」是被称呼的部族名，谓词与主语关系错位。", "fix": "改为「莉安歌 founds 花羽会」或将谓词改 is-a。"}
+{"cid": 18799, "verdict": "uncertain", "reason": "宾语是莉安歌对勇者所说的话，非别称；aka 谓词不成立。", "fix": "谓词改 is-a（「无人能于此称王…」为其部族规约语录）。"}
+{"cid": 18800, "verdict": "pass", "reason": "无引文；「只要解决我一人…何必要派出几百人」「以最后一箭将残躯钉上玉石之弓」明文。"}
+{"cid": 18801, "verdict": "uncertain", "reason": "宾语是留作墓志铭的遗言/自述，非预言。", "fix": "谓词改 narrates（遗言/墓志铭）。"}
+{"cid": 18802, "verdict": "uncertain", "reason": "谓词 participates-in 与宾语（角色描述）不匹配，事实无误。", "fix": "谓词改 is-a，或改「采纳进言、决意根绝隐患」的自定义谓词。"}
+{"cid": 18803, "verdict": "pass", "reason": "无引文；「继述『超越』之名」「花羽会的后嗣」明文，宾语忠实。"}
+{"cid": 18804, "verdict": "pass", "reason": "「血中灾祟」「垂死的幼龙」「秘药抚过」明文；「为孟尼力克所救」成立。"}
+{"cid": 18805, "verdict": "pass", "reason": "「置若罔闻」即拒绝执行老贤人的告谕，opposes 成立。"}
+{"cid": 18806, "verdict": "pass", "reason": "引文照录（先争斗、多年后并肩抗浊黑），主语=孟尼力克正确。"}
+{"cid": 18807, "verdict": "uncertain", "reason": "主语是「巡礼」（事件），宾语「传奇」是其结果，witnesses（见证）关系倒错。", "fix": "谓词改 is-a/「成为」，或改「被人们颂唱为传奇」。"}
+{"cid": 18808, "verdict": "uncertain", "reason": "宾语是孟尼力克对爱龙的安抚与许诺，非预言。", "fix": "谓词改「许诺/narrates」。"}
+{"cid": 18809, "verdict": "uncertain", "reason": "谓词 participates-in 与宾语（人物描述「…的壮士」）不匹配。", "fix": "改 is-a，或重组为「特诺切 participates-in 与孟尼力克的争斗」。"}
+{"cid": 18810, "verdict": "pass", "reason": "「帝君曾执翠玉琢成之剑行走大地」（据传），武器故事主体即磐岩结绿，识别成立。"}
+{"cid": 18811, "verdict": "pass", "reason": "「血洗的碧绿剑锋仍旧闪亮如新」照录。"}
+{"cid": 18812, "verdict": "pass", "reason": "「凝结的思念与怨恨难以涤除」照录。"}
+{"cid": 18813, "verdict": "pass", "reason": "「结绿拥有碧水的魂灵与柔情…清洗宿怨」照录，转述链已标故友。"}
+{"cid": 18814, "verdict": "pass", "reason": "「以美玉之身被塑成杀戮之器」照录。"}
+{"cid": 18815, "verdict": "pass", "reason": "「故友曾如是嗟怨，如是叹息」明文。"}
+{"cid": 18816, "verdict": "pass", "reason": "「作为赠予某人的贵礼雕琢而成」照录。"}
+{"cid": 18817, "verdict": "pass", "reason": "「名为『结绿』的翠玉，身受削凿本是为了和平与华贵」照录。"}
+{"cid": 18818, "verdict": "uncertain", "reason": "仇敌是「言欢同乐」的亲历者/参与者，witnesses（目睹）不精确。", "fix": "谓词改 participates-in。"}
+{"cid": 18819, "verdict": "pass", "reason": "「未能送出的赠礼…成了斩向旧友的利刃」照录。"}
+{"cid": 18820, "verdict": "pass", "reason": "「依循久远尊贵的契约，夜谕者拣选出魂质如星曜的幼童」照录；「祭政职司」为轻微概括。"}
+{"cid": 18821, "verdict": "uncertain", "reason": "「指引失去形体的古民」句法主语倾向夜谕者（连动同主语），归给少女存疑。", "fix": "核对主体；若为夜谕者应改 S 或删去该括注。"}
+{"cid": 18822, "verdict": "pass", "reason": "「以善念之名煽诱她反抗群龙」+「背叛的火种」照录。"}
+{"cid": 18823, "verdict": "pass", "reason": "「操弄人心向来便是易如反掌」为其思忖内容（knows-of 成立，宾语重合高）。"}
+{"cid": 18824, "verdict": "uncertain", "reason": "「旧主」=蛇王的等同注释无库内明文；「蛇王的金刃」字面更宜解为凶器所有者≠被刺者（Weapon15434 另有『旧日的主宰』『王上殒殁』，且马古汉号『屠龙者』）。", "fix": "宾语改「旧主（凶器为蛇王金刃）」或降 confidence 为推演待考。"}
+{"cid": 18825, "verdict": "uncertain", "reason": "「锚定部族之础」句法主语是「背叛（火种）」，大灵是「歌声相伴」者，行动主体归属不严密。", "fix": "注明大灵角色（和歌声相伴/庇护者），或改 confidence 推演。"}
+{"cid": 18826, "verdict": "uncertain", "reason": "「深谷旧主」为自造措辞，未见于文本，且与『旧日的主宰』（待考）易混。", "fix": "改「沉溺于迷梦的群龙（昔日尊荣的深谷龙裔）」。"}
+{"cid": 18827, "verdict": "pass", "reason": "「勿将希望俱托于夜…」属少女遗训段（对丁加语），narrates 成立。"}
+{"cid": 18828, "verdict": "pass", "reason": "「要将『记忆』述说…定础…家园」及对丁加的嘱托照录。"}
+{"cid": 18829, "verdict": "pass", "reason": "「我最忠诚的侍仆丁加」照录。"}
+{"cid": 18830, "verdict": "pass", "reason": "「日后被尊为阴阳术开祖的少年」照录，宾语重合高。"}
+{"cid": 18831, "verdict": "pass", "reason": "「稻妻确有如此风习…」明文。"}
+{"cid": 18832, "verdict": "pass", "reason": "赌弓者即「高名的剑豪」（高岭大哥），语段一致。"}
+{"cid": 18833, "verdict": "pass", "reason": "「清籁的少女」与前文「巫女小姐」同一人，识别成立。"}
+{"cid": 18834, "verdict": "pass", "reason": "「鬼人的养子」「刚直的学徒」明文。"}
+{"cid": 18835, "verdict": "pass", "reason": "「鹰却早已失坠，再也飞不进她的梦」；「高岭之死」为诗语转义（已作括注）。"}
+{"cid": 18836, "verdict": "pass", "reason": "「与您所效忠的旗帜为敌」（与雷神旗为敌=背旗）照录，动机括注忠实。"}
+{"cid": 18837, "verdict": "pass", "reason": "长卷作者「某一任目付」与本篇主角御舆长正合成，前后文一致。"}
+{"cid": 18838, "verdict": "uncertain", "reason": "founds（创立）用于造刀不精确，事实无误。", "fix": "谓词改 creates。"}
+{"cid": 18839, "verdict": "pass", "reason": "「在引入…御影炉心前…踏鞴制铁法」照录。"}
+{"cid": 18840, "verdict": "pass", "reason": "「御舆家的养子」「养母让御舆之名被染黑」明文。"}
+{"cid": 18841, "verdict": "pass", "reason": "「御舆的嫡子道启抛弃了孑然一身的自己」；betrays 轻度可通（背弃）。"}
+{"cid": 18842, "verdict": "pass", "reason": "「寄骑桂木有一丝的渎职，也毫不留情地斩落」照录。"}
+{"cid": 18843, "verdict": "pass", "reason": "「曾属于出身海祇的猛将所使的刀」照录。"}
+{"cid": 18844, "verdict": "pass", "reason": "「因其勇猛无畏受到海祇的恩宠，获『东山王』之封号」照录。"}
+{"cid": 18845, "verdict": "pass", "reason": "「为了实现子民的幻梦，大御神向集聚的雷云发起挑战」照录。"}
+{"cid": 18846, "verdict": "uncertain", "reason": "「愿与之快意对决」是少年夙愿，二人未成现实敌对（enemy-of 偏强）。", "fix": "谓词改 opposes/free，或注明「未遂的心愿」。"}
+{"cid": 18847, "verdict": "pass", "reason": "无引文；「『恶王』也随着大蛇直面化作一线的耀眼稻光」明文。"}
+{"cid": 18848, "verdict": "pass", "reason": "「是自称御伽金刚狮子大王的怪人的爱刀」「全名」照录。"}
+{"cid": 18849, "verdict": "pass", "reason": "「用入魔的般若断角制成的武器」照录。"}
+{"cid": 18850, "verdict": "uncertain", "reason": "「惮于大杵鬼气不敢现身」出自御伽大王吹嘘的传说（原文明确「连小孩子都不会相信」），未标传说层。", "fix": "注明系大王的吹嘘/传说（另文有天狗避世的结果，可并列）。"}
+{"cid": 18851, "verdict": "pass", "reason": "「闯进官家…歌会…与娇小鬼人摔跤，当然结果惨不忍睹」属叙述层事实。"}
+{"cid": 18852, "verdict": "uncertain", "reason": "founds 不精确，且丢失原文「据传」限定。", "fix": "谓词改 creates，保留「据传」。"}
+{"cid": 18853, "verdict": "pass", "reason": "「在与决定鬼人命运的真剑试合中刃切，遂交还重锻」照录。"}
+{"cid": 18854, "verdict": "pass", "reason": "「久被酒、旧伤与祟神遗念折磨…如未经回火的钢刀般断裂」照录。"}
+{"cid": 18855, "verdict": "uncertain", "reason": "founds（创立）用于造刀不精确。", "fix": "谓词改 creates。"}
+{"cid": 18856, "verdict": "pass", "reason": "「生来哑巴、相貌丑陋又肮脏的弃儿」自述照录。"}
+{"cid": 18857, "verdict": "pass", "reason": "「她见我身上沾满铁砂，便用『真砂丸』作我的名字」照录。"}
+{"cid": 18858, "verdict": "uncertain", "reason": "「一心三作」是枫原/丹羽/赤目三位弟子（人）的合称，非真砂丸所造器物；真砂丸与其为师生关系。", "fix": "改「真砂丸培养三位弟子（后日缔造一心传）」或谓词 mentors/free。"}
+{"cid": 18859, "verdict": "pass", "reason": "「所谓『祟神』本是大邪之物…」照录。"}
+{"cid": 18860, "verdict": "uncertain", "reason": "founds（创立）用于造刀不精确。", "fix": "谓词改 creates。"}
+{"cid": 18861, "verdict": "pass", "reason": "「一心」定义两句照录。"}
+{"cid": 18862, "verdict": "pass", "reason": "「为倾奇者之案波及，犯下了大逆之罪…改易改姓远走雪国」近密。"}
+{"cid": 18863, "verdict": "pass", "reason": "「为这『一心』的虚名蹉跎半生…成了一个『枫原』」自嘲照录。"}
+{"cid": 18864, "verdict": "pass", "reason": "「传说狐族的有乐斋曾乘醉酒狂兴斩断…金漆御簾，与妖狸之长结了冤家」照录（保留传说）。"}
+{"cid": 18865, "verdict": "pass", "reason": "「因居中调解而获赠名刀『御簾切』」照录。"}
+{"cid": 18866, "verdict": "pass", "reason": "「赠予了并非武家出身的裁缝」+缀补金花照录。"}
+{"cid": 18867, "verdict": "uncertain", "reason": "引文仅言「鬼人千代身着十二单执剑而舞」，未直接支持「大手门」=鬼人千代的等同。", "fix": "补依据，或降 confidence 为推演。"}
+{"cid": 18868, "verdict": "pass", "reason": "「伟大者循着地鸣与天命进入沙漠，最终生还者却无几」照录。"}
+{"cid": 18869, "verdict": "pass", "reason": "「在高原上巨大的湖泊中如箭头一般笔直射穿空间的鱼」照录。"}
+{"cid": 18870, "verdict": "uncertain", "reason": "宾语以「蜷曲→成为猎获」为终局，survives（幸存）与事实相悖（鱼未幸存）。", "fix": "谓词改「遭猎获/终结」（free）。"}
+{"cid": 18871, "verdict": "pass", "reason": "「沙海中央也能得到鱼」的寓言，武器为弓；概括可通。"}
+{"cid": 18872, "verdict": "pass", "reason": "无引文；「公主名唤辛娜梦…与老虎一同远远离开宫殿」明文。"}
+{"cid": 18873, "verdict": "pass", "reason": "「我是森林的王，杀了许多，保护了许多」照录。"}
+{"cid": 18874, "verdict": "pass", "reason": "「你就是我的近侍」+「教你森林的道理与语言」照录。"}
+{"cid": 18875, "verdict": "pass", "reason": "「这个世界只是森林的梦」主张者，谓词生硬但事实无误。"}
+{"cid": 18876, "verdict": "uncertain", "reason": "「双层叙事装置」为分析术语，非文本明述。", "fix": "改为「讲述者区分『你们的故事』与『我们的（森林的）故事』两种叙事层」。"}
+{"cid": 18877, "verdict": "pass", "reason": "「同样迷失、不踩碎任何落叶而踏入了宫殿的孩子」照录。"}
+{"cid": 18878, "verdict": "pass", "reason": "「成为了森林的守护者，并将森林的语言、保护王土的责任传给更多人」照录。"}
+{"cid": 18879, "verdict": "pass", "reason": "「先来与我比试摔跤」+角杯之争照录。"}
+{"cid": 18880, "verdict": "uncertain", "reason": "possesses（持有权能）宾语写成了事迹（折断山峦/引温泉/鏖战），宜为经历。", "fix": "谓词改 participates-in。"}
+{"cid": 18881, "verdict": "pass", "reason": "「将那角杯奉献…擎着火焰，直到气息终断…未曾背弃誓言」照录。"}
+{"cid": 18882, "verdict": "pass", "reason": "「翼龙为帆、沧鲸骨为舟、海蟒牙为兵…抵达海的边界」照录。"}
+{"cid": 18883, "verdict": "pass", "reason": "夜神告诫含未来指向（直到流放者归来），prophesies 可通，宾语照录。"}
+{"cid": 18884, "verdict": "pass", "reason": "「背负着炽焰的主人来到火的归处」「死荫的门向他显现」照录。"}
+{"cid": 18885, "verdict": "pass", "reason": "「向神圣的木棉树立下誓言…」照录。"}
+{"cid": 18886, "verdict": "pass", "reason": "无引文；「吹箭将虚假的太阳击坠」「锻火仿造宝石诱龙饮药活埋」明文，双生英杰合称成立。"}
+{"cid": 18887, "verdict": "pass", "reason": "无引文；「举刃威吓…朱红迸散」明文，失手弑妹成立。"}
+{"cid": 18888, "verdict": "pass", "reason": "「你与那烬城的僭主才是背弃誓言的叛贼」照录。"}
+{"cid": 18889, "verdict": "pass", "reason": "「试探性地下令追捕潜逃的邪龙…唯有阿霍布一人响应」照录。"}
+{"cid": 18890, "verdict": "uncertain", "reason": "aka 宾语是描述（古仪之器），非另一称呼。", "fix": "谓词改 is-a。"}
+{"cid": 18891, "verdict": "uncertain", "reason": "谓词 participates-in 应为知晓类。", "fix": "谓词改 knows-of。"}
+{"cid": 18892, "verdict": "pass", "reason": "「深入…穴地探清隐秘」「跨上剑龙穆胡鲁…新的征战开始了」照录。"}
+{"cid": 18893, "verdict": "pass", "reason": "无引文；「半截骨刃…终结继业者之争」「依循古时之盟…共同抵御大敌」明文。"}
+{"cid": 18894, "verdict": "uncertain", "reason": "aka 宾语为描述（未得古名、戴假面的凡人），非另一称呼。", "fix": "谓词改 is-a。"}
+{"cid": 18895, "verdict": "uncertain", "reason": "死亡未明文（「枯潮已将她的骨髓浸染」「谢幕」为强烈暗示，其后退场交面具给泰卡）。", "fix": "注明系推断，或谓词改「衰亡/退场」。"}
+{"cid": 18896, "verdict": "uncertain", "reason": "aka 宾语为描述（该话的发言者），非另一称呼。", "fix": "谓词改 narrates。"}
+{"cid": 18897, "verdict": "pass", "reason": "「火神柯夏尼娜…将火山大王赶出『流泉之众』的故事」照录，已标童话层。"}
+{"cid": 18898, "verdict": "uncertain", "reason": "aka 宾语为描述（她持有的兵器），非另一称呼。", "fix": "谓词改 possesses/wields。"}
+{"cid": 18899, "verdict": "uncertain", "reason": "aka 宾语为描述（秘宝），非另一称呼。", "fix": "谓词改 is-a。"}
+{"cid": 18900, "verdict": "uncertain", "reason": "「万杰鲁=英杰」有明文，但「六英杰之一」库内无其列名（另有『纳塔最初的六英杰』伊葵等指涉，名单不透明）。", "fix": "核对六英杰名单，或改「特诺切六大盟友之一」。"}
+{"cid": 18901, "verdict": "uncertain", "reason": "aka 宾语为描述（被放逐的调解者），非另一称呼。", "fix": "谓词改 is-a/participates-in。"}
+{"cid": 18902, "verdict": "pass", "reason": "「特诺切从六大部落召集齐了盟友」明文，领袖角色成立。"}
+{"cid": 18903, "verdict": "uncertain", "reason": "「被火神请愿投票放逐」压缩歧义（实为松伽塔向火神请愿、经投票放逐）。", "fix": "改「经松伽塔向火神请愿、投票放逐（松伽塔自陈）」。"}
+{"cid": 18904, "verdict": "pass", "reason": "「康波雷预见到…」照录。"}
+{"cid": 18905, "verdict": "uncertain", "reason": "「六部族头人」无明文支持（她称「善奔的英杰」，六人中仅松伽塔有首长明证）。", "fix": "删「头人」或改「英杰/六英杰之一」。"}
+{"cid": 18906, "verdict": "pass", "reason": "「第二位前来拥抱…勇猛的孟尼力克」照录。"}
+{"cid": 18907, "verdict": "pass", "reason": "「第六位…是他年轻时的死敌巨人图帕克」照录。"}
+{"cid": 18908, "verdict": "pass", "reason": "火榴果赌约与结缘（得到对方认可）照录。"}
+{"cid": 18909, "verdict": "pass", "reason": "「照顾龙的起居…锤炼体魄…请教大祭祀」+拒绝同行照录。"}
+{"cid": 18910, "verdict": "pass", "reason": "「回火的英雄」是称号，aka 成立。"}
+{"cid": 18911, "verdict": "uncertain", "reason": "「冠以『山王』之名」的对象是最优火榴果（非康加玛托），因果主体错位；且 aka 不精确。", "fix": "拆为「康加玛托是匿叶龙之主（号山王）」与「母树移栽后最好的火榴果被冠名」。"}
+{"cid": 18912, "verdict": "uncertain", "reason": "aka 宾语为描述型（称号在定语中），非直接称呼。", "fix": "谓词改 is-a 或宾语简化「窃火者」。"}
+{"cid": 18913, "verdict": "pass", "reason": "「跟随这些奇怪的家伙」「与勇者一同踏上征途」照录。"}
+{"cid": 18914, "verdict": "pass", "reason": "箴言（含「终有一日你会知晓」预示）照录，发言者=沉默的祭司。"}
+{"cid": 18915, "verdict": "pass", "reason": "「接受了大联盟军械官的闲职」（时代一句照录）。"}
+{"cid": 18916, "verdict": "pass", "reason": "「自剑影下救出龙众」「夜中独自造访军械官行宫…恳请斩断违誓枷锁」照录。"}
+{"cid": 18917, "verdict": "uncertain", "reason": "「长眠/残息」未明示死亡时点，dies-in 为推断。", "fix": "注明状态（失智长眠/残息），或核对后续文本确认死亡。"}
+{"cid": 18918, "verdict": "uncertain", "reason": "宾语为誓言（「我将『回火』之名归还于夜域…」），非预言。", "fix": "谓词改「立誓/narrates」。"}
+{"cid": 18919, "verdict": "pass", "reason": "无引文；寻宝之旅与「为远行的子嗣打造利刃」明文。"}
+{"cid": 18920, "verdict": "pass", "reason": "无引文；「终北最后的主祭」明文，转述链=主祭已标。"}
+{"cid": 18921, "verdict": "pass", "reason": "「抚育她长大的老祖母」「慈和温蔼…可怖的毒刑」照录。"}
+{"cid": 18922, "verdict": "pass", "reason": "「我最眷宠的孩子」「奉命惟谨」照录。"}
+{"cid": 18923, "verdict": "pass", "reason": "「血中所流的乃是至洁的银辉，惟独我们得以领受…恩典」照录，转述=娄维娅已标。"}
+{"cid": 18924, "verdict": "pass", "reason": "「霜月的女主人…纺出了世间一切道路」照录。"}
+{"cid": 18925, "verdict": "fail", "reason": "预言/训诫的发出者是娄维娅（对「我的爱依菈」致辞），依菈是受者；prophesies 的主语应为预言者，主语错误。", "fix": "主语改为娄维娅；若保留依菈为主语，谓词应改「被预言/命中注定」。"}
+{"cid": 18926, "verdict": "pass", "reason": "「注定诞下圣嗣的蒙福者」照录（「皆为（为）千年的谕旨」轻微省略）。"}
+{"cid": 18927, "verdict": "pass", "reason": "「用剑从背后刺透他的心」等指使内容照录（instigates 用法与库内一致）。"}
+{"cid": 18928, "verdict": "pass", "reason": "「背信的凶徒」+依菈「说得没错」照录。"}
+{"cid": 18929, "verdict": "pass", "reason": "「切断纺线/歌喉在夜中噤声…为纯化月赐的圣血」照录。"}
+{"cid": 18930, "verdict": "pass", "reason": "「终北的主祭徒劳地重复着亵渎的愚行」照录。"}
+{"cid": 18931, "verdict": "pass", "reason": "「惯于顺从者的沉默总是等同于应允」照录。"}
+{"cid": 18932, "verdict": "pass", "reason": "无引文；「纯净无垢的银刃刺穿她的脊背」明文（施动者=依菈，叙事链成立）。"}
+{"cid": 18933, "verdict": "pass", "reason": "依菈质问（说谎/猩红曙色）照录。"}
+{"cid": 18934, "verdict": "pass", "reason": "「索洛维先生说得没错」照录（引为证词成立）。"}
+{"cid": 18935, "verdict": "pass", "reason": "「总是愁容满面的骑士…只有这首歌才能使他眉头稍稍舒展」照录。"}
+{"cid": 18936, "verdict": "pass", "reason": "「在广场上唱这首歌的那位少女…使他暂时忘却…重负」照录。"}
+{"cid": 18937, "verdict": "pass", "reason": "「古国灾厄降临的腥臭最终传到了这片土地」照录，媒介已括注。"}
+{"cid": 18938, "verdict": "pass", "reason": "「歌词也被毒龙的咆哮…撕碎」方向正确（咆哮等=撕碎者）。"}
+{"cid": 18939, "verdict": "pass", "reason": "「不愿成为王的风之神听见了恸哭的声音」照录。"}
+{"cid": 18940, "verdict": "pass", "reason": "「为了守护…原野，从长眠中醒转，与天空的湛青之龙一同战斗」照录。"}
+{"cid": 18941, "verdict": "pass", "reason": "「骑士与骑士团也为了国土与家园而战」照录。"}
+{"cid": 18942, "verdict": "pass", "reason": "「猛毒之龙殒命在冰封之山」照录。"}
+{"cid": 18943, "verdict": "pass", "reason": "「湛青之龙长眠于尖塔古城」照录。"}
+{"cid": 18944, "verdict": "pass", "reason": "「骑士却在谷地中流尽了鲜血」+所念之人照录。"}
+{"cid": 18945, "verdict": "pass", "reason": "骑士临终所想照录（「应当平安无事吧。真想再听听她唱的歌」）。"}
+{"cid": 18946, "verdict": "pass", "reason": "「至少艾伦德林与罗兰无恙。她归乡时，灾厄应该已经平息了吧」照录。"}
+{"cid": 18947, "verdict": "pass", "reason": "「称颂神、记载双龙之战的诗…慢慢佚失」压缩可通。"}
+{"cid": 18948, "verdict": "pass", "reason": "「少女曾经爱唱的小曲…在她返乡后，变了样子」照录。"}
+{"cid": 18949, "verdict": "pass", "reason": "歌词「我也不能再为…你」忠实转写（我→她）。"}
+{"cid": 18950, "verdict": "pass", "reason": "「泪水与歌声都枯竭后，少女决定挥霍生命之火，洗净世界的歪曲」照录。"}
+{"cid": 18951, "verdict": "pass", "reason": "「三位神明在永恒的虚空中百无聊赖地虚度着光阴」照录。"}
+{"cid": 18952, "verdict": "pass", "reason": "「自称为『勇武』…寰宇之中无人能在与他的战斗中取胜」照录。"}
+{"cid": 18953, "verdict": "pass", "reason": "「被称作『狡计』…无人能识破他的诡计与权谋」照录。"}
+{"cid": 18954, "verdict": "pass", "reason": "「一直沉默不语的第三位神明『自然』，想到了一个有趣的主意」+提议内容照录。"}
+{"cid": 18955, "verdict": "uncertain", "reason": "主语为两位神明的合体、宾语又是其自身的争斗，opposes（X 反对 Y）关系错乱。", "fix": "谓词改 participates-in，或拆为「勇武 opposes 狡计」。"}
+{"cid": 18956, "verdict": "pass", "reason": "「自然」的提议与理由照录。"}
+{"cid": 18957, "verdict": "pass", "reason": "「『勇武』之神平整大地，将其塑造为四方的棋盘…」照录。"}
+{"cid": 18959, "verdict": "pass", "reason": "「唯有众神手中的骰子能够决定世界的命运」照录。"}
+{"cid": 18960, "verdict": "pass", "reason": "「击碎精金铸造的城墙…掷出惨不忍睹的数字…无法战胜魔王」照录。"}
+{"cid": 18961, "verdict": "pass", "reason": "勇武（护己方勇者）发言语境成立，内容照录。"}
+{"cid": 18962, "verdict": "pass", "reason": "狡计「先做检定…魔剑发动心灵攻击」照录（出招者=狡计）。"}
+{"cid": 18963, "verdict": "pass", "reason": "勇武质疑设定来源照录。"}
+{"cid": 18964, "verdict": "pass", "reason": "狡计引「万法之书第八十三页」照录。"}
+{"cid": 18965, "verdict": "pass", "reason": "「好你个老鹮，你算计我！」照录。"}
+{"cid": 18966, "verdict": "pass", "reason": "「兵不厌诈…勇者被转化成我方的棋子」照录。"}
+{"cid": 18967, "verdict": "pass", "reason": "「自然」的归属裁定照录。"}
+{"cid": 18968, "verdict": "pass", "reason": "旁白「世界又回到了古代魔族的手中…」照录。"}
+{"cid": 18969, "verdict": "pass", "reason": "无引文；「重新创造一批新的冒险者…消磨时间」明文，发言者为某位神明（泛称可通）。"}
+{"cid": 18970, "verdict": "pass", "reason": "「这是名为杜林的孩子，对『母亲』的回忆」照录。"}
+{"cid": 18971, "verdict": "pass", "reason": "母亲=杜林所称「妈妈」与回忆对象，照录。"}
+{"cid": 18972, "verdict": "uncertain", "reason": "宾语中心语是「通道」而谓词为 creates；母亲是让未果之梦降生的载体/通道，非造物者。", "fix": "谓词改 is-a（作为降生载体），或改「让…借其身躯降生」。"}
+{"cid": 18973, "verdict": "pass", "reason": "「彷徨在漆黑宇宙中的…未果之梦」照录。"}
+{"cid": 18974, "verdict": "pass", "reason": "「我可爱的孩子们」称呼照录。"}
+{"cid": 18975, "verdict": "pass", "reason": "「就像雨水流向溪流…到美好的地方去」照录。"}
+{"cid": 18976, "verdict": "pass", "reason": "「给了我翱翔的翅膀，给了我健壮的身躯」照录。"}
+{"cid": 18977, "verdict": "pass", "reason": "「我啊，想到有美好歌声的地方去」照录（knows-of 泛用可通）。"}
+{"cid": 18978, "verdict": "pass", "reason": "「告诉他们，大家的事情，和妈妈的事情」照录。"}
+{"cid": 18979, "verdict": "pass", "reason": "「告诉他们，我出生的地方，有多么美丽」照录。"}
+{"cid": 18980, "verdict": "pass", "reason": "无引文；「自黄金城废墟中幸存」「屠戮众多妖灵氏族的血王女」明文。"}
+{"cid": 18981, "verdict": "pass", "reason": "「我曾于失落的辉金之城中，得见足以射落高天之主的长枪」照录。"}
+{"cid": 18982, "verdict": "pass", "reason": "「我也曾见过足以贯穿万顷霜原…一枪」照录。"}
+{"cid": 18984, "verdict": "uncertain", "reason": "leader-of 的宾语应为被领导的群体，此处却是称号「万冬不败的征服者」。", "fix": "谓词改 aka。"}
+{"cid": 18985, "verdict": "pass", "reason": "「众妖灵与凡人尽皆俯伏于苍星的御座下，齐声奉颂…君王」照录（颂词语境，统辖成立）。"}
+{"cid": 18986, "verdict": "pass", "reason": "「被兄长失手所杀，世界从此陷入严酷寒冬」照录，已标北陆民话层。"}

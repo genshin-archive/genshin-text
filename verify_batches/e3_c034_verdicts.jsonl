@@ -1,0 +1,200 @@
+{"cid": 7097, "verdict": "pass", "reason": "引文（角色故事旁白）明载对方提出交易条件并利用纳西妲好奇心与责任感，宾语忠实", "fix": ""}
+{"cid": 7098, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7099, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7100, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7101, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7105, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7109, "verdict": "pass", "reason": "无引文，已按 hash 3718707679 核对初次见面原话，与「猫又」设定一致", "fix": ""}
+{"cid": 7110, "verdict": "fail", "reason": "宾语夹带生成残留「稻itemap野」，文本损坏（应为「稻妻野外」），语义不完整", "fix": "修正宾语为「幼年流浪于稻妻野外的无名小猫（身后只有一条尾巴）」"}
+{"cid": 7111, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7112, "verdict": "uncertain", "reason": "aka 谓词不当：宾语系评价（吃到过最好吃的东西），非别称，会生成错误别名边", "fix": "谓词改 is-a/评述：猫饭是绮良良吃过最好吃的东西"}
+{"cid": 7113, "verdict": "pass", "reason": "引文同时明载「鸣神大社」「狐妖大人」「超厉害的大妖怪」皆指八重神子，宾语忠实", "fix": ""}
+{"cid": 7114, "verdict": "pass", "reason": "「狐妖大人」即八重神子，规训内容与引文一致", "fix": ""}
+{"cid": 7115, "verdict": "pass", "reason": "引文为神子对绮良良的嘱咐（她补充道），宾语忠实", "fix": ""}
+{"cid": 7116, "verdict": "uncertain", "reason": "entrusts（委托）与引文「推荐」不符，且推荐是引荐非交付", "fix": "谓词改「推荐/引荐」：神子推荐绮良良到狛荷屋寻差事"}
+{"cid": 7117, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7118, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7119, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7120, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7121, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7122, "verdict": "uncertain", "reason": "「提议」实为客户诉求，绮良良系代客户询问；entrusts 谓词亦不当", "fix": "改「绮良良代客户询问千织能否推出猫猫肉垫样式的鞋」"}
+{"cid": 7123, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7124, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7125, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7126, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7127, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7128, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7129, "verdict": "pass", "reason": "无引文，已按 hash 4069236215 核对箱子语音原话，宾语忠实", "fix": ""}
+{"cid": 7130, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7135, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7136, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7137, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7138, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7139, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7140, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7141, "verdict": "pass", "reason": "引文与 FetterInfo avatarDetail 原文一致（注：source 所附 hash 3918225546 实为 avatarTitle）", "fix": ""}
+{"cid": 7142, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7143, "verdict": "uncertain", "reason": "引文系明喻「就像一缕黑烟」，以 is-a 记录会生成『罗莎莉亚是黑烟』错误类属", "fix": "谓词改为评述/比喻：罗莎莉亚行踪神秘（如黑烟般一不注意就消失）"}
+{"cid": 7144, "verdict": "uncertain", "reason": "entrusts（委托）与引文「督促」不符；且系维多利亚转述的芭芭拉自发行为", "fix": "谓词改「督促/照拂」：芭芭拉追在罗莎莉亚身后督促其完成日常工作（据维多利亚修女所说）"}
+{"cid": 7145, "verdict": "uncertain", "reason": "distrusts（不信任）与引文「无动于衷」不符，谓词过强", "fix": "谓词改「（对芭芭拉的热情）不领情/无动于衷」"}
+{"cid": 7146, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7147, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7148, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7149, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7150, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7151, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7152, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7153, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7154, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7155, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7156, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7157, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7158, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7159, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7160, "verdict": "pass", "reason": "引文「依她所见」在游戏语境中亦即蒙德自由主题的通识，宾语如实", "fix": ""}
+{"cid": 7161, "verdict": "uncertain", "reason": "「孤儿」系由「血洗村庄、出生后被劫走」推断，引文未明载父母存亡", "fix": "改为引文表述「偏僻山村出身（出生后不久被血洗该村庄的盗贼团劫走）」"}
+{"cid": 7162, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7163, "verdict": "uncertain", "reason": "引文系明喻「正如同蒙德的夕阳」，is-a 记录比喻意象会失真", "fix": "谓词改为评述：罗莎莉亚的青春时代如血色夕阳（目所能及均是血色）"}
+{"cid": 7164, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7165, "verdict": "uncertain", "reason": "entrusts（委托）与引文「告诫/建议」不符，法尔伽系劝诫引路", "fix": "谓词改「劝告/引路」：法尔伽带她来蒙德并告诫她入教会洗净自己"}
+{"cid": 7166, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7167, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7168, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7169, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7170, "verdict": "uncertain", "reason": "「对了玛利亚夫人，请看这个…」系他人向玛利亚展示论文，玛利亚为受示方，「见证」关系存疑", "fix": "改「（某修女向玛利亚夫人展示）罗莎莉亚神学论文一团糟」"}
+{"cid": 7171, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7172, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7173, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7174, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7175, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7176, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7177, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7178, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7179, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7180, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7181, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7182, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7183, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7184, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7185, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7186, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7187, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7188, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7189, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7190, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7191, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7192, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7193, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7194, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7195, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7196, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7197, "verdict": "pass", "reason": "宾语如实且保留「尚不能确定真相」保留语气，witnesses 可读作察觉其气息", "fix": ""}
+{"cid": 7198, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7199, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7200, "verdict": "uncertain", "reason": "引文系明喻「他就像一副挂在古旧房屋里的油画」，is-a 比喻会失真", "fix": "谓词改为评述：罗莎莉亚眼中阿贝多如古旧油画般厚重神秘"}
+{"cid": 7201, "verdict": "uncertain", "reason": "distrusts（不信任）与引文「不喜欢上班偷懒的人」不符", "fix": "谓词改「不认可/不喜欢」：罗莎莉亚不喜欢上班偷懒的人（但理解丽莎准点下班）"}
+{"cid": 7202, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7203, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7204, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7205, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7206, "verdict": "uncertain", "reason": "entrusts 方向错：引文为罗莎莉亚「接手/受理」旅行者的问题，非其委托他人", "fix": "谓词改「承接/受理」：罗莎莉亚接过旅行者解决不了的问题（为此而来）"}
+{"cid": 7207, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7208, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7209, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7210, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7211, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7212, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7213, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7214, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7215, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7216, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7217, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7218, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7219, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7220, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7221, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7222, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7223, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7224, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7225, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7226, "verdict": "pass", "reason": "无引文，已核对神之眼故事：「生于生时，亡于亡刻」系胡桃回忆爷爷常言，宾语忠实", "fix": ""}
+{"cid": 7227, "verdict": "uncertain", "reason": "part-of 谓词不当：「小巷派暗黑诗人」系自称的称号，非所属组织团体", "fix": "谓词改「自称」或 aka：胡桃自称「小巷派暗黑诗人」"}
+{"cid": 7228, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7229, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7230, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7231, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7232, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7233, "verdict": "pass", "reason": "无引文，经库内核查钟离确为往生堂客卿、「最受敬仰」的讲学者，宾语成立", "fix": ""}
+{"cid": 7234, "verdict": "uncertain", "reason": "enemy-of 对象为抽象的「不死」状态而非实体，且引文明载「单方面视为挚友」，关系表述失真", "fix": "谓词改「（欲亲手埋葬七七／不满其不死状态）」"}
+{"cid": 7235, "verdict": "pass", "reason": "「在胡桃看来」之观点由 narrates 承接于胡桃名下，宾语忠实", "fix": ""}
+{"cid": 7236, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7237, "verdict": "uncertain", "reason": "distrusts（不信任）与引文「实难苟同」不符：系对观念的不赞同", "fix": "谓词改「不赞同/不苟同」：胡桃不苟同白术求长生之念"}
+{"cid": 7238, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7239, "verdict": "uncertain", "reason": "is-a 主客偏差：被视作例外的是七七，胡桃是持此判断者；宾语归属易误读", "fix": "改「胡桃｜将七七视为千载难逢的例外（不能硬埋）」"}
+{"cid": 7240, "verdict": "uncertain", "reason": "enemy-of 过强：引文仅「害怕/讨厌」「心中一大瘟神」，单方面厌恶非敌对关系", "fix": "谓词改「忌惮/厌恶」：七七视胡桃为瘟神"}
+{"cid": 7241, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7242, "verdict": "uncertain", "reason": "part-of 谓词与此条不符：引文为胡桃把石狮子当宠物的论调，非部分-整体关系", "fix": "谓词改「（胡桃把总务司石狮子当宠物…「让人快活的小动物自然就是宠物」）」"}
+{"cid": 7243, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7244, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7245, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7246, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7247, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7248, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7249, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7250, "verdict": "uncertain", "reason": "宾语含刻晴/香菱/申鹤三人印象，所附引文仅刻晴一条，覆盖不足", "fix": "拆分条目或补引香菱（h=2526880855）、申鹤（h=3045861599）语音"}
+{"cid": 7251, "verdict": "uncertain", "reason": "part-of 方向与类型错误：引文为「锅巴会替香菱出头」，胡桃示警锅巴护主，非香菱属于锅巴", "fix": "改为「锅巴｜（为香菱出头）护主」或「香菱｜（锅巴会替其出头）」"}
+{"cid": 7252, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7253, "verdict": "pass", "reason": "引文明载代理贤者身份与如期辞职，leader-of 可作「曾任最高职位」读", "fix": ""}
+{"cid": 7254, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7255, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7256, "verdict": "uncertain", "reason": "wields 与「享受贤者津贴待遇」不符：待遇非可运使之物", "fix": "谓词改 possess/享有：艾尔海森做回书记官仍享有贤者津贴待遇"}
+{"cid": 7257, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7258, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7259, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7260, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7261, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7262, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7263, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7264, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7265, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7266, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7267, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7268, "verdict": "uncertain", "reason": "enemy-of 过强：引文为合作课题决裂分道扬镳、观念背道而驰，未至敌对（且后收留卡维同住）", "fix": "谓词改「（决裂的旧友/前合作者）」"}
+{"cid": 7269, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7270, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7271, "verdict": "uncertain", "reason": "wields 与「教令院分配的住宅」不符：房产非可运使之物", "fix": "谓词改 possess/居住：艾尔海森住处系教令院评估分配的住宅"}
+{"cid": 7272, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7273, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7274, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7275, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7276, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7277, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7278, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7279, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7280, "verdict": "uncertain", "reason": "wields 与「继承财产与书库」不符：应表继承/拥有", "fix": "谓词改 inherit/possess：艾尔海森继承祖母留下的财产与书库"}
+{"cid": 7281, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7282, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7283, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7284, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7285, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7286, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7287, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7288, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7289, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7290, "verdict": "uncertain", "reason": "引文系书页印文（「艾尔海森将印着这些话的纸张翻过去」），作者未标明，narrates 归属存疑", "fix": "核实出处归属；若无据主语改「（书页文字）」"}
+{"cid": 7291, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7292, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7293, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7294, "verdict": "uncertain", "reason": "founds（创立）与引文「将自己的职业称为」不符：自名与从事不等同开创职业", "fix": "谓词改「自称/从事」：艾梅莉埃把自己的职业称为「现场清理人」"}
+{"cid": 7295, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7296, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7297, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7298, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7299, "verdict": "uncertain", "reason": "witnesses（见证）与引文不符：系艾梅莉埃自己向逝者做最后的道别（行为者非旁观者）", "fix": "谓词改「（为陌生逝者做最后的道别）」"}
+{"cid": 7300, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7301, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7302, "verdict": "uncertain", "reason": "wields 与「香水收藏」不符：收藏非可运使之物（且系高阁存放）", "fix": "谓词改 possess/收藏：母亲收藏的香水后成为艾梅莉埃的宝藏"}
+{"cid": 7303, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7304, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7305, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}
+{"cid": 7306, "verdict": "pass", "reason": "宾语与引文一致，主客无倒置", "fix": ""}

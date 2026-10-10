@@ -1,0 +1,44 @@
+count: 43
+absorbs | 吸收 | directed | X 吸收 Y（力量/死前遗念等）
+active-during | 活跃于 | directed | X 活跃于时代/事件 Y
+aka | 别称 | directed | Y 是 X 的另一称呼（与 kg_aliases 冗余时以 aliases 为准）
+ally-of | 同盟 | symmetric | X 与 Y 结盟（含'悖逆共谋'级同盟）
+ancestor-of | 血亲先祖 | directed | X 是 Y 的先祖/血缘来源
+betrays | 背叛 | directed | X 背叛了 Y
+causes | 引发 | directed | X 的行动引发了事件 Y
+commands | 统辖 | directed | X 指挥 Y 的行动（军事/任务层面）
+creates | 创造 | directed | X 创造了 Y（造物/种族/器物）
+descends-from | 位格继承 | directed | X 承继了 Y 的位格/权能/职责
+dies-in | 死于 | directed | X 死于事件 Y（复活类写 resurrects）
+distrusts | 不信任 | directed | X 不信任 Y
+enemy-of | 敌对 | symmetric | X 与 Y 处于敌对关系
+founds | 创立 | directed | X 创立了 Y
+grants | 授予 | directed | X 将权能/器物 Y 授予 Z（object=Y，受者在 claim 文本注明）
+imprisons | 囚禁 | directed | X 将 Y 囚禁于 Z（Z 写进引文）
+is-a | 是（类属） | directed | X 属于类别 Y，如 兹白 是-a 仙人
+kin-of | 血亲 | symmetric | X 与 Y 有血缘关系（兄弟/双子等，细分写进 claim 引文）
+knows-of | 知晓 | directed | X 知晓信息 Y（转述链必标）
+leader-of | 领袖 | directed | X 是 Y 的领导者（明文级，转述须标 confidence）
+located-in | 位于 | directed | X 位于/栖居于场所 Y
+loves | 爱 | directed | X 爱 Y（天使诅咒语境的核心谓词）
+member-of | 成员 | directed | X 为 Y 的普通成员
+narrates | 转述 | directed | X 转述了信息 Y（叙述者立场写 narrator 字段）
+opposes | 对抗 | symmetric | X 反对/抵抗 Y 的行动或意志（未至战争级）
+part-of | 从属（组织） | directed | X 是组织/群体 Y 的成员
+participates-in | 参与 | directed | X 参与了事件 Y
+possesses | 持有权能 | directed | X 持有权能/力量 Y
+prophesies | 预言 | directed | X 预言了 Y
+resurrects | 复活 | directed | X 复活（机制写进引文）
+sealed-in | 封存于 | directed | 器物/权能 Y 封存于场所 X
+seals | 封印 | directed | X 封印了 Y
+steals | 窃取 | directed | X 窃取了 Y
+succeeds | 继位 | directed | X 继承 Y 的王位/职位
+survives | 幸存 | directed | X 在事件 Y 中幸存
+travels-to | 抵达 | directed | X 抵达/到访 Y
+trusts | 信任 | directed | X 信任 Y
+wields | 持用 | directed | X 持用器物 Y
+witnesses | 见证 | directed | X 见证了事件 Y
+worships | 崇拜 | directed | X 崇拜/侍奉 Y
+停摆 | 停摆 | directed | 
+失踪 | 失踪 | directed | 
+消散 | 消散 | directed | 

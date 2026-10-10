@@ -1,0 +1,200 @@
+{"cid": 9221, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9222, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9223, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9224, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9225, "verdict": "uncertain", "reason": "is-a 类型错配：宾语系家中变故（事件/状态）而非类别；括注「唯一补偿…」系相邻句合并（同源可查）", "fix": "谓词改 free:自定义「（家中）遭变故」：戈德森家｜一夜之间少两个猎人、多两个病人（唯一补偿为迟到的冠军镀金奖牌）"}
+{"cid": 9226, "verdict": "uncertain", "reason": "谓词错配：羽球节系庆典类别，非参与事件者；「含堆高高大赛」有引文支持", "fix": "谓词改 is-a：羽球节｜是-a｜蒙德传统庆典（含「堆高高大赛」等）"}
+{"cid": 9227, "verdict": "uncertain", "reason": "主体身份「蒙德冒险家」无明文：文本仅述其在无名岛研究日晷、无神之眼、拟求助冒险家协会", "fix": "宾语改「无名求学者（在无名岛钻研『时与风』日晷；无神之眼，拟请冒险家协会寻帮手）」"}
+{"cid": 9228, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9229, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9230, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9231, "verdict": "uncertain", "reason": "「使访客时间感错乱」系由作者一人感受（周围怪怪的、记不清时刻）概括成通例", "fix": "宾语改「令笔记作者感到周围古怪、记不清具体时刻之地」"}
+{"cid": 9232, "verdict": "uncertain", "reason": "「委托」过实：引文系设想/疑问（『不知道冒险家协会那边，能不能帮我找到…』），未见已成立委托", "fix": "改述「拟请（寄望）蒙德冒险家协会寻找有神之眼且愿帮忙的人」"}
+{"cid": 9233, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9234, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9235, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9236, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9237, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9238, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9239, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9240, "verdict": "fail", "reason": "主客/主语错误：引文系骗子自述其母许愿之事（『我的母亲…』），narrates 的叙述者应是骗子，而非被谈论的骗子之母", "fix": "主语改「骗子」（narrator=骗子）｜narrates｜母亲为惩罚他赴沙漠向阿赫玛尔许愿、要其教子为人之道"}
+{"cid": 9241, "verdict": "uncertain", "reason": "「裁决/教化之神」「沙漠民间」系概括：本引文仅见（骗子之母）向其许愿『教我为人的道理』，且出语系骗子之口", "fix": "宾语改「（骗子之母）向其许愿『教我为人的道理』之神（后文另有其惩治骗子变骡）」"}
+{"cid": 9242, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9243, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9244, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9245, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9246, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9247, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9248, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9249, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9250, "verdict": "uncertain", "reason": "part-of 与「部属」不符（部属系人身从属/下属，非组织成员）", "fix": "谓词改「曾为…部属」：古恩希尔德之父｜曾为迭卡拉庇安的部属（后率部族出逃）"}
+{"cid": 9251, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9252, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9253, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9254, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9255, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9256, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9257, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9258, "verdict": "uncertain", "reason": "因果未明文：引文系时间先后（『在风神巴巴托斯离去后，蒙德大地上广立贵族』），非巴巴托斯引发", "fix": "改述「巴巴托斯离去后，蒙德大地上广立贵族」；或谓词改「其后」"}
+{"cid": 9259, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9260, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9261, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9262, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9263, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9264, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9265, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9266, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9267, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9268, "verdict": "uncertain", "reason": "归属系日志作者推测（『…也是他计划中的吧』），宜标推演；「致尼克死亡、燃料食物被夺」系塌方后果（另篇明文）", "fix": "confidence 改「推演」；或改述「（作者推测）圆形大门密室前的塌陷亦系厄伯哈特计划所致」"}
+{"cid": 9269, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9270, "verdict": "uncertain", "reason": "「narrates」不贴：系「鼓吹/宣扬」说辞，且动机系日志作者推断（『都是为了利用…』）", "fix": "谓词改「鼓吹」；如保留 narrates 应改主语为日志作者：narrates｜厄伯哈特鼓吹『冰雪封印的古国』『天降之物的魔力』以诱英戈伯特至绝地"}
+{"cid": 9271, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9272, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9273, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9274, "verdict": "uncertain", "reason": "「仆从」身份无明文：系由「一起长大」、称『少爷』及家族语境推断；「临终写下警告」有引文支持", "fix": "宾语改「与厄伯哈特一起长大的同行者（重伤写下警告）」或补身份明文"}
+{"cid": 9275, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9276, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9277, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9278, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9279, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9280, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9281, "verdict": "uncertain", "reason": "括注措辞与文意相反：原文系鳄之王（败者）令胜者阿布说出愿望（『说出你的愿望吧』）", "fix": "宾语改「身躯将化飞灰、令胜者说出愿望的战败之王」"}
+{"cid": 9282, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9284, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9285, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9286, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9287, "verdict": "fail", "reason": "复国恩人归属错误：原文「帮助自己复国的友人会在决斗中落败而死」＋下句「阿布，我稍微有点嫉妒呢」，该友人即即将与鳄之王决斗的阿布；妮妙系试图以骰子连接「决斗之间」的友人，未提助其复国", "fix": "宾语改「骑士决斗之王（其复国恩人阿布将在决斗中落败而死，阿利托斯不以为意）」；删「受妮妙帮助复国」"}
+{"cid": 9288, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9289, "verdict": "uncertain", "reason": "part-of 与「一轩之主（原主）」不符：翠姐姐系撷萃轩旧主，今沦落", "fix": "谓词改 free:自定义「原为…之主」：翠姐姐｜原为撷萃轩一轩之主（后沦落）"}
+{"cid": 9290, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9291, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9292, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9293, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9294, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9295, "verdict": "uncertain", "reason": "part-of 与「子嗣」不符（非组织成员）；引文另注『亦有版本作本人』", "fix": "谓词改 kin-of：翼龙｜血亲｜火山大王修库特尔（子嗣；亦有版本作本人）"}
+{"cid": 9296, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9297, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9298, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9299, "verdict": "uncertain", "reason": "随行安排系「众神」另派（『众神又派了愚人察阿克与之随行』），归于夜神系误合", "fix": "改述「夜神派遣贤者瓦萨克拉胡巴肯讨伐翼龙（另有众神派愚人察阿克随行）」"}
+{"cid": 9300, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9301, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9302, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9303, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9304, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9305, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9306, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9307, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9308, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9309, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9310, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9311, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9312, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9313, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9314, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9315, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9316, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9317, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9318, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9319, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9320, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9321, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9322, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9323, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9324, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9325, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9326, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9327, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9328, "verdict": "uncertain", "reason": "宾语系由建议推得之悟（『嘟嘟可明白了——…增强特别蹦蹦的威力』），荣誉骑士本人未言「增强威力」", "fix": "改述「荣誉骑士建议：就像冒险一样，要提前确定前进的方向」"}
+{"cid": 9329, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9330, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9331, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9332, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9333, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9334, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9335, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9336, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9337, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9338, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9339, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9340, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9341, "verdict": "uncertain", "reason": "located-in 谓词不当：宾语「以三角三隅为标的国土」非场所，claim 读作「白夜国位于其国土」", "fix": "谓词改 is-a/述状：白夜国｜国土以三角三隅为标（曾为人龙拉锯极限）"}
+{"cid": 9342, "verdict": "uncertain", "reason": "主谓结构不当：三界塔系「（三角处）修建于白夜国时期」之物，非「创立白夜国时期」", "fix": "谓词改「修建于」；或改述：三界塔｜位于｜三角（白夜国时期修建，用于调和三界）"}
+{"cid": 9343, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9344, "verdict": "uncertain", "reason": "方向/谓词不当：三界塔系被秘法隐去者（『它们由秘法隐去』），非施封者", "fix": "改述「三界塔｜由秘法隐去｜仅能由巫女与御使唤出」"}
+{"cid": 9346, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9347, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9348, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9349, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9350, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9351, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9352, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9353, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9354, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9355, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9356, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9357, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9358, "verdict": "uncertain", "reason": "narrates 与「称呼」不符：夜叉系被记述的行为者，转述者系伯阳（日志作者）", "fix": "谓词改「称呼」（夜叉｜称呼｜身边人以『金鹏』『弥怒』等名号）；如保留 narrates 应改主语为伯阳"}
+{"cid": 9359, "verdict": "uncertain", "reason": "「猜测/或许」被写成 is-a 定论（原文『我们猜测，地下或许有某种力量，强效抑制了坎瑞亚凶兽』）", "fix": "confidence 标推演；或改述「（据观察）凶兽接近地宫便疲弱；（猜测）地下或有强效抑制之力」"}
+{"cid": 9360, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9361, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9362, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9363, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9364, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9365, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9366, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9367, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9368, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9369, "verdict": "uncertain", "reason": "谓词错配：宾语系窃取行为，宜用 steals（引文亦系该书「应当讲述…的经过」之题旨）", "fix": "谓词改 steals：雷德·米勒｜窃取｜霜月圣物三宝磨（自总督宫）"}
+{"cid": 9370, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9371, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9372, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9373, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9374, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9375, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9376, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9377, "verdict": "uncertain", "reason": "part-of 与「养女」不符：系收养关系（非血亲，亦非组织从属）", "fix": "谓词改 kin-of（收养从宽）或 free:自定义「养女」"}
+{"cid": 9379, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9380, "verdict": "uncertain", "reason": "「据点退往枫丹」系对撤退指令的引申（『你们就安心撤退去枫丹吧』，系对两名同伴所言）", "fix": "宾语改「雷德·米勒的同伴组织（其令两名伙伴撤退去枫丹）」"}
+{"cid": 9381, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9382, "verdict": "uncertain", "reason": "「蔚蓝群岛」非原文专名（原文系『拥有蔚蓝海洋的群岛』，且系季马赴该处）；雷德购船招募地在彼处系推得", "fix": "宾语改「（重操旧业）购入三桅帆船并在港口招募水手（季马于蔚蓝海洋的群岛闻其传说后应募）」或补到访明文"}
+{"cid": 9383, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9384, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9385, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}
+{"cid": 9386, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9387, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9388, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9389, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9390, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9391, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9392, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9393, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9394, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9395, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9396, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9397, "verdict": "uncertain", "reason": "knows-of 与「自陈」不符（『我只装痴总无虑』系处世态度自述）", "fix": "谓词改 free:自定义「自陈」；或改述「作者自陈『装痴无虑』的处世姿态」"}
+{"cid": 9398, "verdict": "uncertain", "reason": "part-of 与「住在星星上」不符（非组织成员）", "fix": "谓词改 located-in：奎伊露｜居于｜离部族最近的星星（距兄弟姐妹遥远）"}
+{"cid": 9399, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9400, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9401, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9402, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9403, "verdict": "uncertain", "reason": "part-of 与「结成家族」不符（伴侣关系，非组织从属）", "fix": "谓词改 free:自定义「结为家族」；或 kin-of（姻亲从宽）"}
+{"cid": 9404, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9405, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9406, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9407, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9408, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9409, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9410, "verdict": "uncertain", "reason": "part-of 与「之子」不符（血缘）", "fix": "谓词改 kin-of：昆图尔｜血亲｜奎伊露与乌库库（之子）"}
+{"cid": 9411, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9412, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9413, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9414, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9415, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9416, "verdict": "uncertain", "reason": "founds 无明文：仅见「女神《光辉宪章》的庇护」（归属/冠名），未言女神创立；「世界法则总纲」系概括", "fix": "补引女神制定明文；或改述「（女神的）《光辉宪章》（希穆兰卡法则之书，勇敢者受其庇护）」"}
+{"cid": 9417, "verdict": "pass", "reason": "宾语系引文直接转写，主客无误", "fix": ""}
+{"cid": 9418, "verdict": "uncertain", "reason": "sealed-in 误用：系书=宪章的同一/载录关系，非「器物封存于场所」", "fix": "谓词改 aka/is-a：《光辉宪章》（即《光█宪█》，以太初言语写成、载希穆兰卡一切法则之书）"}
+{"cid": 9419, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9420, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9421, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9422, "verdict": "pass", "reason": "宾语忠实于引文（经源文上下文核对），主客关系正确", "fix": ""}
+{"cid": 9423, "verdict": "pass", "reason": "无引文，source 粗查与事实一致，主客无误", "fix": ""}

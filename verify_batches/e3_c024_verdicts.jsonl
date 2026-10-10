@@ -1,0 +1,200 @@
+{"cid": 5009, "verdict": "pass", "reason": "塔利雅语音原话（Fetters #7664），宾语与引文一致", "fix": ""}
+{"cid": 5010, "verdict": "uncertain", "reason": "enemy-of 过强：引文系自陈烦恼（厌烦重复波澜不惊的日常），非敌对关系", "fix": "谓词改 dislikes/bored-by（受困于平淡日常）"}
+{"cid": 5011, "verdict": "pass", "reason": "Fetters #7639 原话；「我听说」转述链已标『明文·转述』，忠实", "fix": ""}
+{"cid": 5012, "verdict": "pass", "reason": "Fetters #7671 生日祝词原话（愿词逐字），宾语一致", "fix": ""}
+{"cid": 5013, "verdict": "pass", "reason": "Fetters #7673 原话（风中气息），宾语一致", "fix": ""}
+{"cid": 5014, "verdict": "pass", "reason": "无引文已核：Fetters #7675「祷告完毕，听凭风引。」宾语一致", "fix": ""}
+{"cid": 5015, "verdict": "pass", "reason": "初次见面自我介绍原话（hash 1138474279），主语正确", "fix": ""}
+{"cid": 5016, "verdict": "pass", "reason": "引文逐字「特巡队是隶属于执律庭的多个执法部门之一」，方向正确", "fix": ""}
+{"cid": 5017, "verdict": "fail", "reason": "主客颠倒：member-of 定义 X 为 Y 的成员；引文系特巡队『接纳』被剥夺名誉的罪人后代，方向倒置", "fix": "主客对调：被剥夺名誉的罪人后代｜member-of｜特巡队（选拔时获接纳）"}
+{"cid": 5018, "verdict": "pass", "reason": "贰型铳枪条目原文，特巡队装备关系成立", "fix": ""}
+{"cid": 5019, "verdict": "pass", "reason": "角色故事1 原话（若名声让人忌惮凶名而退却），宾语概述忠实", "fix": ""}
+{"cid": 5020, "verdict": "pass", "reason": "引文逐字（其简短回答原话），一致", "fix": ""}
+{"cid": 5021, "verdict": "pass", "reason": "引文逐字（其回答原话）；revokes 与价值判断略偏", "fix": "谓词宜作 denies/rejects（执律庭尊严不值一提）"}
+{"cid": 5022, "verdict": "pass", "reason": "角色故事3 全文证多纳泰洛为夏沃蕾父亲，kin-of 对称关系成立", "fix": ""}
+{"cid": 5023, "verdict": "pass", "reason": "流放服刑属实（角色故事5『服刑期满，现已入职特巡队』），宾语括注一致", "fix": ""}
+{"cid": 5024, "verdict": "pass", "reason": "角色故事5 原话（外泄情报为借记者推动调查），causes 成立", "fix": ""}
+{"cid": 5025, "verdict": "pass", "reason": "『这是父亲教导我的话』明文；grants 与『教诲』略偏", "fix": "谓词宜作 teaches/instructs"}
+{"cid": 5026, "verdict": "pass", "reason": "冬海试炼全篇在场（『几乎用尽了…意志力来让自己待在原地』），witnesses 成立", "fix": ""}
+{"cid": 5027, "verdict": "uncertain", "reason": "creates 证据不足：引文仅证『将说明稿检查了无数遍』（校对把关），未证撰写", "fix": "谓词改 checks/polishes（为夏沃蕾把关上呈说明稿）"}
+{"cid": 5028, "verdict": "pass", "reason": "角色故事4 原话（裁决由她亲自监督执行），一致", "fix": ""}
+{"cid": 5029, "verdict": "pass", "reason": "迁入『灰河』原文＋1199219『地下的灰河』，located-in 成立", "fix": ""}
+{"cid": 5030, "verdict": "uncertain", "reason": "imposes（强加）与『暗中资助』语义相抵：资助系给予，非施加", "fix": "谓词改 provides/资助（执律庭同僚与长官暗中资助夏沃蕾家）"}
+{"cid": 5031, "verdict": "pass", "reason": "引文系其当庭陈述原话（自陈罪证确凿）；witnesses 略偏", "fix": "谓词宜作 testifies/attests（当庭陈述罪状）"}
+{"cid": 5032, "verdict": "uncertain", "reason": "part-of 定义限组织/群体成员，宾语系职位（副队长）；『副队长』在同篇上文、非引句内", "fix": "宾语改『特巡队（时任副队长）』；或谓词改 serves-in"}
+{"cid": 5033, "verdict": "pass", "reason": "神之眼篇原话（冷枪击倒格里泽蒂＋『陷入永恒的沉默』），凶犯所杀成立；引文跨句拼接", "fix": ""}
+{"cid": 5034, "verdict": "pass", "reason": "引文逐字（格里泽蒂答语），一致", "fix": ""}
+{"cid": 5035, "verdict": "pass", "reason": "引文（铳枪枪柄挂上神之眼）；火元素系角色设定佐证，宾语一致", "fix": ""}
+{"cid": 5036, "verdict": "pass", "reason": "神之眼篇原话（特巡队为发声之人、正义由审判庭裁决），一致", "fix": ""}
+{"cid": 5037, "verdict": "uncertain", "reason": "『处决』与情节相抵：她放下枪口、击伤右腿逮捕，凶犯未死（『跳起来踉跄逃跑』后被收押）", "fix": "宾语改『缉捕凶犯（击伤右腿后为队员收押）』；谓词宜作 apprehends"}
+{"cid": 5038, "verdict": "pass", "reason": "帽子传承规定原话（牺牲者之帽授予其后代），一致", "fix": ""}
+{"cid": 5039, "verdict": "pass", "reason": "『交情由来已久』『经常合作』原文，ally-of 成立", "fix": ""}
+{"cid": 5040, "verdict": "pass", "reason": "宣示『枪口绝不留情』原话，宾语含态度括注，一致", "fix": ""}
+{"cid": 5041, "verdict": "pass", "reason": "『最高审判官』明文；『全无私情』系夏沃蕾评语（引文即其语），宾语忠实", "fix": ""}
+{"cid": 5042, "verdict": "pass", "reason": "引文系其自陈认同无偏私正义观；trusts 略偏", "fix": "谓词宜作 approves-of/endorses"}
+{"cid": 5043, "verdict": "pass", "reason": "『她（芙宁娜）指定训练』原文；以找不到仪仗曲作罢，宾语一致", "fix": "谓词宜作 orders/initiates（芙宁娜要求，非亲历训练）"}
+{"cid": 5044, "verdict": "pass", "reason": "『请她用专业的化学知识帮我分析物证、追缉凶犯』原话，一致", "fix": ""}
+{"cid": 5045, "verdict": "pass", "reason": "『请来林尼先生做顾问，才找到关键物证』原话，一致", "fix": ""}
+{"cid": 5046, "verdict": "pass", "reason": "羁押半月、拘留室写完报道原话，主语为其手下对其的描述对象（夏洛蒂），一致", "fix": ""}
+{"cid": 5047, "verdict": "pass", "reason": "『凭借自己的门路和人脉，为特巡队提供过很多次情报』原话，一致", "fix": ""}
+{"cid": 5048, "verdict": "pass", "reason": "逮捕属实（『面对挚爱之人也能下得去手』）；括注『亦执法』语义含糊", "fix": "括注宜明示『对恋人亦照章执法』"}
+{"cid": 5049, "verdict": "pass", "reason": "『贵族口中十恶不赦的罪人』原文，persecutes 成立", "fix": ""}
+{"cid": 5050, "verdict": "pass", "reason": "『我最喜欢的那位剧作家…写道：「谎言是生发罪行的恶土」』，转述已标", "fix": ""}
+{"cid": 5051, "verdict": "pass", "reason": "『越是掌握权力，就越该警惕这一点』原话＋『无尽的复仇循环』上文，宾语一致", "fix": ""}
+{"cid": 5052, "verdict": "pass", "reason": "初次见面自我介绍原话，一致", "fix": ""}
+{"cid": 5053, "verdict": "pass", "reason": "角色详细原话（探寻者非记录者），一致", "fix": ""}
+{"cid": 5054, "verdict": "pass", "reason": "『她要追寻的故事，是此类波涛为何汹涌横流』原话，knows-of 成立", "fix": ""}
+{"cid": 5055, "verdict": "pass", "reason": "『夏洛蒂的父亲，「牧野记者」加拉诺普洛先生』原文，一致", "fix": ""}
+{"cid": 5056, "verdict": "pass", "reason": "『十岁生日那天…送了一台特别定制的留影机』原话，grants 器物成立", "fix": ""}
+{"cid": 5057, "verdict": "pass", "reason": "引文逐字（父亲语），一致", "fix": ""}
+{"cid": 5058, "verdict": "pass", "reason": "『温柔又严厉的嘉涅泊蒂夫人』原文，母亲关系成立", "fix": ""}
+{"cid": 5059, "verdict": "pass", "reason": "『加拉诺普洛先生经常向夏洛蒂念叨一句话』＋引文逐字，一致", "fix": ""}
+{"cid": 5060, "verdict": "pass", "reason": "引文逐字（父亲当众语），一致", "fix": ""}
+{"cid": 5061, "verdict": "uncertain", "reason": "enemy-of 过强且宾语非人：引文系父亲『态度坚决地反对』女儿任专务记者", "fix": "谓词改 opposes/disapproves-of（反对女儿入行采访）"}
+{"cid": 5062, "verdict": "pass", "reason": "『《蒸汽鸟报》主编欧芙小姐』原文＋来意段落，一致", "fix": ""}
+{"cid": 5063, "verdict": "pass", "reason": "角色故事3 旁白（有能力发掘真相者有义务昭示），宾语忠实", "fix": ""}
+{"cid": 5064, "verdict": "pass", "reason": "引文逐字（欧芙语『我相信，下一届…非你莫属』），一致", "fix": ""}
+{"cid": 5065, "verdict": "pass", "reason": "『由《蒸汽鸟报》资助创立的「拉维尔奖」』原文，founds 成立", "fix": ""}
+{"cid": 5066, "verdict": "uncertain", "reason": "enemy-of 过强：系公开质疑/诋毁其获奖公正性（『诋毁』『代理人』），未至敌对关系", "fix": "谓词改 accuses/disputes（指报社与评委会沆瀣一气）"}
+{"cid": 5067, "verdict": "pass", "reason": "『伊拉耶小姐曾跟随执律庭跋山涉水…记录悬案破案过程』原话，一致", "fix": ""}
+{"cid": 5068, "verdict": "pass", "reason": "『数十年的记者生涯…未曾动摇他的笔杆分毫』原文，宾语一致", "fix": ""}
+{"cid": 5069, "verdict": "pass", "reason": "头版头条＋连环质询报道全篇，causes 成立", "fix": ""}
+{"cid": 5070, "verdict": "pass", "reason": "『执律庭正式对「拉维尔奖」展开全面调查，终止评选…质询』原话，一致", "fix": ""}
+{"cid": 5071, "verdict": "pass", "reason": "『都被欧芙小姐以格外强硬的态度拒之门外』原话，一致", "fix": ""}
+{"cid": 5072, "verdict": "pass", "reason": "『奖杯仅仅是一座铜铁死物』＋『荣耀是昭示在朗朗日光下的「真相」』原文，一致", "fix": ""}
+{"cid": 5073, "verdict": "pass", "reason": "『夏洛蒂为他取了一个新名字：「温亨廷」。意为——「真相」』原文，一致", "fix": ""}
+{"cid": 5074, "verdict": "pass", "reason": "报道（「多朗代，水下的吝啬鬼」）直指违规用工、克扣工资、危害健康，persecutes 成立", "fix": ""}
+{"cid": 5075, "verdict": "pass", "reason": "海底裂谷暗访篇（绝不能在规范外作业处取证），一致", "fix": ""}
+{"cid": 5076, "verdict": "pass", "reason": "『一枚冰蓝色的「神之眼」端端正正地待在她的手边』原话，一致", "fix": ""}
+{"cid": 5077, "verdict": "pass", "reason": "引文逐字（其登场语），一致", "fix": ""}
+{"cid": 5078, "verdict": "uncertain", "reason": "knows-of 无据：署名系叙述事实，无多朗代知晓记载（其悬赏寻机亦未及署名）", "fix": "主语去多朗代，改 narrates（报道以「蒸汽鸟报记者」署名）；或删条"}
+{"cid": 5079, "verdict": "pass", "reason": "『谎言处处圆滑，真相棱角分明』原话，一致", "fix": ""}
+{"cid": 5080, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5081, "verdict": "pass", "reason": "『假扮成游民，混进…后厨做了六个月的杂工』原话，一致", "fix": ""}
+{"cid": 5082, "verdict": "fail", "reason": "主客颠倒：member-of 定义 X 为 Y 的成员；引文系私人刊物属枫丹媒体，方向倒置", "fix": "主客对调：《观窥者报》《娱乐家周刊》《主厨》《惊奇！》等｜member-of｜枫丹媒体（小范围印发私人刊物）"}
+{"cid": 5083, "verdict": "pass", "reason": "『把报社里所有关于她的报道都揽了过来，尽量控制着稿件内容』原话，一致", "fix": "『换取访谈』宜按原文并列动机改注（『兼为约定中的深度独家访谈』）"}
+{"cid": 5084, "verdict": "uncertain", "reason": "survives 错配：卡雷斯已于决斗中重伤不治（953665），『沉冤得雪』系身后名誉，非幸存事件", "fix": "谓词改 gets-vindicated（身后沉冤昭雪、「少女连环失踪案」结案）"}
+{"cid": 5085, "verdict": "pass", "reason": "『帮我改良了镜头』＋『三两下拆解、安装干净娴熟』原话，一致", "fix": ""}
+{"cid": 5086, "verdict": "pass", "reason": "重拍一百二十七次原话；辞职系夏洛蒂打听，芙宁娜为直接当事人", "fix": "谓词宜作 causes（因其重拍要求致记者辞职）"}
+{"cid": 5087, "verdict": "pass", "reason": "采访送审流程原话，located-in 沫芒宫（隐含其办公所在）成立", "fix": ""}
+{"cid": 5088, "verdict": "pass", "reason": "『公爵』明文（12401『梅洛彼得堡的「公爵」』、234432『公爵莱欧斯利』），aka 成立", "fix": ""}
+{"cid": 5089, "verdict": "pass", "reason": "『艾尔卡萨扎莱宫之主』自我介绍原话，一致", "fix": ""}
+{"cid": 5090, "verdict": "pass", "reason": "称号条目原文逐字，宾语已注「（称号）」", "fix": "谓词宜作 has-title（FetterInfo 称号）"}
+{"cid": 5091, "verdict": "pass", "reason": "『桑歌玛哈巴依老爷，没有做不到的事』原话，一致", "fix": ""}
+{"cid": 5092, "verdict": "pass", "reason": "『与妙论派展开合作，在公认的危险地区开辟新的商道』原话，一致", "fix": ""}
+{"cid": 5093, "verdict": "pass", "reason": "『借此成立商会、整合资源』原话，founds 成立", "fix": ""}
+{"cid": 5094, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5095, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5096, "verdict": "pass", "reason": "『睡饱饱的秘诀，在于让自己心安』原话（其心得），一致", "fix": ""}
+{"cid": 5097, "verdict": "pass", "reason": "『它最初是被多莉骗入灯中，但直到现在也没有离开』原话，一致", "fix": ""}
+{"cid": 5098, "verdict": "pass", "reason": "镇灵心声原话（『有时镇灵会想』），narrates 承载，一致", "fix": ""}
+{"cid": 5099, "verdict": "pass", "reason": "『她们确实是一对让人艳羡的合作伙伴』原文，ally-of 成立", "fix": ""}
+{"cid": 5100, "verdict": "uncertain", "reason": "trusts 与引文不符：引文系多莉对艾莉丝的信守承诺（『以最快的速度送到你的手上』），无『信任』表述", "fix": "谓词改 keeps/守信（践行对艾莉丝的承诺）"}
+{"cid": 5101, "verdict": "pass", "reason": "引文逐字（其念叨语），一致", "fix": ""}
+{"cid": 5102, "verdict": "pass", "reason": "无引文已核：神之眼篇（姐姐不停咳血、药价数千万摩拉无力负担、离世），一致", "fix": ""}
+{"cid": 5103, "verdict": "pass", "reason": "神之眼篇（『要赚多多的摩拉』立誓后神之眼降临），宾语一致", "fix": ""}
+{"cid": 5104, "verdict": "pass", "reason": "内心誓言逐字；knows-of 略偏", "fix": "谓词宜作 narrates/自陈（不再因摩拉失去什么）"}
+{"cid": 5105, "verdict": "pass", "reason": "『我悄悄借了他一大——笔摩拉，让他造出了我的艾尔卡萨扎莱宫』原话，一致", "fix": ""}
+{"cid": 5106, "verdict": "pass", "reason": "『岩王帝君离去之前…』原话，knows-of 成立", "fix": ""}
+{"cid": 5107, "verdict": "uncertain", "reason": "part-of（成员）与引文相抵：系妙论派部分人与多莉私下签约合作，非多莉加入妙论派", "fix": "谓词改 cooperates-with（与妙论派私下签约，各取所需）"}
+{"cid": 5108, "verdict": "pass", "reason": "无引文已核：摩拉音乐盒篇（定制音乐盒听摩拉声、旋转起舞、唱「摩拉摩拉」歌），loves 成立", "fix": ""}
+{"cid": 5109, "verdict": "pass", "reason": "『只要摩拉管够，和教令院对着干也没什么大不了的』原话，一致", "fix": ""}
+{"cid": 5110, "verdict": "uncertain", "reason": "part-of 定义限组织/群体，宾语系人物凝光；引文为直属任职关系（『直属于天权星凝光的特别情报官』）", "fix": "谓词改 serves/serves-under（隶属于凝光的特别情报官）"}
+{"cid": 5111, "verdict": "pass", "reason": "『比起上下级关系，更像是交易，或者说…达成了某种契约』原文，ally-of 宽松成立", "fix": ""}
+{"cid": 5112, "verdict": "pass", "reason": "『名录中亦查无此人』原文，宾语一致", "fix": ""}
+{"cid": 5113, "verdict": "pass", "reason": "『岩上茶室之主——她的另一重身份』原文，一致", "fix": ""}
+{"cid": 5114, "verdict": "pass", "reason": "『因为她就是这两份名录的编纂者』原话，一致", "fix": ""}
+{"cid": 5115, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5116, "verdict": "pass", "reason": "『她的祖先曾在此地抗击巨大灾厄』原文，一致", "fix": ""}
+{"cid": 5117, "verdict": "pass", "reason": "『更有仙众夜叉埋骨于此』原文，dies-in 成立", "fix": ""}
+{"cid": 5118, "verdict": "pass", "reason": "『两位祖先一死一生，活下来的那个竟也变得疯癫』原文，括注一致", "fix": ""}
+{"cid": 5119, "verdict": "pass", "reason": "『它是怒吼了五百年的英雄之血』原话，一致", "fix": ""}
+{"cid": 5120, "verdict": "pass", "reason": "『平淡即麻木，激烈即清醒』原话，一致", "fix": ""}
+{"cid": 5121, "verdict": "pass", "reason": "『乃是当今愚人众执行官第九席——「富人」』＋商路渗透原文，opposes 成立", "fix": ""}
+{"cid": 5122, "verdict": "pass", "reason": "『本欲呈给女皇的献礼，却被夜兰中途截走』＋作赔偿拿走原文，一致", "fix": ""}
+{"cid": 5123, "verdict": "pass", "reason": "『玉镯内印有家族术法…需要成对使用』原文，一致", "fix": ""}
+{"cid": 5124, "verdict": "pass", "reason": "『别在岩上茶室玩骰子』原话＋『行家的忠告』，一致", "fix": ""}
+{"cid": 5125, "verdict": "pass", "reason": "『用人不疑，我愿意相信你是在这里寻找出路』原话（凝光语），trusts 成立", "fix": ""}
+{"cid": 5126, "verdict": "pass", "reason": "引文逐字（她对凝光语），一致", "fix": ""}
+{"cid": 5127, "verdict": "pass", "reason": "『光柱降落到夜兰手中』＋『这「神之眼」恰是信号』原文，一致", "fix": ""}
+{"cid": 5128, "verdict": "pass", "reason": "『强硬地上门讨债，还公开了前任老板做的假账』原话，一致", "fix": ""}
+{"cid": 5130, "verdict": "uncertain", "reason": "part-of 误用：引文系从千岩军斥候处学本事（师承），无加入千岩军之据", "fix": "谓词改 studies-from（本事学自千岩军斥候）"}
+{"cid": 5131, "verdict": "pass", "reason": "『半仙的血统大概给了她不少便捷吧，不用睡觉也能保持精力』原话，knows-of 成立", "fix": ""}
+{"cid": 5132, "verdict": "uncertain", "reason": "aka 误用：『一人千面』系神里绫华对夜兰的印象描述（『给我这种感觉』），非其别称", "fix": "谓词改 describes（绫华印象）；勿生成别名边"}
+{"cid": 5133, "verdict": "pass", "reason": "Avatar 描述逐字，一致", "fix": ""}
+{"cid": 5134, "verdict": "pass", "reason": "『笔名「欧科塔维亚」的魔女』原文，一致", "fix": ""}
+{"cid": 5135, "verdict": "pass", "reason": "『所造访的第777个世界』原文，一致", "fix": ""}
+{"cid": 5136, "verdict": "pass", "reason": "『第118个世界写下了「钢铁森林」的备注』原文，一致", "fix": ""}
+{"cid": 5137, "verdict": "pass", "reason": "『安静降落在第93号「学院之星」后』原文，一致", "fix": ""}
+{"cid": 5138, "verdict": "pass", "reason": "引文逐字（艾莉丝语），一致", "fix": ""}
+{"cid": 5139, "verdict": "pass", "reason": "引文逐字（艾莉丝语，边界规则），一致", "fix": ""}
+{"cid": 5140, "verdict": "pass", "reason": "无引文已核：FetterStory #915『等欧科塔维亚下次回来，我们就抓住她，让她带着我们出去玩一趟』，艾莉丝语，一致", "fix": ""}
+{"cid": 5141, "verdict": "pass", "reason": "『登录千星奇域』原文；领域属性有 5142/5133 旁证，宾语一致", "fix": ""}
+{"cid": 5142, "verdict": "pass", "reason": "『闪亮的星形徽记，是在「千星奇域」中受到尊敬的证明』原文，一致", "fix": ""}
+{"cid": 5143, "verdict": "pass", "reason": "Avatar 描述逐字（男性奇偶），一致", "fix": ""}
+{"cid": 5144, "verdict": "pass", "reason": "『而带来转机的是欧科塔维亚』原句转写；is-a 系叙述性描述", "fix": "谓词宜作 causes/contributes（为故事接龙带来转机）"}
+{"cid": 5145, "verdict": "pass", "reason": "『缺席次数最多的她也参加了这次聚会，并带来了…第六卷』原文，一致", "fix": ""}
+{"cid": 5146, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5147, "verdict": "pass", "reason": "『在欧科塔维亚的提醒下，艾莉丝留意到了…「希穆兰卡」的世界』原文，一致", "fix": ""}
+{"cid": 5148, "verdict": "pass", "reason": "『「欧科塔维亚」所记录的第777个世界』原文，一致", "fix": ""}
+{"cid": 5149, "verdict": "pass", "reason": "『第118个世界写下了「钢铁森林」的备注』原文，一致", "fix": ""}
+{"cid": 5150, "verdict": "pass", "reason": "『最为平静安详的便是第93号星球，此地是纯粹的「学院之星」』原文，旅程语境一致", "fix": ""}
+{"cid": 5151, "verdict": "pass", "reason": "『在旅途的第712个世界…发现了一颗「乐园之星」』原文，一致", "fix": ""}
+{"cid": 5152, "verdict": "pass", "reason": "『被聘为顾问后，向人们讲述了遥远的提瓦特的故事』原文，一致", "fix": ""}
+{"cid": 5153, "verdict": "pass", "reason": "『故事才写到第五卷时，安雅就已经离世了』＋『魔女会成立后的第一次减员』原文，一致", "fix": ""}
+{"cid": 5154, "verdict": "pass", "reason": "『未来的秘闻馆之主』＋179804『伫立在那夏镇中央…的「秘闻馆」』，一致", "fix": ""}
+{"cid": 5155, "verdict": "pass", "reason": "『失乡的沙漠人笑道』原文（欣缇一族女孩，336509），一致", "fix": ""}
+{"cid": 5156, "verdict": "pass", "reason": "『你被分去因论派了』原文，part-of 组织成立", "fix": ""}
+{"cid": 5157, "verdict": "pass", "reason": "『居勒什，我是按章办事』＋引文系居勒什语，说话人正确", "fix": ""}
+{"cid": 5158, "verdict": "uncertain", "reason": "survives 错配：宾语系反复梦魇（她尖叫惊醒），非幸存事件", "fix": "谓词改『反复梦见/受困于』旧日梦魇"}
+{"cid": 5159, "verdict": "pass", "reason": "『坎蒂丝算是我的旧识了，当初我流落到阿如村时，就和她见过面』原话，一致", "fix": ""}
+{"cid": 5160, "verdict": "pass", "reason": "信件原文逐字（她写给坎蒂丝），一致", "fix": ""}
+{"cid": 5161, "verdict": "pass", "reason": "『最后一个需要除掉的「首领」』＋全篇刺杀计划，participates-in 成立", "fix": ""}
+{"cid": 5162, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5163, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5164, "verdict": "pass", "reason": "『「秘闻馆」宣布正式对外开放，无论是谁都可以来下达委托』原文，一致", "fix": ""}
+{"cid": 5165, "verdict": "pass", "reason": "『在谈及报酬时，奈芙尔老板只取走了小姑娘头上的一枚发夹』原文，一致", "fix": ""}
+{"cid": 5166, "verdict": "pass", "reason": "『「秘闻馆唯一正式员工」』原文，part-of 组织成立", "fix": ""}
+{"cid": 5167, "verdict": "pass", "reason": "谎言成真篇（青色微光＋『重复了一千遍的谎言，居然成真了』），宾语括注一致", "fix": ""}
+{"cid": 5168, "verdict": "pass", "reason": "『阿如与谎言之主有过一段谈话』＋336509『鹮之王·众书记之书记图特』，称号成立", "fix": ""}
+{"cid": 5169, "verdict": "pass", "reason": "『他夸耀着自己…在三个月亮上辗转工作』原文；narrates 保留自述框架，一致", "fix": ""}
+{"cid": 5170, "verdict": "fail", "reason": "采信自夸为事实且与库内相抵：『七柱之首』系图特自夸（奈芙尔『一句也不信』），NpcFirstMet 1032 明载『赤王七柱之一，众书记之书记·鹮之王』（另见 420609『其余六柱中…鹮之王·众书记之书记图特』）", "fix": "改『赤王七柱之一·众书记之书记』；或注明系图特自夸（奈芙尔未信）"}
+{"cid": 5171, "verdict": "pass", "reason": "引文逐字（其对图特语），distrusts 成立", "fix": ""}
+{"cid": 5172, "verdict": "uncertain", "reason": "时点未然：引文『即将给我的力量』（愿意相信），未见授予完成之明文", "fix": "注明『即将』；或另引『把玩着那枚「月之轮」』证其持有"}
+{"cid": 5173, "verdict": "pass", "reason": "『它绝无可能是由凡人铸就』原文，宾语一致", "fix": ""}
+{"cid": 5174, "verdict": "pass", "reason": "『接受了奈芙尔那份…提议』＋代寻背叛者原文，交易成立", "fix": ""}
+{"cid": 5175, "verdict": "pass", "reason": "『而奈芙尔所要的报酬，却只是「想和领头的人谈一谈」』原文，一致", "fix": ""}
+{"cid": 5176, "verdict": "pass", "reason": "『借由这只小猫的身躯，鹮之王与奈芙尔进行了短暂的会面』原文，一致", "fix": ""}
+{"cid": 5177, "verdict": "pass", "reason": "『我尚未找到图特所需要的答案』原话，一致", "fix": ""}
+{"cid": 5179, "verdict": "pass", "reason": "『迪卢克·莱艮芬德老爷是我在蒙德城重要的线人…呼号是「夜枭」』原话，一致", "fix": ""}
+{"cid": 5180, "verdict": "pass", "reason": "『观察事物时，别太依赖眼睛』原话，一致", "fix": ""}
+{"cid": 5181, "verdict": "pass", "reason": "『任何与我产生联系的事物，都会在某个契机之后，与我彻底割离』＋『沙漠的诅咒』自语，一致", "fix": ""}
+{"cid": 5182, "verdict": "pass", "reason": "『作为科洛列夫茨基剧团的首席芭蕾舞者』原文，一致", "fix": ""}
+{"cid": 5183, "verdict": "pass", "reason": "『苏佩茜娃家族的荣光早已褪色』＋母亲『苏佩茜娃女士』，后裔身份成立", "fix": ""}
+{"cid": 5184, "verdict": "pass", "reason": "『我们家的小雪鹄在跳舞了』＋『挺直了，小雪鹄』原文，家庭昵称成立", "fix": ""}
+{"cid": 5185, "verdict": "pass", "reason": "『加入愚人众后，奥黛塔脸上的稚气很快褪去』原文，一致", "fix": ""}
+{"cid": 5186, "verdict": "pass", "reason": "『愚人众执行官第八席「女士」』原文，一致", "fix": ""}
+{"cid": 5187, "verdict": "pass", "reason": "『受「队长」示意，她前来慰问遗孀』原文；方向正确，instigates（煽动）语义偏重", "fix": "谓词宜作 instructs/directs（示意前来慰问）"}
+{"cid": 5188, "verdict": "pass", "reason": "『父亲因公殉职的噩耗传来』＋两名愚人众士兵送信原文，一致", "fix": ""}
+{"cid": 5189, "verdict": "pass", "reason": "『经过一番治疗…很难再完成任何高难度的舞蹈动作』原文，括注一致", "fix": ""}
+{"cid": 5190, "verdict": "pass", "reason": "无引文已核：FetterStory #948 母亲维奥莱塔语『好。进步很快。』，说话人正确", "fix": ""}
+{"cid": 5191, "verdict": "pass", "reason": "引文逐字（父亲语），一致", "fix": ""}
+{"cid": 5193, "verdict": "pass", "reason": "『她对痛的感知越来越迟钝…痛感消失了』原文，宾语忠实", "fix": "谓词宜作 has-trait/experiences（自身痛觉特质）"}
+{"cid": 5194, "verdict": "pass", "reason": "引文逐字（星之楔原话），一致", "fix": ""}
+{"cid": 5195, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5196, "verdict": "pass", "reason": "糖落水杯＋『…对嗓子好。』原文（她赠糖语），一致", "fix": ""}
+{"cid": 5197, "verdict": "pass", "reason": "『科洛列夫茨基剧院首席女高音举起双手』＋自封首席、小水妖原文，一致", "fix": ""}
+{"cid": 5198, "verdict": "pass", "reason": "引文逐字（其语，关于女皇），一致", "fix": ""}
+{"cid": 5199, "verdict": "pass", "reason": "『以前的记忆一直烙印在脑海中…记性太好不是好事』原话，一致", "fix": ""}
+{"cid": 5200, "verdict": "pass", "reason": "『我对痛觉的感受很迟钝…伤口已经结痂了』原话，一致", "fix": ""}
+{"cid": 5202, "verdict": "pass", "reason": "『她的要求非常严苛，在她手下训练的那段时间…』原话；grants 定义限权能/器物", "fix": "谓词宜作 trains/instructs"}
+{"cid": 5203, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5204, "verdict": "pass", "reason": "『严冬计划推行后，来剧院看演出的观众越来越少了』原话，一致", "fix": ""}
+{"cid": 5205, "verdict": "pass", "reason": "引文逐字（其语，引用句）＋『现在我能理解它的含义了』，一致", "fix": ""}
+{"cid": 5206, "verdict": "pass", "reason": "『不能错过妮露的演出』原文＋Avatar 描述『祖拜尔剧场的知名舞者』，一致", "fix": ""}
+{"cid": 5207, "verdict": "pass", "reason": "『快快乐乐长大，安安稳稳生活，是父母对妮露的唯一要求』原文，一致", "fix": ""}
+{"cid": 5208, "verdict": "pass", "reason": "引文逐字（其语），一致", "fix": ""}
+{"cid": 5209, "verdict": "pass", "reason": "『遇到老师是在自己八岁那年的花神诞祭』＋跟老师同舞、受邀原文，一致", "fix": ""}
+{"cid": 5210, "verdict": "pass", "reason": "『要用舞蹈传递感情，而观众的笑容正是他们情感的回应』老师语（妮露转述），主语正确", "fix": ""}
+{"cid": 5211, "verdict": "pass", "reason": "『自创出一套肢体动作疗愈法』原文，一致", "fix": ""}
+{"cid": 5212, "verdict": "pass", "reason": "『水元素神之眼在她的腰间』＋首次登台段（舞台泛起水花）语境，一致", "fix": ""}

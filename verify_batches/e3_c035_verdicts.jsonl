@@ -1,0 +1,200 @@
+{"cid": 7307, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7308, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7309, "verdict": "pass", "reason": "那维莱特告知内容忠实（引文即其转述）", "fix": ""}
+{"cid": 7310, "verdict": "uncertain", "reason": "引文『言下之意等于在告诉她』属其理解/知晓，非转述", "fix": "谓词改 knows-of/understands"}
+{"cid": 7311, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7312, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7313, "verdict": "uncertain", "reason": "宾语为生活处境描述，knows-of（知晓）错位", "fix": "谓词改 experiences；或改为处境叙述"}
+{"cid": 7314, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7315, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7316, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7317, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7318, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7319, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7320, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7321, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7322, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7323, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7324, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7325, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7326, "verdict": "pass", "reason": "无引文条目经 source 复核：那维莱特引荐未成，与正文一致", "fix": ""}
+{"cid": 7327, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7328, "verdict": "pass", "reason": "提纳里联系/请教之事忠实，转述链正确", "fix": ""}
+{"cid": 7329, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7330, "verdict": "uncertain", "reason": "『天才』系『有人』之称，非艾梅莉埃所评（她仅表示不怀疑）", "fix": "评者改『有人（艾梅莉埃转述）』"}
+{"cid": 7331, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7332, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7333, "verdict": "fail", "reason": "引文仅比较人气（比那维莱特更讨喜），无任何结盟内容，ally-of 属过度归纳", "fix": "谓词改 knows-of 或删除；若保留同盟须补结盟出处"}
+{"cid": 7334, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7335, "verdict": "uncertain", "reason": "本条仅证歌剧院专属座位；沫芒宫另见他处；part-of 用于政区含糊", "fix": "谓词改 active-in；注明沫芒宫出处"}
+{"cid": 7336, "verdict": "uncertain", "reason": "『代演』与『人神共演』相抵；原文是神明与剧团共演", "fix": "宾语改『神明与剧团共演音乐剧』"}
+{"cid": 7337, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7338, "verdict": "uncertain", "reason": "entrusts（委托）与『请求参与被婉拒』不符", "fix": "谓词改 requests；或记『参与未果』"}
+{"cid": 7339, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7340, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7341, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7342, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7343, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7344, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7345, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7346, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7347, "verdict": "uncertain", "reason": "引文为叙述者陈述，非芙宁娜之转述", "fix": "谓词改 knows-of；或改为状态描述"}
+{"cid": 7348, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7349, "verdict": "uncertain", "reason": "宾语为『未被纳入新秩序』，participates-in 与否定冲突", "fix": "谓词改 excluded-from/not-part-of"}
+{"cid": 7350, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7351, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7352, "verdict": "uncertain", "reason": "引文仅述『第一位访客/邀请』，无『唤醒』义", "fix": "谓词改 visits/invites"}
+{"cid": 7353, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7354, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7355, "verdict": "uncertain", "reason": "『她知道』属认知而非转述", "fix": "谓词改 knows-of"}
+{"cid": 7356, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7357, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7358, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7359, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7360, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7361, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7362, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7363, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7364, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7365, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7366, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7367, "verdict": "uncertain", "reason": "感谢与不追究难支『同盟』", "fix": "谓词改 respects/co-works；或补结盟证据"}
+{"cid": 7368, "verdict": "uncertain", "reason": "『不打算追究』≠『撤销罪责』，且系芙宁娜揣测（原文『似乎』）", "fix": "谓词改 forgives/does-not-pursue；标转述"}
+{"cid": 7369, "verdict": "pass", "reason": "『我见证过』明文，忠实", "fix": ""}
+{"cid": 7370, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7371, "verdict": "uncertain", "reason": "『不信任』不贴，实为恐惧/回避", "fix": "谓词改 fears/avoids"}
+{"cid": 7372, "verdict": "pass", "reason": "『我对她非常信任』明文，忠实", "fix": ""}
+{"cid": 7373, "verdict": "uncertain", "reason": "entrusts（委托）与『约专访』不合", "fix": "谓词改 requests/邀约"}
+{"cid": 7374, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7375, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7376, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7377, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7378, "verdict": "uncertain", "reason": "part-of（组织从属）用于个人关系（前雇主）不符", "fix": "谓词改 employed-by；或注明曾受雇关系"}
+{"cid": 7379, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7380, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7381, "verdict": "uncertain", "reason": "『在她心中』为认知而非转述", "fix": "谓词改 believes/knows-of"}
+{"cid": 7382, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7383, "verdict": "uncertain", "reason": "『蒙德 is-a 精神』类属错配", "fix": "谓词改 possesses/characterized-by"}
+{"cid": 7384, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7385, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7386, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7387, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7388, "verdict": "uncertain", "reason": "『想赢过姐姐』是竞争心态，非对抗", "fix": "谓词改 competes-with/rivals"}
+{"cid": 7389, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7390, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7391, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7392, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7393, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7394, "verdict": "uncertain", "reason": "『引导』≠授予；且 grants 宾语应为被授物", "fix": "谓词改 guides/mentors"}
+{"cid": 7395, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7396, "verdict": "uncertain", "reason": "『对芭芭拉而言』为价值判断，非转述", "fix": "谓词改 believes/values"}
+{"cid": 7397, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7398, "verdict": "uncertain", "reason": "participates-in 宾语为物品／身体反应，搭配错配", "fix": "谓词改 experiences；宾语改『夜里按摩小腿、喝护嗓杏白茶』"}
+{"cid": 7399, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7400, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7401, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7402, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7403, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7404, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7405, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7406, "verdict": "uncertain", "reason": "『有人说』非芭芭拉所述，转述主体错位", "fix": "主语改（旁人）或谓词改 hears；标转述"}
+{"cid": 7407, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7408, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7409, "verdict": "uncertain", "reason": "is-a 宾语为命题（缺类属中心语）", "fix": "主语改『芭芭拉的神之眼』或据事发改写"}
+{"cid": 7410, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7411, "verdict": "uncertain", "reason": "imposes（施加）与『祈祷』不合", "fix": "谓词改 performs/recites"}
+{"cid": 7412, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7413, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7414, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7415, "verdict": "uncertain", "reason": "『尊敬』非信任；『不敢并置亲近』无本条引文背书", "fix": "谓词改 respects；删无据短语"}
+{"cid": 7416, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7418, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7419, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7420, "verdict": "fail", "reason": "引文无『不信任』之意（她维护罗莎莉亚：『她一定是相信着风神的』），distrusts 与情感方向相反，实为羞怯/敬而远之", "fix": "谓词改 avoids/shy-of 或删除；如保留 distrusts 须补支撑"}
+{"cid": 7421, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7422, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7423, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7424, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7425, "verdict": "pass", "reason": "塔利雅语音（#7650 属塔利雅）归属正确，内容忠实", "fix": ""}
+{"cid": 7426, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7427, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7428, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7429, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7430, "verdict": "uncertain", "reason": "『几乎未参与』与 participates-in 冲突", "fix": "谓词改 avoids/absent-from"}
+{"cid": 7431, "verdict": "pass", "reason": "引语归属（玛薇卡）正确，内容忠实", "fix": ""}
+{"cid": 7432, "verdict": "pass", "reason": "引语归属（玛拉妮）正确，内容忠实", "fix": ""}
+{"cid": 7433, "verdict": "fail", "reason": "引文唯见阿乔傲慢轻视（且准许借其名号找茜特菈莉办事），双方无敌对关系，enemy-of 无据", "fix": "谓词改 dismisses/mocks 或删除"}
+{"cid": 7434, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7435, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7436, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7437, "verdict": "uncertain", "reason": "instigates 强度偏，且『遗愿』系徒子徒孙『声称』（真实性存疑）", "fix": "谓词改 influences；注『徒子徒孙声称其遗愿』"}
+{"cid": 7438, "verdict": "pass", "reason": "原文同段有『据说她最了解/最敬佩』支撑（注：系传闻语气）", "fix": ""}
+{"cid": 7439, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7440, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7441, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7442, "verdict": "pass", "reason": "她作为存活两百年的读者见证作品沿革，忠实", "fix": ""}
+{"cid": 7443, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7444, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7445, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7446, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7447, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7448, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7449, "verdict": "uncertain", "reason": "survives（幸存）与『被养大』不符", "fix": "谓词改 raised-by/cared-for-by"}
+{"cid": 7450, "verdict": "uncertain", "reason": "宾语两层主体（茜特菈莉或被龙领养＝恰斯卡之猜测；恰斯卡自述幼时被绒翼龙领养）易混", "fix": "宾语注明『恰斯卡以自身经历猜测』"}
+{"cid": 7451, "verdict": "pass", "reason": "『二十年的老朋友』明文，忠实", "fix": ""}
+{"cid": 7452, "verdict": "uncertain", "reason": "『约架对手』宜用 rival；『敌对』偏强（后为二十年老友）", "fix": "谓词改 rival-of/challenger-of"}
+{"cid": 7453, "verdict": "pass", "reason": "无引文条目经 source 复核：『没有等到下一个二十年』一致", "fix": ""}
+{"cid": 7454, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7455, "verdict": "uncertain", "reason": "distrusts（不信任）对象为比喻/说法，宜用质疑类", "fix": "谓词改 doubts/questions"}
+{"cid": 7456, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7457, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7458, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7459, "verdict": "uncertain", "reason": "imposes 与『织染/绘制』不合；且此句主语或指维奇琳", "fix": "谓词改 practices；核主语归属"}
+{"cid": 7461, "verdict": "pass", "reason": "旅者原话归属正确（旅行者）", "fix": ""}
+{"cid": 7462, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7463, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7464, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7465, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7466, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7467, "verdict": "uncertain", "reason": "『终生未获古名』过强（后将承先祖古名），与括注『追授』相抵", "fix": "删『终生』，改『长期未获古名（后承先祖传名）』"}
+{"cid": 7468, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7469, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7470, "verdict": "pass", "reason": "无引文条目经 source 复核：古名释义『记忆』一致", "fix": ""}
+{"cid": 7471, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7472, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7473, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7474, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7475, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7476, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7477, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7478, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7479, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7480, "verdict": "uncertain", "reason": "引文未点名英雄＝瓦雷莎、巫婆＝茜特菈莉；『误』字无据", "fix": "注明推断依据；删『误』字"}
+{"cid": 7481, "verdict": "pass", "reason": "wields（持用器物）与『传教用的书』相符", "fix": ""}
+{"cid": 7482, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7483, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7484, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7485, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7486, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7487, "verdict": "pass", "reason": "称号直述（初代目头领），leader 关系成立", "fix": ""}
+{"cid": 7488, "verdict": "uncertain", "reason": "part-of 用于地点，宜用 active-in/located-in", "fix": "谓词改 active-in"}
+{"cid": 7489, "verdict": "pass", "reason": "无引文条目经 source 复核：天领奉行记录『无职』一致", "fix": ""}
+{"cid": 7490, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7491, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7492, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7493, "verdict": "uncertain", "reason": "imposes 宾语为被人名（威慑符号），搭配不符", "fix": "谓词改 threatens-with/uses-as-threat"}
+{"cid": 7494, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7495, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7496, "verdict": "uncertain", "reason": "『胜负观中并列』非实际对抗", "fix": "谓词改 regards-as-rival；或改竞争类"}
+{"cid": 7497, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7498, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7499, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7500, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7501, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7502, "verdict": "uncertain", "reason": "『被打倒七次不认输』系一斗之事，混入阿晃条目易误读", "fix": "注明主体（一斗被打倒七次后救起并收编阿晃）"}
+{"cid": 7503, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7504, "verdict": "uncertain", "reason": "is-a 宾语为『名号（首见）』，非类属", "fix": "改『荒泷派之名首见于久岐忍捞人时的官方记录』"}
+{"cid": 7505, "verdict": "uncertain", "reason": "『认为荒泷派从未成立』是看法，非见证", "fix": "谓词改 regards-as/considers"}
+{"cid": 7506, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}
+{"cid": 7507, "verdict": "uncertain", "reason": "『三大谱系』数量为归纳，原文仅并列三个名称", "fix": "改『稻妻妖怪谱系之一（与天狗党、鬼人众并列）』"}
+{"cid": 7508, "verdict": "pass", "reason": "宾语忠实引文，主语归属正确", "fix": ""}

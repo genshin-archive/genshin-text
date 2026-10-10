@@ -1,0 +1,200 @@
+{"cid": 18380, "verdict": "pass", "reason": "引文照录；怂恿兄长嫡子逐侠盗梦、欺瞒令其逃亡、好让自己被扶正三事与原文一致", "fix": ""}
+{"cid": 18381, "verdict": "uncertain", "reason": "part-of（组织成员）宾语系个人（使枪的魔女）；「师从」宜 free", "fix": "谓词改 free「（暗地）师从某位使枪的魔女（循其技艺寻找死之隙）」；勿立组织从属边"}
+{"cid": 18382, "verdict": "pass", "reason": "「循着她的技艺寻找死之隙，最终又将她除去」照录；destroys（除去）概括成立（同 17514 判例精神）", "fix": ""}
+{"cid": 18383, "verdict": "uncertain", "reason": "原文仅「寻找死之隙」，未言已持有；possesses 过强", "fix": "谓词改 free「（循魔女技艺）追寻『死之隙』」，或宾语改「（所追寻的）『死之隙』枪术境界」"}
+{"cid": 18384, "verdict": "pass", "reason": "传说照录（藉至夜轻风、以枪尖挑起初凝清露）；源条目即西风长枪武器故事", "fix": ""}
+{"cid": 18385, "verdict": "uncertain", "reason": "aka 误用：宾语系归属描述（属异邦角斗奴与叛逆者的武艺），非别称", "fix": "谓词改 free「（那个时期）枪法属异邦的角斗奴与叛逆者」"}
+{"cid": 18386, "verdict": "uncertain", "reason": "引文未明「我」之归属与「猎鹰」所指（人/鹰）；「杀人」系解释，行凶者未定", "fix": "改述「（与厄伯哈特共守）『猎鹰』被杀之秘」并核行凶者；若立杀人边须补明文"}
+{"cid": 18387, "verdict": "uncertain", "reason": "part-of 宾语系个人（厄伯哈特）；引文亦未含下仆事务", "fix": "谓词改 free「（身为下仆）侍奉厄伯哈特（为其拔钉毁厦）」；补引「她的一只眼望着身为下仆的自己必须处理的事务」"}
+{"cid": 18388, "verdict": "pass", "reason": "引文照录（厄伯哈特语；普莉希拉应「是，厄伯哈特少爷」）", "fix": ""}
+{"cid": 18389, "verdict": "uncertain", "reason": "instigates（教唆）与「嘱令预案」不配（同 10476/10556 谓词判例）", "fix": "谓词改 free「（嘱令：）事败则赴望风角燃起狼烟」"}
+{"cid": 18390, "verdict": "pass", "reason": "全篇互证：鹰犬洞察经纬、帆影未至海角、月光般剑影、「化为千风中的一缕」临终语", "fix": ""}
+{"cid": 18391, "verdict": "uncertain", "reason": "distrusts（不信任）与「视为卑下者武器」不严合（系轻蔑拒用）", "fix": "谓词改 free「（视枪与弩为）卑下的角斗者、平民的武器（而拒用）」"}
+{"cid": 18392, "verdict": "pass", "reason": "引文照录（定制家族纹样之尖锐兵器；「执枪的孤影只能在深夜月下舞动」）", "fix": ""}
+{"cid": 18393, "verdict": "pass", "reason": "无引文；核 Weapon13408「若想要带来变革，就必须掌握一切力量…执枪的孤影只能在深夜月下舞动」齐备", "fix": ""}
+{"cid": 18394, "verdict": "pass", "reason": "引文照录；「背弃联盟」方向正确", "fix": ""}
+{"cid": 18395, "verdict": "pass", "reason": "「妄称圣主的僭越者」＋背盟致誓约褪色照录，描述式 is-a 从宽", "fix": ""}
+{"cid": 18396, "verdict": "pass", "reason": "引文照录（花羽会阳奉阴违的长老将少年自部族逐出，免得其为僭主所捕）", "fix": ""}
+{"cid": 18397, "verdict": "pass", "reason": "引文照录（如鹫鸟般勇毅的英雄自这一夜踏上巡礼道途）", "fix": ""}
+{"cid": 18398, "verdict": "uncertain", "reason": "succeeds（继位）需承继链；「以人之身登临神位」系自立成神，无被承继者（同 15168 判例）", "fix": "谓词改 free「（以人之身）登临神位」"}
+{"cid": 18399, "verdict": "uncertain", "reason": "aka 误用：宾语系事态（共识）", "fix": "谓词改 free「（早已成为）灼原的共识」"}
+{"cid": 18400, "verdict": "uncertain", "reason": "instigates 与遗言请托不符", "fix": "谓词改 free「（遗言）请萨库科将名字抹去（以明晓人人皆可成神）」"}
+{"cid": 18401, "verdict": "pass", "reason": "「后世诗人演绎中」限定已标；赤鹫为诗中所构指引者，归属正确", "fix": ""}
+{"cid": 18402, "verdict": "pass", "reason": "圣鸟甘愿化血肉为长弓照录；aka 称谓式从宽", "fix": ""}
+{"cid": 18403, "verdict": "pass", "reason": "「我们高贵的先祖萨库科」称谓照录，诗人层已标", "fix": ""}
+{"cid": 18404, "verdict": "uncertain", "reason": "aka 误用：宾语系「明证」判定语，非别称", "fix": "谓词改 is-a/free「（诗人所唱：）自不可抵达的禁地回还的明证」"}
+{"cid": 18405, "verdict": "pass", "reason": "诗人层转述「随葬源火者意志的一缕、自夜域归来」照录", "fix": ""}
+{"cid": 18406, "verdict": "pass", "reason": "诗人预言「再度从火中显现、匡正不公」照录（prophesies 从宽）", "fix": ""}
+{"cid": 18407, "verdict": "uncertain", "reason": "wields 与「翎羽」（信物）不配；「星鹫赤羽」系武器名之推指", "fix": "谓词改 free「（珍藏）少年所留翎羽，誓使在其从未回到的故乡传承千年」"}
+{"cid": 18408, "verdict": "uncertain", "reason": "witnesses 失配（萨库科系被留者/怨诉者，非目睹者）", "fix": "谓词改 free「（怨诉）少年归于火中而不带他同行、名字不得入史（『真是自私的决定』）」"}
+{"cid": 18409, "verdict": "pass", "reason": "引文照录（剑锋从未沾血；后世高贵骑士佩剑之原本）", "fix": ""}
+{"cid": 18410, "verdict": "uncertain", "reason": "is-a 宾语系「染黑之物」（非类属中心语）", "fix": "谓词改 free「（诗人歌里）为贵族统治的时代所染黑」"}
+{"cid": 18411, "verdict": "pass", "reason": "无引文；核「在那个时代的夜幕下，平民往往不敢点亮灯火」（场所式宾语从宽）", "fix": ""}
+{"cid": 18412, "verdict": "pass", "reason": "引文照录（抛弃家族、盗走长剑隐入街道、以贵族剑术劫富济贫）", "fix": ""}
+{"cid": 18413, "verdict": "uncertain", "reason": "aka 误用：宾语系描述句", "fix": "谓词改 is-a/free「（即）抛弃腐朽贵胄氏名的义贼（之心）」"}
+{"cid": 18414, "verdict": "uncertain", "reason": "is-a 宜为血亲边，且宾语自指缠绕（事实：义贼为厄伯哈特之兄）", "fix": "谓词改 kin-of：贵族义贼｜（同父异母）兄长｜厄伯哈特；宾语改「厄伯哈特（同父异母胞弟）」"}
+{"cid": 18415, "verdict": "uncertain", "reason": "prophesies 与宣言/誓愿不符（同 17541 自白判例）", "fix": "谓词改 free「（宣言）以己力扭转这个漆黑的世界」"}
+{"cid": 18416, "verdict": "pass", "reason": "引文照录（月光下埋葬长剑、逃亡出海）", "fix": ""}
+{"cid": 18417, "verdict": "uncertain", "reason": "aka 误用：宾语系弓之来历描述", "fix": "谓词改 is-a/free「（原是贵族围猎良弓）落入从未被抓获的义贼手中」"}
+{"cid": 18418, "verdict": "pass", "reason": "引文照录三事（射落冠帽、射断绞索、射落追兵武器）", "fix": ""}
+{"cid": 18419, "verdict": "uncertain", "reason": "witnesses 无据：原文仅述魔女被刻墨印后不知所踪，未及义贼目睹", "fix": "谓词改 free「（其所倾心的）碧眼魔女被刻罪人墨印、不知所踪」；勿立见证边"}
+{"cid": 18420, "verdict": "pass", "reason": "献水晶照录，受者（碧眼魔女）已在宾语注明（grants 口径）", "fix": ""}
+{"cid": 18421, "verdict": "pass", "reason": "「为自己所倾心的魔女」直证 loves（库内宽口径）", "fix": ""}
+{"cid": 18422, "verdict": "pass", "reason": "引文照录（听从胞弟劝诫、抛弃誓言、遁入不属于任何人的大海）", "fix": ""}
+{"cid": 18423, "verdict": "uncertain", "reason": "wields 宾语系行为短语（手提尖锐长枪、狩猎贼人）", "fix": "宾语改「尖锐长枪（手提以狩猎贼人）」"}
+{"cid": 18424, "verdict": "pass", "reason": "is-a 巫女（操使此长弓者）照录", "fix": ""}
+{"cid": 18425, "verdict": "uncertain", "reason": "part-of 宾语「海祇」非组织（系地/神）；「为海祇」系效忠语", "fix": "谓词改 free「（身为海祇岛巫女）为海祇的泡沫之梦与雷云相搏」"}
+{"cid": 18426, "verdict": "pass", "reason": "引文照录（追随海祇前往无归之途、共同步入灭亡境地）", "fix": ""}
+{"cid": 18427, "verdict": "pass", "reason": "无引文；核「海祇大御神大人挑起的争战，或许从开始就注定无果了」", "fix": ""}
+{"cid": 18428, "verdict": "pass", "reason": "曚云语照录（留下记忆、种下『牺牲』之种）", "fix": ""}
+{"cid": 18429, "verdict": "pass", "reason": "双子女（kin-of）照录，「海御前」称谓成立", "fix": ""}
+{"cid": 18430, "verdict": "uncertain", "reason": "wields 宾语系「提枪的形姿」（非器物），提枪者系由并称推得", "fix": "谓词改 free「（歌中所描绘）提枪的形姿（与挽弓的曚云并称）」；如立 wields 边宾语改「长枪」并注推证"}
+{"cid": 18431, "verdict": "pass", "reason": "引文照录（与年轻的『东山王』乘海兽夜游）", "fix": ""}
+{"cid": 18432, "verdict": "pass", "reason": "引文照录（向勇者诉说的破碎明日与温柔悲伤的耳畔呢喃）", "fix": ""}
+{"cid": 18433, "verdict": "pass", "reason": "引文照录（同深海巨鲸合唱、述说渊下白夜常夜、大御神与灼灼玉枝）", "fix": ""}
+{"cid": 18434, "verdict": "pass", "reason": "引文照录（月下与除了气力别无所长的鲁莽少年如对鱼嬉闹）", "fix": ""}
+{"cid": 18435, "verdict": "uncertain", "reason": "prophesies 与立约/请托不符", "fix": "谓词改 free「（立约）带回大妖天狗面具后阿姐须如约完成未竟之事」"}
+{"cid": 18436, "verdict": "uncertain", "reason": "witnesses 失配（曚云系立约应答者，非旁观）；宾语混淆彼此承诺", "fix": "谓词改 free「（应约：）若少年满口妄言，便命巨鲸扬起大浪洗其嘴巴」"}
+{"cid": 18437, "verdict": "pass", "reason": "无引文；核 Weapon13417（三姐妹行沙漠、月莲开于足边）＋14522「三仍是三的年代」", "fix": ""}
+{"cid": 18438, "verdict": "pass", "reason": "照录（两轮明月碎成尘埃、消失不见）", "fix": ""}
+{"cid": 18439, "verdict": "pass", "reason": "照录（尘埃落处开月莲；吸入者心中有珍珠般的明月）", "fix": ""}
+{"cid": 18440, "verdict": "uncertain", "reason": "witnesses 失配（月莲系说故事者，非其见证自身凋落）", "fix": "谓词改 free/narrates「（月莲）说毕月亮故事后即凋落（故事藏于其梦、传予兰那罗）」"}
+{"cid": 18441, "verdict": "uncertain", "reason": "「经兰穆护昆达体系代代传承」系跨篇归纳，引文仅及兰那罗与故事传承", "fix": "宾语改「（自月莲之梦承接月亮故事的）兰那罗（将故事交予讲述者；后失忆直至桓那兰那被毁）」；删「兰穆护昆达体系」或另证"}
+{"cid": 18442, "verdict": "pass", "reason": "无引文；核「兰穆护昆达还没有从石榴中降生…伟大种族与你们的祖先同行的时代」＋「伟大种族被废黜」", "fix": ""}
+{"cid": 18444, "verdict": "pass", "reason": "照录（接引无垢者亡魂、渡越尘世、安眠于月之暗面）", "fix": ""}
+{"cid": 18445, "verdict": "uncertain", "reason": "aka 误用：宾语系描述句", "fix": "谓词改 free「（却）无法向人之子的眼瞳投去视线」"}
+{"cid": 18446, "verdict": "uncertain", "reason": "commands 与「不纵容…（律法）」不配（非所辖行动）", "fix": "谓词改 free「（原初律法前）不纵容诸神为尘世苦痛而心软（唯俯伏尊奉为真爱念）」"}
+{"cid": 18447, "verdict": "pass", "reason": "无引文；核 14522（与旧主反目/内阋两不相顾/向僭主复仇染污；三条道路尽头皆是遗忘的夜）", "fix": ""}
+{"cid": 18448, "verdict": "pass", "reason": "无引文；核 14522「不属于这个世界的金色星星」「一度落入她瞳中的星」", "fix": ""}
+{"cid": 18449, "verdict": "uncertain", "reason": "aka 误用：宾语系行止描述", "fix": "谓词改 free「（于漆黑尽头）回望三岔外的第四条道路（三不再为三之开端）」"}
+{"cid": 18450, "verdict": "uncertain", "reason": "is-a 宾语系描述（头词「存在」），两说并入一条", "fix": "谓词改 free「（末代）森林王：垂死之哀恸为孩子们所比；自其足印积水中饮者为王近侍（传说）」"}
+{"cid": 18451, "verdict": "pass", "reason": "is-a 古国照录（天衡未立、海波不宁，有国名琅玕居西海之隅）", "fix": ""}
+{"cid": 18452, "verdict": "pass", "reason": "照录（其民敬事天神，至诚而无违）", "fix": ""}
+{"cid": 18453, "verdict": "pass", "reason": "照录（天人乃降，教其五谷稼穑之业、纺绩织纴之事）", "fix": ""}
+{"cid": 18454, "verdict": "uncertain", "reason": "prophesies 与降福之「告曰」不符", "fix": "谓词改 free「（降福之告：）国祚熙长，与天共寿；锡福丕显，与地无穷」"}
+{"cid": 18455, "verdict": "pass", "reason": "无引文；核「有孛星东坠，落于西疆，由是家邦不宁」", "fix": ""}
+{"cid": 18456, "verdict": "pass", "reason": "照录（天倾墟海、地陷鲸渊；生民歼尽，社稷离殃）；「消散」系词表 free 谓词", "fix": ""}
+{"cid": 18457, "verdict": "pass", "reason": "照录（难逃倏忽的戕伐、践踏人主的繁囿）", "fix": ""}
+{"cid": 18458, "verdict": "pass", "reason": "照录（操祖辈干戈、跟从王下夜叉的旌旗、抵御自天而降的祸殃）", "fix": ""}
+{"cid": 18459, "verdict": "uncertain", "reason": "aka 误用：系描述式（「仙人」为其身份，非别称）", "fix": "谓词改 is-a/free「（稗说中）以流光铸剑的仙人（隐入渊底水月）」"}
+{"cid": 18460, "verdict": "uncertain", "reason": "grants 宾语含「剑意」（知识宜传授/free；同 18248 判例）", "fix": "谓词改 free「折野竹为赠，并授『朏魄含光，追形逐影』之剑意」或宾语拆分"}
+{"cid": 18461, "verdict": "pass", "reason": "照录（为求救厄宝剑、循太古歌谣、终抵窟中故国）", "fix": ""}
+{"cid": 18462, "verdict": "pass", "reason": "照录（练成精兵百人、追随岩王爷镇压巨龙、平定四方）", "fix": ""}
+{"cid": 18463, "verdict": "pass", "reason": "「部民也成了…商人（如今…他们兜售）」—后裔解与「如今」语境相符", "fix": ""}
+{"cid": 18464, "verdict": "uncertain", "reason": "leader-of 宾语系「旌旗」（非所领群体）", "fix": "谓词改 free「（山民）跟从王下夜叉的旌旗（抵御祸殃）」；若立领导边宾语改「琅玕山民」"}
+{"cid": 18465, "verdict": "pass", "reason": "照录（银不具退魔功效，与民间信仰相悖）", "fix": ""}
+{"cid": 18466, "verdict": "uncertain", "reason": "is-a 与「关键」判定句不配（「心无杂念」系限定，移入括注）", "fix": "谓词改 free「（心无杂念者方）为斩妖除魔的关键」"}
+{"cid": 18467, "verdict": "fail", "reason": "主客颠倒：冷刃系被持有者（「曾属于著名冒险家」），断言反令剑持有人", "fix": "改「著名冒险家｜wields｜冷刃（曾属于他；见识过大地的广袤深邃）」"}
+{"cid": 18468, "verdict": "pass", "reason": "照录（斩断魔物钢骨、与贼匪刀剑相交）", "fix": ""}
+{"cid": 18469, "verdict": "pass", "reason": "照录（为少女放弃广袤大地、协会同伴与佩剑）", "fix": ""}
+{"cid": 18470, "verdict": "pass", "reason": "照录（全名「斩开黎明指向胜利的拂晓神剑」）", "fix": ""}
+{"cid": 18471, "verdict": "pass", "reason": "无引文；核「仅有一人因它倒下…成了显眼的目标…招来了如雨的箭矢」", "fix": ""}
+{"cid": 18472, "verdict": "pass", "reason": "照录（可靠钢剑；掏空剑柄塞微型水果刀、剪子、火绒等物）", "fix": ""}
+{"cid": 18473, "verdict": "uncertain", "reason": "aka 误用：系得名缘由（同 12982/12978 判例）", "fix": "谓词改 free「（得名说：）因内藏旅行道具而得名（文内自疑）」"}
+{"cid": 18474, "verdict": "uncertain", "reason": "aka 误用＋「冒险家协会」未具名（引文仅「协会」）", "fix": "谓词改 free「（原文仅称）『协会』（冒险家协会系推定，须另证）」"}
+{"cid": 18475, "verdict": "pass", "reason": "照录（纯白色铁甲旗舰『斯彭西安』曾是枫丹海军的骄傲）", "fix": ""}
+{"cid": 18476, "verdict": "uncertain", "reason": "leader-of 宾语系舰职/头衔（同 16273 判例）", "fix": "宾语改「斯彭西安舰（乘员）」或谓词改 is-a「（身为）海军司令（舰桥上不变的风景）」"}
+{"cid": 18477, "verdict": "uncertain", "reason": "括注「（遭到解散）」挂靠于「舰队不复存在」，主客易混（受解散者系海军部）", "fix": "宾语改「（因舰队不复存在而）遭到解散」；主语即海军部"}
+{"cid": 18478, "verdict": "pass", "reason": "照录（奔走多年、企图重启打捞与重建、无果而终）", "fix": ""}
+{"cid": 18479, "verdict": "uncertain", "reason": "aka 误用：系名源描述（船名源于僭主之名）", "fix": "谓词改 free「（名源：）一个僭主之名（他和他的王朝可能未曾存在过）」"}
+{"cid": 18480, "verdict": "uncertain", "reason": "participates-in 宾语系「热门故事/剧目」（非事件）", "fix": "宾语改「（剧院时代）以『清扫魔像军团』为题材的热门剧目（观众起立鼓掌）」"}
+{"cid": 18481, "verdict": "uncertain", "reason": "宾语缠绕：毁灭者系光荣剧院，转演者系剧目/新歌剧院，时序倒置", "fix": "宾语改「演出场所（毁灭后〔斯彭西安/白色舰队〕诸剧转于伊黎耶岛新修大歌剧院上演，后因演出意外被禁）」"}
+{"cid": 18482, "verdict": "pass", "reason": "引文＋全篇互证（时隔数年再度登舰、对敌开火；舰队最后一战）", "fix": ""}
+{"cid": 18483, "verdict": "uncertain", "reason": "leader-of 宾语非所领群体（系自身状态描述）", "fix": "谓词改 free/is-a「（传说）国土臣民不明而威名传遍海原（『也许这就是天生的高贵』）」"}
+{"cid": 18484, "verdict": "pass", "reason": "小美露莘语照录（身为王者之前也是螃蟹）", "fix": ""}
+{"cid": 18485, "verdict": "pass", "reason": "大帝语照录（只要打倒魔王，任何人都是勇者，任何武器都是圣剑）", "fix": ""}
+{"cid": 18486, "verdict": "pass", "reason": "全篇互证（纸板宝剑等物助战＋战胜蟹皇＋成为好朋友）", "fix": ""}
+{"cid": 18487, "verdict": "uncertain", "reason": "aka 误用：系描述句", "fix": "谓词改 is-a/free「（曾一度为）进步的代表标志（无坚不摧之利器）」"}
+{"cid": 18488, "verdict": "uncertain", "reason": "trusts 与「相信某种前景」不严合（信任对象宜为人/机构）", "fix": "谓词改 free「（相信）或将凭勤奋与坚韧获得居于地表的资本」"}
+{"cid": 18489, "verdict": "uncertain", "reason": "is-a 宾语「…程度的技术」与发条机关（器物）不配", "fix": "谓词改 free「（芒荒湮灭反应开发前）多停留于珍奇物件、嗜好品程度（劳力仍赖人力）」"}
+{"cid": 18490, "verdict": "uncertain", "reason": "wields 宾语系「描述与记载」，且禁持系行政命令所加", "fix": "谓词改 free「（过去）曾有以之战斗的描述与记载（后与其它工具同被行政命令禁止持有）」"}
+{"cid": 18491, "verdict": "pass", "reason": "无引文；四段核（农田掘宝/购愚人众制服/铁锹杀贼/被尊为教父）齐备", "fix": ""}
+{"cid": 18492, "verdict": "uncertain", "reason": "leader-of 宾语系称位（教父）非群体", "fix": "宾语改「黑市（亡命之徒）」或谓词改 free「（被尊）为教父」"}
+{"cid": 18493, "verdict": "uncertain", "reason": "narrates 主体错位（旁白述其彻悟，非其转述；同 18192 判例）", "fix": "谓词改 free「（彻悟）幸福的渴望敌不过一丝偶然」"}
+{"cid": 18494, "verdict": "pass", "reason": "照录（藏宝图公之于众、任边地之人凭本事争夺偶然）", "fix": ""}
+{"cid": 18495, "verdict": "pass", "reason": "「雷德·米勒所主张的公义」明文；宾语（盗贼使失衡秩序恢复平衡）照录", "fix": ""}
+{"cid": 18496, "verdict": "uncertain", "reason": "aka 误用：系来历陈述（「传说冬季来自亥珀波瑞亚」）", "fix": "谓词改 free「（传说）冬季来自亥珀波瑞亚」"}
+{"cid": 18497, "verdict": "uncertain", "reason": "aka 误用：系描述式", "fix": "谓词改 is-a/free「（传说中）于冰海深处发现黄金与白石之国的少年（传奇主角）」"}
+{"cid": 18498, "verdict": "pass", "reason": "照录（巨鲸腹中/雪原与龙对峙七日/与雪孃相爱而失于换生灵恶戏）", "fix": ""}
+{"cid": 18499, "verdict": "pass", "reason": "无引文；核「战胜沉睡在王国深处的龙」「只带走了…给好友治病的一点点」", "fix": ""}
+{"cid": 18500, "verdict": "pass", "reason": "「被后世誉为最强决斗代理人」照录；「灰河出身」与通篇（生于灰烬、城下之城）相合", "fix": ""}
+{"cid": 18501, "verdict": "uncertain", "reason": "witnesses 失配（玛尔菲莎系受花者，非旁观）", "fix": "谓词改 free「（获）魔术师少女赠柔灯铃、并闻其花语为『希望』」"}
+{"cid": 18502, "verdict": "pass", "reason": "照录（无师承、凭惊人天赋摹写映入瞳中的枪技）", "fix": ""}
+{"cid": 18503, "verdict": "pass", "reason": "照录（坠入澄净的源水；记忆消溶水中）", "fix": ""}
+{"cid": 18504, "verdict": "uncertain", "reason": "「剑客（黄金猎人）」同一性未证（「正如黄金猎人所言」系引语；库内黄金猎人主指卡西奥多）", "fix": "删「（黄金猎人）」或注「（其言引黄金猎人）」；谓词宜 free「（对决败之）劝以『不变之物』（公义）为规则」"}
+{"cid": 18505, "verdict": "pass", "reason": "照录（成为紫衣的代行者、秉行公义直至白淞之火将罪人帕西法尔带至面前）", "fix": ""}
+{"cid": 18506, "verdict": "pass", "reason": "全篇互证（追随剑客足迹与创伤；「你的枪术，会派上用场的」）", "fix": ""}
+{"cid": 18507, "verdict": "uncertain", "reason": "aka 误用：系创作名作之描述", "fix": "谓词改 is-a「（身为）创作『能看到死之隙的蓝宝石魔女』名作的大师」"}
+{"cid": 18508, "verdict": "pass", "reason": "照录（白淞之火将罪人帕西法尔带至她面前）", "fix": ""}
+{"cid": 18509, "verdict": "uncertain", "reason": "「渡手」称呼附于铜管（「它…被称为『渡手』」），非爱德华多别名；aka 宾语系描述", "fix": "主语改「灰河渡手（铜管）｜aka｜『渡手』（爱德华多的朋友对其的亲切称呼）」"}
+{"cid": 18510, "verdict": "uncertain", "reason": "leader-of 宾语系「灰河的秩序」（抽象，非群体）", "fix": "谓词改 free「（维护）灰河秩序（『让日光下的归他们，灰河中的归我们』）」或宾语改「灰河（众人）」"}
+{"cid": 18511, "verdict": "uncertain", "reason": "aka 误用：系发展终点之陈述", "fix": "谓词改 free「（其终点是）下水道成为城下之城」"}
+{"cid": 18512, "verdict": "pass", "reason": "照录（反抗灰河整肃被捕；押送沙漠流放途中被党羽营救）", "fix": ""}
+{"cid": 18513, "verdict": "pass", "reason": "照录（伙同秋分山匪徒占领白淞镇、挟持执律庭成员为人质）", "fix": ""}
+{"cid": 18514, "verdict": "pass", "reason": "照录（在逐影猎人的主动介入下平息）", "fix": ""}
+{"cid": 18515, "verdict": "pass", "reason": "照录（记者卡尔·英戈德在事态恶化前拍下合影）", "fix": ""}
+{"cid": 18516, "verdict": "pass", "reason": "无引文；核（雅各布拉雷内衣袖；雷诺之子雷内）", "fix": ""}
+{"cid": 18517, "verdict": "uncertain", "reason": "leader-of 宾语系头衔（时任镇长）", "fix": "谓词改 is-a「（身为）白淞镇时任镇长」或宾语改「白淞镇」"}
+{"cid": 18518, "verdict": "pass", "reason": "「大魔术师『帕西法尔』」照录；头词「艺名」成立", "fix": ""}
+{"cid": 18519, "verdict": "pass", "reason": "「我们的艺名，就用那个好了」＋扮演帕西法尔/约瑟芬登台—艺名成立", "fix": ""}
+{"cid": 18520, "verdict": "uncertain", "reason": "prophesies 与梦想不符", "fix": "谓词改 free「（萌生）以演出的光采公平照耀包厢贵客与无座席观众的梦想」"}
+{"cid": 18521, "verdict": "pass", "reason": "「紫衣者常言人有属于自己的位置」照录；上位者代称作概称可立", "fix": ""}
+{"cid": 18522, "verdict": "pass", "reason": "无引文；核「少女终于失去了她所安于生活的『位置』」", "fix": ""}
+{"cid": 18523, "verdict": "uncertain", "reason": "aka 误用：系演出宣言内容", "fix": "谓词改 free「（即）『没有贵族没有王，没有指着你们的刀剑』的颠覆宣言（演出）」"}
+{"cid": 18524, "verdict": "pass", "reason": "「一时被誉为民众之刃」照录；账面下广泛流通相符", "fix": ""}
+{"cid": 18525, "verdict": "fail", "reason": "主客颠倒：船坞长剑系被持有器物（「剑上的名字属于…镇长」），断言反令剑持有人", "fix": "改「白淞镇的一任镇长｜wields｜船坞长剑（手柄刻其名）」"}
+{"cid": 18526, "verdict": "pass", "reason": "照录（兰道夫家的长女）", "fix": ""}
+{"cid": 18527, "verdict": "pass", "reason": "「我们贵族坐下时，国家之船就为我们所倾斜」照录，归属兰道夫家门", "fix": ""}
+{"cid": 18528, "verdict": "pass", "reason": "变装潜入（变装踏入地下城）＋为里德识破（衣装无煤灰机油）互证", "fix": ""}
+{"cid": 18529, "verdict": "pass", "reason": "「正如老大所说的」转述链成立，内容照录", "fix": ""}
+{"cid": 18530, "verdict": "pass", "reason": "誓约照录（不再为砍向树木的斧柄；由你裁决我的命运）", "fix": ""}
+{"cid": 18531, "verdict": "uncertain", "reason": "aka 误用：系描述式（化名「玫瑰」宜另立别名边）", "fix": "谓词改 free「（一些年后）以玫瑰为化名、习惯了战斧的沉重」"}
+{"cid": 18532, "verdict": "pass", "reason": "蕾蒂西娅语照录（依然活着，血便尚未流尽）", "fix": ""}
+{"cid": 18534, "verdict": "uncertain", "reason": "narrates 主体错位（旁白述其信条，非其转述）", "fix": "谓词改 free「（信条）越是复杂的结构越脆弱；足够用力便没有打不开的锁」"}
+{"cid": 18535, "verdict": "pass", "reason": "留言照录（先破解机关者系我）＋全篇「捷足先登/较量」互证", "fix": ""}
+{"cid": 18536, "verdict": "uncertain", "reason": "aka 误用：系描述式", "fix": "谓词改 free「（诈死：）殓床空空、唯刻讥嘲（处决消息为假；后证其诈死）」"}
+{"cid": 18537, "verdict": "pass", "reason": "无引文；核「发誓要用余生破解他诈死的谜题…躺入了空棺」", "fix": ""}
+{"cid": 18538, "verdict": "pass", "reason": "「「教父的秘宝就在黑市深处」…之盗群集」＋逐一宣讲—饵与群集成立", "fix": ""}
+{"cid": 18539, "verdict": "pass", "reason": "教父语照录", "fix": ""}
+{"cid": 18541, "verdict": "pass", "reason": "三证（腹中绞痛＋取大盗乌漆脊骨＋丢下解毒嘟嘟莲离去）", "fix": ""}
+{"cid": 18542, "verdict": "pass", "reason": "管家语照录", "fix": ""}
+{"cid": 18543, "verdict": "pass", "reason": "无引文；核「大盗遗骨的见证下」「取得大盗乌漆的脊骨」", "fix": ""}
+{"cid": 18544, "verdict": "pass", "reason": "「『人』应当是金钱之主」＋为新货币替代摩拉—宣言文本成立（文件层）", "fix": ""}
+{"cid": 18545, "verdict": "uncertain", "reason": "enemy-of 过强（系理念对抗与取代计划）", "fix": "谓词改 opposes「（金钱权柄为『神』所攫，须应取而代之）」"}
+{"cid": 18546, "verdict": "pass", "reason": "照录（制造出新的货币，替代对摩拉的依赖）", "fix": ""}
+{"cid": 18547, "verdict": "uncertain", "reason": "aka 误用：系命名缘起", "fix": "谓词改 free「（命名：）为纪念许可而称『特许券』」"}
+{"cid": 18548, "verdict": "uncertain", "reason": "imposes 归因失当（监督者仅观察记录；法律/制裁系体系）", "fix": "谓词改 free「（其治下：）唯一法律是囤积者私法、唯一制裁是贫乏或死亡」"}
+{"cid": 18549, "verdict": "pass", "reason": "「黄金心脏也应为『人』的世界而搏动」＋「金钱流通…世界奔流的血脉」—命体化隐喻成立", "fix": ""}
+{"cid": 18550, "verdict": "uncertain", "reason": "founds 与「誓言」不配（誓言系所立/所守）", "fix": "谓词改 free「（立誓）牢记千年誓言、保卫水都的根基」"}
+{"cid": 18551, "verdict": "uncertain", "reason": "wields 限器物，宾语系职责", "fix": "谓词改 free「（身为）抵挡水色灾祸的坚盾、决口的防线」"}
+{"cid": 18552, "verdict": "uncertain", "reason": "dies-in 宾语系葬地（「被葬在」「沉睡在」），非死亡事件（同 17570 判例）", "fix": "谓词改 free「（身后）被葬于散发奇异光彩的矿脉之间、决口附近的地下」"}
+{"cid": 18553, "verdict": "uncertain", "reason": "「梅洛彼得堡前身」系跨篇推定（原文仅「宏伟而阴森的堡垒自海床上升起」）", "fix": "注「（推定梅洛彼得堡前身，须另证）」或删"}
+{"cid": 18554, "verdict": "uncertain", "reason": "influences 与「枫丹大叙事（伏笔）」系叙事学判定，宾语非事件", "fix": "谓词/宾语改「（伏笔：）另一处曾被压制的决口于许多年后被有所图者发现」"}
+{"cid": 18555, "verdict": "pass", "reason": "末位修士与教谕传承之末互证（起誓知义者日少＋坟墓位置无人知晓）", "fix": ""}
+{"cid": 18556, "verdict": "pass", "reason": "「被解为角斗奴」「被称为『宛若晨光的剑士』」照录", "fix": ""}
+{"cid": 18557, "verdict": "pass", "reason": "「乐团诛讨旧贵族的计划失败」照录", "fix": ""}
+{"cid": 18558, "verdict": "pass", "reason": "「随行观赏角斗时，为她最后的剑舞所触动」「据此决定了自己的骑士名」照录", "fix": ""}
+{"cid": 18559, "verdict": "pass", "reason": "「乐器」＋「可以射出追心之矢的弓」照录", "fix": ""}
+{"cid": 18560, "verdict": "pass", "reason": "「来自华美绚烂的异国枫丹」＋乐团弓手（箭落如雨）互证", "fix": ""}
+{"cid": 18561, "verdict": "pass", "reason": "照录（留在最后、箭落如雨掩护同伴、乐声与箭耗竭）", "fix": ""}
+{"cid": 18562, "verdict": "pass", "reason": "「据说他爱上了蒙德的一位平民女子…悲惨公主」照录（转述已标）", "fix": ""}
+{"cid": 18563, "verdict": "uncertain", "reason": "aka 误用：系词义（名字的含义非别名，同 5481 判例）", "fix": "谓词改 free「（词义：）当时古语中意为『磔罚之歌』」"}
+{"cid": 18564, "verdict": "uncertain", "reason": "imposes 与「戏谑称为奏乐」不配", "fix": "谓词改 free「（贵族宗室将受刑者的哀叫）戏谑地称为『奏乐』」"}
+{"cid": 18565, "verdict": "pass", "reason": "「渐渐成了所有起事失败者的代称」「成为…旗号」照录", "fix": ""}
+{"cid": 18566, "verdict": "pass", "reason": "「无数个在风中传唱的别名：…伊蒙洛卡、古恩希尔德、莱艮芬德」照录", "fix": ""}
+{"cid": 18567, "verdict": "uncertain", "reason": "resurrects 与「自千年高眠…苏醒」不严合（苏醒非复活）", "fix": "谓词改 free「（自千年高眠中）苏醒（因异国少女微小的呼唤）」"}
+{"cid": 18568, "verdict": "pass", "reason": "「在那之后的历史，已经不再需要这个名字了」压缩；头词「名字」成立", "fix": ""}
+{"cid": 18569, "verdict": "pass", "reason": "「失去王国的浪客王子遁入了层叠的雨林」照录", "fix": ""}
+{"cid": 18570, "verdict": "pass", "reason": "「明灭的晚星为浪客指明方向，却也诱他走入致命的陷阱」照录", "fix": ""}
+{"cid": 18571, "verdict": "pass", "reason": "「一次次驱逐着不速之客」「却没伤及他的性命」照录", "fix": ""}
+{"cid": 18572, "verdict": "pass", "reason": "「年老的盲诗人如此复述着浪客王子的经历」照录", "fix": ""}
+{"cid": 18573, "verdict": "pass", "reason": "「欣然接受自己的命运，多少也强过死于追逐猎鹰」照录（浪客王子语）", "fix": ""}
+{"cid": 18574, "verdict": "pass", "reason": "「月亮曾经变成了尖牙的形状、狞笑的形状」照录", "fix": ""}
+{"cid": 18575, "verdict": "pass", "reason": "「创造我们的千树之王将森林交给我们」照录", "fix": ""}
+{"cid": 18576, "verdict": "pass", "reason": "照录（与漆黑的野兽、钢铁的巨人、无留陀战斗）", "fix": ""}
+{"cid": 18577, "verdict": "pass", "reason": "「许多兰那罗过早地回归了大地」照录（回归大地＝殒命；失去桓那兰那）", "fix": ""}
+{"cid": 18578, "verdict": "pass", "reason": "「曾创造我们的她，在沙漠中又创造了新的生灵，来填补地心的空洞」照录", "fix": ""}
+{"cid": 18579, "verdict": "pass", "reason": "「那些悲伤如此庞大…连溪水都变成了盐与铁的味道」照录", "fix": ""}
+{"cid": 18580, "verdict": "pass", "reason": "「在过去，在城市建设与遗迹勘探时常用的道具」照录", "fix": ""}
+{"cid": 18581, "verdict": "uncertain", "reason": "wields 与「测距功能」不配（功能非器物）", "fix": "谓词改 possesses/free「（除测量角度外）另有彼时非常先进的测距功能」"}
+{"cid": 18582, "verdict": "pass", "reason": "照录（对雷穆利亚遗迹探索常带测距规、定位被埋没的古迹）", "fix": ""}
