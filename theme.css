@@ -119,3 +119,13 @@ tr:hover td { background: rgba(200, 164, 92, .05); }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 6px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ===== 全站页脚（署名 · 许可 · 反馈 · 鸣谢） ===== */
+.zg-foot {
+  max-width: 980px; margin: 46px auto 0; padding: 20px 20px 34px;
+  text-align: center; color: var(--ink-light); font-size: 12px;
+  line-height: 2.1; letter-spacing: .3px; border-top: 1px solid var(--line);
+}
+.zg-foot a { color: var(--gold-deep); text-decoration: none; }
+.zg-foot a:hover { text-decoration: underline; }
+.zg-foot .sep { margin: 0 7px; color: var(--line-strong); }

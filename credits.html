@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鸣谢与数据来源 · 原神文本资料库</title>
+<link rel="stylesheet" href="theme.css">
+<style>
+  header { padding:20px 28px 8px; max-width:860px; margin:0 auto; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--ink-light); font-size:13px; margin-bottom:14px; }
+  main { max-width:860px; margin:0 auto; padding:0 28px 50px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+          padding:20px 28px; margin-bottom:14px; line-height:1.9; font-size:14px; }
+  .card h2 { font-size:16.5px; color:var(--gold-deep); margin:0 0 10px; }
+  .card p { margin:8px 0; }
+  .card ul { padding-left:22px; margin:8px 0; }
+  .card li { margin:5px 0; }
+  .hm { font-size:12.5px; color:var(--ink-light); }
+</style>
+</head>
+<body>
+<nav id="zg-nav">
+  <span class="brand">原神资料库 v3</span>
+  <a href="index.html" data-p="home">检索</a>
+  <a href="browse.html" data-p="browse">章节浏览</a>
+  <a href="timeline.html" data-p="timeline">时间线</a>
+  <a href="kg.html" data-p="kg">知识层</a>
+  <a href="archive.html" data-p="archive">档案库</a>
+  <a href="hypothesis.html" data-p="hypo">假说库</a>
+  
+</nav>
+<script>
+(function(){
+  var path = location.pathname;
+  var cur = path === "/" || path === "/index.html" ? "home"
+          : path.includes("browse") ? "browse"
+          : path.includes("timeline") ? "timeline"
+          : path.includes("kg") ? "kg"
+          : path.includes("archive") ? "archive"
+          : path.includes("hypothesis") ? "hypo"
+          : path.includes("arbitration") ? "arb" : "";
+  var a = document.querySelector('#zg-nav a[data-p="'+cur+'"]');
+  if (a) a.classList.add("cur");
+})();
+</script>
+
+<header>
+  <h1>鸣谢与数据来源</h1>
+  <div class="sub">本页说明本站数据的来源、验证与许可。一切以游戏内文本为唯一事实源，详见 <a href="https://github.com/genshin-archive/genshin-text/blob/master/SOURCES.md">数据可用性声明</a>。</div>
+</header>
+<main>
+
+  <div class="card">
+    <h2>一、数据源 · Dimbreath / AnimeGameData2</h2>
+    <p>本站全部游戏文本（任务对话、书籍报刊、武器故事、过场字幕等，入库 <b>123 万条</b>）来自开源数据镜像项目
+       <a href="https://gitlab.com/Dimbreath/AnimeGameData2">Dimbreath/AnimeGameData2</a>（v7.1.0，2026-09-21）。</p>
+    <p>由衷感谢 <b>Dimbreath</b> 长期以个人时间维护并持续更新这些（几乎）完整的游戏数据导出——没有这个项目，本站无从谈起。若您也使用该数据镜像：</p>
+    <ul>
+      <li><b>数据问题反馈</b>（ExcelBinOutput / BinOutput / TextMap 数值不匹配或错误）：按原仓库 README 指定渠道，通过 <b>Twitter 私信</b>联系 Dimbreath；</li>
+      <li><b>支持作者</b>：<a href="https://patreon.com/Dimbreath">patreon.com/Dimbreath</a>——作者自述为个人小费罐（非强制），作为对业余时间持续维护的感谢。</li>
+    </ul>
+    <p class="hm">本页即原仓库 README 所请求的「鸣谢署名」落位处；数据获取与建库复现步骤见 <a href="https://github.com/genshin-archive/genshin-text/blob/master/SOURCES.md">SOURCES.md</a>。</p>
+  </div>
+
+  <div class="card">
+    <h2>二、外部交叉验证（仅辅助，不作断言依据）</h2>
+    <p>以下来源仅用于<b>覆盖率校验与分类校正</b>，与游戏文本冲突时一律以游戏文本为准：</p>
+    <ul>
+      <li><b>B 站原神 wiki</b> —— 书籍/卷名映射校验（105 本 / 308 卷）；</li>
+      <li><b>米游社观测枢 wiki</b> —— 书名映射双源复核 + 实体官方分类（official_category）校正层（81 本 / 236 卷）。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>三、版权与许可</h2>
+    <ul>
+      <li><b>游戏文本</b>（任务对话 / 书籍 / 武器故事等）版权归 <b>米哈游（miHoYo / COGNOSPHERE）</b>所有。本项目为个人非商业性的文本整理与考据工具，对游戏文本的引用属考据性引用。</li>
+      <li><b>本项目的整理产物</b>（精读档案、知识层、时间线、脚本代码、文档）采用
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>（署名—非商业性使用—相同方式共享）许可：转载/引用请注明来源（本项目仓库地址）、不得用于商业目的、改编作品须以相同许可分发。</li>
+      <li>本站含 <b>游戏全量剧透</b>，浏览前请知悉。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>四、技术栈</h2>
+    <p>全文检索基于 SQLite FTS5（trigram）全文索引；本地版服务基于 Python FastAPI；展示站为纯静态构建（GitHub Pages）。
+       精读档案生成与审计动用多引擎管线，并经三模型交叉审计（GLM / Qwen3.8 / DeepSeek）+ 作者人工校验，详情见仓库
+       <a href="https://github.com/genshin-archive/genshin-text/blob/master/CHANGELOG.md">CHANGELOG</a>。</p>
+  </div>
+
+  <div class="card">
+    <h2>五、反馈与勘误</h2>
+    <p>发现任何错误或遗漏，欢迎走
+       <a href="https://github.com/genshin-archive/genshin-text/issues/new?template=errata.md">勘误 Issue 模板</a>
+       （请附任务名/书名 + 原文片段，有出处的反馈优先核实），或到
+       <a href="https://github.com/genshin-archive/genshin-text/discussions">Discussions</a> 参与考据讨论。
+       处理流程见 <a href="https://github.com/genshin-archive/genshin-text/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a>。</p>
+  </div>
+
+</main>
+<footer class="zg-foot">
+  <a href="index.html">返回检索</a><span class="sep">·</span><a href="https://github.com/genshin-archive/genshin-text/blob/master/SOURCES.md">数据可用性声明</a><span class="sep">·</span><a href="https://github.com/genshin-archive/genshin-text/issues/new?template=errata.md">提交勘误</a><span class="sep">·</span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0 许可</a>
+  <br>数据源 <a href="https://gitlab.com/Dimbreath/AnimeGameData2">Dimbreath/AnimeGameData2</a> v7.1.0 · 游戏文本版权归米哈游（miHoYo / COGNOSPHERE）所有 · 个人非商业考据项目
+</footer>
+</body>
+</html>
