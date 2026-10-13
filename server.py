@@ -57,6 +57,11 @@ def hypothesis_page():
     return FileResponse(os.path.join(BASE, "hypothesis.html"), media_type="text/html; charset=utf-8")
 
 
+@app.get("/credits.html")
+def credits_page():
+    return FileResponse(os.path.join(BASE, "credits.html"), media_type="text/html; charset=utf-8")
+
+
 @app.get("/api/timeline")
 def timeline_api():
     """兼容路由：旧 v1.6 结构化表已冻结，转发到 v3 数据（kg_eras + kg_timeline_nodes）"""

@@ -201,6 +201,10 @@ make_page("archive.html", "archive.html", [
 make_page("hypothesis.html", "hypothesis.html", [
     (NAV_ARB, ""),
 ])
+# 鸣谢页（纯静态内容，仅需去掉仲裁链接）
+make_page("credits.html", "credits.html", [
+    (NAV_ARB, ""),
+])
 make_page("kg.html", "kg.html", [
     ("""  const r = await fetch(`api/kg/entities?${curCat?`cat=${curCat}&`:""}${document.getElementById("q").value?`q=${encodeURIComponent(document.getElementById("q").value)}`:""}`);
   const list = await r.json();""",
@@ -287,7 +291,7 @@ INDEX = """<!DOCTYPE html>
   <div class="note">
     本站为静态展示版（GitHub Pages）。123 万条全文毫秒检索等动态功能见本地版（搭建步骤见仓库 README）。<br>
     发现错误或遗漏？欢迎 <a href="https://github.com/genshin-archive/genshin-text/issues/new?template=errata.md" style="color:var(--gold-deep)">提交勘误</a>——一切以游戏内文本为准，有原文出处的反馈会被优先核实。<br>
-    数据源 <a href="https://gitlab.com/Dimbreath/AnimeGameData2" style="color:var(--gold-deep)">Dimbreath/AnimeGameData2</a> v7.1.0（2026-09-21）· 外部交叉验证：B站 wiki + 米游社观测枢（仅辅助）· <a href="https://github.com/genshin-archive/genshin-text/blob/master/SOURCES.md" style="color:var(--gold-deep)">数据来源与验证说明</a><br>
+    数据源 <a href="https://gitlab.com/Dimbreath/AnimeGameData2" style="color:var(--gold-deep)">Dimbreath/AnimeGameData2</a> v7.1.0（2026-09-21）· 外部交叉验证：B站 wiki + 米游社观测枢（仅辅助）· <a href="credits.html" style="color:var(--gold-deep)">完整鸣谢与数据来源</a> · <a href="https://github.com/genshin-archive/genshin-text/blob/master/SOURCES.md" style="color:var(--gold-deep)">数据可用性声明</a><br>
     游戏文本版权归米哈游所有 · ⚠️ 含游戏全量剧透 · 本整理产物采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" style="color:var(--gold-deep)">CC BY-NC-SA 4.0</a> 许可（署名·非商业·相同方式共享）· 重建与审计记录见仓库 CHANGELOG
   </div>
 </div>

@@ -22,6 +22,7 @@
 - **来源**：[Dimbreath/AnimeGameData2](https://gitlab.com/Dimbreath/AnimeGameData2)（GameData 镜像仓库）
 - **版本**：7.1.0（更新于 2026-09-21）
 - **获取**：sparse checkout 拉取，本仓库不含此数据（约 3.3 GB），按 [README 快速开始](README.md) 自行 clone 后建库
+- **鸣谢**：原作者 Dimbreath 以个人时间长期维护这些（几乎）完整的游戏数据导出，本项目得以存在全赖于此——按原仓库 README 所述，本站已在展示站设有**鸣谢页**（`credits.html`）。使用镜像者请注意：数据问题请按其 README 指定渠道（Twitter 私信）反馈；如受益，可考虑 [支持作者](https://patreon.com/Dimbreath)；如用于网站/工具/指南，建议在鸣谢页署名
 
 ### 数据构成（入库路径）
 

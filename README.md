@@ -94,6 +94,7 @@ deploy/                # Docker 部署（Dockerfile + docker-compose）
 - **游戏文本（唯一事实源）**：[Dimbreath/AnimeGameData2](https://gitlab.com/Dimbreath/AnimeGameData2) v7.1.0（2026-09-21）——TextMap 双池 + Excel 配置表 + 对话流 + 书籍 + 字幕，入库 123 万行
 - **外部交叉验证（仅辅助，不作断言依据）**：B 站 wiki + 米游社观测枢——书名映射双源校验（299 个文件）、实体官方分类校正层
 - 完整的来源清单、四层验证机制、已知数据缺口与复现步骤：见 **[SOURCES.md](SOURCES.md)**
+- **鸣谢**：数据源作者 Dimbreath 以个人时间长期维护游戏数据导出，本站得以存在全赖于此。展示站设有[鸣谢页](https://genshin-archive.github.io/genshin-text/credits.html)（含原作者数据反馈渠道与支持方式）
 
 ## 版权与许可
 
